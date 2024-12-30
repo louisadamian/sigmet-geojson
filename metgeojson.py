@@ -62,7 +62,7 @@ if __name__ == "__main__":
             newname += old_geojson["metadata"]["creationTime"] + ".geojson"
         if not os.path.isdir("./data/archive/usa"):
             os.mkdir("./data/archive/usa")
-        os.rename("./data/air_sigmets_current.geojson", "./data/archive/usa/" + newname)
+        os.rename(usa_filename, "./data/archive/usa/" + newname)
     contents = (
         urllib.request.urlopen(
             "https://aviationweather.gov/api/data/airsigmet?format=json"
@@ -71,7 +71,6 @@ if __name__ == "__main__":
         .decode()
     )
     met_json = json.loads(contents)
-
     geojson = json.dumps(noaa_2geojson(met_json), indent=4)
     if not os.path.isdir("./data"):
         os.mkdir("./data")
