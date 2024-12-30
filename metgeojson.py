@@ -134,6 +134,8 @@ if __name__ == "__main__":
     contents = urllib.request.urlopen(usa_sigmet_url).read().decode()
     met_json = json.loads(contents)
     geojson = json.dumps(noaa_sigmet2geojson(met_json), indent=4)
+    if not os.path.exists("./data"):
+        os.mkdir("./data")
     with open(usa_sigmet_filename, "x") as geojson_file:
         geojson_file.write(geojson)
 
