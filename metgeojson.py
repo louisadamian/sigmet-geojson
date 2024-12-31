@@ -22,17 +22,20 @@ def noaa_sigmet2geojson(noaa_json: dict) -> dict:
     for met in noaa_json:
         met_geojson = {"type": "Feature"}
         coords = noaa_coords_to_geojson(met.get("coords"))
+        if datetime.fromtimestamp(met.get("validTimeTo")) is not None:
+            valid_to_time = datetime.fromtimestamp(met.get("validTimeTo"))
+            if valid_to_time.replace(tzinfo=timezone.utc) < datetime.now(timezone.utc):
+                continue
         if len(coords) < 1 or met.get("airSigmetType") == "AIRMET":
             continue
+
         properties = {
             "airSigmetId": met.get("airSigmetId"),
             "airportIcao": met.get("icaoId"),
             "validTimeFrom": datetime.fromtimestamp(met.get("validTimeFrom")).isoformat(
                 timespec="minutes"
             ),
-            "validTimeTo": datetime.fromtimestamp(met.get("validTimeTo")).isoformat(
-                timespec="minutes"
-            ),
+            "validTimeTo": valid_to_time,
             "airSigmetType": met.get("airSigmetType"),
             "hazard": met.get("hazard"),
             "severity": met.get("severity"),
@@ -65,6 +68,10 @@ def noaa_airmet2geojson(noaa_json: dict) -> dict:
     for met in noaa_json:
         met_geojson = {"type": "Feature"}
         coords = noaa_coords_to_geojson(met.get("coords"))
+        if met.get("validTimeTo") is not None:
+            valid_to_time = datetime.fromtimestamp(met.get("validTimeTo"))
+            if valid_to_time.replace(tzinfo=timezone.utc) < datetime.now(timezone.utc):
+                continue
         if len(coords) < 1:
             continue
         properties = {
@@ -72,10 +79,10 @@ def noaa_airmet2geojson(noaa_json: dict) -> dict:
             "geometryId": met.get("geometryId"),
             "tag": met.get("tag"),
             "forecastHour": met.get("forecastHour"),
-            "validTimeFrom": met.get("validTime").replace("Z", ""),
-            "validTimeTo": datetime.fromtimestamp(met.get("expireTime")).isoformat(
+            "validTimeFrom": datetime.fromtimestamp(met.get("issueTime")).isoformat(
                 timespec="minutes"
             ),
+            "validTimeTo": met.get("validTime").replace("Z", ""),
             "hazard": met.get("hazard"),
             "frequency": met.get("frequency"),
             "severity": met.get("severity"),
