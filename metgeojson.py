@@ -51,7 +51,9 @@ def noaa_sigmet2geojson(noaa_json: dict) -> dict:
             )
         if met.get("validTimeTo") is not None:
             properties["validTimeTo"] = (
-                met.get("validTimeTo").isoformat(timespec="minutes"),
+                datetime.fromtimestamp(met.get("validTimeTo")).isoformat(
+                    timespec="minutes"
+                ),
             )
         geometry = {
             "type": "Polygon",
