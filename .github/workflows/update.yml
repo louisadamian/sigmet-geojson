@@ -1,15 +1,17 @@
 name: Update AIR_SIGMETs
 
 on:
-  schedule:
-    - cron: '15 * * * *'
-  push:
+  pull_request:
     paths:
-      - "**.py"
-      - "**.yml"
+      - "metgeojson.py"
+      - ".github/workflows/update.yml"
+    branches: [ "main" ]
+  schedule:
+    - cron:  '5 * * * *'
+  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
