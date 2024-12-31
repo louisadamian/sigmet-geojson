@@ -32,10 +32,6 @@ def noaa_sigmet2geojson(noaa_json: dict) -> dict:
         properties = {
             "airSigmetId": met.get("airSigmetId"),
             "airportIcao": met.get("icaoId"),
-            "validTimeFrom": datetime.fromtimestamp(met.get("validTimeFrom")).isoformat(
-                timespec="minutes"
-            ),
-            "validTimeTo": valid_to_time,
             "airSigmetType": met.get("airSigmetType"),
             "hazard": met.get("hazard"),
             "severity": met.get("severity"),
@@ -47,6 +43,16 @@ def noaa_sigmet2geojson(noaa_json: dict) -> dict:
             "movementSpd": met.get("movementSpd"),
             "rawAirSigmet": met.get("rawAirSigmet"),
         }
+        if met.get("ValidFromTime") is not None:
+            properties["validTimeFrom"] = (
+                datetime.fromtimestamp(met.get("validTimeFrom")).isoformat(
+                    timespec="minutes"
+                ),
+            )
+        if met.get("validTimeTo") is not None:
+            properties["validTimeTo"] = (
+                met.get("validTimeTo").isoformat(timespec="minutes"),
+            )
         geometry = {
             "type": "Polygon",
             "coordinates": [coords],
@@ -79,10 +85,6 @@ def noaa_airmet2geojson(noaa_json: dict) -> dict:
             "geometryId": met.get("geometryId"),
             "tag": met.get("tag"),
             "forecastHour": met.get("forecastHour"),
-            "validTimeFrom": datetime.fromtimestamp(met.get("issueTime")).isoformat(
-                timespec="minutes"
-            ),
-            "validTimeTo": met.get("validTime").replace("Z", ""),
             "hazard": met.get("hazard"),
             "frequency": met.get("frequency"),
             "severity": met.get("severity"),
@@ -95,6 +97,16 @@ def noaa_airmet2geojson(noaa_json: dict) -> dict:
             "product": met.get("product"),
             "rawAirSigmet": met.get("due_to"),
         }
+        if met.get("validTime") is not None:
+            properties["validTimeTo"] = met.get("validTime").replace("Z", "")
+        else:
+            properties["validTimeTo"] = None
+        if met.get("issueTime") is not None:
+            properties["validTimeFrom"] = (
+                datetime.fromtimestamp(met.get("issueTime")).isoformat(
+                    timespec="minutes"
+                ),
+            )
         geotype = met.get("geometryType")
         if geotype == "AREA":
             geometry = {
