@@ -394,7 +394,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 605136,
+                "airSigmetId": 605089,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -405,9 +405,60 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 090855 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 091055-091455 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 090755 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 090955-091355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-01-09T10:55"
+                    "2025-01-09T09:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -102.18,
+                            32.5231
+                        ],
+                        [
+                            -99.9066,
+                            31.8489
+                        ],
+                        [
+                            -99.82,
+                            31.1031
+                        ],
+                        [
+                            -102.4346,
+                            30.4788
+                        ],
+                        [
+                            -103.0907,
+                            31.5628
+                        ],
+                        [
+                            -102.18,
+                            32.5231
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 605092,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 220,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 090755 \nSIGC  \nCONVECTIVE SIGMET 2C \nVALID UNTIL 0955Z \nTX \nFROM 30N MAF-40NE SJT-30N JCT-40SE FST-20SSE INK-30N MAF \nAREA EMBD TS MOV FROM 22040KT. TOPS TO FL300. \n \nOUTLOOK VALID 090955-091355 \nAREA 1...FROM 50N ABI-TTT-40ESE ACT-SAT-60NW LRD-DLF-70SSE \nFST-90SSE MRF-60S MRF-FST-50N ABI \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM ABQ-60S FTI-CME-ELP-30W ELP-ABQ \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-01-09T09:55"
                 ]
             }
         },
@@ -565,7 +616,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 605139,
+                "airSigmetId": 605094,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -576,65 +627,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 090855 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 091055-091455 \nFROM ABQ-30W ELP-40SW DMN-50WNW DMN-50NW TCS-ABQ \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 090755 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 090955-091355 \nFROM ABQ-30W ELP-40SW DMN-50WNW DMN-50NW TCS-ABQ \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-01-09T10:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -101.3894,
-                            32.6199
-                        ],
-                        [
-                            -98.9483,
-                            32.157
-                        ],
-                        [
-                            -98.9948,
-                            31.3025
-                        ],
-                        [
-                            -101.7177,
-                            30.927
-                        ],
-                        [
-                            -102.18,
-                            31.8493
-                        ],
-                        [
-                            -101.3894,
-                            32.6199
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 605141,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 29000,
-                "altitudeHi2": 29000,
-                "movementDir": 230,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 090855 \nSIGC  \nCONVECTIVE SIGMET 3C \nVALID UNTIL 1055Z \nTX \nFROM 70SSE LBB-50ESE ABI-60NE JCT-70WSW SJT-10S MAF-70SSE LBB \nAREA EMBD TS MOV FROM 23040KT. TOPS TO FL290. \n \nOUTLOOK VALID 091055-091455 \nAREA 1...FROM SPS-TTT-40ESE ACT-SAT-60NW LRD-DLF-70SSE \nFST-FST-50SSE LBB-SPS \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM ABQ-60S FTI-CME-ELP-30W ELP-ABQ \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-01-09T10:55"
+                    "2025-01-09T09:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-09T09:24"
+        "creationTime": "2025-01-09T08:28"
     }
 }
