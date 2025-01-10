@@ -8,167 +8,94 @@
                 "coordinates": [
                     [
                         [
-                            -122.77,
-                            49
+                            -90.8276,
+                            38.1385
                         ],
                         [
-                            -123.12,
-                            48.96
+                            -87.2586,
+                            35.6686
                         ],
                         [
-                            -123.02,
-                            48.6
+                            -97.5748,
+                            29.3174
                         ],
                         [
-                            -123.16,
-                            48.3
+                            -104.2465,
+                            30.9138
                         ],
                         [
-                            -123.69,
-                            48.2
-                        ],
-                        [
-                            -124.35,
-                            48.36
-                        ],
-                        [
-                            -124.73,
-                            48.39
-                        ],
-                        [
-                            -124.72,
-                            48.38
-                        ],
-                        [
-                            -125,
-                            48.49
-                        ],
-                        [
-                            -125.96,
-                            48.4
-                        ],
-                        [
-                            -127.03,
-                            48.41
-                        ],
-                        [
-                            -128.01,
-                            48.33
-                        ],
-                        [
-                            -127.49,
-                            47.48
-                        ],
-                        [
-                            -127.01,
-                            46
-                        ],
-                        [
-                            -126.52,
-                            44.98
-                        ],
-                        [
-                            -126.51,
-                            44.01
-                        ],
-                        [
-                            -126.72,
-                            42.97
-                        ],
-                        [
-                            -127,
-                            40.01
-                        ],
-                        [
-                            -123.01,
-                            34
-                        ],
-                        [
-                            -122.01,
-                            32.99
-                        ],
-                        [
-                            -121.66,
-                            31.99
-                        ],
-                        [
-                            -121.01,
-                            30.98
-                        ],
-                        [
-                            -120.65,
-                            30.67
-                        ],
-                        [
-                            -120,
-                            31.1
-                        ],
-                        [
-                            -118.97,
-                            31.62
-                        ],
-                        [
-                            -117.1,
-                            32.4
-                        ],
-                        [
-                            -117.09,
-                            32.4
-                        ],
-                        [
-                            -117.12,
-                            32.53
-                        ],
-                        [
-                            -114.72,
-                            32.72
-                        ],
-                        [
-                            -114.81,
-                            32.5
-                        ],
-                        [
-                            -111.08,
-                            31.33
-                        ],
-                        [
-                            -108.2,
-                            31.33
-                        ],
-                        [
-                            -108.2,
-                            31.78
-                        ],
-                        [
-                            -107,
-                            31.78
-                        ],
-                        [
-                            -107,
-                            49
-                        ],
-                        [
-                            -122.77,
-                            49
+                            -90.8276,
+                            38.1385
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 605795,
-                "airportIcao": "KKCI",
+                "airSigmetId": 605722,
+                "airportIcao": "KCHI",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 0,
-                "altitudeLow1": null,
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 12000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": null,
+                "altitudeHi2": 27000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 102055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102255-110255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS03 KKCI 101800 \nCHIU WS 101800 \nSIGMET UNIFORM 2 VALID UNTIL 102200 \nSIGMET  \nMO IL KY OK TX AR TN LA MS \nFROM 40NW FAM TO 40SW BNA TO 50ESE SAT TO 40NNW MRF TO 40NW FAM \nOCNL SEV TURB BTN 120 AND FL270. DUE TO WNDSHR ASSOCD WITH JTST. \nRPTD BY ACFT. CONDS CONTG BYD 2200Z.",
                 "validTimeTo": [
-                    "2025-01-10T22:55"
+                    "2025-01-10T22:00"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -68.87,
+                            44.5076
+                        ],
+                        [
+                            -66.9353,
+                            41.2385
+                        ],
+                        [
+                            -67.0108,
+                            38.8895
+                        ],
+                        [
+                            -68.5676,
+                            38.5069
+                        ],
+                        [
+                            -73.5359,
+                            43.2145
+                        ],
+                        [
+                            -68.87,
+                            44.5076
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 605739,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 22000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 32000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 101845 \nBOSR WS 101845 \nSIGMET ROMEO 3 VALID UNTIL 102245 \nSIGMET  \nME NH VT MA RI CT NY AND CSTL WTRS \nFROM 20S BGR TO 140E ACK TO 200SE ACK TO 180SSE ACK TO 30NNE ALB \nTO 20S BGR \nOCNL SEV TURB BTN FL220 AND FL320. DUE TO WNDSHR ASSOCD WITH \nJTST. RPTD BY ACFT. CONDS ENDG 2245Z.",
+                "validTimeTo": [
+                    "2025-01-10T22:45"
                 ]
             }
         },
@@ -598,7 +525,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 605796,
+                "airSigmetId": 605743,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -609,9 +536,180 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 102055 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102255-110255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS32 KKCI 101955 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102155-110155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-01-10T22:55"
+                    "2025-01-10T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.77,
+                            49
+                        ],
+                        [
+                            -123.12,
+                            48.96
+                        ],
+                        [
+                            -123.02,
+                            48.6
+                        ],
+                        [
+                            -123.16,
+                            48.3
+                        ],
+                        [
+                            -123.69,
+                            48.2
+                        ],
+                        [
+                            -124.35,
+                            48.36
+                        ],
+                        [
+                            -124.73,
+                            48.39
+                        ],
+                        [
+                            -124.72,
+                            48.38
+                        ],
+                        [
+                            -125,
+                            48.49
+                        ],
+                        [
+                            -125.96,
+                            48.4
+                        ],
+                        [
+                            -127.03,
+                            48.41
+                        ],
+                        [
+                            -128.01,
+                            48.33
+                        ],
+                        [
+                            -127.49,
+                            47.48
+                        ],
+                        [
+                            -127.01,
+                            46
+                        ],
+                        [
+                            -126.52,
+                            44.98
+                        ],
+                        [
+                            -126.51,
+                            44.01
+                        ],
+                        [
+                            -126.72,
+                            42.97
+                        ],
+                        [
+                            -127,
+                            40.01
+                        ],
+                        [
+                            -123.01,
+                            34
+                        ],
+                        [
+                            -122.01,
+                            32.99
+                        ],
+                        [
+                            -121.66,
+                            31.99
+                        ],
+                        [
+                            -121.01,
+                            30.98
+                        ],
+                        [
+                            -120.65,
+                            30.67
+                        ],
+                        [
+                            -120,
+                            31.1
+                        ],
+                        [
+                            -118.97,
+                            31.62
+                        ],
+                        [
+                            -117.1,
+                            32.4
+                        ],
+                        [
+                            -117.09,
+                            32.4
+                        ],
+                        [
+                            -117.12,
+                            32.53
+                        ],
+                        [
+                            -114.72,
+                            32.72
+                        ],
+                        [
+                            -114.81,
+                            32.5
+                        ],
+                        [
+                            -111.08,
+                            31.33
+                        ],
+                        [
+                            -108.2,
+                            31.33
+                        ],
+                        [
+                            -108.2,
+                            31.78
+                        ],
+                        [
+                            -107,
+                            31.78
+                        ],
+                        [
+                            -107,
+                            49
+                        ],
+                        [
+                            -122.77,
+                            49
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 605744,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 0,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": null,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS33 KKCI 101955 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102155-110155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-01-10T21:55"
                 ]
             }
         },
@@ -961,7 +1059,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 605797,
+                "airSigmetId": 605745,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -972,61 +1070,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 102055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102255-110255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 101955 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 102155-110155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-01-10T22:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -89.4571,
-                            39.2584
-                        ],
-                        [
-                            -84.9951,
-                            36.3217
-                        ],
-                        [
-                            -95.7808,
-                            28.5665
-                        ],
-                        [
-                            -104.2465,
-                            30.9138
-                        ],
-                        [
-                            -89.4571,
-                            39.2584
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 605798,
-                "airportIcao": "KCHI",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 11000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 27000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS03 KKCI 102055 \nCHIU WS 102055 \nSIGMET UNIFORM 3 VALID UNTIL 110055 \nSIGMET  \nMO IL IN KY OK TX AR TN LA MS AL AND CSTL WTRS \nFROM 40SW AXC TO 60SW LOZ TO 30ESE PSX TO 40NNW MRF TO 40SW AXC \nOCNL SEV TURB BTN 110 AND FL270. RPTD BY ACFT. CONDS CONTG BYD \n0055Z.",
-                "validTimeTo": [
-                    "2025-01-11T00:55"
+                    "2025-01-10T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-10T21:21"
+        "creationTime": "2025-01-10T20:25"
     }
 }
