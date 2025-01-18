@@ -155,7 +155,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 608488,
+                "airSigmetId": 608479,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -166,9 +166,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 181355 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 181555-181955 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 181255 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 181455-181855 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-01-18T15:55"
+                    "2025-01-18T14:55"
                 ]
             }
         },
@@ -179,34 +179,81 @@
                 "coordinates": [
                     [
                         [
-                            -83.1643,
-                            33.7059
+                            -90.2856,
+                            30.376
                         ],
                         [
-                            -82.16,
-                            33.2069
+                            -94.5273,
+                            28.2642
                         ],
                         [
-                            -82.51,
-                            32.0431
+                            -94.2565,
+                            27.826
                         ],
                         [
-                            -87.7015,
-                            29.3423
+                            -90.0092,
+                            29.9378
                         ],
                         [
-                            -87.2291,
-                            31.897
-                        ],
-                        [
-                            -83.1643,
-                            33.7059
+                            -90.2856,
+                            30.376
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 608489,
+                "airSigmetId": 608483,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 260,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 181255 \nSIGC  \nCONVECTIVE SIGMET 12C \nVALID UNTIL 1455Z \nLA AND LA TX CSTL WTRS \nFROM 20NNW HRV-110ESE PSX \nLINE EMBD TS 30 NM WIDE MOV FROM 26040KT. TOPS TO FL350. \n \nOUTLOOK VALID 181455-181855 \nFROM 30WSW MGM-180S CEW-100SE LEV-50SSE LEV-30WSW MGM \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-01-18T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.8724,
+                            34.0988
+                        ],
+                        [
+                            -82.16,
+                            33.71
+                        ],
+                        [
+                            -82.6597,
+                            31.847
+                        ],
+                        [
+                            -87.9477,
+                            30.3736
+                        ],
+                        [
+                            -87.985,
+                            31.5013
+                        ],
+                        [
+                            -83.8724,
+                            34.0988
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 608484,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -217,61 +264,14 @@
                 "altitudeHi2": 29000,
                 "movementDir": 250,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 181355 \nSIGE  \nCONVECTIVE SIGMET 3E \nVALID UNTIL 1555Z \nFL GA AL AND FL AL CSTL WTRS \nFROM 50W IRQ-30S IRQ-30N AMG-90SSE SJI-50WSW MGM-50W IRQ \nAREA EMBD TS MOV FROM 25050KT. TOPS TO FL290. \n \nOUTLOOK VALID 181555-181955 \nFROM 30N MCN-AMG-70WSW CTY-180S CEW-30WSW MGM-30N MCN \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 181255 \nSIGE  \nCONVECTIVE SIGMET 2E \nVALID UNTIL 1455Z \nSC FL GA AL \nFROM 40NE ATL-IRQ-20NNW AMG-30SE SJI-50NNE SJI-40NE ATL \nAREA EMBD TS MOV FROM 25050KT. TOPS TO FL290. \n \nOUTLOOK VALID 181455-181855 \nAREA 1...FROM 120E ORF-170ESE ECG-150SSE ILM-180ENE PBI-130ENE \nPBI-80E OMN-50SE CHS-120E ORF \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 30WSW MGM-40NW PZD-30ENE TLH-90WSW CTY-180S \nCEW-30WSW MGM \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-01-18T15:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -90.2951,
-                            30.4638
-                        ],
-                        [
-                            -88.8504,
-                            29.845
-                        ],
-                        [
-                            -94.3287,
-                            26.9797
-                        ],
-                        [
-                            -94.9843,
-                            27.5784
-                        ],
-                        [
-                            -90.2951,
-                            30.4638
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 608491,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
-                "movementDir": 250,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 181404 CCA \nSIGC  \nCONVECTIVE SIGMET 13C \nVALID UNTIL 1555Z \nLA AND MS LA TX CSTL WTRS \nFROM 40NNW HRV-60E HRV-150SE PSX-100SE PSX-40NNW HRV \nAREA TS MOV FROM 25025KT. TOPS TO FL350. \n \nOUTLOOK VALID 181555-181955 \nFROM 30WSW MGM-180S CEW-120SSE LCH-30WSW MGM \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-01-18T15:55"
+                    "2025-01-18T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-18T14:19"
+        "creationTime": "2025-01-18T13:21"
     }
 }
