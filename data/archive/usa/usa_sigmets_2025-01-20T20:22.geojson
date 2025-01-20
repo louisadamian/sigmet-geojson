@@ -59,53 +59,6 @@
                 "coordinates": [
                     [
                         [
-                            -118.5467,
-                            37.7431
-                        ],
-                        [
-                            -115.5164,
-                            35.1161
-                        ],
-                        [
-                            -117.6288,
-                            33.9274
-                        ],
-                        [
-                            -120.5529,
-                            36.287
-                        ],
-                        [
-                            -118.5467,
-                            37.7431
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 609420,
-                "airportIcao": "KSFO",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 26000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 36000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 202014 \nSFOV WS 202014 \nSIGMET VICTOR 2 VALID UNTIL 210014 \nSIGMET  \nCA \nFROM 40WSW OAL TO 50ENE HEC TO 40E LAX TO 50SW CZQ TO 40WSW OAL \nOCNL SEV TURB BTN FL260 AND FL360. DUE TO WNDSHR ASSOCD WITH \nJTST. RPTD BY E170 C680 B739 A321 A21N. CONDS CONTG BYD 0014Z.",
-                "validTimeTo": [
-                    "2025-01-21T00:14"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -87,
                             27.48
                         ],
@@ -445,7 +398,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 609462,
+                "airSigmetId": 609417,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -456,9 +409,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 202055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202255-210255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 201955 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202155-210155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-01-20T22:55"
+                    "2025-01-20T21:55"
                 ]
             }
         },
@@ -616,7 +569,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 609463,
+                "airSigmetId": 609418,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -627,9 +580,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 202055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202255-210255 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS33 KKCI 201955 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202155-210155 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-20T22:55"
+                    "2025-01-20T21:55"
                 ]
             }
         },
@@ -1059,7 +1012,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 609464,
+                "airSigmetId": 609419,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -1070,14 +1023,61 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 202055 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202255-210255 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS32 KKCI 201955 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 202155-210155 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-20T22:55"
+                    "2025-01-20T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.5467,
+                            37.7431
+                        ],
+                        [
+                            -115.5164,
+                            35.1161
+                        ],
+                        [
+                            -117.6288,
+                            33.9274
+                        ],
+                        [
+                            -120.5529,
+                            36.287
+                        ],
+                        [
+                            -118.5467,
+                            37.7431
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 609420,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 26000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 36000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 202014 \nSFOV WS 202014 \nSIGMET VICTOR 2 VALID UNTIL 210014 \nSIGMET  \nCA \nFROM 40WSW OAL TO 50ENE HEC TO 40E LAX TO 50SW CZQ TO 40WSW OAL \nOCNL SEV TURB BTN FL260 AND FL360. DUE TO WNDSHR ASSOCD WITH \nJTST. RPTD BY E170 C680 B739 A321 A21N. CONDS CONTG BYD 0014Z.",
+                "validTimeTo": [
+                    "2025-01-21T00:14"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-20T21:19"
+        "creationTime": "2025-01-20T20:22"
     }
 }
