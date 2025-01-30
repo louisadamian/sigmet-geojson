@@ -347,7 +347,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 611800,
+                "airSigmetId": 611796,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -358,9 +358,60 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 301555 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 301755-302155 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS31 KKCI 301455 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 301655-302055 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-30T17:55"
+                    "2025-01-30T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -91.9015,
+                            35.7865
+                        ],
+                        [
+                            -90.7326,
+                            35.3121
+                        ],
+                        [
+                            -93.81,
+                            32.1052
+                        ],
+                        [
+                            -97.237,
+                            29.7655
+                        ],
+                        [
+                            -97.8268,
+                            30.9938
+                        ],
+                        [
+                            -91.9015,
+                            35.7865
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 611798,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 220,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS32 KKCI 301455 \nSIGC  \nCONVECTIVE SIGMET 30C \nVALID UNTIL 1655Z \nLA AR TX OK \nFROM 50WSW ARG-40WNW MEM-40S EIC-40SSE CWK-40NNW CWK-50WSW ARG \nAREA EMBD TS MOV FROM 22050KT. TOPS TO FL350. \n \nOUTLOOK VALID 301655-302055 \nFROM MLC-LIT-MCB-120SSW LCH-CRP-SAT-MLC \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-01-30T16:55"
                 ]
             }
         },
@@ -518,7 +569,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 611801,
+                "airSigmetId": 611799,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -529,61 +580,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 301555 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 301755-302155 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS33 KKCI 301455 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 301655-302055 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-30T17:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -92.7917,
-                            34.6785
-                        ],
-                        [
-                            -91.4667,
-                            34.0872
-                        ],
-                        [
-                            -96.3112,
-                            30.7823
-                        ],
-                        [
-                            -97.6863,
-                            31.3036
-                        ],
-                        [
-                            -92.7917,
-                            34.6785
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 611803,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
-                "movementDir": 220,
-                "movementSpd": 50,
-                "rawAirSigmet": "WSUS32 KKCI 301555 \nSIGC  \nCONVECTIVE SIGMET 31C \nVALID UNTIL 1755Z \nLA AR TX \nFROM 30W LIT-50SE LIT-70NW IAH-30SW ACT-30W LIT \nAREA EMBD TS MOV FROM 22050KT. TOPS TO FL350. \n \nOUTLOOK VALID 301755-302155 \nFROM FSM-MEM-HRV-CRP-CWK-FSM \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-01-30T17:55"
+                    "2025-01-30T16:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-30T16:28"
+        "creationTime": "2025-01-30T15:23"
     }
 }
