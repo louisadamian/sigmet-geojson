@@ -347,7 +347,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 611847,
+                "airSigmetId": 611835,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -358,9 +358,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 310055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 310255-310655 \nFROM 40ENE PXV-PSK-40NNW CLT-50S VUZ-40ENE PXV \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 302255 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 310055-310455 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-31T01:54"
+                    "2025-01-31T00:55"
                 ]
             }
         },
@@ -518,7 +518,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 611849,
+                "airSigmetId": 611836,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -529,9 +529,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 310055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 310255-310655 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS33 KKCI 302255 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 310055-310455 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-01-31T01:54"
+                    "2025-01-31T00:55"
                 ]
             }
         },
@@ -542,30 +542,77 @@
                 "coordinates": [
                     [
                         [
-                            -90.5077,
-                            36.4649
+                            -90.1873,
+                            36.362
                         ],
                         [
-                            -86.7307,
-                            34.9521
+                            -89.1249,
+                            36.0852
                         ],
                         [
-                            -91.9813,
-                            29.8875
+                            -90.5946,
+                            35.0585
                         ],
                         [
-                            -95.3754,
-                            27.931
+                            -90.95,
+                            35.2746
                         ],
                         [
-                            -90.5077,
-                            36.4649
+                            -90.1873,
+                            36.362
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 611850,
+                "airSigmetId": 611838,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 230,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS32 KKCI 302255 \nSIGC  \nCONVECTIVE SIGMET 44C \nVALID UNTIL 0055Z \nTN MO AR \nFROM 40ENE ARG-10ENE DYR-30W MEM-50S ARG-40ENE ARG \nAREA EMBD TS MOV FROM 23050KT. TOPS TO FL330. \n \nOUTLOOK VALID 310055-310455 \nFROM 30ENE PWE-40NNW TTH-60WNW VXV-50SSW LEV-50SSE PSX-40NW \nLIT-OSW-30ENE PWE \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-01-31T00:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -92.6144,
+                            35.0349
+                        ],
+                        [
+                            -89.6769,
+                            32.785
+                        ],
+                        [
+                            -93.6212,
+                            29.0601
+                        ],
+                        [
+                            -95.35,
+                            29.4569
+                        ],
+                        [
+                            -92.6144,
+                            35.0349
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 611839,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -575,62 +622,15 @@
                 "altitudeHi1": 41000,
                 "altitudeHi2": 41000,
                 "movementDir": 230,
-                "movementSpd": 60,
-                "rawAirSigmet": "WSUS32 KKCI 310055 \nSIGC  \nCONVECTIVE SIGMET 1C \nVALID UNTIL 0255Z \nTN AL MS LA MO AR TX AND LA TX CSTL WTRS \nFROM 30NE ARG-40ENE MSL-50SW LSU-70SE PSX-30NE ARG \nAREA EMBD TS MOV FROM 23060KT. TOPS TO FL410. \n \nOUTLOOK VALID 310255-310655 \nFROM 40ENE PXV-50S VUZ-120SSE LCH-120SSW LCH-90SSE PSX-FAM-40ENE \nPXV \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS32 KKCI 302255 \nSIGC  \nCONVECTIVE SIGMET 45C \nVALID UNTIL 0055Z \nMS LA AR TX AND LA TX CSTL WTRS \nFROM 30NW LIT-30NE MHZ-70SSW LCH-30S IAH-30NW LIT \nAREA EMBD TS MOV FROM 23050KT. TOPS TO FL410. \n \nOUTLOOK VALID 310055-310455 \nFROM 30ENE PWE-40NNW TTH-60WNW VXV-50SSW LEV-50SSE PSX-40NW \nLIT-OSW-30ENE PWE \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-01-31T01:54"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -74.72,
-                            45.2424
-                        ],
-                        [
-                            -67.0827,
-                            43.53
-                        ],
-                        [
-                            -68.1931,
-                            39.8551
-                        ],
-                        [
-                            -78.8229,
-                            42.6228
-                        ],
-                        [
-                            -74.72,
-                            45.2424
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 611851,
-                "airportIcao": "KBOS",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 25000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 32000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 310107 \nBOSX WS 310107 \nSIGMET XRAY 1 VALID UNTIL 310507 \nSIGMET  \nME NH VT MA RI CT NY LO PA AND CSTL WTRS \nFROM 20N MSS TO 110SE BGR TO 120SE ACK TO 20SSW BUF TO 20N MSS \nOCNL SEV TURB BTN FL250 AND FL320. DUE TO WNDSHR ASSOCD WITH \nJTST. RPTD BY ACFT. CONDS CONTG BYD 0507Z.",
-                "validTimeTo": [
-                    "2025-01-31T05:07"
+                    "2025-01-31T00:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-31T01:46"
+        "creationTime": "2025-01-30T23:22"
     }
 }
