@@ -55,47 +55,196 @@
                 "coordinates": [
                     [
                         [
-                            -83.8476,
-                            41.8533
+                            -87.76,
+                            38.2624
                         ],
                         [
-                            -81.9837,
-                            39.9559
+                            -86.2193,
+                            38.0983
                         ],
                         [
-                            -86.5921,
-                            34.2838
+                            -87.2716,
+                            36.9271
                         ],
                         [
-                            -90.28,
-                            33.46
+                            -88.5841,
+                            36.6085
                         ],
                         [
-                            -89.0602,
-                            38.0458
+                            -89.2591,
+                            37.3463
                         ],
                         [
-                            -83.8476,
-                            41.8533
+                            -87.76,
+                            38.2624
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 611964,
-                "airportIcao": "KDFW",
+                "airSigmetId": 611981,
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 7000,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 22000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 312232 \nDFWO WS 312232 \nSIGMET OSCAR 2 VALID UNTIL 010231 \nSIGMET  \nAR TN MS AL MO MI IL IN KY OH \nFROM 30SW DXO TO 30ESE APE TO 40NNE VUZ TO SQS TO 60ENE FAM TO \n30SW DXO \nOCNL SEV TURB BTN 070 AND FL220. DUE TO WNDSHR ASSOCD WITH JTST. \nRPTD BY ACFT. CONDS CONTG BYD 0231Z.",
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 260,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 010055 \nSIGC  \nCONVECTIVE SIGMET 1C \nVALID UNTIL 0255Z \nKY IN IL \nFROM 20N PXV-30W IIU-40W BWG-50NE DYR-50ESE FAM-20N PXV \nAREA TS MOV FROM 26025KT. TOPS TO FL250. \n \nOUTLOOK VALID 010255-010655 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-02-01T02:31"
+                    "2025-02-01T01:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.6636,
+                            29.9455
+                        ],
+                        [
+                            -83.6286,
+                            29.5987
+                        ],
+                        [
+                            -84.9365,
+                            27.8916
+                        ],
+                        [
+                            -86.68,
+                            28.0003
+                        ],
+                        [
+                            -84.6636,
+                            29.9455
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 611984,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
+                "movementDir": 230,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS31 KKCI 010055 \nSIGE  \nCONVECTIVE SIGMET 1E \nVALID UNTIL 0255Z \nFL AND CSTL WTRS \nFROM 40SSW TLH-30W CTY-120W PIE-170S CEW-40SSW TLH \nAREA TS MOV FROM 23055KT. TOPS TO FL370. \nREF INTL SIGMET HOTEL SERIES. \n \nOUTLOOK VALID 010255-010655 \nAREA 1...FROM RIC-ECG-70SSE SAV-50SW AMG-PZD-SPA-RIC \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 130ENE ACK-190SE ACK-30NE ECG-40N ORF-CYN-130ENE \nACK \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-01T01:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.2151,
+                            38.0978
+                        ],
+                        [
+                            -82.6934,
+                            37.5176
+                        ],
+                        [
+                            -83.8803,
+                            36.565
+                        ],
+                        [
+                            -85.234,
+                            36.1313
+                        ],
+                        [
+                            -85.4704,
+                            37.2458
+                        ],
+                        [
+                            -84.2151,
+                            38.0978
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 611985,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
+                "movementDir": 260,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 010055 \nSIGE  \nCONVECTIVE SIGMET 2E \nVALID UNTIL 0255Z \nTN KY \nFROM 60SSE CVG-70NNW HMV-30SSE LOZ-70E BNA-50ENE BWG-60SSE CVG \nAREA TS MOV FROM 26025KT. TOPS TO FL270. \n \nOUTLOOK VALID 010255-010655 \nAREA 1...FROM RIC-ECG-70SSE SAV-50SW AMG-PZD-SPA-RIC \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 130ENE ACK-190SE ACK-30NE ECG-40N ORF-CYN-130ENE \nACK \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-01T01:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.6858,
+                            36.7949
+                        ],
+                        [
+                            -80.1752,
+                            36.1152
+                        ],
+                        [
+                            -81.3369,
+                            35.2193
+                        ],
+                        [
+                            -82.5443,
+                            35.0285
+                        ],
+                        [
+                            -82.8909,
+                            36.1832
+                        ],
+                        [
+                            -81.6858,
+                            36.7949
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 611986,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 240,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 010055 \nSIGE  \nCONVECTIVE SIGMET 3E \nVALID UNTIL 0255Z \nVA NC SC TN \nFROM 30NE HMV-10WNW GSO-20W CLT-30W SPA-40WSW HMV-30NE HMV \nAREA TS MOV FROM 24025KT. TOPS TO FL260. \n \nOUTLOOK VALID 010255-010655 \nAREA 1...FROM RIC-ECG-70SSE SAV-50SW AMG-PZD-SPA-RIC \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 130ENE ACK-190SE ACK-30NE ECG-40N ORF-CYN-130ENE \nACK \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-01T01:54"
                 ]
             }
         },
@@ -253,7 +402,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 611968,
+                "airSigmetId": 611987,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -264,167 +413,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 312255 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 010055-010455 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS33 KKCI 010055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 010255-010655 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-02-01T00:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.7428,
-                            38.2456
-                        ],
-                        [
-                            -88.4404,
-                            36.7219
-                        ],
-                        [
-                            -89.6043,
-                            35.1866
-                        ],
-                        [
-                            -91.6051,
-                            35.1487
-                        ],
-                        [
-                            -91.9015,
-                            35.7865
-                        ],
-                        [
-                            -88.7428,
-                            38.2456
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 611969,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
-                "movementDir": 260,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 312255 \nSIGC  \nCONVECTIVE SIGMET 20C \nVALID UNTIL 0055Z \nTN KY IL MO AR \nFROM 50WNW PXV-60NE DYR-20ENE MEM-40NE LIT-50WSW ARG-50WNW PXV \nAREA TS MOV FROM 26025KT. TOPS TO FL250. \n \nOUTLOOK VALID 010055-010455 \nFROM 30SSE TTH-VUZ-IGB-30NE FAM-30SSE TTH \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-01T00:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -80.1379,
-                            36.357
-                        ],
-                        [
-                            -83.509,
-                            31.6576
-                        ],
-                        [
-                            -86.0643,
-                            27.8687
-                        ],
-                        [
-                            -87.482,
-                            28.1989
-                        ],
-                        [
-                            -83.1552,
-                            36.4885
-                        ],
-                        [
-                            -80.1379,
-                            36.357
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 611972,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 37000,
-                "altitudeHi2": 37000,
-                "movementDir": 230,
-                "movementSpd": 55,
-                "rawAirSigmet": "WSUS31 KKCI 312255 \nSIGE  \nCONVECTIVE SIGMET 17E \nVALID UNTIL 0055Z \nNC SC FL GA TN AL AND FL AL CSTL WTRS \nFROM 20NNW GSO-40E PZD-180W PIE-150ESE LEV-50NE VXV-20NNW GSO \nAREA TS MOV FROM 23055KT. TOPS TO FL370. \nREF INTL SIGMET HOTEL SERIES. \n \nOUTLOOK VALID 010055-010455 \nAREA 1...FROM 30SW HMV-GSO-60W CTY-170W PIE-110ESE LEV-GQO-30SW \nHMV \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 30SSE TTH-60NNW HMV-GQO-VUZ-30SSE TTH \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-01T00:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -85.419,
-                            37.7928
-                        ],
-                        [
-                            -85.0828,
-                            36.7064
-                        ],
-                        [
-                            -86.3543,
-                            35.0764
-                        ],
-                        [
-                            -88.52,
-                            33.8124
-                        ],
-                        [
-                            -88.9285,
-                            35.2475
-                        ],
-                        [
-                            -85.419,
-                            37.7928
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 611973,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 27000,
-                "altitudeHi2": 27000,
-                "movementDir": 260,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 312255 \nSIGE  \nCONVECTIVE SIGMET 18E \nVALID UNTIL 0055Z \nTN KY AL MS \nFROM 20SSE IIU-50WSW LOZ-60ENE MSL-20N IGB-50SSE DYR-20SSE IIU \nAREA TS MOV FROM 26025KT. TOPS TO FL270. \n \nOUTLOOK VALID 010055-010455 \nAREA 1...FROM 30SW HMV-GSO-60W CTY-170W PIE-110ESE LEV-GQO-30SW \nHMV \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 30SSE TTH-60NNW HMV-GQO-VUZ-30SSE TTH \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-01T00:55"
+                    "2025-02-01T01:54"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-01-31T23:20"
+        "creationTime": "2025-02-01T01:51"
     }
 }
