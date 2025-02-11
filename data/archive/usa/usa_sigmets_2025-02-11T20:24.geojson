@@ -59,53 +59,6 @@
                 "coordinates": [
                     [
                         [
-                            -106.5475,
-                            33.0235
-                        ],
-                        [
-                            -106.28,
-                            31.82
-                        ],
-                        [
-                            -108.7069,
-                            31.7987
-                        ],
-                        [
-                            -108.5316,
-                            32.5223
-                        ],
-                        [
-                            -106.5475,
-                            33.0235
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613236,
-                "airportIcao": "KDFW",
-                "airSigmetType": "SIGMET",
-                "hazard": "IFR",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 12000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 112045 \nDFWU WS 112045 \nSIGMET UNIFORM 1 VALID UNTIL 120045 \nSIGMET  \nTX NM \nFROM 40ESE TCS TO ELP TO 40SE SSO TO 40ENE SSO TO 40ESE TCS \nOCNL VIS BLW 3SM IN WDSPR DS BLW 120. CONDS CONTG BYD 0045Z.",
-                "validTimeTo": [
-                    "2025-02-12T00:45"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -87,
                             27.48
                         ],
@@ -445,7 +398,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 613238,
+                "airSigmetId": 613229,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -456,9 +409,197 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 112055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 112255-120255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 111955 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 112155-120155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-02-11T22:55"
+                    "2025-02-11T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -88.9482,
+                            33.835
+                        ],
+                        [
+                            -87.4572,
+                            33.4762
+                        ],
+                        [
+                            -90.8487,
+                            31.2987
+                        ],
+                        [
+                            -91.8005,
+                            32.9846
+                        ],
+                        [
+                            -88.9482,
+                            33.835
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613231,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 230,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 111955 \nSIGC  \nCONVECTIVE SIGMET 54C \nVALID UNTIL 2155Z \nAL MS LA AR \nFROM 30NW IGB-30WSW VUZ-30W MCB-30NNE MLU-30NW IGB \nAREA EMBD TS MOV FROM 23040KT. TOPS TO FL300. \n \nOUTLOOK VALID 112155-120155 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-11T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -91.8786,
+                            32.827
+                        ],
+                        [
+                            -90.8028,
+                            31.1063
+                        ],
+                        [
+                            -95.4269,
+                            29.0768
+                        ],
+                        [
+                            -94.72,
+                            31.3307
+                        ],
+                        [
+                            -91.8786,
+                            32.827
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613232,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 230,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 111955 \nSIGC  \nCONVECTIVE SIGMET 55C \nVALID UNTIL 2155Z \nMS LA TX AND TX CSTL WTRS \nFROM 20NNE MLU-30WSW MCB-50ENE PSX-10N LFK-20NNE MLU \nAREA EMBD TS MOV FROM 23040KT. TOPS TO FL330. \n \nOUTLOOK VALID 112155-120155 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-11T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94.75,
+                            31.9169
+                        ],
+                        [
+                            -95.1679,
+                            30.0252
+                        ],
+                        [
+                            -98.3141,
+                            29.3328
+                        ],
+                        [
+                            -99.0034,
+                            30.1089
+                        ],
+                        [
+                            -94.75,
+                            31.9169
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613233,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 230,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 111955 \nSIGC  \nCONVECTIVE SIGMET 56C \nVALID UNTIL 2155Z \nTX \nFROM 30S GGG-10ENE IAH-20SSE SAT-40NW SAT-30S GGG \nAREA EMBD TS MOV FROM 23040KT. TOPS TO FL320. \n \nOUTLOOK VALID 112155-120155 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-11T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.1873,
+                            31.1807
+                        ],
+                        [
+                            -91.6353,
+                            29.2894
+                        ],
+                        [
+                            -91.2402,
+                            29.0571
+                        ],
+                        [
+                            -89.7845,
+                            30.9484
+                        ],
+                        [
+                            -90.1873,
+                            31.1807
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613234,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 200,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 111955 \nSIGC  \nCONVECTIVE SIGMET 57C \nVALID UNTIL 2155Z \nMS LA AND LA CSTL WTRS \nFROM 20SE MCB-70W LEV \nLINE TS 25 NM WIDE MOV FROM 20030KT. TOPS TO FL300. \n \nOUTLOOK VALID 112155-120155 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-11T21:55"
                 ]
             }
         },
@@ -616,7 +757,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 613239,
+                "airSigmetId": 613235,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -627,108 +768,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 112055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 112255-120255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 111955 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 112155-120155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-02-11T22:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -92.2324,
-                            32.5198
-                        ],
-                        [
-                            -92.03,
-                            32.0169
-                        ],
-                        [
-                            -97.3079,
-                            29.915
-                        ],
-                        [
-                            -98.1131,
-                            30.3787
-                        ],
-                        [
-                            -92.2324,
-                            32.5198
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613241,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 31000,
-                "altitudeHi2": 31000,
-                "movementDir": 230,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 112055 \nSIGC  \nCONVECTIVE SIGMET 58C \nVALID UNTIL 2255Z \nLA TX \nFROM 10W MLU-30S MLU-30SSE CWK-30W CWK-10W MLU \nAREA EMBD TS 25 NM WIDE MOV FROM 23040KT. TOPS TO FL310. \n \nOUTLOOK VALID 112255-120255 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-11T22:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.5076,
-                            32.9117
-                        ],
-                        [
-                            -91.1664,
-                            31.4744
-                        ],
-                        [
-                            -90.91,
-                            31.1208
-                        ],
-                        [
-                            -88.2471,
-                            32.5582
-                        ],
-                        [
-                            -88.5076,
-                            32.9117
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613242,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 33000,
-                "altitudeHi2": 33000,
-                "movementDir": 230,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 112055 \nSIGC  \nCONVECTIVE SIGMET 59C \nVALID UNTIL 2255Z \nAL MS \nFROM 30NE MEI-40W MCB \nLINE EMBD TS 25 NM WIDE MOV FROM 23040KT. TOPS TO FL330. \n \nOUTLOOK VALID 112255-120255 \nFROM 70WNW BNA-140ESE LEV-120ESE PSX-80SSE LRD-DLF-70WNW BNA \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-11T22:55"
+                    "2025-02-11T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-02-11T21:21"
+        "creationTime": "2025-02-11T20:24"
     }
 }
