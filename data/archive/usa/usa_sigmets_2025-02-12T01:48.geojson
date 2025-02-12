@@ -63,104 +63,6 @@
                 "coordinates": [
                     [
                         [
-                            -118.2265,
-                            36.1819
-                        ],
-                        [
-                            -114.9012,
-                            34.4135
-                        ],
-                        [
-                            -115.5935,
-                            32.7661
-                        ],
-                        [
-                            -116.6784,
-                            32.5863
-                        ],
-                        [
-                            -118.8605,
-                            34.285
-                        ],
-                        [
-                            -118.2265,
-                            36.1819
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613261,
-                "airportIcao": "KSFO",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 12000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 120114 \nSFOV WS 120114 \nSIGMET VICTOR 1 VALID UNTIL 120514 \nSIGMET  \nCA AND CSTL WTRS \nFROM 60NE EHF TO 30SW EED TO 50W BZA TO 30ESE MZB TO 30NW LAX TO \n60NE EHF \nOCNL SEV TURB BLW 120. DUE TO STG LOW LVL WNDS AND STG UDDFS AND \nLLWS. RPTD BY ACFT. CONDS CONTG BYD 0514Z.",
-                "validTimeTo": [
-                    "2025-02-12T05:14"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -95.6611,
-                            32.097
-                        ],
-                        [
-                            -94.72,
-                            31.3307
-                        ],
-                        [
-                            -95.6963,
-                            31.1563
-                        ],
-                        [
-                            -96.7251,
-                            31.4663
-                        ],
-                        [
-                            -95.6611,
-                            32.097
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613263,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 230,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 120155 \nSIGC  \nCONVECTIVE SIGMET 2C \nVALID UNTIL 0355Z \nTX \nFROM 50WSW GGG-10N LFK-50W LFK-30ESE ACT-50WSW GGG \nAREA TS MOV FROM 23045KT. TOPS TO FL320. \n \nOUTLOOK VALID 120355-120755 \nFROM 40WSW TXK-30NNE LCH-50SE IAH-LRD-40WSW JCT-40WSW TXK \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-12T02:54"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -87,
                             27.48
                         ],
@@ -500,7 +402,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 613264,
+                "airSigmetId": 613257,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -511,9 +413,56 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 120155 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 120355-120755 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 120055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 120255-120655 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-02-12T02:54"
+                    "2025-02-12T01:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -96.1921,
+                            31.2739
+                        ],
+                        [
+                            -95.8852,
+                            31.1548
+                        ],
+                        [
+                            -96.458,
+                            30.7572
+                        ],
+                        [
+                            -96.8411,
+                            30.9689
+                        ],
+                        [
+                            -96.1921,
+                            31.2739
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613259,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 230,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS32 KKCI 120055 \nSIGC  \nCONVECTIVE SIGMET 1C \nVALID UNTIL 0255Z \nTX \nFROM 60ESE ACT-60W LFK-60ENE CWK-50NE CWK-60ESE ACT \nAREA TS MOV FROM 23045KT. TOPS TO FL310. \n \nOUTLOOK VALID 120255-120655 \nFROM 30WSW ELD-60SW LEV-120ESE PSX-80W BRO-40WSW JCT-30WSW ELD \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-12T01:54"
                 ]
             }
         },
@@ -671,7 +620,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 613265,
+                "airSigmetId": 613260,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -682,14 +631,65 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 120155 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 120355-120755 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 120055 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 120255-120655 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-02-12T02:54"
+                    "2025-02-12T02:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.2265,
+                            36.1819
+                        ],
+                        [
+                            -114.9012,
+                            34.4135
+                        ],
+                        [
+                            -115.5935,
+                            32.7661
+                        ],
+                        [
+                            -116.6784,
+                            32.5863
+                        ],
+                        [
+                            -118.8605,
+                            34.285
+                        ],
+                        [
+                            -118.2265,
+                            36.1819
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613261,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 12000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 120114 \nSFOV WS 120114 \nSIGMET VICTOR 1 VALID UNTIL 120514 \nSIGMET  \nCA AND CSTL WTRS \nFROM 60NE EHF TO 30SW EED TO 50W BZA TO 30ESE MZB TO 30NW LAX TO \n60NE EHF \nOCNL SEV TURB BLW 120. DUE TO STG LOW LVL WNDS AND STG UDDFS AND \nLLWS. RPTD BY ACFT. CONDS CONTG BYD 0514Z.",
+                "validTimeTo": [
+                    "2025-02-12T05:14"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-02-12T02:51"
+        "creationTime": "2025-02-12T01:48"
     }
 }
