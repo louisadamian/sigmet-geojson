@@ -110,30 +110,34 @@
                 "coordinates": [
                     [
                         [
-                            -86.3543,
-                            35.0764
+                            -85.5675,
+                            40.0616
                         ],
                         [
-                            -89.3319,
-                            30.7264
+                            -83.1963,
+                            39.9559
                         ],
                         [
-                            -93.11,
-                            27.9751
+                            -84.12,
+                            38.0271
                         ],
                         [
-                            -88.4224,
-                            35.0161
+                            -90.1462,
+                            29.5428
                         ],
                         [
-                            -86.3543,
-                            35.0764
+                            -93.9766,
+                            28.2947
+                        ],
+                        [
+                            -85.5675,
+                            40.0616
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 613881,
+                "airSigmetId": 613875,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -144,9 +148,56 @@
                 "altitudeHi2": 60000,
                 "movementDir": 230,
                 "movementSpd": 55,
-                "rawAirSigmet": "WSUS32 KKCI 160555 \nSIGC  \nCONVECTIVE SIGMET 10C \nVALID UNTIL 0755Z \nTN AL MS LA AND LA CSTL WTRS \nFROM 60ENE MSL-50W SJI-130S LCH-50WNW MSL-60ENE MSL \nAREA SEV EMBD TS MOV FROM 23055KT. TOPS ABV FL450. \nTORNADOES...HAIL TO 1.5 IN...GUSTS TO 60KT POSS. \n \nOUTLOOK VALID 160755-161155 \nFROM 40S BNA-170S CEW-110S LCH-40S BNA \nREF WW 9 10. \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 160455 \nSIGC  \nCONVECTIVE SIGMET 9C \nVALID UNTIL 0655Z \nOH TN KY IN AL MS LA AND LA TX CSTL WTRS \nFROM 40ENE IND-30WSW APE-60N LOZ-20SSW HRV-120SSW LCH-40ENE IND \nAREA SEV EMBD TS MOV FROM 23055KT. TOPS ABV FL450. \nTORNADOES...HAIL TO 1.5 IN...GUSTS TO 60KT POSS. \n \nOUTLOOK VALID 160655-161055 \nFROM IIU-LOZ-MCN-TLH-160S CEW-110S LCH-MLU-IIU \nREF WW 8 9 10. \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-02-16T07:55"
+                    "2025-02-16T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.1963,
+                            39.9559
+                        ],
+                        [
+                            -81.1492,
+                            39.4054
+                        ],
+                        [
+                            -81.7096,
+                            37.971
+                        ],
+                        [
+                            -84.12,
+                            38.0271
+                        ],
+                        [
+                            -83.1963,
+                            39.9559
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 613877,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 230,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS31 KKCI 160455 \nSIGE  \nCONVECTIVE SIGMET 3E \nVALID UNTIL 0655Z \nWV OH KY \nFROM 30WSW APE-40SSW AIR-30WNW BKW-60N LOZ-30WSW APE \nAREA EMBD TS MOV FROM 23055KT. TOPS TO FL340. \n \nOUTLOOK VALID 160655-161055 \nFROM RIC-140ESE ILM-170ENE OMN-CAE-RIC \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-02-16T06:55"
                 ]
             }
         },
@@ -304,7 +355,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 613882,
+                "airSigmetId": 613878,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -315,108 +366,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 160555 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 160755-161155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 160455 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 160655-161055 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-02-16T07:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -83.3562,
-                            39.5567
-                        ],
-                        [
-                            -81.0359,
-                            39.0655
-                        ],
-                        [
-                            -83.5521,
-                            38.1076
-                        ],
-                        [
-                            -84.12,
-                            38.0271
-                        ],
-                        [
-                            -83.3562,
-                            39.5567
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613884,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 29000,
-                "altitudeHi2": 29000,
-                "movementDir": 230,
-                "movementSpd": 55,
-                "rawAirSigmet": "WSUS31 KKCI 160555 \nSIGE  \nCONVECTIVE SIGMET 4E \nVALID UNTIL 0755Z \nWV OH KY \nFROM 50SW APE-50ENE HNN-70NNE LOZ-60N LOZ-50SW APE \nAREA EMBD TS MOV FROM 23055KT. TOPS TO FL290. \n \nOUTLOOK VALID 160755-161155 \nFROM 40ESE CVG-HNN-30ENE GSO-FLO-AMG-160S CEW-40S BNA-40ESE CVG \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-16T07:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -84.9032,
-                            39.0851
-                        ],
-                        [
-                            -84.12,
-                            38.0271
-                        ],
-                        [
-                            -86.3543,
-                            35.0764
-                        ],
-                        [
-                            -88.4224,
-                            35.0161
-                        ],
-                        [
-                            -84.9032,
-                            39.0851
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 613885,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 270,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS31 KKCI 160555 \nSIGE  \nCONVECTIVE SIGMET 5E \nVALID UNTIL 0755Z \nTN KY IN AL MS \nFROM 10WNW CVG-60N LOZ-60ENE MSL-50WNW MSL-10WNW CVG \nAREA SEV EMBD TS MOV FROM 27035KT. TOPS TO FL320. \nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 60KT POSS. \n \nOUTLOOK VALID 160755-161155 \nFROM 40ESE CVG-HNN-30ENE GSO-FLO-AMG-160S CEW-40S BNA-40ESE CVG \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-02-16T07:55"
+                    "2025-02-16T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-02-16T06:29"
+        "creationTime": "2025-02-16T05:21"
     }
 }
