@@ -427,7 +427,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 616752,
+                "airSigmetId": 616748,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -438,9 +438,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 110555 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 110755-111155 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS32 KKCI 110455 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 110655-111055 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-03-11T07:55"
+                    "2025-03-11T06:55"
                 ]
             }
         },
@@ -598,7 +598,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 616754,
+                "airSigmetId": 616749,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -609,9 +609,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 110555 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 110755-111155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 110455 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 110655-111055 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-03-11T07:55"
+                    "2025-03-11T06:55"
                 ]
             }
         },
@@ -622,8 +622,8 @@
                 "coordinates": [
                     [
                         [
-                            -76.0992,
-                            36.0923
+                            -75.7998,
+                            36.1222
                         ],
                         [
                             -74.6668,
@@ -634,22 +634,22 @@
                             34.1074
                         ],
                         [
-                            -74.7445,
-                            33.2273
+                            -75.5024,
+                            32.3262
                         ],
                         [
-                            -77.5596,
-                            34.9638
+                            -77.6487,
+                            35.4831
                         ],
                         [
-                            -76.0992,
-                            36.0923
+                            -75.7998,
+                            36.1222
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 616755,
+                "airSigmetId": 616750,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -660,14 +660,61 @@
                 "altitudeHi2": 38000,
                 "movementDir": 210,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 110555 \nSIGE  \nCONVECTIVE SIGMET 13E \nVALID UNTIL 0755Z \nNC AND CSTL WTRS \nFROM 10SSE ECG-80ESE ECG-180SE ECG-170ESE ILM-40NNE ILM-10SSE ECG \nAREA EMBD TS MOV FROM 21025KT. TOPS TO FL380. \nREF INTL SIGMET ALFA SERIES. \n \nOUTLOOK VALID 110755-111155 \nFROM 140SE SIE-190ESE ECG-160SE ILM-110ESE ILM-70SSE ILM-30SSE \nRDU-140SE SIE \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 110455 \nSIGE  \nCONVECTIVE SIGMET 11E \nVALID UNTIL 0655Z \nNC AND CSTL WTRS \nFROM 20ESE ECG-80ESE ECG-180SE ECG-170SE ILM-60ESE RDU-20ESE ECG \nAREA EMBD TS MOV FROM 21025KT. TOPS TO FL380. \nREF INTL SIGMET ALFA SERIES. \n \nOUTLOOK VALID 110655-111055 \nFROM 140SE SIE-190ESE ECG-160SE ILM-110ESE ILM-70SSE ILM-30SSE \nRDU-140SE SIE \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-03-11T07:55"
+                    "2025-03-11T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.9194,
+                            33.9734
+                        ],
+                        [
+                            -77.87,
+                            33.3529
+                        ],
+                        [
+                            -79.6748,
+                            32.7623
+                        ],
+                        [
+                            -79.66,
+                            33.7269
+                        ],
+                        [
+                            -78.9194,
+                            33.9734
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 616751,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 350,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS31 KKCI 110455 \nSIGE  \nCONVECTIVE SIGMET 12E \nVALID UNTIL 0655Z \nSC AND NC SC CSTL WTRS \nFROM 40ESE FLO-60S ILM-20ESE CHS-30S FLO-40ESE FLO \nAREA EMBD TS MOV FROM 35020KT. TOPS TO FL280. \n \nOUTLOOK VALID 110655-111055 \nFROM 140SE SIE-190ESE ECG-160SE ILM-110ESE ILM-70SSE ILM-30SSE \nRDU-140SE SIE \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-03-11T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-03-11T06:33"
+        "creationTime": "2025-03-11T05:23"
     }
 }
