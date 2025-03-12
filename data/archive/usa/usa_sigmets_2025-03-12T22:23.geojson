@@ -8,43 +8,214 @@
                 "coordinates": [
                     [
                         [
-                            -97.9833,
-                            33.9885
+                            -122.77,
+                            49
                         ],
                         [
-                            -97.53,
-                            30.7124
+                            -123.12,
+                            48.96
                         ],
                         [
-                            -102.1639,
-                            30.2424
+                            -123.02,
+                            48.6
                         ],
                         [
-                            -101.9021,
-                            32.2547
+                            -123.16,
+                            48.3
                         ],
                         [
-                            -97.9833,
-                            33.9885
+                            -123.69,
+                            48.2
+                        ],
+                        [
+                            -124.35,
+                            48.36
+                        ],
+                        [
+                            -124.73,
+                            48.39
+                        ],
+                        [
+                            -124.72,
+                            48.38
+                        ],
+                        [
+                            -125,
+                            48.49
+                        ],
+                        [
+                            -125.96,
+                            48.4
+                        ],
+                        [
+                            -127.03,
+                            48.41
+                        ],
+                        [
+                            -128.01,
+                            48.33
+                        ],
+                        [
+                            -127.49,
+                            47.48
+                        ],
+                        [
+                            -127.01,
+                            46
+                        ],
+                        [
+                            -126.52,
+                            44.98
+                        ],
+                        [
+                            -126.51,
+                            44.01
+                        ],
+                        [
+                            -126.72,
+                            42.97
+                        ],
+                        [
+                            -127,
+                            40.01
+                        ],
+                        [
+                            -123.01,
+                            34
+                        ],
+                        [
+                            -122.01,
+                            32.99
+                        ],
+                        [
+                            -121.66,
+                            31.99
+                        ],
+                        [
+                            -121.01,
+                            30.98
+                        ],
+                        [
+                            -120.65,
+                            30.67
+                        ],
+                        [
+                            -120,
+                            31.1
+                        ],
+                        [
+                            -118.97,
+                            31.62
+                        ],
+                        [
+                            -117.1,
+                            32.4
+                        ],
+                        [
+                            -117.09,
+                            32.4
+                        ],
+                        [
+                            -117.12,
+                            32.53
+                        ],
+                        [
+                            -114.72,
+                            32.72
+                        ],
+                        [
+                            -114.81,
+                            32.5
+                        ],
+                        [
+                            -111.08,
+                            31.33
+                        ],
+                        [
+                            -108.2,
+                            31.33
+                        ],
+                        [
+                            -108.2,
+                            31.78
+                        ],
+                        [
+                            -107,
+                            31.78
+                        ],
+                        [
+                            -107,
+                            49
+                        ],
+                        [
+                            -122.77,
+                            49
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 616922,
-                "airportIcao": "KDFW",
+                "airSigmetId": 616918,
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "IFR",
-                "severity": 5,
-                "altitudeLow1": 0,
+                "hazard": "CONVECTIVE",
+                "severity": 0,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 14000,
+                "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 122202 \nDFWX WS 122202 \nSIGMET XRAY 3 VALID UNTIL 130202 \nSIGMET  \nTX \nFROM 30E SPS TO 20N CWK TO 60SE FST TO 20NE MAF TO 30E SPS \nOCNL VIS BLW 3SM IN WDSPR DS BLW 140. OBSERVED ON SATELLITE AND \nSURFACE OBS. CONDS CONTG BYD 0202Z.",
+                "rawAirSigmet": "WSUS33 KKCI 122155 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122355-130355 \nFROM 40NE RBL-60NW FMG-70S FMG-60WNW BTY-70WSW BTY-30N EHF-30ESE \nMOD-RBL-40NE RBL \nWST ISSUANCES POSS LT IN PD. REFER TO MOST RECENT ACUS01 KWNS \nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL \nDETAILS.",
                 "validTimeTo": [
-                    "2025-03-13T02:02"
+                    "2025-03-12T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -96.4411,
+                            32.8686
+                        ],
+                        [
+                            -96.3663,
+                            31.3371
+                        ],
+                        [
+                            -97.27,
+                            31.1569
+                        ],
+                        [
+                            -97.268,
+                            32.405
+                        ],
+                        [
+                            -96.4411,
+                            32.8686
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 616920,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 260,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 122155 \nSIGC  \nCONVECTIVE SIGMET 2C \nVALID UNTIL 2355Z \nTX \nFROM 30E TTT-50ESE ACT-30S ACT-30SSW TTT-30E TTT \nAREA SEV TS MOV FROM 26040KT. TOPS TO FL350. \nHAIL TO 2.5 IN...WIND GUSTS TO 60KT POSS. \n \nOUTLOOK VALID 122355-130355 \nFROM FSM-LIT-MLU-40ESE LFK-50ENE CWK-30SE ADM-FSM \nREF WW 0029. \nWST ISSUANCES EXPD LT IN PD. REFER TO MOST RECENT ACUS01 KWNS \nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL \nDETAILS.",
+                "validTimeTo": [
+                    "2025-03-12T23:55"
                 ]
             }
         },
@@ -394,7 +565,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 616923,
+                "airSigmetId": 616921,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -405,9 +576,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 122255 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130055-130455 \nTS ARE NOT EXPD.",
+                "rawAirSigmet": "WSUS31 KKCI 122155 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122355-130355 \nTS ARE NOT EXPD.",
                 "validTimeTo": [
-                    "2025-03-13T00:55"
+                    "2025-03-12T23:55"
                 ]
             }
         },
@@ -418,219 +589,48 @@
                 "coordinates": [
                     [
                         [
-                            -94.9012,
-                            32.727
+                            -97.9833,
+                            33.9885
                         ],
                         [
-                            -95.8951,
-                            30.4289
+                            -97.53,
+                            30.7124
                         ],
                         [
-                            -97.7127,
-                            30.3146
+                            -102.1639,
+                            30.2424
                         ],
                         [
-                            -96.6182,
-                            32.5136
+                            -101.9021,
+                            32.2547
                         ],
                         [
-                            -94.9012,
-                            32.727
+                            -97.9833,
+                            33.9885
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 616925,
-                "airportIcao": "KKCI",
+                "airSigmetId": 616922,
+                "airportIcao": "KDFW",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "IFR",
                 "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
-                "movementDir": 270,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 122255 \nSIGC  \nCONVECTIVE SIGMET 3C \nVALID UNTIL 0055Z \nTX \nFROM 20NNW GGG-40NW IAH-10WSW CWK-30SE TTT-20NNW GGG \nAREA SEV TS MOV FROM 27040KT. TOPS TO FL420. \nHAIL TO 2.5 IN...WIND GUSTS TO 60KT POSS. \n \nOUTLOOK VALID 130055-130455 \nFROM FSM-LIT-MLU-40ESE LFK-50ENE CWK-30SE ADM-FSM \nREF WW 0029. \nWST ISSUANCES EXPD LT IN PD. REFER TO MOST RECENT ACUS01 KWNS \nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL \nDETAILS.",
-                "validTimeTo": [
-                    "2025-03-13T00:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -122.77,
-                            49
-                        ],
-                        [
-                            -123.12,
-                            48.96
-                        ],
-                        [
-                            -123.02,
-                            48.6
-                        ],
-                        [
-                            -123.16,
-                            48.3
-                        ],
-                        [
-                            -123.69,
-                            48.2
-                        ],
-                        [
-                            -124.35,
-                            48.36
-                        ],
-                        [
-                            -124.73,
-                            48.39
-                        ],
-                        [
-                            -124.72,
-                            48.38
-                        ],
-                        [
-                            -125,
-                            48.49
-                        ],
-                        [
-                            -125.96,
-                            48.4
-                        ],
-                        [
-                            -127.03,
-                            48.41
-                        ],
-                        [
-                            -128.01,
-                            48.33
-                        ],
-                        [
-                            -127.49,
-                            47.48
-                        ],
-                        [
-                            -127.01,
-                            46
-                        ],
-                        [
-                            -126.52,
-                            44.98
-                        ],
-                        [
-                            -126.51,
-                            44.01
-                        ],
-                        [
-                            -126.72,
-                            42.97
-                        ],
-                        [
-                            -127,
-                            40.01
-                        ],
-                        [
-                            -123.01,
-                            34
-                        ],
-                        [
-                            -122.01,
-                            32.99
-                        ],
-                        [
-                            -121.66,
-                            31.99
-                        ],
-                        [
-                            -121.01,
-                            30.98
-                        ],
-                        [
-                            -120.65,
-                            30.67
-                        ],
-                        [
-                            -120,
-                            31.1
-                        ],
-                        [
-                            -118.97,
-                            31.62
-                        ],
-                        [
-                            -117.1,
-                            32.4
-                        ],
-                        [
-                            -117.09,
-                            32.4
-                        ],
-                        [
-                            -117.12,
-                            32.53
-                        ],
-                        [
-                            -114.72,
-                            32.72
-                        ],
-                        [
-                            -114.81,
-                            32.5
-                        ],
-                        [
-                            -111.08,
-                            31.33
-                        ],
-                        [
-                            -108.2,
-                            31.33
-                        ],
-                        [
-                            -108.2,
-                            31.78
-                        ],
-                        [
-                            -107,
-                            31.78
-                        ],
-                        [
-                            -107,
-                            49
-                        ],
-                        [
-                            -122.77,
-                            49
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 616927,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 0,
-                "altitudeLow1": null,
+                "altitudeLow1": 0,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": null,
+                "altitudeHi2": 14000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 122255 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130055-130455 \nFROM 40NE RBL-60NW FMG-70S FMG-60WNW BTY-70WSW BTY-30N EHF-30ESE \nMOD-RBL-40NE RBL \nWST ISSUANCES POSS LT IN PD. REFER TO MOST RECENT ACUS01 KWNS \nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL \nDETAILS.",
+                "rawAirSigmet": "WSUS04 KKCI 122202 \nDFWX WS 122202 \nSIGMET XRAY 3 VALID UNTIL 130202 \nSIGMET  \nTX \nFROM 30E SPS TO 20N CWK TO 60SE FST TO 20NE MAF TO 30E SPS \nOCNL VIS BLW 3SM IN WDSPR DS BLW 140. OBSERVED ON SATELLITE AND \nSURFACE OBS. CONDS CONTG BYD 0202Z.",
                 "validTimeTo": [
-                    "2025-03-13T00:55"
+                    "2025-03-13T02:02"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-03-12T23:23"
+        "creationTime": "2025-03-12T22:23"
     }
 }
