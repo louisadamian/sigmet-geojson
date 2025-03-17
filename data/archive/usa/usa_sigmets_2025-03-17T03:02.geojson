@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -69.8074,
+                            44.8362
+                        ],
+                        [
+                            -70.3654,
+                            40.6654
+                        ],
+                        [
+                            -73.2373,
+                            39.4323
+                        ],
+                        [
+                            -75.4098,
+                            39.5685
+                        ],
+                        [
+                            -73.5405,
+                            44.9039
+                        ],
+                        [
+                            -69.8074,
+                            44.8362
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 617735,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 8000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 170000 \nBOSR WS 170000 \nSIGMET ROMEO 2 VALID UNTIL 170400 \nSIGMET  \nME NH VT MA RI CT NY NJ PA AND CSTL WTRS \nFROM 40W BGR TO 40SSW ACK TO 60ESE CYN TO 40NW SIE TO 50E MSS TO \n40W BGR \nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS AND STG UDDFS AND \nLLWS. RPTD BY ACFT. CONDS CONTG BYD 0400Z.",
+                "validTimeTo": [
+                    "2025-03-17T04:00"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -109.8901,
                             46.5849
                         ],
@@ -1018,60 +1069,9 @@
                     "2025-03-17T04:55"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -72.2113,
-                            44.8336
-                        ],
-                        [
-                            -68.2167,
-                            44.6456
-                        ],
-                        [
-                            -70.03,
-                            40.6152
-                        ],
-                        [
-                            -71.5757,
-                            39.5316
-                        ],
-                        [
-                            -74.43,
-                            40.1524
-                        ],
-                        [
-                            -72.2113,
-                            44.8336
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 617776,
-                "airportIcao": "KBOS",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 8000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 170307 \nBOSR WS 170307 \nSIGMET ROMEO 3 VALID UNTIL 170707 \nSIGMET  \nME NH VT MA RI CT NY NJ AND CSTL WTRS \nFROM 40NNE MPV TO 30ESE BGR TO 40S ACK TO 90SSE HTO TO 20N CYN TO \n40NNE MPV \nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS AND STG UDDFS AND \nLLWS. RPTD BY ACFT. CONDS CONTG BYD 0707Z.",
-                "validTimeTo": [
-                    "2025-03-17T07:07"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-03-17T03:35"
+        "creationTime": "2025-03-17T03:02"
     }
 }
