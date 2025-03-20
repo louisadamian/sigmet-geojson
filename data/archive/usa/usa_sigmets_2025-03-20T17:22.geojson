@@ -8,57 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -80.1392,
-                            38.0956
-                        ],
-                        [
-                            -79.23,
-                            37.25
-                        ],
-                        [
-                            -81.05,
-                            33.86
-                        ],
-                        [
-                            -83.65,
-                            32.69
-                        ],
-                        [
-                            -84.1085,
-                            34.6973
-                        ],
-                        [
-                            -80.1392,
-                            38.0956
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 618270,
-                "airportIcao": "KBOS",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 4000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 15000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 201740 \nBOSR WS 201740 \nSIGMET ROMEO 3 VALID UNTIL 202139 \nSIGMET  \nWV VA NC SC GA \nFROM 50ENE BKW TO LYH TO CAE TO MCN TO 40W ODF TO 50ENE BKW \nOCNL SEV TURB BTN 040 AND 150. DUE TO STG LOW LVL WNDS AND STG \nUDDFS AND LLWS. RPTD BY ACFT. CONDS CONTG BYD 2139Z.",
-                "validTimeTo": [
-                    "2025-03-20T21:39"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -107,
                             49
                         ],
@@ -478,7 +427,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 618272,
+                "airSigmetId": 618264,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -489,9 +438,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 201755 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201955-202355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS32 KKCI 201655 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201855-202255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-03-20T19:55"
+                    "2025-03-20T18:55"
                 ]
             }
         },
@@ -649,7 +598,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 618273,
+                "airSigmetId": 618265,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -660,9 +609,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 201755 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201955-202355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 201655 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201855-202255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-03-20T19:55"
+                    "2025-03-20T18:55"
                 ]
             }
         },
@@ -1012,7 +961,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 618275,
+                "airSigmetId": 618267,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -1023,14 +972,65 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 201755 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201955-202355 \nFROM 30SSE ETX-30NW ECG-30ESE ILM-FLO-30NW CSN-30SSE ETX \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 201655 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 201855-202255 \nFROM 30SSE ETX-30NW ECG-30ESE ILM-FLO-30NW CSN-30SSE ETX \nWST ISSUANCES POSS LT IN PD. REFER TO MOST RECENT ACUS01 KWNS \nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL \nDETAILS.",
                 "validTimeTo": [
-                    "2025-03-20T19:55"
+                    "2025-03-20T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.1392,
+                            38.0956
+                        ],
+                        [
+                            -79.23,
+                            37.25
+                        ],
+                        [
+                            -81.05,
+                            33.86
+                        ],
+                        [
+                            -83.65,
+                            32.69
+                        ],
+                        [
+                            -84.1085,
+                            34.6973
+                        ],
+                        [
+                            -80.1392,
+                            38.0956
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 618268,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 4000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 11000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 201706 \nBOSR WS 201706 \nSIGMET ROMEO 2 VALID UNTIL 202106 \nSIGMET  \nWV VA NC SC GA \nFROM 50ENE BKW TO LYH TO CAE TO MCN TO 40W ODF TO 50ENE BKW \nOCNL SEV TURB BTN 040 AND 110. DUE TO STG LOW LVL WNDS AND STG \nUDDFS AND LLWS. RPTD BY ACFT. CONDS CONTG BYD 2106Z.",
+                "validTimeTo": [
+                    "2025-03-20T21:06"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-03-20T18:33"
+        "creationTime": "2025-03-20T17:22"
     }
 }
