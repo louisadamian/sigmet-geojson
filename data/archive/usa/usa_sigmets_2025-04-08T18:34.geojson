@@ -486,7 +486,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622072,
+                "airSigmetId": 622065,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -497,9 +497,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 081855 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 082055-090055 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS32 KKCI 081755 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 081955-082355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-08T20:55"
+                    "2025-04-08T19:55"
                 ]
             }
         },
@@ -657,7 +657,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622073,
+                "airSigmetId": 622068,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -668,9 +668,9 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 081855 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 082055-090055 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 081755 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 081955-082355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-08T20:55"
+                    "2025-04-08T19:55"
                 ]
             }
         },
@@ -681,34 +681,81 @@
                 "coordinates": [
                     [
                         [
-                            -79.718,
-                            26.6795
+                            -78.213,
+                            30.4695
                         ],
                         [
-                            -79.155,
-                            26.6769
+                            -80.0089,
+                            28.9683
+                        ],
+                        [
+                            -79.7479,
+                            28.7265
+                        ],
+                        [
+                            -77.9481,
+                            30.2277
+                        ],
+                        [
+                            -78.213,
+                            30.4695
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 622070,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 240,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 081805 \nSIGE  \nCONVECTIVE SIGMET 45E \nVALID UNTIL 1955Z \nFL CSTL WTRS \nFROM 170ENE OMN-70ESE OMN \nDVLPG LINE EMBD TS 20 NM WIDE MOV FROM 24025KT. TOPS TO FL300. \n...SPECIAL... \n \nOUTLOOK VALID 081955-082355 \nFROM 220ENE TRV-210E PBI-60E PBI-100SE MIA-160SE MIA-40SSW \nEYW-30NNE PBI-220ENE TRV \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-04-08T19:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.9888,
+                            27.6719
                         ],
                         [
                             -79.1925,
                             25.7958
                         ],
                         [
-                            -80.5158,
-                            24.5846
+                            -80.7034,
+                            24.586
                         ],
                         [
-                            -80.8171,
-                            25.9916
+                            -81.541,
+                            24.8248
                         ],
                         [
-                            -79.718,
-                            26.6795
+                            -79.4254,
+                            27.2692
+                        ],
+                        [
+                            -78.9888,
+                            27.6719
                         ]
                     ]
                 ]
             },
             "properties": {
-                "airSigmetId": 622075,
+                "airSigmetId": 622071,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -719,14 +766,14 @@
                 "altitudeHi2": 45000,
                 "movementDir": 240,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 081855 \nSIGE  \nCONVECTIVE SIGMET 46E \nVALID UNTIL 2055Z \nFL AND CSTL WTRS \nFROM 20E PBI-50E PBI-60E MIA-70E EYW-30WNW MIA-20E PBI \nAREA TS MOV FROM 24025KT. TOPS TO FL450. \nREF INTL SIGMET ALFA SERIES. \n \nOUTLOOK VALID 082055-090055 \nFROM 220ENE TRV-210E PBI-60E PBI-100SE MIA-150SE MIA-30S EYW-40NE \nPBI-220ENE TRV \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 081805 \nSIGE  \nCONVECTIVE SIGMET 44E \nVALID UNTIL 1955Z \nFL AND CSTL WTRS \nFROM 80E TRV-60E MIA-60E EYW-20NE EYW-50NE PBI-80E TRV \nAREA TS MOV FROM 24025KT. TOPS TO FL450. \nREF INTL SIGMET ALFA SERIES. \n \nOUTLOOK VALID 081955-082355 \nFROM 220ENE TRV-210E PBI-60E PBI-100SE MIA-160SE MIA-40SSW \nEYW-30NNE PBI-220ENE TRV \nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-04-08T20:55"
+                    "2025-04-08T19:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-04-08T19:20"
+        "creationTime": "2025-04-08T18:34"
     }
 }
