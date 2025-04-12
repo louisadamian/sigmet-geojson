@@ -427,7 +427,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622594,
+                "airSigmetId": 622592,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -438,9 +438,56 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 122055 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122255-130255 \nFROM 40SSW GGW-60SW ISN-60NNW DPR-50E RAP-CZI-40SSW GGW \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 121955 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122155-130155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-12T22:55"
+                    "2025-04-12T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.61,
+                            46.3852
+                        ],
+                        [
+                            -109.9425,
+                            45.4209
+                        ],
+                        [
+                            -112.388,
+                            44.3969
+                        ],
+                        [
+                            -112.55,
+                            44.9176
+                        ],
+                        [
+                            -109.61,
+                            46.3852
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 622590,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
+                "movementDir": 250,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 121955 \nSIGW  \nCONVECTIVE SIGMET 9W \nVALID UNTIL 2155Z \nMT WY ID \nFROM 40S LWT-60WSW BIL-20NNW DBS-20S DLN-40S LWT \nINTSF AREA TS MOV FROM 25025KT. TOPS TO FL360. \n \nOUTLOOK VALID 122155-130155 \nFROM 40S ISN-RAP-50WSW JAC-70NNE LKT-40S ISN \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-04-12T21:55"
                 ]
             }
         },
@@ -790,7 +837,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622595,
+                "airSigmetId": 622591,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -801,65 +848,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 122055 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122255-130255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 121955 \nSIGE  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 122155-130155 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-12T22:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -108.63,
-                            46.4748
-                        ],
-                        [
-                            -109.2987,
-                            45.338
-                        ],
-                        [
-                            -112.032,
-                            44.3969
-                        ],
-                        [
-                            -112.55,
-                            44.9176
-                        ],
-                        [
-                            -109.9791,
-                            46.4353
-                        ],
-                        [
-                            -108.63,
-                            46.4748
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 622598,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 34000,
-                "altitudeHi2": 34000,
-                "movementDir": 250,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS33 KKCI 122055 \nSIGW  \nCONVECTIVE SIGMET 10W \nVALID UNTIL 2255Z \nMT WY ID \nFROM 40N BIL-40SW BIL-20NNE DBS-20S DLN-40SSW LWT-40N BIL \nINTSF AREA TS MOV FROM 25025KT. TOPS TO FL340. \n \nOUTLOOK VALID 122255-130255 \nAREA 1...FROM 40SSW GGW-CZI-50WSW JAC-40E DLN-40SSW GGW \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS. \n \nAREA 2...FROM 50SE YXC-70SE YQL-60NE DNJ-GEG-50SE YXC \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-04-12T22:55"
+                    "2025-04-12T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-04-12T21:21"
+        "creationTime": "2025-04-12T20:24"
     }
 }
