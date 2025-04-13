@@ -427,7 +427,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622650,
+                "airSigmetId": 622646,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -438,9 +438,56 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS32 KKCI 130755 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130955-131355 \nFROM EAU-30ESE ODI-60W FOD-RWF-EAU \nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM \nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 130655 \nSIGC  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130855-131255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-13T09:55"
+                    "2025-04-13T08:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -67.3349,
+                            42.0773
+                        ],
+                        [
+                            -67.3771,
+                            41.2495
+                        ],
+                        [
+                            -68.0341,
+                            41.2628
+                        ],
+                        [
+                            -67.9671,
+                            41.8977
+                        ],
+                        [
+                            -67.3349,
+                            42.0773
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": 622647,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 210,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 130655 \nSIGE  \nCONVECTIVE SIGMET 5E \nVALID UNTIL 0855Z \nMA CSTL WTRS \nFROM 130ENE ACK-120E ACK-90E ACK-100ENE ACK-130ENE ACK \nAREA TS MOV FROM 21030KT. TOPS TO FL310. \n \nOUTLOOK VALID 130855-131255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-04-13T08:55"
                 ]
             }
         },
@@ -598,7 +645,7 @@
                 ]
             },
             "properties": {
-                "airSigmetId": 622651,
+                "airSigmetId": 622648,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
                 "hazard": "CONVECTIVE",
@@ -609,61 +656,14 @@
                 "altitudeHi2": null,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 130755 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130955-131355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 130655 \nSIGW  \nCONVECTIVE SIGMET...NONE \n \nOUTLOOK VALID 130855-131255 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-04-13T09:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -76.3913,
-                            33.8323
-                        ],
-                        [
-                            -74.7445,
-                            33.2273
-                        ],
-                        [
-                            -75.6421,
-                            32.4495
-                        ],
-                        [
-                            -77.0372,
-                            32.6541
-                        ],
-                        [
-                            -76.3913,
-                            33.8323
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": 622652,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 31000,
-                "altitudeHi2": 31000,
-                "movementDir": 250,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 130755 \nSIGE  \nCONVECTIVE SIGMET 6E \nVALID UNTIL 0955Z \nNC CSTL WTRS \nFROM 80ESE ILM-170ESE ILM-160SE ILM-110SSE ILM-80ESE ILM \nAREA TS MOV FROM 25020KT. TOPS TO FL310. \n \nOUTLOOK VALID 130955-131355 \nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-04-13T09:55"
+                    "2025-04-13T08:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-04-13T08:28"
+        "creationTime": "2025-04-13T07:21"
     }
 }
