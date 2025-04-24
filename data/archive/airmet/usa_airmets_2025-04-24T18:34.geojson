@@ -48,7 +48,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713324,
+                "geometryId": 1713289,
                 "tag": "11E",
                 "forecastHour": 3,
                 "hazard": "IFR",
@@ -64,7 +64,7 @@
                 "rawAirSigmet": "CIG BLW 010/VIS BLW 3SM PCPN/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -151,7 +151,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713325,
+                "geometryId": 1713290,
                 "tag": "1E",
                 "forecastHour": 3,
                 "hazard": "IFR",
@@ -167,7 +167,7 @@
                 "rawAirSigmet": "CIG BLW 010/VIS BLW 3SM PCPN/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -222,7 +222,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713326,
+                "geometryId": 1713291,
                 "tag": "1E",
                 "forecastHour": 3,
                 "hazard": "IFR",
@@ -238,7 +238,7 @@
                 "rawAirSigmet": "CIG BLW 010/VIS BLW 3SM PCPN",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -329,7 +329,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713330,
+                "geometryId": 1713295,
                 "tag": "2E",
                 "forecastHour": 3,
                 "hazard": "IFR",
@@ -345,7 +345,7 @@
                 "rawAirSigmet": "CIG BLW 010/VIS BLW 3SM BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -412,7 +412,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713335,
+                "geometryId": 1713300,
                 "tag": "4E",
                 "forecastHour": 3,
                 "hazard": "IFR",
@@ -428,7 +428,7 @@
                 "rawAirSigmet": "CIG BLW 010/VIS BLW 3SM PCPN/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -491,7 +491,7 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713338,
+                "geometryId": 1713303,
                 "tag": "1E",
                 "forecastHour": 3,
                 "hazard": "MT_OBSC",
@@ -507,7 +507,7 @@
                 "rawAirSigmet": "MTNS OBSC BY PCPN/CLDS/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -518,20 +518,91 @@
                 "coordinates": [
                     [
                         [
-                            -82.05,
-                            37.33
+                            -104.07,
+                            39.25
                         ],
                         [
-                            -80.62,
-                            37.13
+                            -103.69,
+                            37.94
                         ],
                         [
-                            -80.06,
-                            36.94
+                            -103.71,
+                            37.08
                         ],
                         [
-                            -79.88,
-                            36.55
+                            -104.07,
+                            36.98
+                        ],
+                        [
+                            -104.35,
+                            37.26
+                        ],
+                        [
+                            -104.73,
+                            37.8
+                        ],
+                        [
+                            -105.12,
+                            38.3
+                        ],
+                        [
+                            -104.73,
+                            39.13
+                        ],
+                        [
+                            -104.07,
+                            39.25
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "forecastId": null,
+                "geometryId": 1713304,
+                "tag": "1E",
+                "forecastHour": 3,
+                "hazard": "MT_OBSC",
+                "frequency": "",
+                "severity": "",
+                "status": "",
+                "base": null,
+                "top": null,
+                "fzlBase": null,
+                "fzlTop": null,
+                "level": null,
+                "product": "SIERRA",
+                "rawAirSigmet": "MTNS OBSC BY PCPN/CLDS/BR",
+                "validTimeTo": "2025-04-24T18:00:00",
+                "validTimeFrom": [
+                    "2025-04-24T18:02"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.19,
+                            38.23
+                        ],
+                        [
+                            -81.76,
+                            37.74
+                        ],
+                        [
+                            -80.87,
+                            37.78
+                        ],
+                        [
+                            -79.28,
+                            37.84
+                        ],
+                        [
+                            -79.32,
+                            37.31
                         ],
                         [
                             -80.99,
@@ -546,23 +617,23 @@
                             34.78
                         ],
                         [
-                            -85.23,
-                            36.57
+                            -85.17,
+                            36.66
                         ],
                         [
-                            -83.72,
-                            37.18
+                            -82.93,
+                            38.17
                         ],
                         [
-                            -82.05,
-                            37.33
+                            -82.19,
+                            38.23
                         ]
                     ]
                 ]
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713342,
+                "geometryId": 1713308,
                 "tag": "2E",
                 "forecastHour": 3,
                 "hazard": "MT_OBSC",
@@ -578,86 +649,7 @@
                 "rawAirSigmet": "MTNS OBSC BY PCPN/CLDS/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -124.11,
-                            44.3
-                        ],
-                        [
-                            -123.51,
-                            43.87
-                        ],
-                        [
-                            -123.86,
-                            42.67
-                        ],
-                        [
-                            -123.7,
-                            42.06
-                        ],
-                        [
-                            -123.63,
-                            41.37
-                        ],
-                        [
-                            -123.48,
-                            40.65
-                        ],
-                        [
-                            -123.9,
-                            40.15
-                        ],
-                        [
-                            -124.24,
-                            40.87
-                        ],
-                        [
-                            -124.21,
-                            41.57
-                        ],
-                        [
-                            -124.36,
-                            42.99
-                        ],
-                        [
-                            -124.19,
-                            43.73
-                        ],
-                        [
-                            -124.11,
-                            44.3
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "forecastId": null,
-                "geometryId": 1713349,
-                "tag": "5E",
-                "forecastHour": 3,
-                "hazard": "MT_OBSC",
-                "frequency": "",
-                "severity": "",
-                "status": "",
-                "base": null,
-                "top": null,
-                "fzlBase": null,
-                "fzlTop": null,
-                "level": null,
-                "product": "SIERRA",
-                "rawAirSigmet": "MTNS OBSC BY CLDS/BR",
-                "validTimeTo": "2025-04-24T18:00:00",
-                "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -756,7 +748,86 @@
             },
             "properties": {
                 "forecastId": null,
-                "geometryId": 1713350,
+                "geometryId": 1713312,
+                "tag": "4E",
+                "forecastHour": 3,
+                "hazard": "MT_OBSC",
+                "frequency": "",
+                "severity": "",
+                "status": "",
+                "base": null,
+                "top": null,
+                "fzlBase": null,
+                "fzlTop": null,
+                "level": null,
+                "product": "SIERRA",
+                "rawAirSigmet": "MTNS OBSC BY CLDS/BR",
+                "validTimeTo": "2025-04-24T18:00:00",
+                "validTimeFrom": [
+                    "2025-04-24T18:02"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -124.11,
+                            44.3
+                        ],
+                        [
+                            -123.51,
+                            43.87
+                        ],
+                        [
+                            -123.86,
+                            42.67
+                        ],
+                        [
+                            -123.7,
+                            42.06
+                        ],
+                        [
+                            -123.63,
+                            41.37
+                        ],
+                        [
+                            -123.48,
+                            40.65
+                        ],
+                        [
+                            -123.9,
+                            40.15
+                        ],
+                        [
+                            -124.24,
+                            40.87
+                        ],
+                        [
+                            -124.21,
+                            41.57
+                        ],
+                        [
+                            -124.36,
+                            42.99
+                        ],
+                        [
+                            -124.19,
+                            43.73
+                        ],
+                        [
+                            -124.11,
+                            44.3
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "forecastId": null,
+                "geometryId": 1713316,
                 "tag": "5E",
                 "forecastHour": 3,
                 "hazard": "MT_OBSC",
@@ -769,10 +840,61 @@
                 "fzlTop": null,
                 "level": null,
                 "product": "SIERRA",
-                "rawAirSigmet": "MTNS OBSC BY CLDS",
+                "rawAirSigmet": "MTNS OBSC BY CLDS/BR",
                 "validTimeTo": "2025-04-24T18:00:00",
                 "validTimeFrom": [
-                    "2025-04-24T18:34"
+                    "2025-04-24T18:02"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -71.06,
+                            44.56
+                        ],
+                        [
+                            -70.67,
+                            44.2
+                        ],
+                        [
+                            -71.39,
+                            43.84
+                        ],
+                        [
+                            -71.93,
+                            44.14
+                        ],
+                        [
+                            -71.06,
+                            44.56
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "forecastId": null,
+                "geometryId": 1713320,
+                "tag": "6E",
+                "forecastHour": 3,
+                "hazard": "MT_OBSC",
+                "frequency": "",
+                "severity": "",
+                "status": "",
+                "base": null,
+                "top": null,
+                "fzlBase": null,
+                "fzlTop": null,
+                "level": null,
+                "product": "SIERRA",
+                "rawAirSigmet": "MTNS OBSC BY CLDS/BR",
+                "validTimeTo": "2025-04-24T18:00:00",
+                "validTimeFrom": [
+                    "2025-04-24T18:02"
                 ]
             }
         },
@@ -3086,6 +3208,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2025-04-24T19:21"
+        "creationTime": "2025-04-24T18:34"
     }
 }
