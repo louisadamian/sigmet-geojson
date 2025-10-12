@@ -8,28 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -110.072,
-                            34.097
+                            -79.66,
+                            34.895
                         ],
                         [
-                            -110.465,
-                            33.02
+                            -78.591,
+                            34.939
                         ],
                         [
-                            -113.768,
-                            32.062
+                            -78.801,
+                            34.027
                         ],
                         [
-                            -114.321,
-                            32.535
+                            -79.813,
+                            33.923
                         ],
                         [
-                            -111.307,
-                            34.019
-                        ],
-                        [
-                            -110.072,
-                            34.097
+                            -79.66,
+                            34.895
                         ]
                     ]
                 ]
@@ -42,18 +38,116 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 39000,
-                "altitudeHi2": 39000,
-                "movementDir": 250,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS33 KKCI 121655\nSIGW \nCONVECTIVE SIGMET 46W\nVALID UNTIL 1855Z\nAZ\nFROM 50WSW SJN-60NNE TUS-60SE BZA-20SE BZA-50NE PHX-50WSW SJN\nAREA TS MOV FROM 25020KT. TOPS TO FL390.\n\nOUTLOOK VALID 121855-122255\nFROM TXO-LBB-MRF-ELP-60S TUS-BZA-DRK-TXO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 44000,
+                "altitudeHi2": 44000,
+                "movementDir": 70,
+                "movementSpd": 5,
+                "rawAirSigmet": "WSUS31 KKCI 121755\nSIGE \nCONVECTIVE SIGMET 24E\nVALID UNTIL 1955Z\nNC SC\nFROM 40N FLO-50NW ILM-50WSW ILM-20SSW FLO-40N FLO\nAREA EMBD TS MOV FROM 07005KT. TOPS TO FL440.\n\nOUTLOOK VALID 121955-122355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-10-12T18:55"
+                    "2025-10-12T19:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -72.127,
+                            38.315
+                        ],
+                        [
+                            -72.985,
+                            37.644
+                        ],
+                        [
+                            -72.473,
+                            37.228
+                        ],
+                        [
+                            -71.61,
+                            37.899
+                        ],
+                        [
+                            -72.127,
+                            38.315
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 220,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 121755\nSIGE \nCONVECTIVE SIGMET 25E\nVALID UNTIL 1955Z\nDE NJ MD CSTL WTRS\nFROM 150ESE SIE-140SE SIE\nLINE TS 35 NM WIDE MOV FROM 22015KT. TOPS TO FL310.\n\nOUTLOOK VALID 121955-122355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-10-12T19:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -110.261,
+                            33.98
+                        ],
+                        [
+                            -109.446,
+                            33.805
+                        ],
+                        [
+                            -109.641,
+                            33.041
+                        ],
+                        [
+                            -113.768,
+                            32.062
+                        ],
+                        [
+                            -114.449,
+                            32.463
+                        ],
+                        [
+                            -110.261,
+                            33.98
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 250,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS33 KKCI 121755\nSIGW \nCONVECTIVE SIGMET 47W\nVALID UNTIL 1955Z\nAZ\nFROM 70SSE INW-40SSW SJN-50NNW SSO-60SE BZA-20SSE BZA-70SSE INW\nAREA TS MOV FROM 25015KT. TOPS TO FL400.\n\nOUTLOOK VALID 121955-122355\nFROM AMA-MAF-MRF-ELP-50SSW TUS-BZA-DRK-AMA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-12T19:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-12T17:20"
+        "creationTime": "2025-10-12T18:32"
     }
 }
