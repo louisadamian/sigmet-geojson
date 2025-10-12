@@ -8,24 +8,40 @@
                 "coordinates": [
                     [
                         [
-                            -79.66,
-                            35.065
+                            -101.949,
+                            34.842
                         ],
                         [
-                            -78.443,
-                            34.819
+                            -101.806,
+                            34.793
                         ],
                         [
-                            -78.612,
-                            34.093
+                            -101.747,
+                            34.675
                         ],
                         [
-                            -79.892,
-                            33.765
+                            -101.806,
+                            34.558
                         ],
                         [
-                            -79.66,
-                            35.065
+                            -101.949,
+                            34.509
+                        ],
+                        [
+                            -102.092,
+                            34.558
+                        ],
+                        [
+                            -102.152,
+                            34.675
+                        ],
+                        [
+                            -102.093,
+                            34.793
+                        ],
+                        [
+                            -101.949,
+                            34.842
                         ]
                     ]
                 ]
@@ -38,13 +54,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
-                "movementDir": 70,
-                "movementSpd": 5,
-                "rawAirSigmet": "WSUS31 KKCI 121955\nSIGE \nCONVECTIVE SIGMET 27E\nVALID UNTIL 2155Z\nNC SC\nFROM 50N FLO-40NW ILM-40WSW ILM-30SSW FLO-50N FLO\nAREA EMBD TS MOV FROM 07005KT. TOPS TO FL420.\n\nOUTLOOK VALID 122155-130155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 250,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 122055\nSIGC \nCONVECTIVE SIGMET 12C\nVALID UNTIL 2255Z\nTX\n40SSW AMA\nISOL TS D20 MOV FROM 25015KT. TOPS TO FL280.\n\nOUTLOOK VALID 122255-130255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-10-12T21:55"
+                    "2025-10-12T22:55"
                 ]
             }
         },
@@ -55,28 +71,28 @@
                 "coordinates": [
                     [
                         [
-                            -106.43,
-                            33.982
+                            -113.619,
+                            34.062
                         ],
                         [
-                            -107.829,
-                            32.745
+                            -110.311,
+                            33.327
                         ],
                         [
-                            -113.627,
-                            31.94
+                            -109.26,
+                            31.435
                         ],
                         [
-                            -114.179,
-                            32.414
+                            -110.92,
+                            31.265
                         ],
                         [
-                            -113.609,
-                            33.592
+                            -114.044,
+                            32.299
                         ],
                         [
-                            -106.43,
-                            33.982
+                            -113.619,
+                            34.062
                         ]
                     ]
                 ]
@@ -93,14 +109,151 @@
                 "altitudeHi2": 39000,
                 "movementDir": 260,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS33 KKCI 121955\nSIGW \nCONVECTIVE SIGMET 49W\nVALID UNTIL 2155Z\nNM AZ\nFROM 60NE TCS-30NNW DMN-70SE BZA-30SE BZA-70NE BZA-60NE TCS\nAREA TS MOV FROM 26020KT. TOPS TO FL390.\n\nOUTLOOK VALID 122155-130155\nFROM AMA-CDS-MAF-MRF-ELP-50SSW TUS-BZA-DRK-AMA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 122055\nSIGW \nCONVECTIVE SIGMET 50W\nVALID UNTIL 2255Z\nAZ\nFROM 60SE EED-80NNE TUS-50S SSO-50S TUS-40SE BZA-60SE EED\nAREA TS MOV FROM 26020KT. TOPS TO FL390.\n\nOUTLOOK VALID 122255-130255\nFROM AMA-CDS-MAF-MRF-ELP-50SSW TUS-BZA-DRK-AMA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-12T21:55"
+                    "2025-10-12T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -110.8,
+                            34.557
+                        ],
+                        [
+                            -106.249,
+                            34.569
+                        ],
+                        [
+                            -106.725,
+                            33.086
+                        ],
+                        [
+                            -109.988,
+                            32.522
+                        ],
+                        [
+                            -110.8,
+                            34.557
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 270,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS33 KKCI 122055\nSIGW \nCONVECTIVE SIGMET 51W\nVALID UNTIL 2255Z\nNM AZ\nFROM 30S INW-40SE ABQ-30ESE TCS-40WNW SSO-30S INW\nAREA TS MOV FROM 27020KT. TOPS TO FL340.\n\nOUTLOOK VALID 122255-130255\nFROM AMA-CDS-MAF-MRF-ELP-50SSW TUS-BZA-DRK-AMA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-12T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.171,
+                            35.098
+                        ],
+                        [
+                            -77.441,
+                            33.994
+                        ],
+                        [
+                            -80.118,
+                            33.048
+                        ],
+                        [
+                            -80.62,
+                            34.215
+                        ],
+                        [
+                            -79.171,
+                            35.098
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 70,
+                "movementSpd": 5,
+                "rawAirSigmet": "WSUS31 KKCI 122055\nSIGE \nCONVECTIVE SIGMET 28E\nVALID UNTIL 2255Z\nNC SC AND CSTL WTRS\nFROM 50SSW RDU-30SE ILM-10NNW CHS-30NE CAE-50SSW RDU\nAREA EMBD TS MOV FROM 07005KT. TOPS TO FL400.\n\nOUTLOOK VALID 122255-130255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-10-12T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.942,
+                            25.285
+                        ],
+                        [
+                            -78.367,
+                            24.021
+                        ],
+                        [
+                            -79.532,
+                            24.105
+                        ],
+                        [
+                            -78.942,
+                            25.285
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 230,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 122055\nSIGE \nCONVECTIVE SIGMET 29E\nVALID UNTIL 2255Z\nFL CSTL WTRS\nFROM 80ESE MIA-150SE MIA-110SSE MIA-80ESE MIA\nAREA EMBD TS MOV FROM 23015KT. TOPS TO FL350.\n\nOUTLOOK VALID 122255-130255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-10-12T22:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-12T20:25"
+        "creationTime": "2025-10-12T21:20"
     }
 }
