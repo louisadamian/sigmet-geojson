@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -103.96,
-                            40.748
+                            -106.191,
+                            40.973
                         ],
                         [
-                            -103.6,
-                            36.015
+                            -103.347,
+                            40.467
                         ],
                         [
-                            -105.576,
-                            35.303
+                            -103.313,
+                            34.945
                         ],
                         [
-                            -107.331,
-                            37.002
+                            -105.428,
+                            35.425
                         ],
                         [
-                            -106.648,
-                            40.518
+                            -106.871,
+                            37.345
                         ],
                         [
-                            -103.96,
-                            40.748
+                            -106.191,
+                            40.973
                         ]
                     ]
                 ]
@@ -46,9 +46,9 @@
                 "altitudeHi2": 24000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 200857\nSLCN WS 200857\nSIGMET NOVEMBER 4 VALID UNTIL 201257\nSIGMET \nCO NM\nFROM 50NW AKO TO 50N TCC TO 30SW FTI TO 40ENE RSK TO 30E CHE TO\n50NW AKO\nOCNL SEV TURB BLW FL240. DUE TO STG LOW LVL WNDS AND WNDSHR\nASSOCD WITH JTST AND STG UDDFS AND LLWS. CONDS XPCTD TO WORSEN\nTHRU 13Z WITH GRADUAL IMPROVEMENT THRU THE AM AND AFTN HOURS.\nCONDS CONTG BYD 1257Z.",
+                "rawAirSigmet": "WSUS05 KKCI 201250\nSLCN WS 201250\nSIGMET NOVEMBER 5 VALID UNTIL 201650\nSIGMET \nWY CO NM\nFROM 30SW LAR TO 20NNW AKO TO 20SE TCC TO 20SW FTI TO 50W ALS TO\n30SW LAR\nOCNL SEV TURB BLW FL240. DUE TO STG LOW LVL WNDS AND WNDSHR\nASSOCD WITH JTST. RPTD BY ACFT. CONDS CONTG BYD 1650Z.",
                 "validTimeTo": [
-                    "2025-10-20T12:57"
+                    "2025-10-20T16:50"
                 ]
             }
         },
@@ -63,20 +63,71 @@
                             30.145
                         ],
                         [
-                            -78.014,
-                            27.428
+                            -76.434,
+                            27.97
                         ],
                         [
-                            -79.904,
-                            26.155
+                            -78.783,
+                            26.674
                         ],
                         [
-                            -79.964,
-                            27.872
+                            -80.017,
+                            26.522
+                        ],
+                        [
+                            -79.98,
+                            28.758
                         ],
                         [
                             -76.912,
                             30.145
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 42000,
+                "altitudeHi2": 42000,
+                "movementDir": 270,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 201255\nSIGE \nCONVECTIVE SIGMET 36E\nVALID UNTIL 1455Z\nFL CSTL WTRS\nFROM 230SE CHS-210ENE PBI-70E PBI-10SSE PBI-70NNE TRV-230SE CHS\nAREA TS MOV FROM 27010KT. TOPS TO FL420.\n\nOUTLOOK VALID 201455-201855\nAREA 1...FROM 50NE MPV-30SE CON-30SE ACK-180SSE ACK-150SE\nSIE-30SW HTO-50NW MPV-50NE MPV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 220SE CHS-210ENE PBI-150SE MIA-40SSE EYW-MIA-80ESE\nOMN-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-20T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.828,
+                            26.445
+                        ],
+                        [
+                            -78.768,
+                            25.218
+                        ],
+                        [
+                            -79.532,
+                            24.105
+                        ],
+                        [
+                            -80.784,
+                            24.968
+                        ],
+                        [
+                            -79.828,
+                            26.445
                         ]
                     ]
                 ]
@@ -91,11 +142,11 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 45000,
-                "movementDir": 260,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 201055\nSIGE \nCONVECTIVE SIGMET 31E\nVALID UNTIL 1255Z\nFL CSTL WTRS\nFROM 230SE CHS-120ENE PBI-30NE MIA-30ENE TRV-230SE CHS\nAREA TS MOV FROM 26015KT. TOPS TO FL450.\n\nOUTLOOK VALID 201255-201655\nAREA 1...FROM 50NE MPV-30SE CON-30SE ACK-180SSE ACK-150SE\nSIE-30SW HTO-50NW MPV-50NE MPV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 150SE SIE-190ESE ECG-150SSE ILM-130ESE ECG-150SE\nSIE\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 3...FROM 220SE CHS-210ENE PBI-140E PBI-150SE MIA-40SSE\nEYW-MIA-80ESE OMN-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS31 KKCI 201255\nSIGE \nCONVECTIVE SIGMET 37E\nVALID UNTIL 1455Z\nFL AND CSTL WTRS\nFROM 20SE PBI-90ESE MIA-110SSE MIA-60ENE EYW-20SE PBI\nAREA TS MOV LTL. TOPS TO FL450.\n\nOUTLOOK VALID 201455-201855\nAREA 1...FROM 50NE MPV-30SE CON-30SE ACK-180SSE ACK-150SE\nSIE-30SW HTO-50NW MPV-50NE MPV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 220SE CHS-210ENE PBI-150SE MIA-40SSE EYW-MIA-80ESE\nOMN-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-20T12:55"
+                    "2025-10-20T14:55"
                 ]
             }
         },
@@ -106,32 +157,24 @@
                 "coordinates": [
                     [
                         [
-                            -72.693,
-                            37.164
+                            -71.503,
+                            38.709
                         ],
                         [
-                            -73.346,
-                            35.297
+                            -72.264,
+                            36.815
                         ],
                         [
-                            -76.952,
-                            32.121
+                            -71.475,
+                            36.608
                         ],
                         [
-                            -76.393,
-                            31.654
+                            -70.693,
+                            38.502
                         ],
                         [
-                            -72.622,
-                            34.95
-                        ],
-                        [
-                            -71.892,
-                            36.978
-                        ],
-                        [
-                            -72.693,
-                            37.164
+                            -71.503,
+                            38.709
                         ]
                     ]
                 ]
@@ -144,18 +187,18 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 40000,
-                "altitudeHi2": 40000,
-                "movementDir": 240,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS31 KKCI 201055\nSIGE \nCONVECTIVE SIGMET 32E\nVALID UNTIL 1255Z\nNC VA SC CSTL WTRS\nFROM 170SE SIE-170ESE ECG-160SSE ILM\nLINE TS 40 NM WIDE MOV FROM 24035KT. TOPS TO FL400.\n\nOUTLOOK VALID 201255-201655\nAREA 1...FROM 50NE MPV-30SE CON-30SE ACK-180SSE ACK-150SE\nSIE-30SW HTO-50NW MPV-50NE MPV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 150SE SIE-190ESE ECG-150SSE ILM-130ESE ECG-150SE\nSIE\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 3...FROM 220SE CHS-210ENE PBI-140E PBI-150SE MIA-40SSE\nEYW-MIA-80ESE OMN-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 210,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 201255\nSIGE \nCONVECTIVE SIGMET 38E\nVALID UNTIL 1455Z\nRI DE NJ NY MD CSTL WTRS\nFROM 150SSE HTO-200SE SIE\nLINE TS 40 NM WIDE MOV FROM 21045KT. TOPS TO FL350.\n\nOUTLOOK VALID 201455-201855\nAREA 1...FROM 50NE MPV-30SE CON-30SE ACK-180SSE ACK-150SE\nSIE-30SW HTO-50NW MPV-50NE MPV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 220SE CHS-210ENE PBI-150SE MIA-40SSE EYW-MIA-80ESE\nOMN-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-20T12:55"
+                    "2025-10-20T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-20T11:22"
+        "creationTime": "2025-10-20T12:55"
     }
 }
