@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -91.065,
-                            34.293
+                            -89.98,
+                            34.225
                         ],
                         [
-                            -87.329,
-                            34.025
+                            -86.747,
+                            33.977
                         ],
                         [
-                            -87.786,
-                            33.223
+                            -87.817,
+                            32.887
                         ],
                         [
-                            -92.394,
-                            32.392
+                            -93.433,
+                            31.998
                         ],
                         [
-                            -92.509,
-                            33.725
+                            -92.944,
+                            33.26
                         ],
                         [
-                            -91.065,
-                            34.293
+                            -89.98,
+                            34.225
                         ]
                     ]
                 ]
@@ -44,16 +44,59 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 43000,
                 "altitudeHi2": 43000,
-                "movementDir": 280,
+                "movementDir": 290,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 211255\nSIGC \nCONVECTIVE SIGMET 8C\nVALID UNTIL 1455Z\nAL MS LA AR\nFROM 60ESE LIT-30NW VUZ-40ESE IGB-20WSW MLU-30NNE ELD-60ESE LIT\nAREA TS MOV FROM 28035KT. TOPS TO FL430.\n\nOUTLOOK VALID 211455-211855\nFROM GQO-50N MGM-30ENE IAH-40W LFK-30WSW ELD-GQO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 211355\nSIGC \nCONVECTIVE SIGMET 9C\nVALID UNTIL 1555Z\nAL MS LA AR\nFROM 50S MEM-20NNE VUZ-50SE IGB-50SSE EIC-10W ELD-50S MEM\nAREA EMBD TS MOV FROM 29035KT. TOPS TO FL430.\n\nOUTLOOK VALID 211555-211955\nFROM 50SW GQO-40NNE MGM-LSU-IAH-40W LFK-EIC-50SW GQO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-21T14:55"
+                    "2025-10-21T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.531,
+                            24.588
+                        ],
+                        [
+                            -81.029,
+                            23.883
+                        ],
+                        [
+                            -82.447,
+                            23.998
+                        ],
+                        [
+                            -82.531,
+                            24.588
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 90,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 211355\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 1555Z\nFL CSTL WTRS\nFROM 40W EYW-60SE EYW-50SW EYW-40W EYW\nAREA TS MOV FROM 09010KT. TOPS TO FL400.\n\nOUTLOOK VALID 211555-211955\nFROM PBI-MIA-70E MIA-100SE MIA-160SE MIA-80WSW EYW-70W EYW-40NNE\nEYW-RSW-PBI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-21T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-21T13:38"
+        "creationTime": "2025-10-21T14:24"
     }
 }
