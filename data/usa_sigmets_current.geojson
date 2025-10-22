@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -91.475,
-                            29.505
+                            -95.564,
+                            28.425
                         ],
                         [
-                            -95.589,
-                            29.089
+                            -91.69,
+                            28.264
                         ],
                         [
-                            -95.515,
-                            28.427
+                            -91.667,
+                            28.929
                         ],
                         [
-                            -91.401,
-                            28.842
+                            -95.54,
+                            29.09
                         ],
                         [
-                            -91.475,
-                            29.505
+                            -95.564,
+                            28.425
                         ]
                     ]
                 ]
@@ -42,9 +42,9 @@
                 "altitudeHi2": 45000,
                 "movementDir": 330,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS32 KKCI 220455\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0655Z\nLA TX AND CSTL WTRS\nFROM 70W LEV-40E PSX\nLINE TS 40 NM WIDE MOV FROM 33010KT. TOPS TO FL450.\n\nOUTLOOK VALID 220655-221055\nFROM LCH-60ESE LCH-60WNW LEV-90SW LEV-40E CRP-PSX-30SSW IAH-LCH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 220555\nSIGC \nCONVECTIVE SIGMET 6C\nVALID UNTIL 0755Z\nTX AND LA TX CSTL WTRS\nFROM 40E PSX-90WSW LEV\nLINE TS 40 NM WIDE MOV FROM 33010KT. TOPS TO FL450.\n\nOUTLOOK VALID 220755-221155\nFROM 60W LEV-90SW LEV-120SSW LCH-120SSE PSX-40S CRP-PSX-60W LEV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-22T06:55"
+                    "2025-10-22T07:55"
                 ]
             }
         },
@@ -55,20 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -113.215,
-                            33.424
+                            -113.5,
+                            33.147
                         ],
                         [
-                            -113.323,
-                            32.317
+                            -112.58,
+                            32.959
                         ],
                         [
-                            -114.879,
-                            32.535
+                            -112.187,
+                            31.647
                         ],
                         [
-                            -113.215,
-                            33.424
+                            -113.768,
+                            32.062
+                        ],
+                        [
+                            -113.5,
+                            33.147
                         ]
                     ]
                 ]
@@ -84,15 +88,62 @@
                 "altitudeHi1": 38000,
                 "altitudeHi2": 38000,
                 "movementDir": 220,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS33 KKCI 220455\nSIGW \nCONVECTIVE SIGMET 3W\nVALID UNTIL 0655Z\nAZ\nFROM 60W PHX-70ESE BZA-20SW BZA-60W PHX\nAREA TS MOV FROM 22020KT. TOPS TO FL380.\n\nOUTLOOK VALID 220655-221055\nFROM EHF-50WNW TRM-40SSW EED-60W PHX-90SSW PHX-BZA-30SSW\nMZB-RZS-EHF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 220555\nSIGW \nCONVECTIVE SIGMET 4W\nVALID UNTIL 0755Z\nAZ\nFROM 60ENE BZA-40SW PHX-70WSW TUS-60SE BZA-60ENE BZA\nAREA TS MOV FROM 22025KT. TOPS TO FL380.\n\nOUTLOOK VALID 220755-221155\nFROM 30E ENI-40SE ILC-40E DRK-50SW SJN-50S TUS-40SE BZA-40SE\nEED-60E LAX-30S CZQ-30SE SNS-30E ENI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-22T06:55"
+                    "2025-10-22T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -117.502,
+                            35.125
+                        ],
+                        [
+                            -117.916,
+                            34.001
+                        ],
+                        [
+                            -117.342,
+                            33.853
+                        ],
+                        [
+                            -116.919,
+                            34.978
+                        ],
+                        [
+                            -117.502,
+                            35.125
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
+                "movementDir": 220,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 220555\nSIGW \nCONVECTIVE SIGMET 5W\nVALID UNTIL 0755Z\nCA\nFROM 40WNW HEC-40E LAX\nLINE TS 30 NM WIDE MOV FROM 22025KT. TOPS TO FL360.\n\nOUTLOOK VALID 220755-221155\nFROM 30E ENI-40SE ILC-40E DRK-50SW SJN-50S TUS-40SE BZA-40SE\nEED-60E LAX-30S CZQ-30SE SNS-30E ENI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-22T07:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-22T05:26"
+        "creationTime": "2025-10-22T06:39"
     }
 }
