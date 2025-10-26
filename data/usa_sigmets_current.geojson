@@ -8,47 +8,43 @@
                 "coordinates": [
                     [
                         [
-                            -95.878,
-                            27.838
+                            -118.499,
+                            42.396
                         ],
                         [
-                            -95.112,
-                            27.694
+                            -109.02,
+                            41.922
                         ],
                         [
-                            -95.523,
-                            27.065
+                            -108.79,
+                            38.728
                         ],
                         [
-                            -96.395,
-                            26.956
+                            -118.988,
+                            40.756
                         ],
                         [
-                            -96.92,
-                            27.429
-                        ],
-                        [
-                            -95.878,
-                            27.838
+                            -118.499,
+                            42.396
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KSFO",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 26000,
                 "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 270,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 261455\nSIGC \nCONVECTIVE SIGMET 65C\nVALID UNTIL 1655Z\nTX CSTL WTRS\nFROM 60SSE PSX-90SE PSX-110SSE PSX-80SE CRP-40SE CRP-60SSE PSX\nAREA TS MOV FROM 27020KT. TOPS ABV FL450.\nREF INTL SIGMET FOXTROT SERIES.\n\nOUTLOOK VALID 261655-262055\nFROM MSL-MGM-170W PIE-170SE LEV-80SE LEV-120SSW LCH-100SE PSX-80E\nBRO-40SSE CRP-60ESE LCH-50E MLU-LIT-MSL\nREF WW 633.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": null,
+                "altitudeHi2": 36000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 261541\nSFOU WS 261541\nSIGMET UNIFORM 1 VALID UNTIL 261941\nSIGMET \nOR ID WY NV UT CO\nFROM 30WSW REO TO 20N OCS TO 20S JNC TO 80NNE FMG TO 30WSW REO\nOCNL SEV TURB BTN FL260 AND FL360. DUE TO WNDSHR ASSOCD WITH JTST\nAND MTN WV ACT. RPTD BY ACFT. CONDS CONTG BYD 1941Z.",
                 "validTimeTo": [
-                    "2025-10-26T16:55"
+                    "2025-10-26T19:41"
                 ]
             }
         },
@@ -59,28 +55,122 @@
                 "coordinates": [
                     [
                         [
-                            -86.549,
-                            32.685
+                            -118.499,
+                            42.396
+                        ],
+                        [
+                            -109.02,
+                            41.922
+                        ],
+                        [
+                            -108.79,
+                            38.728
+                        ],
+                        [
+                            -118.988,
+                            40.756
+                        ],
+                        [
+                            -118.499,
+                            42.396
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 26000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 36000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 261541\nSLCU WS 261541\nSIGMET UNIFORM 1 VALID UNTIL 261941\nSIGMET \nID WY NV UT CO OR\nFROM 30WSW REO TO 20N OCS TO 20S JNC TO 80NNE FMG TO 30WSW REO\nOCNL SEV TURB BTN FL260 AND FL360. DUE TO WNDSHR ASSOCD WITH JTST\nAND MTN WV ACT. RPTD BY ACFT. CONDS CONTG BYD 1941Z.",
+                "validTimeTo": [
+                    "2025-10-26T19:41"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.878,
+                            27.838
+                        ],
+                        [
+                            -95.112,
+                            27.694
+                        ],
+                        [
+                            -95.831,
+                            26.486
+                        ],
+                        [
+                            -96.657,
+                            27.193
+                        ],
+                        [
+                            -95.878,
+                            27.838
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
+                "movementDir": 300,
+                "movementSpd": 5,
+                "rawAirSigmet": "WSUS32 KKCI 261555\nSIGC \nCONVECTIVE SIGMET 67C\nVALID UNTIL 1755Z\nTX CSTL WTRS\nFROM 60SSE PSX-90SE PSX-90ENE BRO-60SE CRP-60SSE PSX\nAREA TS MOV FROM 30005KT. TOPS TO FL450.\nREF INTL SIGMET FOXTROT SERIES.\n\nOUTLOOK VALID 261755-262155\nFROM MSL-MGM-170W PIE-170SE LEV-80SE LEV-120SSW LCH-100SE PSX-80E\nBRO-40SSE CRP-60ESE LCH-50E MLU-LIT-MSL\nREF WW 633.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-26T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.352,
+                            32.571
+                        ],
+                        [
+                            -86.13,
+                            31.299
                         ],
                         [
                             -86.68,
                             28.333
                         ],
                         [
-                            -88.634,
-                            27.876
+                            -88.245,
+                            27.522
                         ],
                         [
-                            -91.038,
-                            28.351
+                            -90.463,
+                            28.408
                         ],
                         [
-                            -89.822,
-                            32.195
-                        ],
-                        [
-                            -86.549,
-                            32.685
+                            -89.352,
+                            32.571
                         ]
                     ]
                 ]
@@ -95,16 +185,16 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
-                "movementDir": 250,
+                "movementDir": 240,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 261455\nSIGC \nCONVECTIVE SIGMET 66C\nVALID UNTIL 1655Z\nFL AL MS LA AND CSTL WTRS\nFROM 30NNW MGM-150S CEW-110SE LEV-70SW LEV-20SE MHZ-30NNW MGM\nAREA EMBD SEV TS MOV FROM 25035KT. TOPS ABV FL450.\nREF INTL SIGMET FOXTROT SERIES.\nTORNADOES POSS.\n\nOUTLOOK VALID 261655-262055\nFROM MSL-MGM-170W PIE-170SE LEV-80SE LEV-120SSW LCH-100SE PSX-80E\nBRO-40SSE CRP-60ESE LCH-50E MLU-LIT-MSL\nREF WW 633.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 261555\nSIGC \nCONVECTIVE SIGMET 68C\nVALID UNTIL 1755Z\nFL AL MS LA AND CSTL WTRS\nFROM 30WNW MEI-40NE CEW-150S CEW-140SE LEV-50SSW LEV-30WNW MEI\nAREA EMBD SEV TS MOV FROM 24035KT. TOPS ABV FL450.\nREF INTL SIGMET FOXTROT SERIES.\nTORNADOES POSS.\n\nOUTLOOK VALID 261755-262155\nFROM MSL-MGM-170W PIE-170SE LEV-80SE LEV-120SSW LCH-100SE PSX-80E\nBRO-40SSE CRP-60ESE LCH-50E MLU-LIT-MSL\nREF WW 633.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-26T16:55"
+                    "2025-10-26T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-26T15:23"
+        "creationTime": "2025-10-26T16:30"
     }
 }
