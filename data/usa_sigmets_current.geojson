@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -89.076,
-                            30.982
+                            -88.91,
+                            31.199
                         ],
                         [
-                            -87.546,
-                            30.022
+                            -87.677,
+                            30.137
                         ],
                         [
-                            -90.1,
-                            28.345
+                            -89.162,
+                            28.351
                         ],
                         [
-                            -92.243,
-                            28.295
+                            -91.167,
+                            28.236
                         ],
                         [
-                            -89.076,
-                            30.982
+                            -88.91,
+                            31.199
                         ]
                     ]
                 ]
@@ -42,14 +42,61 @@
                 "altitudeHi2": 40000,
                 "movementDir": 280,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 290755\nSIGC \nCONVECTIVE SIGMET 12C\nVALID UNTIL 0955Z\nAL MS LA AND CSTL WTRS\nFROM 40WNW SJI-60SE SJI-50S LEV-120SSE LCH-40WNW SJI\nAREA TS MOV FROM 28035KT. TOPS TO FL400.\nREF INTL SIGMET SERIES ALFA.\n\nOUTLOOK VALID 290955-291355\nFROM 70WSW MGM-60WNW TLH-150S CEW-60SW LEV-70WSW MGM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 290855\nSIGC \nCONVECTIVE SIGMET 13C\nVALID UNTIL 1055Z\nAL MS LA AND CSTL WTRS\nFROM 40NW SJI-50SE SJI-70SE LEV-80SW LEV-40NW SJI\nAREA TS MOV FROM 28035KT. TOPS TO FL400.\nREF INTL SIGMET SERIES ALFA.\n\nOUTLOOK VALID 291055-291455\nFROM 50NNE PXV-40E LOZ-40SW ODF-160S CEW-50SSE LEV-30NE\nSJI-IGB-LIT-70W FAM-50NNE PXV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-29T09:55"
+                    "2025-10-29T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.866,
+                            37.668
+                        ],
+                        [
+                            -86.637,
+                            36.865
+                        ],
+                        [
+                            -86.9,
+                            34.002
+                        ],
+                        [
+                            -91.372,
+                            34.677
+                        ],
+                        [
+                            -90.866,
+                            37.668
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 200,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 290855\nSIGC \nCONVECTIVE SIGMET 14C\nVALID UNTIL 1055Z\nTN KY AL IL MS MO AR\nFROM 30W FAM-10WSW BWG-20N VUZ-40E LIT-30W FAM\nAREA TS MOV FROM 20020KT. TOPS TO FL300.\n\nOUTLOOK VALID 291055-291455\nFROM 50NNE PXV-40E LOZ-40SW ODF-160S CEW-50SSE LEV-30NE\nSJI-IGB-LIT-70W FAM-50NNE PXV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-29T10:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-29T08:36"
+        "creationTime": "2025-10-29T09:27"
     }
 }
