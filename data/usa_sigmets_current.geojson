@@ -8,28 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -90.838,
-                            33.651
+                            -91.524,
+                            30.945
                         ],
                         [
-                            -89.677,
-                            33.459
-                        ],
-                        [
-                            -89.713,
-                            30.829
+                            -90.589,
+                            30.224
                         ],
                         [
                             -95.595,
                             27.223
                         ],
                         [
-                            -97.049,
-                            27.544
+                            -95.805,
+                            27.68
                         ],
                         [
-                            -90.838,
-                            33.651
+                            -91.524,
+                            30.945
                         ]
                     ]
                 ]
@@ -45,15 +41,66 @@
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
                 "movementDir": 280,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 290255\nSIGC \nCONVECTIVE SIGMET 3C\nVALID UNTIL 0455Z\nMS LA AR TX AND LA TX CSTL WTRS\nFROM 30WNW SQS-30E SQS-40SE MCB-100SSE PSX-30SE CRP-30WNW SQS\nAREA TS MOV FROM 28030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 290455-290855\nFROM 50W ARG-40SSE DYR-70SW LEV-120SSW LCH-90SE PSX-110ENE\nBRO-40WNW BRO-30SSE LRD-50ENE LFK-50W ARG\nREF WW 634.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 290355\nSIGC \nCONVECTIVE SIGMET 4C\nVALID UNTIL 0555Z\nLA AND LA TX CSTL WTRS\nFROM 30NNW LSU-40ESE LSU-100SSE PSX-70SSE PSX-30NNW LSU\nAREA TS MOV FROM 28025KT. TOPS ABV FL450.\n\nOUTLOOK VALID 290555-290955\nFROM 60WNW MCB-40S MCB-70SW LEV-120SSW LCH-90SE PSX-110ENE\nBRO-40WNW BRO-30SSE LRD-60E PSX-60WNW MCB\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-29T03:54"
+                    "2025-10-29T05:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.542,
+                            33.712
+                        ],
+                        [
+                            -88.95,
+                            32.073
+                        ],
+                        [
+                            -90,
+                            30.353
+                        ],
+                        [
+                            -91.3,
+                            31.315
+                        ],
+                        [
+                            -91.077,
+                            33.457
+                        ],
+                        [
+                            -89.542,
+                            33.712
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 270,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 290355\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0555Z\nMS LA AR\nFROM 40ENE SQS-20SSW MEI-30N HRV-50N LSU-40W SQS-40ENE SQS\nAREA TS MOV FROM 27035KT. TOPS TO FL380.\n\nOUTLOOK VALID 290555-290955\nFROM 60WNW MCB-40S MCB-70SW LEV-120SSW LCH-90SE PSX-110ENE\nBRO-40WNW BRO-30SSE LRD-60E PSX-60WNW MCB\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-10-29T05:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-29T03:51"
+        "creationTime": "2025-10-29T04:33"
     }
 }
