@@ -59,43 +59,43 @@
                 "coordinates": [
                     [
                         [
-                            -80.019,
-                            25.186
+                            -82.336,
+                            40.614
                         ],
                         [
-                            -79.389,
-                            24.971
+                            -78.83,
+                            40.32
                         ],
                         [
-                            -79.602,
-                            24.263
+                            -80.314,
+                            35.218
                         ],
                         [
-                            -80.3,
-                            24.47
+                            -84.837,
+                            35.574
                         ],
                         [
-                            -80.019,
-                            25.186
+                            -82.336,
+                            40.614
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KBOS",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 18000,
                 "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
-                "movementDir": 310,
-                "movementSpd": 5,
-                "rawAirSigmet": "WSUS31 KKCI 300255\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0455Z\nFL CSTL WTRS\nFROM 40SSE MIA-70SE MIA-100SSE MIA-80S MIA-40SSE MIA\nAREA TS MOV FROM 31005KT. TOPS TO FL380.\n\nOUTLOOK VALID 300455-300855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": null,
+                "altitudeHi2": 30000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 300350\nBOSY WS 300350\nSIGMET YANKEE 2 VALID UNTIL 300750\nSIGMET \nPA OH WV MD VA NC KY TN\nFROM 30NNE APE TO JST TO 30E CLT TO 40NNE GQO TO 30NNE APE\nOCNL SEV TURB BTN FL180 AND FL300. RPTD BY B738 AND B739. CONDS\nCONTG BYD 0750Z.",
                 "validTimeTo": [
-                    "2025-10-30T03:54"
+                    "2025-10-30T07:50"
                 ]
             }
         },
@@ -106,24 +106,165 @@
                 "coordinates": [
                     [
                         [
-                            -75.62,
-                            36.696
+                            -82.336,
+                            40.614
                         ],
                         [
-                            -75.559,
-                            35.02
+                            -78.83,
+                            40.32
                         ],
                         [
-                            -76.727,
-                            35.17
+                            -80.314,
+                            35.218
                         ],
                         [
-                            -76.78,
-                            36.696
+                            -84.837,
+                            35.574
                         ],
                         [
-                            -75.62,
-                            36.696
+                            -82.336,
+                            40.614
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 18000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 30000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 300350\nCHIY WS 300350\nSIGMET YANKEE 2 VALID UNTIL 300750\nSIGMET \nKY TN PA OH WV MD VA NC\nFROM 30NNE APE TO JST TO 30E CLT TO 40NNE GQO TO 30NNE APE\nOCNL SEV TURB BTN FL180 AND FL300. RPTD BY B738 AND B739. CONDS\nCONTG BYD 0750Z.",
+                "validTimeTo": [
+                    "2025-10-30T07:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.336,
+                            40.614
+                        ],
+                        [
+                            -78.83,
+                            40.32
+                        ],
+                        [
+                            -80.314,
+                            35.218
+                        ],
+                        [
+                            -84.837,
+                            35.574
+                        ],
+                        [
+                            -82.336,
+                            40.614
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KMIA",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 18000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 30000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS02 KKCI 300350\nMIAY WS 300350\nSIGMET YANKEE 2 VALID UNTIL 300750\nSIGMET \nNC PA OH WV MD VA KY TN\nFROM 30NNE APE TO JST TO 30E CLT TO 40NNE GQO TO 30NNE APE\nOCNL SEV TURB BTN FL180 AND FL300. RPTD BY B738 AND B739. CONDS\nCONTG BYD 0750Z.",
+                "validTimeTo": [
+                    "2025-10-30T07:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.336,
+                            40.614
+                        ],
+                        [
+                            -78.83,
+                            40.32
+                        ],
+                        [
+                            -80.314,
+                            35.218
+                        ],
+                        [
+                            -84.837,
+                            35.574
+                        ],
+                        [
+                            -82.336,
+                            40.614
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KDFW",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 18000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 30000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS04 KKCI 300350\nDFWY WS 300350\nSIGMET YANKEE 2 VALID UNTIL 300750\nSIGMET \nTN KY PA OH WV MD VA NC\nFROM 30NNE APE TO JST TO 30E CLT TO 40NNE GQO TO 30NNE APE\nOCNL SEV TURB BTN FL180 AND FL300. RPTD BY B738 AND B739. CONDS\nCONTG BYD 0750Z.",
+                "validTimeTo": [
+                    "2025-10-30T07:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -77.02,
+                            40.733
+                        ],
+                        [
+                            -75.043,
+                            35.863
+                        ],
+                        [
+                            -76.493,
+                            35.635
+                        ],
+                        [
+                            -78.83,
+                            40.32
+                        ],
+                        [
+                            -77.02,
+                            40.733
                         ]
                     ]
                 ]
@@ -139,15 +280,15 @@
                 "altitudeHi1": 30000,
                 "altitudeHi2": 30000,
                 "movementDir": 170,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 300255\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0455Z\nVA NC AND CSTL WTRS\nFROM 30ESE ORF-80SSE ECG-70SSW ECG-30WSW ORF-30ESE ORF\nAREA EMBD TS MOV FROM 17020KT. TOPS TO FL300.\n\nOUTLOOK VALID 300455-300855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS31 KKCI 300355\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 0555Z\nPA MD VA NC DC WV AND NC VA CSTL WTRS\nFROM 30N HAR-60ESE ECG-40SSW ECG-JST-30N HAR\nAREA EMBD TS MOV FROM 17035KT. TOPS TO FL300.\n\nOUTLOOK VALID 300555-300955\nFROM PSB-70E ECG-40SE ECG-EKN-PSB\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-10-30T03:54"
+                    "2025-10-30T05:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-10-30T03:45"
+        "creationTime": "2025-10-30T04:30"
     }
 }
