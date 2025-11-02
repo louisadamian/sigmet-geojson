@@ -8,52 +8,103 @@
                 "coordinates": [
                     [
                         [
-                            -92.18,
-                            34.68
+                            -112.222,
+                            48.707
                         ],
                         [
-                            -90.1,
-                            32.43
+                            -111.756,
+                            47.214
                         ],
                         [
-                            -94.542,
-                            29.252
+                            -116.679,
+                            46.75
                         ],
                         [
-                            -96.749,
-                            29.681
+                            -122.868,
+                            46.214
                         ],
                         [
-                            -97.27,
-                            31.66
+                            -122.936,
+                            48.714
                         ],
                         [
-                            -92.18,
-                            34.68
+                            -112.222,
+                            48.707
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KDFW",
+                "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 26000,
+                "altitudeLow1": 28000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 34000,
+                "altitudeHi2": 40000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 020813\nDFWR WS 020813\nSIGMET ROMEO 2 VALID UNTIL 021213\nSIGMET \nTX AR LA MS AND CSTL WTRS\nFROM LIT TO MHZ TO 60SE IAH TO 60NNW PSX TO ACT TO LIT\nOCNL SEV TURB BTN FL260 AND FL340. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1213Z.",
+                "rawAirSigmet": "WSUS05 KKCI 021703\nSLCU WS 021703\nSIGMET UNIFORM 1 VALID UNTIL 022103\nSIGMET \nID MT WA\nFROM 60SSE YQL TO 20SW GTF TO 60SW MLP TO 30NNW BTG TO 20SW HUH\nTO 60SSE YQL\nOCNL SEV TURB BTN FL280 AND FL400. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY A320. CONDS CONTG BYD 2103Z.",
                 "validTimeTo": [
-                    "2025-11-02T12:13"
+                    "2025-11-02T21:03"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -112.222,
+                            48.707
+                        ],
+                        [
+                            -111.756,
+                            47.214
+                        ],
+                        [
+                            -116.679,
+                            46.75
+                        ],
+                        [
+                            -122.868,
+                            46.214
+                        ],
+                        [
+                            -122.936,
+                            48.714
+                        ],
+                        [
+                            -112.222,
+                            48.707
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 28000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 40000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 021703\nSFOU WS 021703\nSIGMET UNIFORM 1 VALID UNTIL 022103\nSIGMET \nWA ID MT\nFROM 60SSE YQL TO 20SW GTF TO 60SW MLP TO 30NNW BTG TO 20SW HUH\nTO 60SSE YQL\nOCNL SEV TURB BTN FL280 AND FL400. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY A320. CONDS CONTG BYD 2103Z.",
+                "validTimeTo": [
+                    "2025-11-02T21:03"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-02T11:19"
+        "creationTime": "2025-11-02T17:20"
     }
 }
