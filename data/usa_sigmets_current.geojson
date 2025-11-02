@@ -8,43 +8,43 @@
                 "coordinates": [
                     [
                         [
-                            -90.861,
-                            29.178
+                            -94.618,
+                            36.956
                         ],
                         [
-                            -90.463,
-                            28.408
+                            -91.788,
+                            35.451
                         ],
                         [
-                            -93.977,
-                            28.295
+                            -97.045,
+                            31.195
                         ],
                         [
-                            -92.599,
-                            29.06
+                            -98.208,
+                            33.218
                         ],
                         [
-                            -90.861,
-                            29.178
+                            -94.618,
+                            36.956
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KCHI",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 24000,
                 "altitudeLow2": null,
-                "altitudeHi1": 44000,
-                "altitudeHi2": 44000,
-                "movementDir": 290,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 020355\nSIGC \nCONVECTIVE SIGMET 9C\nVALID UNTIL 0555Z\nLA AND LA TX CSTL WTRS\nFROM 40W LEV-50SSW LEV-120SSW LCH-70SSE LCH-40W LEV\nDMSHG AREA TS MOV FROM 29025KT. TOPS TO FL440.\n\nOUTLOOK VALID 020555-020955\nFROM 60SE LCH-LEV-70SE LEV-120SSW LCH-90SE PSX-80E BRO-BRO-60WNW\nBRO-30NE LRD-60S CWK-60SE LCH\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": null,
+                "altitudeHi2": 31000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 020444\nCHIR WS 020444\nSIGMET ROMEO 1 VALID UNTIL 020844\nSIGMET \nMO OK TX AR\nFROM 30ESE OSW TO 50NNE LIT TO 30SSE ACT TO 50SSE SPS TO 30ESE\nOSW\nOCNL SEV TURB BTN FL240 AND FL310. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 0844Z.",
                 "validTimeTo": [
-                    "2025-11-02T05:55"
+                    "2025-11-02T08:44"
                 ]
             }
         },
@@ -55,8 +55,55 @@
                 "coordinates": [
                     [
                         [
-                            -96.849,
-                            29.229
+                            -94.618,
+                            36.956
+                        ],
+                        [
+                            -91.788,
+                            35.451
+                        ],
+                        [
+                            -97.045,
+                            31.195
+                        ],
+                        [
+                            -98.208,
+                            33.218
+                        ],
+                        [
+                            -94.618,
+                            36.956
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KDFW",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 24000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 31000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS04 KKCI 020444\nDFWR WS 020444\nSIGMET ROMEO 1 VALID UNTIL 020844\nSIGMET \nOK TX AR MO\nFROM 30ESE OSW TO 50NNE LIT TO 30SSE ACT TO 50SSE SPS TO 30ESE\nOSW\nOCNL SEV TURB BTN FL240 AND FL310. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 0844Z.",
+                "validTimeTo": [
+                    "2025-11-02T08:44"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.611,
+                            28.504
                         ],
                         [
                             -93.977,
@@ -71,12 +118,12 @@
                             25.919
                         ],
                         [
-                            -99.074,
-                            27.352
+                            -98.892,
+                            27.009
                         ],
                         [
-                            -96.849,
-                            29.229
+                            -95.611,
+                            28.504
                         ]
                     ]
                 ]
@@ -91,16 +138,16 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
-                "movementDir": 310,
+                "movementDir": 270,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 020355\nSIGC \nCONVECTIVE SIGMET 10C\nVALID UNTIL 0555Z\nTX AND CSTL WTRS\nFROM 40NW PSX-120SSW LCH-80E BRO-30W BRO-20ESE LRD-40NW PSX\nAREA SEV TS MOV FROM 31025KT. TOPS ABV FL450.\nHAIL TO 2 IN...WIND GUSTS TO 55KT POSS.\nREF INTL SIGMET CHARLIE SERIES.\n\nOUTLOOK VALID 020555-020955\nFROM 60SE LCH-LEV-70SE LEV-120SSW LCH-90SE PSX-80E BRO-BRO-60WNW\nBRO-30NE LRD-60S CWK-60SE LCH\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 020455\nSIGC \nCONVECTIVE SIGMET 11C\nVALID UNTIL 0655Z\nTX AND CSTL WTRS\nFROM 40ESE PSX-120SSW LCH-80E BRO-30W BRO-40SE LRD-40ESE PSX\nAREA TS MOV FROM 27025KT. TOPS ABV FL450.\nREF INTL SIGMET CHARLIE SERIES.\n\nOUTLOOK VALID 020655-021055\nFROM 50ENE PSX-70SW LEV-120SSW LCH-90SE PSX-80E BRO-BRO-30N\nBRO-CRP-50ENE PSX\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-02T05:55"
+                    "2025-11-02T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-02T04:29"
+        "creationTime": "2025-11-02T05:25"
     }
 }
