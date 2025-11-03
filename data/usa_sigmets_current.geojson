@@ -8,24 +8,71 @@
                 "coordinates": [
                     [
                         [
-                            -96.806,
-                            48.564
+                            -75.453,
+                            35.657
                         ],
                         [
-                            -91.714,
-                            46.799
+                            -74.882,
+                            35.182
                         ],
                         [
-                            -91.938,
-                            45.671
+                            -76.024,
+                            33.7
                         ],
                         [
-                            -96.39,
-                            45.977
+                            -76.57,
+                            33.896
                         ],
                         [
-                            -96.806,
-                            48.564
+                            -75.453,
+                            35.657
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 200,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 030655\nSIGE \nCONVECTIVE SIGMET 18E\nVALID UNTIL 0855Z\nNC AND CSTL WTRS\nFROM 50SE ECG-90SE ECG-100ESE ILM-70ESE ILM-50SE ECG\nAREA EMBD TS MOV FROM 20015KT. TOPS TO FL300.\n\nOUTLOOK VALID 030855-031255\nFROM 40ESE ECG-190ESE ECG-130SE ILM-60SE ILM-40ESE ECG\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-03T08:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -98.257,
+                            48.65
+                        ],
+                        [
+                            -89.914,
+                            46.401
+                        ],
+                        [
+                            -89.987,
+                            44.708
+                        ],
+                        [
+                            -97.217,
+                            46.135
+                        ],
+                        [
+                            -98.257,
+                            48.65
                         ]
                     ]
                 ]
@@ -36,114 +83,20 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 27000,
+                "altitudeLow1": 30000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 38000,
+                "altitudeHi2": 39000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS03 KKCI 030257\nCHIV WS 030257\nSIGMET VICTOR 2 VALID UNTIL 030657\nSIGMET \nMN WI LS\nFROM 40NNE GFK TO 20E DLH TO 50NNW EAU TO 50SSE FAR TO 40NNE GFK\nOCNL SEV TURB BTN FL270 AND FL380. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 0657Z.",
+                "rawAirSigmet": "WSUS03 KKCI 030702\nCHIV WS 030702\nSIGMET VICTOR 3 VALID UNTIL 031101\nSIGMET \nND MN WI LS MI\nFROM 60NW GFK TO 50NNW RHI TO 60SSW RHI TO 40SSW FAR TO 60NW GFK\nOCNL SEV TURB BTN FL300 AND FL390. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1101Z.",
                 "validTimeTo": [
-                    "2025-11-03T06:57"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -75.227,
-                            35.927
-                        ],
-                        [
-                            -74.292,
-                            35.599
-                        ],
-                        [
-                            -75.857,
-                            34.334
-                        ],
-                        [
-                            -76.456,
-                            34.342
-                        ],
-                        [
-                            -75.227,
-                            35.927
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 200,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 030555\nSIGE \nCONVECTIVE SIGMET 16E\nVALID UNTIL 0755Z\nNC AND CSTL WTRS\nFROM 50ESE ECG-100ESE ECG-100E ILM-70E ILM-50ESE ECG\nAREA EMBD TS MOV FROM 20015KT. TOPS TO FL320.\n\nOUTLOOK VALID 030755-031155\nAREA 1...FROM PBI-70E PBI-90SE MIA-170SE MIA-60ESE EYW-PBI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 30ENE ECG-170E ECG-190ESE ECG-130SSE ILM-30SSE\nILM-30ENE ECG\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-11-03T07:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -78.634,
-                            25.791
-                        ],
-                        [
-                            -78.367,
-                            24.021
-                        ],
-                        [
-                            -79.602,
-                            24.263
-                        ],
-                        [
-                            -79.785,
-                            25.607
-                        ],
-                        [
-                            -78.634,
-                            25.791
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 250,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 030555\nSIGE \nCONVECTIVE SIGMET 17E\nVALID UNTIL 0755Z\nFL CSTL WTRS\nFROM 90E MIA-150SE MIA-100SSE MIA-30ESE MIA-90E MIA\nAREA TS MOV FROM 25015KT. TOPS ABV FL450.\n\nOUTLOOK VALID 030755-031155\nAREA 1...FROM PBI-70E PBI-90SE MIA-170SE MIA-60ESE EYW-PBI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 30ENE ECG-170E ECG-190ESE ECG-130SSE ILM-30SSE\nILM-30ENE ECG\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-11-03T07:55"
+                    "2025-11-03T11:01"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-03T06:40"
+        "creationTime": "2025-11-03T07:26"
     }
 }
