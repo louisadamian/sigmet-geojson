@@ -8,20 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -126.632,
-                            44.551
+                            -124.23,
+                            41.002
                         ],
                         [
-                            -125.563,
-                            44.123
+                            -122.707,
+                            40.455
                         ],
                         [
-                            -126.613,
-                            43.788
+                            -123.73,
+                            39.405
                         ],
                         [
-                            -126.632,
-                            44.551
+                            -124.647,
+                            39.897
+                        ],
+                        [
+                            -124.23,
+                            41.002
                         ]
                     ]
                 ]
@@ -36,16 +40,110 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 30000,
                 "altitudeHi2": 30000,
-                "movementDir": 210,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS33 KKCI 051555\nSIGW \nCONVECTIVE SIGMET 13W\nVALID UNTIL 1755Z\nOR CSTL WTRS\nFROM 110W ONP-70WSW ONP-120WSW ONP-110W ONP\nAREA TS MOV FROM 21035KT. TOPS TO FL300.\n\nOUTLOOK VALID 051755-052155\nFROM 130W TOU-30SSW BTG-30NNE FMG-40NE CZQ-140WSW FOT-110WNW\nONP-130W TOU\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementDir": 220,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 051655\nSIGW \nCONVECTIVE SIGMET 14W\nVALID UNTIL 1855Z\nCA AND CSTL WTRS\nFROM 20N FOT-30NW RBL-30NW ENI-50SSW FOT-20N FOT\nAREA TS MOV FROM 22025KT. TOPS TO FL300.\n\nOUTLOOK VALID 051855-052255\nFROM 130W TOU-30SSW BTG-30NNE FMG-40NE CZQ-140WSW FOT-110WNW\nONP-130W TOU\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-05T17:55"
+                    "2025-11-05T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.549,
+                            41.067
+                        ],
+                        [
+                            -115.541,
+                            36.207
+                        ],
+                        [
+                            -117.963,
+                            35.856
+                        ],
+                        [
+                            -120.937,
+                            40.093
+                        ],
+                        [
+                            -118.549,
+                            41.067
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 14000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 051722\nSLCN WS 051722\nSIGMET NOVEMBER 1 VALID UNTIL 052122\nSIGMET \nNV CA\nFROM 80WNW BAM TO 20WNW LAS TO 60ENE EHF TO 60E RBL TO 80WNW BAM\nOCNL SEV TURB BLW 140. DUE TO MTN WV ACT. RPTD BY ACFT. CONDS\nCONTG BYD 2122Z.",
+                "validTimeTo": [
+                    "2025-11-05T21:22"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.549,
+                            41.067
+                        ],
+                        [
+                            -115.541,
+                            36.207
+                        ],
+                        [
+                            -117.963,
+                            35.856
+                        ],
+                        [
+                            -120.937,
+                            40.093
+                        ],
+                        [
+                            -118.549,
+                            41.067
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 14000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 051722\nSFON WS 051722\nSIGMET NOVEMBER 1 VALID UNTIL 052122\nSIGMET \nCA NV\nFROM 80WNW BAM TO 20WNW LAS TO 60ENE EHF TO 60E RBL TO 80WNW BAM\nOCNL SEV TURB BLW 140. DUE TO MTN WV ACT. RPTD BY ACFT. CONDS\nCONTG BYD 2122Z.",
+                "validTimeTo": [
+                    "2025-11-05T21:22"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-05T16:35"
+        "creationTime": "2025-11-05T17:25"
     }
 }
