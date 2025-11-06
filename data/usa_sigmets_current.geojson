@@ -8,48 +8,95 @@
                 "coordinates": [
                     [
                         [
-                            -121.308,
-                            48.943
+                            -106.753,
+                            41.645
                         ],
                         [
-                            -120.79,
-                            47.753
+                            -103.65,
+                            41.583
                         ],
                         [
-                            -123.663,
-                            46.949
+                            -103.6,
+                            36.015
                         ],
                         [
-                            -124.15,
-                            47.615
+                            -106.279,
+                            36.036
                         ],
                         [
-                            -121.308,
-                            48.943
+                            -106.753,
+                            41.645
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KCHI",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 0,
                 "altitudeLow2": null,
-                "altitudeHi1": 27000,
-                "altitudeHi2": 27000,
-                "movementDir": 220,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS33 KKCI 060655\nSIGW \nCONVECTIVE SIGMET 11W\nVALID UNTIL 0855Z\nWA\nFROM 50E HUH-60WNW EPH-20E HQM-40N HQM-50E HUH\nAREA EMBD TS MOV FROM 22035KT. TOPS TO FL270.\n\nOUTLOOK VALID 060855-061255\nFROM 50N FCA-40N TWF-30SSW ONP-80W TOU-50NNW SEA-HUH-50N FCA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS AND SIGMETS BY THE AIR FORCE\n15TH OWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z THURSDAY NOVEMBER 6.\nAIR FORCE 15TH OWS COORDINATION NUMBER IS 618-256-1394.",
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 060756\nCHIO WS 060756\nSIGMET OSCAR 1 VALID UNTIL 061156\nSIGMET \nNE WY CO NM\nFROM 50WNW LAR TO 20SSW BFF TO 50N TCC TO 60WNW FTI TO 50WNW LAR\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n1156Z.",
                 "validTimeTo": [
-                    "2025-11-06T08:55"
+                    "2025-11-06T11:56"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.753,
+                            41.645
+                        ],
+                        [
+                            -103.65,
+                            41.583
+                        ],
+                        [
+                            -103.6,
+                            36.015
+                        ],
+                        [
+                            -106.279,
+                            36.036
+                        ],
+                        [
+                            -106.753,
+                            41.645
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 060756\nSLCO WS 060756\nSIGMET OSCAR 1 VALID UNTIL 061156\nSIGMET \nWY CO NM NE\nFROM 50WNW LAR TO 20SSW BFF TO 50N TCC TO 60WNW FTI TO 50WNW LAR\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n1156Z.",
+                "validTimeTo": [
+                    "2025-11-06T11:56"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-06T07:25"
+        "creationTime": "2025-11-06T08:35"
     }
 }
