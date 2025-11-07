@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -87.211,
-                            41.767
+                            -86.32,
+                            41.77
                         ],
                         [
-                            -87.238,
-                            40.867
+                            -86.667,
+                            40.432
                         ],
                         [
-                            -89.688,
-                            39.112
+                            -89.007,
+                            39.609
                         ],
                         [
-                            -90.368,
+                            -88.812,
                             40.567
                         ],
                         [
-                            -87.211,
-                            41.767
+                            -86.32,
+                            41.77
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
                 "movementDir": 250,
                 "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 070855\nSIGC \nCONVECTIVE SIGMET 11C\nVALID UNTIL 1055Z\nIN IL LM\nFROM 40W GIJ-20NNW BVT-40ENE STL-50SW BDF-40W GIJ\nAREA EMBED TS MOV FROM 25045KT. TOPS TO FL360.\n\nOUTLOOK VALID 071055-071455\nFROM 40W MKG-BVT-30E STL-50NE UIN-40W MKG\nWST ISSUANCES POSS LT IN PD. REFER TO MOST RECENT ACUS01 KWNS\nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL\nDETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 070955\nSIGC \nCONVECTIVE SIGMET 12C\nVALID UNTIL 1155Z\nMI IN IL\nFROM GIJ-20ESE BVT-10SW AXC-50SE BDF-GIJ\nAREA EMBED TS MOV FROM 25045KT. TOPS TO FL320.\n\nOUTLOOK VALID 071155-071555\nFROM 40WNW PMM-30NNE TTH-50ENE STL-30SSW BDF-40WNW PMM\nWST ISSUANCES POSS LT IN PD. REFER TO MOST RECENT ACUS01 KWNS\nFROM STORM PREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL\nDETAILS.",
                 "validTimeTo": [
-                    "2025-11-07T10:55"
+                    "2025-11-07T11:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.214,
+                            28.49
+                        ],
+                        [
+                            -78.238,
+                            27.662
+                        ],
+                        [
+                            -80.297,
+                            27.68
+                        ],
+                        [
+                            -80.389,
+                            28.537
+                        ],
+                        [
+                            -78.214,
+                            28.49
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 230,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 070955\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 1155Z\nFL CSTL WTRS\nFROM 130ENE TRV-120E TRV-10E TRV-50E ORL-130ENE TRV\nAREA EMBED TS MOV FROM 23025KT. TOPS TO FL380.\n\nOUTLOOK VALID 071155-071555\nAREA 1...FROM TVC-ECK-30NNE TTH-40WNW PMM-TVC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 180ENE TRV-160E PBI-PBI-40E ORL-180ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-07T11:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-07T09:27"
+        "creationTime": "2025-11-07T10:29"
     }
 }
