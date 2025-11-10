@@ -8,55 +8,12 @@
                 "coordinates": [
                     [
                         [
-                            -114.18,
-                            48.875
+                            -114.566,
+                            48.824
                         ],
                         [
-                            -111.546,
-                            48.797
-                        ],
-                        [
-                            -110.766,
-                            45.778
-                        ],
-                        [
-                            -112.915,
-                            45.864
-                        ],
-                        [
-                            -114.18,
-                            48.875
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 32000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 45000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 101202\nSLCR WS 101202\nSIGMET ROMEO 1 VALID UNTIL 101602\nSIGMET \nMT\nFROM 40N FCA TO 70SE YQL TO 70SE HLN TO 40NNW DLN TO 40N FCA\nOCNL SEV TURB BTN FL320 AND FL450. DUE TO MTN WV ACT. CONDS CONTG\nBYD 1602Z.",
-                "validTimeTo": [
-                    "2025-11-10T16:02"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -111.899,
-                            49.036
+                            -112.222,
+                            48.707
                         ],
                         [
                             -110.982,
@@ -67,12 +24,8 @@
                             46.924
                         ],
                         [
-                            -114.18,
-                            48.875
-                        ],
-                        [
-                            -111.899,
-                            49.036
+                            -114.566,
+                            48.824
                         ]
                     ]
                 ]
@@ -89,9 +42,60 @@
                 "altitudeHi2": 14000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 101210\nSLCU WS 101210\nSIGMET UNIFORM 1 VALID UNTIL 101610\nSIGMET \nMT\nFROM 50SE YQL TO 40E HLN TO 50WNW HLN TO 40N FCA TO 50SE YQL\nOCNL SEV TURB BLW 140. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n1610Z.",
+                "rawAirSigmet": "WSUS05 KKCI 101544\nSLCU WS 101544\nSIGMET UNIFORM 2 VALID UNTIL 101943\nSIGMET \nMT\nFROM 40NNW FCA TO 60SSE YQL TO 40E HLN TO 50WNW HLN TO 40NNW FCA\nOCNL SEV TURB BLW 140. DUE TO MTN WV ACT. CONDS ENDG 1943Z.",
                 "validTimeTo": [
-                    "2025-11-10T16:10"
+                    "2025-11-10T19:43"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -115.392,
+                            48.985
+                        ],
+                        [
+                            -111.546,
+                            48.797
+                        ],
+                        [
+                            -107.117,
+                            48.991
+                        ],
+                        [
+                            -106.63,
+                            47.888
+                        ],
+                        [
+                            -114.18,
+                            47.545
+                        ],
+                        [
+                            -115.392,
+                            48.985
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 34000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 45000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 101545\nSLCR WS 101545\nSIGMET ROMEO 2 VALID UNTIL 101945\nSIGMET \nMT\nFROM 40SSE YXC TO 70SE YQL TO 50NNW GGW TO 20S GGW TO 40S FCA TO\n40SSE YXC\nOCNL SEV TURB BTN FL340 AND FL450. DUE TO MTN WV ACT. CONDS CONTG\nBYD 1945Z.",
+                "validTimeTo": [
+                    "2025-11-10T19:45"
                 ]
             }
         },
@@ -132,18 +136,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
                 "movementDir": 260,
                 "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 101455\nSIGE \nCONVECTIVE SIGMET 54E\nVALID UNTIL 1655Z\nFL CSTL WTRS\nFROM 80ESE MIA-130SE MIA-80ESE EYW-50SSE MIA-80ESE MIA\nAREA TS MOV FROM 26015KT. TOPS TO FL380.\nREF INTL SIGMET JULIETT SERIES.\n\nOUTLOOK VALID 101655-102055\nFROM 150SE BGR-190SE ACK-150SE SIE-200ESE ECG-160SSE ECG-60ENE\nORF-BOS-150SE BGR\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 101555\nSIGE \nCONVECTIVE SIGMET 55E\nVALID UNTIL 1755Z\nFL CSTL WTRS\nFROM 80ESE MIA-130SE MIA-80ESE EYW-50SSE MIA-80ESE MIA\nAREA TS MOV FROM 26015KT. TOPS TO FL370.\nREF INTL SIGMET JULIETT SERIES.\n\nOUTLOOK VALID 101755-102155\nFROM 140SE BGR-190SE ACK-190SSE HTO-70SE CYN-30E BOS-140SE BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-10T16:55"
+                    "2025-11-10T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -71.093,
+                            39.973
+                        ],
+                        [
+                            -71.178,
+                            38.765
+                        ],
+                        [
+                            -73.295,
+                            39.09
+                        ],
+                        [
+                            -72.32,
+                            39.752
+                        ],
+                        [
+                            -71.093,
+                            39.973
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 210,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS31 KKCI 101555\nSIGE \nCONVECTIVE SIGMET 56E\nVALID UNTIL 1755Z\nRI NJ NY CSTL WTRS\nFROM 80SE HTO-140SSE HTO-70E SIE-70S HTO-80SE HTO\nAREA EMBD TS MOV FROM 21040KT. TOPS TO FL300.\n\nOUTLOOK VALID 101755-102155\nFROM 140SE BGR-190SE ACK-190SSE HTO-70SE CYN-30E BOS-140SE BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-10T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-10T15:29"
+        "creationTime": "2025-11-10T16:35"
     }
 }
