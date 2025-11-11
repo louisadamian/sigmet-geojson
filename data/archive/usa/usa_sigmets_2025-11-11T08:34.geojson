@@ -59,6 +59,53 @@
                 "coordinates": [
                     [
                         [
+                            -72.839,
+                            38.448
+                        ],
+                        [
+                            -71.483,
+                            37.97
+                        ],
+                        [
+                            -72.052,
+                            37.154
+                        ],
+                        [
+                            -73.195,
+                            37.564
+                        ],
+                        [
+                            -72.839,
+                            38.448
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 270,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 110755\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 0955Z\nDE NJ MD VA CSTL WTRS\nFROM 100ESE SIE-170ESE SIE-180ESE SBY-120ESE SBY-100ESE SIE\nAREA EMBD TS MOV FROM 27015KT. TOPS TO FL300.\n\nOUTLOOK VALID 110955-111355\nFROM 70E ORF-160E ECG-150SE ECG-80SSE ECG-70E ORF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-11T09:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -82.86,
                             32.688
                         ],
@@ -91,20 +138,20 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 19000,
+                "altitudeLow1": 14000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 31000,
+                "altitudeHi2": 34000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS02 KKCI 110914\nMIAX WS 110914\nSIGMET XRAY 1 VALID UNTIL 111314\nSIGMET \nSC GA FL AND CSTL WTRS\nFROM 40E MCN TO 130S ILM TO 200ENE OMN TO 50E ORL TO 50NE TLH TO\n40E MCN\nOCNL SEV TURB BTN FL190 AND FL310. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1314Z.",
+                "rawAirSigmet": "WSUS02 KKCI 110829\nMIAW WS 110829\nSIGMET WHISKEY 3 VALID UNTIL 111229\nSIGMET \nSC GA FL AND CSTL WTRS\nFROM 40E MCN TO 130S ILM TO 200ENE OMN TO 50E ORL TO 50NE TLH TO\n40E MCN\nOCNL SEV TURB BTN 140 AND FL340. DUE TO WNDSHR ASSOCD WITH JTST.\nCONDS CONTG BYD 1229Z.",
                 "validTimeTo": [
-                    "2025-11-11T13:14"
+                    "2025-11-11T12:29"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-11T09:29"
+        "creationTime": "2025-11-11T08:34"
     }
 }
