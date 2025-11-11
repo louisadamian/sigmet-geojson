@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -109.053,
+                            49.008
+                        ],
+                        [
+                            -109.352,
+                            45.808
+                        ],
+                        [
+                            -113.01,
+                            46.021
+                        ],
+                        [
+                            -114.667,
+                            48.981
+                        ],
+                        [
+                            -109.053,
+                            49.008
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 32000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 42000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 110323\nSLCR WS 110323\nSIGMET ROMEO 5 VALID UNTIL 110723\nSIGMET \nMT\nFROM 40NE HVR TO 30W BIL TO 50NNW DLN TO 50NNW FCA TO 40NE HVR\nOCNL SEV TURB BTN FL320 AND FL420. DUE TO MTN WV ACT. RPTD BY\nACFT. CONDS CONTG BYD 0723Z.",
+                "validTimeTo": [
+                    "2025-11-11T07:23"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -69.133,
                             47.47
                         ],
@@ -165,24 +212,71 @@
                 "coordinates": [
                     [
                         [
-                            -73.419,
-                            38.645
+                            -68.782,
+                            47.238
                         ],
                         [
-                            -71.297,
-                            37.902
+                            -67.903,
+                            47.077
                         ],
                         [
-                            -72.472,
-                            36.193
+                            -67.525,
+                            44.871
                         ],
                         [
-                            -74.325,
-                            36.875
+                            -68.537,
+                            45.075
                         ],
                         [
-                            -73.419,
-                            38.645
+                            -68.782,
+                            47.238
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 170,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 110555\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 0755Z\nME\nFROM 40NW PQI-20NNE PQI-60SE MLT-20NE BGR-40NW PQI\nAREA EMBD TS MOV FROM 17050KT. TOPS TO FL250.\n\nOUTLOOK VALID 110755-111155\nFROM 70E ORF-160E ECG-150SE ECG-80SSE ECG-70E ORF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-11T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.352,
+                            37.963
+                        ],
+                        [
+                            -72.869,
+                            37.553
+                        ],
+                        [
+                            -72.673,
+                            36.199
+                        ],
+                        [
+                            -74.74,
+                            36.881
+                        ],
+                        [
+                            -74.352,
+                            37.963
                         ]
                     ]
                 ]
@@ -199,14 +293,14 @@
                 "altitudeHi2": 30000,
                 "movementDir": 270,
                 "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 110655\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 0855Z\nDE NJ MD NC VA CSTL WTRS\nFROM 70ESE SIE-180ESE SIE-180E ECG-90E ORF-70ESE SIE\nAREA EMBD TS MOV FROM 27015KT. TOPS TO FL300.\n\nOUTLOOK VALID 110855-111255\nFROM 70E ORF-160E ECG-150SE ECG-80SSE ECG-70E ORF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 110555\nSIGE \nCONVECTIVE SIGMET 10E\nVALID UNTIL 0755Z\nMD NC VA CSTL WTRS\nFROM 60ESE SBY-130SE SIE-170E ECG-70E ORF-60ESE SBY\nAREA EMBD TS MOV FROM 27015KT. TOPS TO FL300.\n\nOUTLOOK VALID 110755-111155\nFROM 70E ORF-160E ECG-150SE ECG-80SSE ECG-70E ORF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-11T08:55"
+                    "2025-11-11T07:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-11T07:26"
+        "creationTime": "2025-11-11T06:39"
     }
 }
