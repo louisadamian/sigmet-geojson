@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -79.167,
-                            40.934
+                            -78.83,
+                            40.32
                         ],
                         [
-                            -75.988,
-                            40.345
+                            -76.096,
+                            39.807
                         ],
                         [
-                            -76.569,
-                            38.088
+                            -80.93,
+                            35.22
                         ],
                         [
-                            -80.731,
-                            37.907
+                            -83.3,
+                            34.7
                         ],
                         [
-                            -79.167,
-                            40.934
+                            -83.453,
+                            35.543
+                        ],
+                        [
+                            -78.83,
+                            40.32
                         ]
                     ]
                 ]
@@ -36,20 +40,122 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 5000,
+                "altitudeLow1": 0,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
                 "altitudeHi2": 10000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 121835\nBOSN WS 121835\nSIGMET NOVEMBER 1 VALID UNTIL 122235\nSIGMET \nPA WV MD DC VA\nFROM 40NNW JST TO 20SW ETX TO 50NE RIC TO 20ENE BKW TO 40NNW JST\nOCNL SEV TURB BTN 050 AND 100. DUE TO STG LOW LVL WNDS AND MTN WV\nACT AND STG UDDFS AND LLWS. WAVES DVLPG ON SAT. CONDS CONTG BYD\n2235Z.",
+                "rawAirSigmet": "WSUS01 KKCI 122233\nBOSN WS 122233\nSIGMET NOVEMBER 2 VALID UNTIL 130233\nSIGMET \nPA WV MD VA NC SC GA TN\nFROM JST TO 50SSW ETX TO CLT TO ODF TO 30SE VXV TO JST\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS AND STG UDDFS AND\nLLWS. CONDS CONTG BYD 0233Z.",
                 "validTimeTo": [
-                    "2025-11-12T22:35"
+                    "2025-11-13T02:33"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.83,
+                            40.32
+                        ],
+                        [
+                            -76.096,
+                            39.807
+                        ],
+                        [
+                            -80.93,
+                            35.22
+                        ],
+                        [
+                            -83.3,
+                            34.7
+                        ],
+                        [
+                            -83.453,
+                            35.543
+                        ],
+                        [
+                            -78.83,
+                            40.32
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KDFW",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 10000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS04 KKCI 122233\nDFWN WS 122233\nSIGMET NOVEMBER 2 VALID UNTIL 130233\nSIGMET \nTN PA WV MD VA NC SC GA\nFROM JST TO 50SSW ETX TO CLT TO ODF TO 30SE VXV TO JST\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS AND STG UDDFS AND\nLLWS. CONDS CONTG BYD 0233Z.",
+                "validTimeTo": [
+                    "2025-11-13T02:33"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.83,
+                            40.32
+                        ],
+                        [
+                            -76.096,
+                            39.807
+                        ],
+                        [
+                            -80.93,
+                            35.22
+                        ],
+                        [
+                            -83.3,
+                            34.7
+                        ],
+                        [
+                            -83.453,
+                            35.543
+                        ],
+                        [
+                            -78.83,
+                            40.32
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KMIA",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 10000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS02 KKCI 122233\nMIAN WS 122233\nSIGMET NOVEMBER 2 VALID UNTIL 130233\nSIGMET \nNC SC GA PA WV MD VA TN\nFROM JST TO 50SSW ETX TO CLT TO ODF TO 30SE VXV TO JST\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS AND STG UDDFS AND\nLLWS. CONDS CONTG BYD 0233Z.",
+                "validTimeTo": [
+                    "2025-11-13T02:33"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-12T22:25"
+        "creationTime": "2025-11-12T23:24"
     }
 }
