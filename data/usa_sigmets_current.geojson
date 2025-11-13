@@ -8,43 +8,43 @@
                 "coordinates": [
                     [
                         [
-                            -79.64,
-                            39.275
+                            -120.062,
+                            37.345
                         ],
                         [
-                            -76.997,
-                            38.114
+                            -118.859,
+                            36.556
                         ],
                         [
-                            -80.181,
-                            34.963
+                            -120.324,
+                            35.474
                         ],
                         [
-                            -82.243,
-                            35.644
+                            -121.361,
+                            36.195
                         ],
                         [
-                            -79.64,
-                            39.275
+                            -120.062,
+                            37.345
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KMIA",
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 0,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 8000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS02 KKCI 130628\nMIAN WS 130628\nSIGMET NOVEMBER 4 VALID UNTIL 131027\nSIGMET \nNC WV VA\nFROM 30NE EKN TO 40NNE RIC TO 40ESE CLT TO 40NNW SPA TO 30NE EKN\nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS. CONDS ENDG 1027Z.",
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 240,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS33 KKCI 130955\nSIGW \nCONVECTIVE SIGMET 4W\nVALID UNTIL 1155Z\nCA\nFROM 30NNW CZQ-50ESE CZQ-60W EHF-30SSE SNS-30NNW CZQ\nAREA EMBD TS MOV FROM 24020KT. TOPS TO FL320.\n\nOUTLOOK VALID 131155-131555\nFROM 50S LKV-80WNW RZS-160SSW SNS-70WNW FOT-50S LKV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL ANALYSIS.",
                 "validTimeTo": [
-                    "2025-11-13T10:27"
+                    "2025-11-13T11:55"
                 ]
             }
         },
@@ -55,24 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -79.64,
-                            39.275
+                            -79.5,
+                            38.448
                         ],
                         [
                             -76.997,
                             38.114
                         ],
                         [
-                            -80.181,
-                            34.963
+                            -80.358,
+                            34.749
                         ],
                         [
-                            -82.243,
-                            35.644
+                            -82.544,
+                            35.028
                         ],
                         [
-                            -79.64,
-                            39.275
+                            -79.5,
+                            38.448
                         ]
                     ]
                 ]
@@ -89,14 +89,61 @@
                 "altitudeHi2": 8000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 130628\nBOSN WS 130628\nSIGMET NOVEMBER 4 VALID UNTIL 131027\nSIGMET \nWV VA NC\nFROM 30NE EKN TO 40NNE RIC TO 40ESE CLT TO 40NNW SPA TO 30NE EKN\nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS. CONDS ENDG 1027Z.",
+                "rawAirSigmet": "WSUS01 KKCI 131027\nBOSN WS 131027\nSIGMET NOVEMBER 5 VALID UNTIL 131426\nSIGMET \nWV VA NC SC\nFROM 40SE EKN TO 40NNE RIC TO 40SE CLT TO 30W SPA TO 40SE EKN\nOCNL SEV TURB BLW 080. CONDS ENDG 1426Z.",
                 "validTimeTo": [
-                    "2025-11-13T10:27"
+                    "2025-11-13T14:26"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.5,
+                            38.448
+                        ],
+                        [
+                            -76.997,
+                            38.114
+                        ],
+                        [
+                            -80.358,
+                            34.749
+                        ],
+                        [
+                            -82.544,
+                            35.028
+                        ],
+                        [
+                            -79.5,
+                            38.448
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KMIA",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 8000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS02 KKCI 131027\nMIAN WS 131027\nSIGMET NOVEMBER 5 VALID UNTIL 131426\nSIGMET \nNC SC WV VA\nFROM 40SE EKN TO 40NNE RIC TO 40SE CLT TO 30W SPA TO 40SE EKN\nOCNL SEV TURB BLW 080. CONDS ENDG 1426Z.",
+                "validTimeTo": [
+                    "2025-11-13T14:26"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-13T09:29"
+        "creationTime": "2025-11-13T10:31"
     }
 }
