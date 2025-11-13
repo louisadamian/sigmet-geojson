@@ -1,0 +1,102 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.081,
+                            39.855
+                        ],
+                        [
+                            -77.04,
+                            38.86
+                        ],
+                        [
+                            -78.643,
+                            36.778
+                        ],
+                        [
+                            -81.12,
+                            37.78
+                        ],
+                        [
+                            -79.081,
+                            39.855
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 10000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 130230\nBOSN WS 130230\nSIGMET NOVEMBER 3 VALID UNTIL 130630\nSIGMET \nPA WV MD VA\nFROM 30SSW JST TO DCA TO 40SE LYH TO BKW TO 30SSW JST\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n0630Z.",
+                "validTimeTo": [
+                    "2025-11-13T06:30"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.55,
+                            38.44
+                        ],
+                        [
+                            -120.715,
+                            38.095
+                        ],
+                        [
+                            -121.383,
+                            34.499
+                        ],
+                        [
+                            -122.68,
+                            34.506
+                        ],
+                        [
+                            -121.55,
+                            38.44
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 220,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS33 KKCI 130455\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0655Z\nCA AND CSTL WTRS\nFROM SAC-30NNE MOD-80W RZS-140SSW SNS-SAC\nAREA TS MOV FROM 22035KT. TOPS TO FL320.\n\nOUTLOOK VALID 130655-131055\nFROM ENI-MOD-100W RZS-160WSW PYE-ENI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL ANALYSIS.",
+                "validTimeTo": [
+                    "2025-11-13T06:55"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "creationTime": "2025-11-13T05:27"
+    }
+}
