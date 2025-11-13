@@ -47,9 +47,56 @@
                     "2025-11-13T06:30"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.922,
+                            37.965
+                        ],
+                        [
+                            -120.96,
+                            37.63
+                        ],
+                        [
+                            -121.59,
+                            34.496
+                        ],
+                        [
+                            -123.888,
+                            34.758
+                        ],
+                        [
+                            -121.922,
+                            37.965
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 220,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS33 KKCI 130355\nSIGW \nCONVECTIVE SIGMET 1W\nVALID UNTIL 0555Z\nCA AND CSTL WTRS\nFROM 20NE OAK-MOD-90W RZS-160SW SNS-20NE OAK\nAREA TS MOV FROM 22035KT. TOPS TO FL320.\n\nOUTLOOK VALID 130555-130955\nFROM ENI-MOD-100W RZS-160WSW PYE-ENI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL ANALYSIS.",
+                "validTimeTo": [
+                    "2025-11-13T05:55"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-13T03:50"
+        "creationTime": "2025-11-13T04:32"
     }
 }
