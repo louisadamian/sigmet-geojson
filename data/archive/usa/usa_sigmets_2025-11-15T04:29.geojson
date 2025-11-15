@@ -153,9 +153,56 @@
                     "2025-11-15T06:17"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -100.67,
+                            46.267
+                        ],
+                        [
+                            -100.349,
+                            44.707
+                        ],
+                        [
+                            -105.611,
+                            44.588
+                        ],
+                        [
+                            -105.767,
+                            46.073
+                        ],
+                        [
+                            -100.67,
+                            46.267
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
+                "movementDir": 270,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS32 KKCI 150404 CCA\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 0555Z\nSD ND MT WY\nFROM 30S BIS-20NNW PIR-50NE CZI-20SSE MLS-30S BIS\nAREA EMBD TS MOV FROM 27055KT. TOPS TO FL270.\n...COR...\nOUTLOOK VALID 150555-150955\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-11-15T05:55"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-15T05:25"
+        "creationTime": "2025-11-15T04:29"
     }
 }
