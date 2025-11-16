@@ -36,57 +36,6 @@
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KBOS",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 8000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 161901\nBOSR WS 161901\nSIGMET ROMEO 2 VALID UNTIL 162301\nSIGMET \nCT NY NJ PA WV MD DC DE VA NC SC AND CSTL WTRS\nFROM 50SSW ALB TO 20SSE HTO TO ECG TO 20NE FLO TO 40SSE HMV TO\n50SSW ALB\nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS CONTG BYD 2301Z.",
-                "validTimeTo": [
-                    "2025-11-16T23:01"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -74.23,
-                            41.977
-                        ],
-                        [
-                            -72.152,
-                            40.613
-                        ],
-                        [
-                            -76.18,
-                            36.25
-                        ],
-                        [
-                            -79.375,
-                            34.465
-                        ],
-                        [
-                            -81.816,
-                            35.825
-                        ],
-                        [
-                            -74.23,
-                            41.977
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
                 "airportIcao": "KMIA",
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
@@ -110,28 +59,24 @@
                 "coordinates": [
                     [
                         [
-                            -112.383,
-                            37.848
+                            -112.101,
+                            37.625
                         ],
                         [
-                            -111.366,
-                            34.866
+                            -111.233,
+                            34.704
                         ],
                         [
-                            -114.47,
-                            35.102
+                            -113.828,
+                            35.385
                         ],
                         [
-                            -114.779,
-                            36.207
+                            -115.136,
+                            37.657
                         ],
                         [
-                            -114.985,
-                            37.778
-                        ],
-                        [
-                            -112.383,
-                            37.848
+                            -112.101,
+                            37.625
                         ]
                     ]
                 ]
@@ -144,18 +89,116 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 30000,
-                "altitudeHi2": 30000,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
                 "movementDir": 210,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS33 KKCI 161955\nSIGW \nCONVECTIVE SIGMET 14W\nVALID UNTIL 2155Z\nAZ UT NV\nFROM 10NNW BCE-30WSW INW-20N EED-20ENE LAS-40SW ILC-10NNW BCE\nAREA EMBED TS MOV FROM 21035KT. TOPS TO FL300.\n\nOUTLOOK VALID 162155-170155\nFROM DVC-40S SJN-EED-70WSW ILC-DVC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 162055\nSIGW \nCONVECTIVE SIGMET 15W\nVALID UNTIL 2255Z\nAZ UT NV\nFROM 10ESE BCE-30SW INW-20SW PGS-50SW ILC-10ESE BCE\nAREA EMBED TS MOV FROM 21035KT. TOPS TO FL320.\n\nOUTLOOK VALID 162255-170255\nFROM DVC-50SE SJN-EED-70WSW ILC-DVC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-16T21:55"
+                    "2025-11-16T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -108.482,
+                            37.453
+                        ],
+                        [
+                            -108.53,
+                            34.418
+                        ],
+                        [
+                            -109.543,
+                            34.419
+                        ],
+                        [
+                            -109.903,
+                            37.486
+                        ],
+                        [
+                            -108.482,
+                            37.453
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 210,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS33 KKCI 162055\nSIGW \nCONVECTIVE SIGMET 16W\nVALID UNTIL 2255Z\nCO NM AZ UT\nFROM 30SE DVC-30E SJN-20W SJN-50WSW DVC-30SE DVC\nAREA EMBED TS MOV FROM 21010KT. TOPS TO FL280.\n\nOUTLOOK VALID 162255-170255\nFROM DVC-50SE SJN-EED-70WSW ILC-DVC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-16T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.23,
+                            41.977
+                        ],
+                        [
+                            -71.914,
+                            40.792
+                        ],
+                        [
+                            -76.18,
+                            36.25
+                        ],
+                        [
+                            -79.375,
+                            34.465
+                        ],
+                        [
+                            -81.816,
+                            35.825
+                        ],
+                        [
+                            -74.23,
+                            41.977
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 13000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 162122\nBOSR WS 162122\nSIGMET ROMEO 3 VALID UNTIL 170122\nSIGMET \nCT NY NJ PA WV MD DC DE VA NC SC AND CSTL WTRS\nFROM 50SSW ALB TO 20ESE HTO TO ECG TO 20NE FLO TO 40SSE HMV TO\n50SSW ALB\nOCNL SEV TURB BLW 130. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS CONTG BYD 0122Z.",
+                "validTimeTo": [
+                    "2025-11-17T01:22"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-16T20:27"
+        "creationTime": "2025-11-16T21:22"
     }
 }
