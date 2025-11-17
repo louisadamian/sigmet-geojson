@@ -8,24 +8,87 @@
                 "coordinates": [
                     [
                         [
-                            -123.476,
-                            39.005
+                            -103.671,
+                            38.878
                         ],
                         [
-                            -123.236,
-                            38.342
+                            -103.286,
+                            35.794
                         ],
                         [
-                            -122.828,
-                            38.432
+                            -105.519,
+                            35.787
                         ],
                         [
-                            -123.064,
-                            39.095
+                            -105.857,
+                            38.826
                         ],
                         [
-                            -123.476,
-                            39.005
+                            -103.671,
+                            38.878
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 31000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 39000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 170730\nSLCU WS 170730\nSIGMET UNIFORM 1 VALID UNTIL 171130\nSIGMET \nCO NM\nFROM 50NE PUB TO 40NNE TCC TO 20WNW FTI TO 60ENE HBU TO 50NE PUB\nOCNL SEV TURB BTN FL310 AND FL390. DUE TO MTN WV ACT. RPTD BY\nB737. CONDS CONTG BYD 1130Z.",
+                "validTimeTo": [
+                    "2025-11-17T11:30"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -103.96,
+                            40.956
+                        ],
+                        [
+                            -103.765,
+                            40.895
+                        ],
+                        [
+                            -103.685,
+                            40.748
+                        ],
+                        [
+                            -103.766,
+                            40.601
+                        ],
+                        [
+                            -103.96,
+                            40.54
+                        ],
+                        [
+                            -104.153,
+                            40.601
+                        ],
+                        [
+                            -104.234,
+                            40.748
+                        ],
+                        [
+                            -104.154,
+                            40.895
+                        ],
+                        [
+                            -103.96,
+                            40.956
                         ]
                     ]
                 ]
@@ -38,18 +101,18 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
-                "movementDir": 220,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 190,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS33 KKCI 170555\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0755Z\nCA AND CSTL WTRS\nFROM ENI-20NNW PYE\nLINE EMBD TS 20 NM WIDE MOV FROM 22025KT. TOPS TO FL250.\n\nOUTLOOK VALID 170755-171155\nFROM FOT-SAC-RZS-100SW RZS-160SW RZS-140SW FOT-130SW FOT-50WSW\nFOT-FOT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 170755\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0955Z\nCO\n50NW AKO\nISOL EMBD TS D25 MOV FROM 19025KT. TOPS TO FL350.\n\nOUTLOOK VALID 170955-171355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-11-17T07:55"
+                    "2025-11-17T09:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-17T06:40"
+        "creationTime": "2025-11-17T08:37"
     }
 }
