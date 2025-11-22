@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -97.715,
-                            27.665
+                            -97.45,
+                            27.9
                         ],
                         [
-                            -97.049,
-                            27.544
+                            -97.022,
+                            26.978
                         ],
                         [
-                            -97.238,
-                            26.227
+                            -97.038,
+                            26.047
                         ],
                         [
                             -97.642,
                             26.155
                         ],
                         [
-                            -98.169,
-                            26.623
+                            -98.115,
+                            27.308
                         ],
                         [
-                            -97.715,
-                            27.665
+                            -97.45,
+                            27.9
                         ]
                     ]
                 ]
@@ -42,18 +42,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
                 "movementDir": 180,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS32 KKCI 221755\nSIGC \nCONVECTIVE SIGMET 22C\nVALID UNTIL 1955Z\nTX AND CSTL WTRS\nFROM 20SW CRP-30SE CRP-20NNE BRO-20NW BRO-60NW BRO-20SW CRP\nAREA TS MOV FROM 18010KT. TOPS TO FL420.\n\nOUTLOOK VALID 221955-222355\nFROM 50S MEI-60ESE LEV-90SSW LCH-40ESE CRP-30ENE BRO-30WNW\nBRO-60SSE LRD-40NE LRD-50ESE LFK-50S MEI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 221855\nSIGC \nCONVECTIVE SIGMET 23C\nVALID UNTIL 2055Z\nTX AND CSTL WTRS\nFROM CRP-60SSE CRP-20ENE BRO-20NW BRO-50SW CRP-CRP\nAREA TS MOV FROM 18010KT. TOPS ABV FL450.\n\nOUTLOOK VALID 222055-230055\nFROM PSX-90ESE PSX-120ENE BRO-30ENE BRO-30WNW BRO-60SSE\nLRD-LRD-60SE SAT-PSX\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-22T19:55"
+                    "2025-11-22T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.64,
+                            28.168
+                        ],
+                        [
+                            -95.112,
+                            27.694
+                        ],
+                        [
+                            -95.595,
+                            27.223
+                        ],
+                        [
+                            -95.878,
+                            27.838
+                        ],
+                        [
+                            -95.64,
+                            28.168
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 43000,
+                "altitudeHi2": 43000,
+                "movementDir": 190,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 221855\nSIGC \nCONVECTIVE SIGMET 24C\nVALID UNTIL 2055Z\nTX CSTL WTRS\nFROM 50SE PSX-90SE PSX-100SSE PSX-60SSE PSX-50SE PSX\nDVLPG AREA TS MOV FROM 19015KT. TOPS TO FL430.\n\nOUTLOOK VALID 222055-230055\nFROM PSX-90ESE PSX-120ENE BRO-30ENE BRO-30WNW BRO-60SSE\nLRD-LRD-60SE SAT-PSX\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-22T20:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-22T18:35"
+        "creationTime": "2025-11-22T19:19"
     }
 }
