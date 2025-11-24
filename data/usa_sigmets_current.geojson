@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -96.947,
-                            30.379
+                            -96.009,
+                            31.207
                         ],
                         [
-                            -96.057,
-                            29.704
+                            -95.705,
+                            30.087
                         ],
                         [
-                            -97.009,
-                            28.504
+                            -96.884,
+                            28.759
                         ],
                         [
-                            -97.784,
-                            29.048
+                            -97.237,
+                            29.766
                         ],
                         [
-                            -96.947,
-                            30.379
+                            -96.009,
+                            31.207
                         ]
                     ]
                 ]
@@ -42,9 +42,9 @@
                 "altitudeHi2": 60000,
                 "movementDir": 240,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 241555\nSIGC \nCONVECTIVE SIGMET 37C\nVALID UNTIL 1755Z\nTX\nFROM 30E CWK-40WSW IAH-40WSW PSX-50SE SAT-30E CWK\nAREA TS MOV FROM 24030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 241755-242155\nFROM 30SSW STL-BWG-30SSW PSX-50S JCT-30SSW STL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 241655\nSIGC \nCONVECTIVE SIGMET 39C\nVALID UNTIL 1855Z\nTX\nFROM 70ESE ACT-20WNW IAH-30W PSX-40SSE CWK-70ESE ACT\nAREA TS MOV FROM 24030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 241855-242255\nFROM 30SSW STL-BWG-30SSW PSX-50S JCT-30SSW STL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-24T17:55"
+                    "2025-11-24T18:55"
                 ]
             }
         },
@@ -55,24 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -93.167,
-                            35.927
+                            -94.27,
+                            34.545
                         ],
                         [
-                            -91.795,
-                            33.908
+                            -94.828,
+                            32.578
                         ],
                         [
-                            -95.885,
-                            31.155
+                            -99.003,
+                            30.109
                         ],
                         [
-                            -99.105,
-                            30.852
+                            -98.717,
+                            31.535
                         ],
                         [
-                            -93.167,
-                            35.927
+                            -94.27,
+                            34.545
                         ]
                     ]
                 ]
@@ -86,17 +86,123 @@
                 "altitudeLow1": null,
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
+                "altitudeHi2": 45000,
                 "movementDir": 240,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 241555\nSIGC \nCONVECTIVE SIGMET 38C\nVALID UNTIL 1755Z\nLA AR TX OK\nFROM 50ESE RZC-50SSE LIT-60W LFK-40ENE JCT-50ESE RZC\nAREA TS MOV FROM 24040KT. TOPS ABV FL450.\n\nOUTLOOK VALID 241755-242155\nFROM 30SSW STL-BWG-30SSW PSX-50S JCT-30SSW STL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 241655\nSIGC \nCONVECTIVE SIGMET 40C\nVALID UNTIL 1855Z\nAR TX OK\nFROM 50S FSM-10NNW GGG-40NW SAT-80NE JCT-50S FSM\nAREA TS MOV FROM 24040KT. TOPS TO FL450.\n\nOUTLOOK VALID 241855-242255\nFROM 30SSW STL-BWG-30SSW PSX-50S JCT-30SSW STL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-24T17:55"
+                    "2025-11-24T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -91.788,
+                            35.451
+                        ],
+                        [
+                            -91.467,
+                            34.087
+                        ],
+                        [
+                            -93.815,
+                            31.477
+                        ],
+                        [
+                            -94.607,
+                            32.299
+                        ],
+                        [
+                            -93.196,
+                            34.676
+                        ],
+                        [
+                            -91.788,
+                            35.451
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
+                "movementDir": 240,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 241655\nSIGC \nCONVECTIVE SIGMET 41C\nVALID UNTIL 1855Z\nLA AR TX\nFROM 50NNE LIT-50SE LIT-50ENE LFK-10SE GGG-50W LIT-50NNE LIT\nAREA TS MOV FROM 24040KT. TOPS TO FL450.\n\nOUTLOOK VALID 241855-242255\nFROM 30SSW STL-BWG-30SSW PSX-50S JCT-30SSW STL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-24T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.998,
+                            46.878
+                        ],
+                        [
+                            -82.554,
+                            45.038
+                        ],
+                        [
+                            -90.71,
+                            42.4
+                        ],
+                        [
+                            -92.22,
+                            38.82
+                        ],
+                        [
+                            -96.21,
+                            40.2
+                        ],
+                        [
+                            -93.23,
+                            44.88
+                        ],
+                        [
+                            -84.998,
+                            46.878
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 27000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 39000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 241705\nCHIP WS 241705\nSIGMET PAPA 1 VALID UNTIL 242105\nSIGMET \nNE KS MN IA MO WI LM LS MI LH IL\nFROM 40NW SSM TO 50NE ASP TO DBQ TO COU TO PWE TO MSP TO 40NW SSM\nOCNL SEV TURB BTN FL270 AND FL390. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 2105Z.",
+                "validTimeTo": [
+                    "2025-11-24T21:05"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-24T16:30"
+        "creationTime": "2025-11-24T17:26"
     }
 }
