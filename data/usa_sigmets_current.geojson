@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -92.893,
-                            34.087
+                            -92.03,
+                            33.023
                         ],
                         [
-                            -94.81,
-                            29.489
+                            -90.51,
+                            32.995
                         ],
                         [
-                            -97.332,
-                            30.38
+                            -91.376,
+                            30.638
                         ],
                         [
-                            -95.18,
-                            33.887
+                            -92.564,
+                            30.609
                         ],
                         [
-                            -92.893,
-                            34.087
+                            -92.03,
+                            33.023
                         ]
                     ]
                 ]
@@ -39,12 +39,12 @@
                 "altitudeLow1": null,
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
+                "altitudeHi2": 45000,
                 "movementDir": 240,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 242055\nSIGC \nCONVECTIVE SIGMET 50C\nVALID UNTIL 2255Z\nLA AR TX OK\nFROM 50SW LIT-40SE IAH-10E CWK-60WNW TXK-50SW LIT\nAREA TS MOV FROM 24045KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 2 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 242255-250255\nFROM 70E SGF-BNA-60SSE IAH-SAT-70E SGF\nREF WW 638.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 242155\nSIGC \nCONVECTIVE SIGMET 52C\nVALID UNTIL 2355Z\nMS LA AR\nFROM 30N MLU-30SSW SQS-10NNW LSU-40NE LCH-30N MLU\nAREA EMBD TS MOV FROM 24035KT. TOPS TO FL450.\n\nOUTLOOK VALID 242355-250355\nFROM 70E SGF-BNA-LSU-60SSE IAH-SAT-70E SGF\nREF WW 638.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-24T22:55"
+                    "2025-11-24T23:55"
                 ]
             }
         },
@@ -55,24 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -92.756,
-                            32.264
+                            -91.431,
+                            34.932
                         ],
                         [
-                            -91.803,
-                            32.055
+                            -93.692,
+                            30.139
                         ],
                         [
-                            -91.953,
-                            30.789
+                            -97.258,
+                            30.145
                         ],
                         [
-                            -93.11,
-                            30.805
+                            -94.533,
+                            34.43
                         ],
                         [
-                            -92.756,
-                            32.264
+                            -91.431,
+                            34.932
                         ]
                     ]
                 ]
@@ -88,15 +88,62 @@
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
                 "movementDir": 240,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 242055\nSIGC \nCONVECTIVE SIGMET 51C\nVALID UNTIL 2255Z\nLA\nFROM 40WSW MLU-30SSE MLU-40SE AEX-40N LCH-40WSW MLU\nAREA EMBD TS MOV FROM 24040KT. TOPS ABV FL450.\n\nOUTLOOK VALID 242255-250255\nFROM 70E SGF-BNA-60SSE IAH-SAT-70E SGF\nREF WW 638.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 242155\nSIGC \nCONVECTIVE SIGMET 53C\nVALID UNTIL 2355Z\nLA AR TX OK\nFROM 40ENE LIT-30W LCH-20SE CWK-60NNW TXK-40ENE LIT\nAREA EMBD SEV TS MOV FROM 24035KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 2 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 242355-250355\nFROM 70E SGF-BNA-LSU-60SSE IAH-SAT-70E SGF\nREF WW 638.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-24T22:55"
+                    "2025-11-24T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -93.705,
+                            38.522
+                        ],
+                        [
+                            -93.716,
+                            37.232
+                        ],
+                        [
+                            -95.2,
+                            36.818
+                        ],
+                        [
+                            -94.644,
+                            38.391
+                        ],
+                        [
+                            -93.705,
+                            38.522
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 242155\nSIGC \nCONVECTIVE SIGMET 54C\nVALID UNTIL 2355Z\nMO OK KS\nFROM 40ENE BUM-20WSW SGF-20S OSW-10NW BUM-40ENE BUM\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL300.\n\nOUTLOOK VALID 242355-250355\nFROM 70E SGF-BNA-LSU-60SSE IAH-SAT-70E SGF\nREF WW 638.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-24T23:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-24T21:25"
+        "creationTime": "2025-11-24T22:26"
     }
 }
