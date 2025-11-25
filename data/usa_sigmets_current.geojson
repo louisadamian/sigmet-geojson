@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -86.667,
-                            34.135
+                            -86.471,
+                            34.025
                         ],
                         [
                             -86.003,
                             33.047
                         ],
                         [
-                            -87.048,
-                            32.472
+                            -88.508,
+                            31.037
                         ],
                         [
-                            -88.29,
-                            33.015
+                            -87.959,
+                            33.009
                         ],
                         [
-                            -86.667,
-                            34.135
+                            -86.471,
+                            34.025
                         ]
                     ]
                 ]
@@ -38,18 +38,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
                 "movementDir": 240,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 251555\nSIGC \nCONVECTIVE SIGMET 26C\nVALID UNTIL 1755Z\nAL\nFROM 30NNE VUZ-40W LGC-40WNW MGM-30SSE IGB-30NNE VUZ\nDMSHG AREA TS MOV FROM 24040KT. TOPS TO FL430.\n\nOUTLOOK VALID 251755-252155\nFROM 30ENE MSL-CEW-100SE LEV-100SW LEV-30N MCB-30ENE MSL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 251655\nSIGC \nCONVECTIVE SIGMET 27C\nVALID UNTIL 1855Z\nAL MS\nFROM 30NE VUZ-40W LGC-20NNW SJI-40SE IGB-30NE VUZ\nDVLPG AREA TS MOV FROM 24030KT. TOPS TO FL400.\n\nOUTLOOK VALID 251855-252255\nFROM 30ENE MSL-CEW-100SE LEV-100SW LEV-30N MCB-30ENE MSL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-25T17:55"
+                    "2025-11-25T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -88.375,
+                            33.601
+                        ],
+                        [
+                            -88.649,
+                            32.687
+                        ],
+                        [
+                            -89.822,
+                            32.195
+                        ],
+                        [
+                            -89.442,
+                            33.157
+                        ],
+                        [
+                            -88.375,
+                            33.601
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 230,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 251655\nSIGC \nCONVECTIVE SIGMET 28C\nVALID UNTIL 1855Z\nMS\nFROM 10NE IGB-20NNE MEI-20SE MHZ-50WSW IGB-10NE IGB\nDVLPG AREA TS MOV FROM 23015KT. TOPS TO FL400.\n\nOUTLOOK VALID 251855-252255\nFROM 30ENE MSL-CEW-100SE LEV-100SW LEV-30N MCB-30ENE MSL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-25T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.034,
+                            31.765
+                        ],
+                        [
+                            -89.354,
+                            31.617
+                        ],
+                        [
+                            -91.3,
+                            29.815
+                        ],
+                        [
+                            -93.11,
+                            29.143
+                        ],
+                        [
+                            -90.034,
+                            31.765
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 44000,
+                "altitudeHi2": 44000,
+                "movementDir": 230,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 251655\nSIGC \nCONVECTIVE SIGMET 29C\nVALID UNTIL 1855Z\nMS LA AND LA CSTL WTRS\nFROM 30NNE MCB-50ENE MCB-40S LSU-60S LCH-30NNE MCB\nDVLPG AREA TS MOV FROM 23025KT. TOPS TO FL440.\n\nOUTLOOK VALID 251855-252255\nFROM 30ENE MSL-CEW-100SE LEV-100SW LEV-30N MCB-30ENE MSL\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-25T18:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-25T16:36"
+        "creationTime": "2025-11-25T17:26"
     }
 }
