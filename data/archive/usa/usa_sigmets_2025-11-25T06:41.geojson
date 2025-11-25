@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -87.303,
+                            36.138
+                        ],
+                        [
+                            -85.764,
+                            34.958
+                        ],
+                        [
+                            -91.3,
+                            30.148
+                        ],
+                        [
+                            -95.489,
+                            30.081
+                        ],
+                        [
+                            -89.893,
+                            35.826
+                        ],
+                        [
+                            -87.303,
+                            36.138
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS32 KKCI 250555\nSIGC \nCONVECTIVE SIGMET 11C\nVALID UNTIL 0755Z\nTN AL MS LA AR TX\nFROM 30W BNA-30W GQO-20S LSU-10NW IAH-30WSW DYR-30W BNA\nAREA SEV EMBD TS MOV FROM 24045KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 250755-251155\nFROM PXV-40ENE BWG-40SW GQO-40SW SJI-40SSW LSU-PSX-40ESE\nEIC-ARG-PXV\nREF WW 639 AND WW 640.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-11-25T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -92.674,
                             38.463
                         ],
@@ -94,56 +145,9 @@
                     "2025-11-25T10:19"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.287,
-                            36.016
-                        ],
-                        [
-                            -85.386,
-                            35.425
-                        ],
-                        [
-                            -90.886,
-                            30.835
-                        ],
-                        [
-                            -94.72,
-                            30.495
-                        ],
-                        [
-                            -88.287,
-                            36.016
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 240,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 250655\nSIGC \nCONVECTIVE SIGMET 12C\nVALID UNTIL 0855Z\nTN AL MS LA AR TX\nFROM 50E DYR-30NNW GQO-30NE LSU-40S LFK-50E DYR\nAREA SEV EMBD TS MOV FROM 24045KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 250855-251255\nFROM PXV-40ENE BWG-40S GQO-HRV-50ESE LCH-110ESE PSX-CRP-40ESE\nEIC-ARG-PXV\nREF WW 639 AND WW 640.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-11-25T08:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-25T07:26"
+        "creationTime": "2025-11-25T06:41"
     }
 }
