@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -87.061,
-                            36.267
+                            -87.303,
+                            36.138
                         ],
                         [
-                            -87.326,
-                            34.393
+                            -85.764,
+                            34.958
                         ],
                         [
-                            -92.7,
-                            29.784
+                            -91.3,
+                            30.148
                         ],
                         [
-                            -96.13,
-                            28.695
+                            -95.489,
+                            30.081
                         ],
                         [
-                            -92.18,
-                            35.345
+                            -89.893,
+                            35.826
                         ],
                         [
-                            -87.061,
-                            36.267
+                            -87.303,
+                            36.138
                         ]
                     ]
                 ]
@@ -44,16 +44,110 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
-                "movementDir": 260,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 250455\nSIGC \nCONVECTIVE SIGMET 10C\nVALID UNTIL 0655Z\nTN AL MS LA AR TX AND LA TX CSTL WTRS\nFROM 20WNW BNA-20SSE MSL-30SE LCH-10ESE PSX-40N LIT-20WNW BNA\nAREA SEV EMBD TS MOV FROM 26035KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 250655-251055\nFROM 40WNW LOZ-30ESE VUZ-40SSW LSU-50S IAH-40ESE ARG-40WNW LOZ\nREF WW 639.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS32 KKCI 250555\nSIGC \nCONVECTIVE SIGMET 11C\nVALID UNTIL 0755Z\nTN AL MS LA AR TX\nFROM 30W BNA-30W GQO-20S LSU-10NW IAH-30WSW DYR-30W BNA\nAREA SEV EMBD TS MOV FROM 24045KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 250755-251155\nFROM PXV-40ENE BWG-40SW GQO-40SW SJI-40SSW LSU-PSX-40ESE\nEIC-ARG-PXV\nREF WW 639 AND WW 640.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-25T06:55"
+                    "2025-11-25T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -92.674,
+                            38.463
+                        ],
+                        [
+                            -89.81,
+                            37.669
+                        ],
+                        [
+                            -92.18,
+                            34.015
+                        ],
+                        [
+                            -94.97,
+                            34.847
+                        ],
+                        [
+                            -92.674,
+                            38.463
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 24000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 32000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 250619\nCHIQ WS 250619\nSIGMET QUEBEC 1 VALID UNTIL 251019\nSIGMET \nMO OK AR\nFROM 30SW COU TO 20E FAM TO 40S LIT TO 40E MLC TO 30SW COU\nOCNL SEV TURB BTN FL240 AND FL320. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 1019Z.",
+                "validTimeTo": [
+                    "2025-11-25T10:19"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -92.674,
+                            38.463
+                        ],
+                        [
+                            -89.81,
+                            37.669
+                        ],
+                        [
+                            -92.18,
+                            34.015
+                        ],
+                        [
+                            -94.97,
+                            34.847
+                        ],
+                        [
+                            -92.674,
+                            38.463
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KDFW",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 24000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 32000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS04 KKCI 250619\nDFWQ WS 250619\nSIGMET QUEBEC 1 VALID UNTIL 251019\nSIGMET \nOK AR MO\nFROM 30SW COU TO 20E FAM TO 40S LIT TO 40E MLC TO 30SW COU\nOCNL SEV TURB BTN FL240 AND FL320. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 1019Z.",
+                "validTimeTo": [
+                    "2025-11-25T10:19"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-25T05:28"
+        "creationTime": "2025-11-25T06:41"
     }
 }
