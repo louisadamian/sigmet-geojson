@@ -8,24 +8,40 @@
                 "coordinates": [
                     [
                         [
-                            -75.337,
-                            44.142
+                            -103.002,
+                            29.637
                         ],
                         [
-                            -76.552,
-                            43.779
+                            -102.866,
+                            29.588
                         ],
                         [
-                            -76.38,
-                            43.47
+                            -102.81,
+                            29.471
                         ],
                         [
-                            -75.164,
-                            43.833
+                            -102.867,
+                            29.353
                         ],
                         [
-                            -75.337,
-                            44.142
+                            -103.002,
+                            29.304
+                        ],
+                        [
+                            -103.136,
+                            29.353
+                        ],
+                        [
+                            -103.193,
+                            29.471
+                        ],
+                        [
+                            -103.137,
+                            29.588
+                        ],
+                        [
+                            -103.002,
+                            29.637
                         ]
                     ]
                 ]
@@ -38,18 +54,81 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 20000,
-                "altitudeHi2": 20000,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
                 "movementDir": 270,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 280555\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 0755Z\nNY LO\nFROM 60SSW MSS-30NNW SYR\nLINE TS 20 NM WIDE MOV FROM 27020KT. TOPS TO FL200.\n\nOUTLOOK VALID 280755-281155\nFROM 70ESE MIA-120SSE MIA-50SE EYW-70ESE MIA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 281255\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 1455Z\nTX\n70SE MRF\nISOL TS D20 MOV FROM 27025KT. TOPS TO FL320.\n\nOUTLOOK VALID 281455-281855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-11-28T07:55"
+                    "2025-11-28T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.602,
+                            24.471
+                        ],
+                        [
+                            -79.441,
+                            24.41
+                        ],
+                        [
+                            -79.374,
+                            24.263
+                        ],
+                        [
+                            -79.441,
+                            24.116
+                        ],
+                        [
+                            -79.602,
+                            24.055
+                        ],
+                        [
+                            -79.764,
+                            24.116
+                        ],
+                        [
+                            -79.831,
+                            24.263
+                        ],
+                        [
+                            -79.764,
+                            24.41
+                        ],
+                        [
+                            -79.602,
+                            24.471
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 20,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 281255\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 1455Z\nFL CSTL WTRS\n100SSE MIA\nISOL TS D25 MOV FROM 02015KT. TOPS TO FL400.\n\nOUTLOOK VALID 281455-281855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-11-28T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-28T06:41"
+        "creationTime": "2025-11-28T12:55"
     }
 }
