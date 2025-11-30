@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -94.77,
-                            28.73
+                            -94.599,
+                            28.749
                         ],
                         [
                             -93.977,
                             28.295
                         ],
                         [
-                            -96.451,
-                            25.917
+                            -95.902,
+                            25.913
                         ],
                         [
                             -97.01,
                             25.92
                         ],
                         [
-                            -96.92,
-                            27.429
+                            -97.38,
+                            26.585
                         ],
                         [
-                            -94.77,
-                            28.73
+                            -94.599,
+                            28.749
                         ]
                     ]
                 ]
@@ -42,18 +42,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
-                "movementDir": 280,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 301455\nSIGC \nCONVECTIVE SIGMET 16C\nVALID UNTIL 1655Z\nTX CSTL WTRS\nFROM 80SSE IAH-120SSW LCH-50E BRO-20E BRO-40SE CRP-80SSE IAH\nAREA TS MOV FROM 28025KT. TOPS TO FL360.\n\nOUTLOOK VALID 301655-302055\nFROM 50N LSU-30ESE MCB-80SW LEV-120SSW LCH-100SE PSX-80E\nBRO-BRO-30W PSX-50N LSU\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 270,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 301555\nSIGC \nCONVECTIVE SIGMET 17C\nVALID UNTIL 1755Z\nTX CSTL WTRS\nFROM 90E PSX-120SSW LCH-80E BRO-20E BRO-40N BRO-90E PSX\nAREA TS MOV FROM 27020KT. TOPS TO FL350.\n\nOUTLOOK VALID 301755-302155\nFROM 50N LSU-30ESE MCB-80SW LEV-120SSW LCH-100SE PSX-80E\nBRO-BRO-30W PSX-50N LSU\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-11-30T16:55"
+                    "2025-11-30T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.433,
+                            26.552
+                        ],
+                        [
+                            -79.404,
+                            26.424
+                        ],
+                        [
+                            -79.785,
+                            25.607
+                        ],
+                        [
+                            -80.859,
+                            25.799
+                        ],
+                        [
+                            -80.433,
+                            26.552
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 90,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 301555\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 1755Z\nFL AND CSTL WTRS\nFROM 20WSW PBI-40ESE PBI-30ESE MIA-30W MIA-20WSW PBI\nAREA TS MOV FROM 09010KT. TOPS TO FL350.\n\nOUTLOOK VALID 301755-302155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-11-30T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-11-30T15:24"
+        "creationTime": "2025-11-30T16:31"
     }
 }
