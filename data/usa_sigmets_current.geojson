@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -76.783,
-                            30.027
+                            -94.469,
+                            33.509
                         ],
                         [
-                            -76.615,
-                            27.91
+                            -93.02,
+                            33.025
                         ],
                         [
-                            -78.613,
-                            27.667
+                            -96.88,
+                            31.659
                         ],
                         [
-                            -77.905,
-                            30.406
+                            -96.488,
+                            32.676
                         ],
                         [
-                            -76.783,
-                            30.027
+                            -94.469,
+                            33.509
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 40000,
-                "altitudeHi2": 40000,
-                "movementDir": 270,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 011255\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 1455Z\nFL CSTL WTRS\nFROM 240SE CHS-200ENE PBI-100E TRV-180ENE OMN-240SE CHS\nAREA TS MOV FROM 27015KT. TOPS TO FL400.\n\nOUTLOOK VALID 011455-011855\nFROM 150SSE ILM-220ENE PBI-180E PBI-40E PBI-130SE CHS-150SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 250,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 011455\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 1655Z\nLA AR TX\nFROM 20W TXK-20SW ELD-20E ACT-30ESE TTT-20W TXK\nAREA TS MOV FROM 25025KT. TOPS TO FL300.\n\nOUTLOOK VALID 011655-012055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-12-01T14:55"
+                    "2025-12-01T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94,
+                            31.412
+                        ],
+                        [
+                            -92.572,
+                            30.331
+                        ],
+                        [
+                            -95.64,
+                            28.168
+                        ],
+                        [
+                            -97.45,
+                            28.565
+                        ],
+                        [
+                            -94,
+                            31.412
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
+                "movementDir": 250,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 011455\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 1655Z\nLA TX AND CSTL WTRS\nFROM 40ENE LFK-30ENE LCH-50SE PSX-40N CRP-40ENE LFK\nAREA EMBD TS MOV FROM 25020KT. TOPS TO FL270.\n\nOUTLOOK VALID 011655-012055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-01T16:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-01T13:39"
+        "creationTime": "2025-12-01T15:30"
     }
 }
