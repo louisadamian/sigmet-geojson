@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -87.049,
-                            30.058
+                            -87.393,
+                            30.574
                         ],
                         [
-                            -87.625,
-                            28.826
+                            -86.386,
+                            30.216
                         ],
                         [
-                            -88.87,
-                            28.727
+                            -86.68,
+                            28.836
                         ],
                         [
-                            -88.8,
-                            29.808
+                            -88.174,
+                            28.465
                         ],
                         [
-                            -87.049,
-                            30.058
+                            -88.36,
+                            30.065
+                        ],
+                        [
+                            -87.393,
+                            30.574
                         ]
                     ]
                 ]
@@ -40,11 +44,11 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 30000,
                 "altitudeHi2": 30000,
-                "movementDir": 190,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 012255\nSIGE \nCONVECTIVE SIGMET 17E\nVALID UNTIL 0055Z\nFL AL MS LA CSTL WTRS\nFROM 50SSW CEW-130SSW CEW-70ESE LEV-60SSW SJI-50SSW CEW\nAREA EMBD TS MOV FROM 19015KT. TOPS TO FL300.\n\nOUTLOOK VALID 020055-020455\nFROM 50SE ILM-130SE ILM-100E OMN-50NE CRG-50SE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementDir": 180,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS31 KKCI 020155\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 0355Z\nFL AL AND FL AL MS CSTL WTRS\nFROM 40WSW CEW-40SSE CEW-120S CEW-110ESE LEV-40S SJI-40WSW CEW\nAREA EMBD TS MOV FROM 18020KT. TOPS TO FL300.\n\nOUTLOOK VALID 020355-020755\nFROM 30SSE ILM-130SE ILM-100E OMN-50NNE CRG-30SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-02T00:55"
+                    "2025-12-02T03:55"
                 ]
             }
         },
@@ -55,28 +59,24 @@
                 "coordinates": [
                     [
                         [
-                            -85.132,
-                            32.892
+                            -87.106,
+                            32.218
                         ],
                         [
-                            -84.432,
-                            31.781
+                            -86.293,
+                            30.829
                         ],
                         [
-                            -86.68,
-                            29.995
+                            -90.481,
+                            29.179
                         ],
                         [
-                            -88.729,
-                            29.958
+                            -90.757,
+                            30.009
                         ],
                         [
-                            -88.36,
-                            31.395
-                        ],
-                        [
-                            -85.132,
-                            32.892
+                            -87.106,
+                            32.218
                         ]
                     ]
                 ]
@@ -93,14 +93,61 @@
                 "altitudeHi2": 30000,
                 "movementDir": 230,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 012255\nSIGE \nCONVECTIVE SIGMET 18E\nVALID UNTIL 0055Z\nFL GA AL MS AND FL AL MS CSTL WTRS\nFROM 10SSE LGC-10NW PZD-50S CEW-50SSW SJI-40N SJI-10SSE LGC\nAREA EMBD TS MOV FROM 23025KT. TOPS TO FL300.\n\nOUTLOOK VALID 020055-020455\nFROM 50SE ILM-130SE ILM-100E OMN-50NE CRG-50SE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 020155\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0355Z\nFL AL MS LA AND AL MS LA CSTL WTRS\nFROM 40W MGM-20E CEW-20W LEV-40SE LSU-40W MGM\nAREA EMBD TS MOV FROM 23025KT. TOPS TO FL300.\n\nOUTLOOK VALID 020355-020755\nFROM 30SSE ILM-130SE ILM-100E OMN-50NNE CRG-30SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-02T00:55"
+                    "2025-12-02T03:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.037,
+                            29.847
+                        ],
+                        [
+                            -88.7,
+                            28.664
+                        ],
+                        [
+                            -90.1,
+                            28.183
+                        ],
+                        [
+                            -90.481,
+                            29.179
+                        ],
+                        [
+                            -89.037,
+                            29.847
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 220,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 020155\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0355Z\nLA AND MS LA CSTL WTRS\nFROM 50E HRV-80ESE LEV-60S LEV-20W LEV-50E HRV\nAREA EMBD TS MOV FROM 22015KT. TOPS TO FL310.\n\nOUTLOOK VALID 020355-020755\nFROM 30SSE ILM-130SE ILM-100E OMN-50NNE CRG-30SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-02T03:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-01T23:26"
+        "creationTime": "2025-12-02T02:08"
     }
 }
