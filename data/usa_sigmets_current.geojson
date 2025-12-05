@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -88.658,
-                            31.344
+                            -87.397,
+                            31.082
                         ],
                         [
-                            -86.68,
-                            31.162
+                            -87.364,
+                            30.237
                         ],
                         [
-                            -86.68,
-                            30.165
+                            -89.593,
+                            28.1
                         ],
                         [
-                            -90.676,
-                            27.95
+                            -91.038,
+                            28.351
                         ],
                         [
-                            -91.303,
-                            28.114
+                            -88.747,
+                            30.729
                         ],
                         [
-                            -88.658,
-                            31.344
+                            -87.397,
+                            31.082
                         ]
                     ]
                 ]
@@ -46,14 +46,65 @@
                 "altitudeHi2": 40000,
                 "movementDir": 230,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 050455\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0655Z\nFL AL MS LA AND CSTL WTRS\nFROM 40NNW SJI-20N CEW-40S CEW-80SSW LEV-90SW LEV-40NNW SJI\nAREA EMBD TS MOV FROM 23030KT. TOPS TO FL400.\n\nOUTLOOK VALID 050655-051055\nFROM SJI-50S CEW-130ESE LEV-120SSE LCH-130ESE PSX-40SSE LSU-SJI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 050555\nSIGC \nCONVECTIVE SIGMET 6C\nVALID UNTIL 0755Z\nFL AL MS LA AND CSTL WTRS\nFROM 40WNW CEW-50SW CEW-70SSE LEV-70SW LEV-20W SJI-40WNW CEW\nAREA EMBD TS MOV FROM 23030KT. TOPS TO FL400.\n\nOUTLOOK VALID 050755-051155\nFROM MGM-160S CEW-120SSE LCH-120SSW LCH-80SE IAH-40WNW LEV-50SE\nMEI-MGM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-05T06:55"
+                    "2025-12-05T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -92.529,
+                            28.91
+                        ],
+                        [
+                            -91.679,
+                            28.597
+                        ],
+                        [
+                            -91.431,
+                            27.998
+                        ],
+                        [
+                            -93.11,
+                            27.643
+                        ],
+                        [
+                            -93.907,
+                            28.445
+                        ],
+                        [
+                            -92.529,
+                            28.91
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 050555\nSIGC \nCONVECTIVE SIGMET 7C\nVALID UNTIL 0755Z\nLA TX CSTL WTRS\nFROM 80SSE LCH-90WSW LEV-100SW LEV-150S LCH-110SSW LCH-80SSE LCH\nAREA TS MOV FROM 24030KT. TOPS TO FL400.\nREF INTL SIGMET INDIA SERIES.\n\nOUTLOOK VALID 050755-051155\nFROM MGM-160S CEW-120SSE LCH-120SSW LCH-80SE IAH-40WNW LEV-50SE\nMEI-MGM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-05T07:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-05T05:28"
+        "creationTime": "2025-12-05T06:42"
     }
 }
