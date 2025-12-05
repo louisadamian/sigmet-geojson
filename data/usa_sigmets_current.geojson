@@ -59,24 +59,24 @@
                 "coordinates": [
                     [
                         [
-                            -81.11,
-                            32.663
+                            -81.312,
+                            32.16
                         ],
                         [
-                            -80.417,
-                            31.567
+                            -80.687,
+                            31.043
                         ],
                         [
-                            -84.883,
-                            29.48
+                            -83.815,
+                            29.598
                         ],
                         [
-                            -85.081,
-                            30.304
+                            -84.37,
+                            30.389
                         ],
                         [
-                            -81.11,
-                            32.663
+                            -81.312,
+                            32.16
                         ]
                     ]
                 ]
@@ -93,9 +93,9 @@
                 "altitudeHi2": 45000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 051855\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 2055Z\nSC FL GA AND CSTL WTRS\nFROM 30N SAV-50SE SAV-70SSW TLH-40WSW TLH-30N SAV\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL450.\n\nOUTLOOK VALID 052055-060055\nFROM 40NE ILM-210SE CHS-170S CEW-40WSW MGM-LGC-40NE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 051955\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 2155Z\nFL GA AND CSTL WTRS\nFROM 10W SAV-60NE CRG-40W CTY-10S TLH-10W SAV\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL450.\n\nOUTLOOK VALID 052155-060155\nFROM 40NE ILM-210SE CHS-170S CEW-40WSW MGM-LGC-40NE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-05T20:55"
+                    "2025-12-05T21:55"
                 ]
             }
         },
@@ -106,28 +106,28 @@
                 "coordinates": [
                     [
                         [
-                            -86.406,
-                            31.065
+                            -85.778,
+                            31.147
                         ],
                         [
-                            -85.081,
-                            30.304
+                            -84.37,
+                            30.56
                         ],
                         [
-                            -87.482,
-                            28.199
+                            -87.415,
+                            28.726
                         ],
                         [
-                            -89.524,
-                            27.95
+                            -89.298,
+                            28.473
                         ],
                         [
                             -92.243,
                             28.295
                         ],
                         [
-                            -86.406,
-                            31.065
+                            -85.778,
+                            31.147
                         ]
                     ]
                 ]
@@ -144,14 +144,108 @@
                 "altitudeHi2": 35000,
                 "movementDir": 230,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS31 KKCI 051855\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 2055Z\nFL AL MS LA AND CSTL WTRS\nFROM 20NE CEW-40WSW TLH-150ESE LEV-80SSE LEV-120SSE LCH-20NE CEW\nAREA EMBD TS MOV FROM 23035KT. TOPS TO FL350.\n\nOUTLOOK VALID 052055-060055\nFROM 40NE ILM-210SE CHS-170S CEW-40WSW MGM-LGC-40NE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 051955\nSIGE \nCONVECTIVE SIGMET 14E\nVALID UNTIL 2155Z\nFL GA AL LA AND FL AL MS LA CSTL WTRS\nFROM 50ENE CEW-TLH-130SSE SJI-60SE LEV-120SSE LCH-50ENE CEW\nAREA EMBD TS MOV FROM 23035KT. TOPS TO FL350.\n\nOUTLOOK VALID 052155-060155\nFROM 40NE ILM-210SE CHS-170S CEW-40WSW MGM-LGC-40NE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-05T20:55"
+                    "2025-12-05T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.824,
+                            38.021
+                        ],
+                        [
+                            -77.002,
+                            36.885
+                        ],
+                        [
+                            -78.78,
+                            35.87
+                        ],
+                        [
+                            -80.71,
+                            37.09
+                        ],
+                        [
+                            -78.824,
+                            38.021
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "ICE",
+                "severity": 5,
+                "altitudeLow1": 20000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 26000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 052016\nBOSU WS 052016\nSIGMET UNIFORM 1 VALID UNTIL 060016\nSIGMET \nVA NC\nFROM 50NNE LYH TO 40SSE RIC TO RDU TO PSK TO 50NNE LYH\nOCNL SEV RIME/MXD ICGICIP BTN FL200 AND FL260. RPTD BY ACFT.\nCONDS CONTG BYD 0016Z.",
+                "validTimeTo": [
+                    "2025-12-06T00:16"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.824,
+                            38.021
+                        ],
+                        [
+                            -77.002,
+                            36.885
+                        ],
+                        [
+                            -78.78,
+                            35.87
+                        ],
+                        [
+                            -80.71,
+                            37.09
+                        ],
+                        [
+                            -78.824,
+                            38.021
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KMIA",
+                "airSigmetType": "SIGMET",
+                "hazard": "ICE",
+                "severity": 5,
+                "altitudeLow1": 20000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 26000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS02 KKCI 052016\nMIAU WS 052016\nSIGMET UNIFORM 1 VALID UNTIL 060016\nSIGMET \nNC VA\nFROM 50NNE LYH TO 40SSE RIC TO RDU TO PSK TO 50NNE LYH\nOCNL SEV RIME/MXD ICGICIP BTN FL200 AND FL260. RPTD BY ACFT.\nCONDS CONTG BYD 0016Z.",
+                "validTimeTo": [
+                    "2025-12-06T00:16"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-05T19:23"
+        "creationTime": "2025-12-05T20:31"
     }
 }
