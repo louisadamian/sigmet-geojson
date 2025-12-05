@@ -110,24 +110,75 @@
                 "coordinates": [
                     [
                         [
+                            -88.36,
+                            30.227
+                        ],
+                        [
+                            -87.701,
+                            29.342
+                        ],
+                        [
+                            -91.828,
+                            27.638
+                        ],
+                        [
+                            -93.11,
+                            28.307
+                        ],
+                        [
+                            -92.529,
+                            28.91
+                        ],
+                        [
+                            -88.36,
+                            30.227
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 051555\nSIGC \nCONVECTIVE SIGMET 25C\nVALID UNTIL 1755Z\nLA AND AL MS LA CSTL WTRS\nFROM 30S SJI-90SSE SJI-130SW LEV-110S LCH-80SSE LCH-30S SJI\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL450.\n\nOUTLOOK VALID 051755-052155\nFROM 40WSW MGM-170S CEW-120SSW LCH-70SSW LCH-30W HRV-40WSW MGM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-05T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -81.354,
                             33.245
                         ],
                         [
-                            -80.04,
-                            32.225
+                            -80.562,
+                            31.966
                         ],
                         [
-                            -82.51,
-                            30.875
+                            -83.05,
+                            30.435
                         ],
                         [
-                            -84.664,
-                            29.946
+                            -85.951,
+                            29.293
                         ],
                         [
-                            -85.085,
-                            30.812
+                            -86.386,
+                            30.216
                         ],
                         [
                             -81.354,
@@ -148,65 +199,14 @@
                 "altitudeHi2": 60000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 051655\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 1855Z\nSC FL GA AND SC GA CSTL WTRS\nFROM 40SSW CAE-40S CHS-40S AMG-40SSW TLH-40WNW TLH-40SSW CAE\nAREA EMBD TS MOV FROM 24050KT. TOPS ABV FL450.\n\nOUTLOOK VALID 051855-052255\nFROM 40WNW CHS-60NE CRG-170S CEW-40WSW MGM-LGC-40WNW CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 051555\nSIGE \nCONVECTIVE SIGMET 8E\nVALID UNTIL 1755Z\nSC FL GA AL AND FL SC GA CSTL WTRS\nFROM 40SSW CAE-30ESE SAV-50N CTY-100SSE CEW-40SSE CEW-40SSW CAE\nAREA EMBD TS MOV FROM 24050KT. TOPS ABV FL450.\n\nOUTLOOK VALID 051755-052155\nFROM 40WNW CHS-60NE CRG-170S CEW-40WSW MGM-LGC-40WNW CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-05T18:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -86.756,
-                            30.988
-                        ],
-                        [
-                            -86.68,
-                            29.995
-                        ],
-                        [
-                            -88.507,
-                            27.76
-                        ],
-                        [
-                            -90.89,
-                            27.485
-                        ],
-                        [
-                            -91.813,
-                            29.4
-                        ],
-                        [
-                            -86.756,
-                            30.988
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 45000,
-                "movementDir": 240,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 051655\nSIGC \nCONVECTIVE SIGMET 26C\nVALID UNTIL 1855Z\nFL AL MS LA AND CSTL WTRS\nFROM 10NNW CEW-50S CEW-120SE LEV-110SSW LEV-70SSW LSU-10NNW CEW\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL450.\n\nOUTLOOK VALID 051855-052255\nFROM 40WSW MGM-170S CEW-120SSW LCH-70SSW LCH-30W HRV-40WSW MGM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-12-05T18:55"
+                    "2025-12-05T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-05T17:26"
+        "creationTime": "2025-12-05T16:36"
     }
 }
