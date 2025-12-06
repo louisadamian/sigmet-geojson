@@ -263,24 +263,75 @@
                 "coordinates": [
                     [
                         [
-                            -75.471,
-                            33.498
+                            -89.463,
+                            30.041
                         ],
                         [
-                            -76.791,
-                            31.703
+                            -89.461,
+                            29.379
                         ],
                         [
-                            -77.847,
-                            30.991
+                            -92.386,
+                            28.603
                         ],
                         [
-                            -79.442,
-                            31.66
+                            -91.739,
+                            29.558
                         ],
                         [
-                            -75.471,
-                            33.498
+                            -91.007,
+                            29.866
+                        ],
+                        [
+                            -89.463,
+                            30.041
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 240,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 060155\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 0355Z\nLA AND CSTL WTRS\nFROM 30ENE HRV-40SE HRV-100SSE LCH-60SSW LSU-40SSE LSU-30ENE HRV\nDMSHG AREA TS MOV FROM 24040KT. TOPS TO FL280.\n\nOUTLOOK VALID 060355-060755\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-06T03:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -76.203,
+                            33.765
+                        ],
+                        [
+                            -76.049,
+                            32.806
+                        ],
+                        [
+                            -78.116,
+                            31.23
+                        ],
+                        [
+                            -80.664,
+                            31.238
+                        ],
+                        [
+                            -76.203,
+                            33.765
                         ]
                     ]
                 ]
@@ -297,14 +348,14 @@
                 "altitudeHi2": 38000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 060255\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 0455Z\nNC SC GA CSTL WTRS\nFROM 130ESE ILM-180ESE CHS-160SE CHS-80SSE CHS-130ESE ILM\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL380.\nREF INTL SIGMET LIMA SERIES.\n\nOUTLOOK VALID 060455-060855\nFROM 160SSE ECG-130ESE ILM-130SE ILM-130SSE ILM-180ESE CHS-210ENE\nTRV-CRG-60ESE CHS-80SE ILM-160SSE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 060155\nSIGE \nCONVECTIVE SIGMET 3E\nVALID UNTIL 0355Z\nNC SC GA CSTL WTRS\nFROM 90ESE ILM-130SE ILM-140SE CHS-60SSE SAV-90ESE ILM\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL380.\nREF INTL SIGMET LIMA SERIES.\n\nOUTLOOK VALID 060355-060755\nFROM 160SSE ECG-130ESE ILM-130SE ILM-130SSE ILM-180ESE CHS-210ENE\nTRV-CRG-60ESE CHS-80SE ILM-160SSE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-06T04:55"
+                    "2025-12-06T03:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-06T03:15"
+        "creationTime": "2025-12-06T02:02"
     }
 }
