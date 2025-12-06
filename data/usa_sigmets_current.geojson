@@ -59,47 +59,90 @@
                 "coordinates": [
                     [
                         [
-                            -115.416,
-                            47.525
+                            -122.197,
+                            48.335
                         ],
                         [
-                            -114.068,
-                            47.002
+                            -109.61,
+                            47.05
                         ],
                         [
-                            -114.629,
-                            45.94
+                            -108.79,
+                            39.06
                         ],
                         [
-                            -116.298,
-                            46.379
+                            -122.91,
+                            41.815
                         ],
                         [
-                            -116.554,
-                            47.202
-                        ],
-                        [
-                            -115.416,
-                            47.525
+                            -122.197,
+                            48.335
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 0,
                 "altitudeLow2": null,
-                "altitudeHi1": 22000,
-                "altitudeHi2": 22000,
-                "movementDir": 290,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS33 KKCI 060355\nSIGW \nCONVECTIVE SIGMET 1W\nVALID UNTIL 0555Z\nMT ID\nFROM 10ENE MLP-70ESE MLP-60NNW LKT-70SSW MLP-40WSW MLP-10ENE MLP\nDVLPG AREA TS MOV FROM 29015KT. TOPS TO FL220.\n\nOUTLOOK VALID 060555-060955\nFROM 40NNE MLP-60W GTF-DLN-30ENE DNJ-GEG-40NNE MLP\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 060454\nSLCX WS 060454\nSIGMET XRAY 1 VALID UNTIL 060853\nSIGMET \nID MT WY NV UT CO WA OR CA\nFROM 40SSE HUH TO LWT TO JNC TO 40S OED TO 40SSE HUH\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. CONDS CONTG BYD 0853Z.",
                 "validTimeTo": [
-                    "2025-12-06T05:55"
+                    "2025-12-06T08:53"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.197,
+                            48.335
+                        ],
+                        [
+                            -109.61,
+                            47.05
+                        ],
+                        [
+                            -108.79,
+                            39.06
+                        ],
+                        [
+                            -122.91,
+                            41.815
+                        ],
+                        [
+                            -122.197,
+                            48.335
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 060454\nSFOX WS 060454\nSIGMET XRAY 1 VALID UNTIL 060853\nSIGMET \nWA OR CA ID MT WY NV UT CO\nFROM 40SSE HUH TO LWT TO JNC TO 40S OED TO 40SSE HUH\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. CONDS CONTG BYD 0853Z.",
+                "validTimeTo": [
+                    "2025-12-06T08:53"
                 ]
             }
         },
@@ -114,16 +157,16 @@
                             33.498
                         ],
                         [
-                            -76.791,
-                            31.703
+                            -76.609,
+                            31.633
                         ],
                         [
-                            -77.847,
-                            30.991
+                            -77.442,
+                            30.627
                         ],
                         [
-                            -79.442,
-                            31.66
+                            -77.978,
+                            31.107
                         ],
                         [
                             -75.471,
@@ -144,14 +187,65 @@
                 "altitudeHi2": 38000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 060355\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0555Z\nNC SC GA CSTL WTRS\nFROM 130ESE ILM-180ESE CHS-160SE CHS-80SSE CHS-130ESE ILM\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL380.\nREF INTL SIGMET LIMA SERIES.\n\nOUTLOOK VALID 060555-060955\nFROM 160SSE ECG-130ESE ILM-130SE ILM-130SSE ILM-180ESE CHS-220ENE\nOMN-CRG-60ESE CHS-80SE ILM-160SSE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 060455\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0655Z\nNC FL SC GA CSTL WTRS\nFROM 130ESE ILM-190ESE CHS-190SE CHS-150SE CHS-130ESE ILM\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL380.\nREF INTL SIGMET LIMA SERIES.\n\nOUTLOOK VALID 060655-061055\nFROM 130SSE ILM-180ESE CHS-220ENE TRV-180SE CHS-130SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-06T05:55"
+                    "2025-12-06T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -115.416,
+                            47.525
+                        ],
+                        [
+                            -114.068,
+                            47.002
+                        ],
+                        [
+                            -114.629,
+                            45.94
+                        ],
+                        [
+                            -116.298,
+                            46.379
+                        ],
+                        [
+                            -116.633,
+                            47.456
+                        ],
+                        [
+                            -115.416,
+                            47.525
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 22000,
+                "altitudeHi2": 22000,
+                "movementDir": 290,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS33 KKCI 060455\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0655Z\nMT ID\nFROM 10ENE MLP-70ESE MLP-60NNW LKT-70SSW MLP-40W MLP-10ENE MLP\nAREA TS MOV FROM 29015KT. TOPS TO FL220.\n\nOUTLOOK VALID 060655-061055\nFROM 40NNE MLP-60W GTF-DLN-30ENE DNJ-GEG-40NNE MLP\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-06T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-06T04:30"
+        "creationTime": "2025-12-06T05:26"
     }
 }
