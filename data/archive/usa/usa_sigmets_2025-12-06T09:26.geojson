@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -109.487,
+                            46.398
+                        ],
+                        [
+                            -104.177,
+                            43.116
+                        ],
+                        [
+                            -104.455,
+                            34.472
+                        ],
+                        [
+                            -106.82,
+                            35.04
+                        ],
+                        [
+                            -108.79,
+                            39.06
+                        ],
+                        [
+                            -109.487,
+                            46.398
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 060613\nSLCY WS 060613\nSIGMET YANKEE 1 VALID UNTIL 061013\nSIGMET \nMT WY CO NM\nFROM 50NW BIL TO 80NNW BFF TO 60SW TCC TO ABQ TO JNC TO 50NW BIL\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS CONTG BYD 1013Z.",
+                "validTimeTo": [
+                    "2025-12-06T10:13"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -121.83,
                             48.211
                         ],
@@ -100,6 +151,53 @@
                 "rawAirSigmet": "WSUS06 KKCI 060742\nSFOX WS 060742\nSIGMET XRAY 2 VALID UNTIL 061142\nSIGMET \nWA OR CA ID MT WY NV UT CO\nFROM 50NNE SEA TO 20S MLP TO 40S LWT TO JNC TO 50SW LKV TO 50NNE\nSEA\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. CONDS CONTG BYD 1142Z.",
                 "validTimeTo": [
                     "2025-12-06T11:42"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.455,
+                            31.295
+                        ],
+                        [
+                            -85.865,
+                            30.122
+                        ],
+                        [
+                            -88.36,
+                            29.562
+                        ],
+                        [
+                            -88.772,
+                            30.374
+                        ],
+                        [
+                            -86.455,
+                            31.295
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 060855\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 1055Z\nFL AL MS AND CSTL WTRS\nFROM 30NNE CEW-60SE CEW-70S SJI-30SW SJI-30NNE CEW\nAREA TS MOV FROM 24045KT. TOPS TO FL310.\n\nOUTLOOK VALID 061055-061455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-06T10:55"
                 ]
             }
         },
@@ -255,60 +353,9 @@
                     "2025-12-06T13:14"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -109.469,
-                            45.216
-                        ],
-                        [
-                            -104.281,
-                            42.478
-                        ],
-                        [
-                            -104.455,
-                            34.472
-                        ],
-                        [
-                            -106.072,
-                            34.783
-                        ],
-                        [
-                            -108.79,
-                            39.06
-                        ],
-                        [
-                            -109.469,
-                            45.216
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 18000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 060943\nSLCY WS 060943\nSIGMET YANKEE 2 VALID UNTIL 061343\nSIGMET \nMT WY CO NM\nFROM 50SW BIL TO 50NW BFF TO 60SW TCC TO 40ESE ABQ TO JNC TO 50SW\nBIL\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. CONDS CONTG BYD 1343Z.",
-                "validTimeTo": [
-                    "2025-12-06T13:43"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-06T10:27"
+        "creationTime": "2025-12-06T09:26"
     }
 }
