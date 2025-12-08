@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -77.442,
-                            30.627
+                            -78.08,
+                            30.349
                         ],
                         [
-                            -77.154,
-                            28.85
+                            -76.966,
+                            27.79
                         ],
                         [
-                            -83.497,
-                            25.216
+                            -83.262,
+                            24.583
                         ],
                         [
                             -84.103,
                             26.817
                         ],
                         [
-                            -77.442,
-                            30.627
+                            -78.08,
+                            30.349
                         ]
                     ]
                 ]
@@ -39,17 +39,64 @@
                 "altitudeLow1": null,
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
-                "altitudeHi2": 45000,
+                "altitudeHi2": 60000,
                 "movementDir": 260,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS31 KKCI 080355\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0555Z\nFL AND CSTL WTRS\nFROM 190SE CHS-190ENE TRV-100WNW EYW-90WSW SRQ-190SE CHS\nAREA EMBD TS MOV FROM 26030KT. TOPS TO FL450.\n\nOUTLOOK VALID 080555-080955\nFROM 170SSE ILM-210ENE TRV-80WNW EYW-110W PIE-170SSE ILM\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 080455\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0655Z\nFL AND CSTL WTRS\nFROM 170ENE OMN-180ENE PBI-80W EYW-90WSW SRQ-170ENE OMN\nAREA EMBD TS MOV FROM 26030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 080655-081055\nFROM 200SE CHS-210ENE PBI-70W EYW-90W SRQ-200SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-08T05:55"
+                    "2025-12-08T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.651,
+                            24.907
+                        ],
+                        [
+                            -81.8,
+                            24.761
+                        ],
+                        [
+                            -81.589,
+                            24.125
+                        ],
+                        [
+                            -82.982,
+                            24.138
+                        ],
+                        [
+                            -82.651,
+                            24.907
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 230,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 080455\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 0655Z\nFL AND CSTL WTRS\nFROM 50WNW EYW-10N EYW-30SSE EYW-70WSW EYW-50WNW EYW\nAREA TS MOV FROM 23015KT. TOPS ABV FL450.\n\nOUTLOOK VALID 080655-081055\nFROM 200SE CHS-210ENE PBI-70W EYW-90W SRQ-200SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-08T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-08T04:39"
+        "creationTime": "2025-12-08T05:30"
     }
 }
