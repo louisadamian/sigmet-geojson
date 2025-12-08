@@ -8,20 +8,12 @@
                 "coordinates": [
                     [
                         [
-                            -83.497,
-                            25.216
+                            -80.82,
+                            25.329
                         ],
                         [
-                            -81.281,
-                            25.059
-                        ],
-                        [
-                            -80.3,
-                            24.47
-                        ],
-                        [
-                            -80.12,
-                            23.945
+                            -79.948,
+                            23.877
                         ],
                         [
                             -83.317,
@@ -30,6 +22,10 @@
                         [
                             -83.497,
                             25.216
+                        ],
+                        [
+                            -80.82,
+                            25.329
                         ]
                     ]
                 ]
@@ -42,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
                 "movementDir": 270,
                 "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 081555\nSIGE \nCONVECTIVE SIGMET 23E\nVALID UNTIL 1755Z\nFL AND CSTL WTRS\nFROM 100WNW EYW-40NE EYW-80S MIA-100ESE EYW-90WSW EYW-100WNW EYW\nAREA TS MOV FROM 27015KT. TOPS TO FL360.\nREF INTL SIGMET JULIETT SERIES.\n\nOUTLOOK VALID 081755-082155\nFROM 220ENE TRV-210ENE PBI-160E PBI-60E PBI-100SE MIA-160SE\nMIA-90WSW EYW-100SW SRQ-40ENE RSW-220ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 081655\nSIGE \nCONVECTIVE SIGMET 24E\nVALID UNTIL 1855Z\nFL AND CSTL WTRS\nFROM 40SW MIA-110ESE EYW-90WSW EYW-100WNW EYW-40SW MIA\nAREA TS MOV FROM 27015KT. TOPS TO FL340.\nREF INTL SIGMET JULIETT SERIES.\n\nOUTLOOK VALID 081855-082255\nFROM 220ENE TRV-210ENE PBI-160E PBI-60E PBI-100SE MIA-160SE\nMIA-90WSW EYW-100SW SRQ-40ENE RSW-220ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-08T17:55"
+                    "2025-12-08T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.523,
+                            26.528
+                        ],
+                        [
+                            -82.563,
+                            25.823
+                        ],
+                        [
+                            -84.014,
+                            25.402
+                        ],
+                        [
+                            -83.734,
+                            26.334
+                        ],
+                        [
+                            -82.523,
+                            26.528
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 270,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 081655\nSIGE \nCONVECTIVE SIGMET 25E\nVALID UNTIL 1855Z\nFL CSTL WTRS\nFROM 40W RSW-60SW RSW-130WNW EYW-90SW SRQ-40W RSW\nAREA TS MOV FROM 27025KT. TOPS TO FL340.\n\nOUTLOOK VALID 081855-082255\nFROM 220ENE TRV-210ENE PBI-160E PBI-60E PBI-100SE MIA-160SE\nMIA-90WSW EYW-100SW SRQ-40ENE RSW-220ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-08T18:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-08T16:37"
+        "creationTime": "2025-12-08T17:27"
     }
 }
