@@ -102,6 +102,49 @@
                 "coordinates": [
                     [
                         [
+                            -79.647,
+                            25.208
+                        ],
+                        [
+                            -78.367,
+                            24.021
+                        ],
+                        [
+                            -80.283,
+                            24.008
+                        ],
+                        [
+                            -79.647,
+                            25.208
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 110355\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0555Z\nFL CSTL WTRS\nFROM 50SE MIA-150SE MIA-90ESE EYW-50SE MIA\nAREA TS MOV FROM 24030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 110555-110955\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-11T05:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -115.78,
                             48.935
                         ],
@@ -141,52 +184,9 @@
                     "2025-12-11T08:10"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -79.521,
-                            25.093
-                        ],
-                        [
-                            -78.367,
-                            24.021
-                        ],
-                        [
-                            -79.532,
-                            24.105
-                        ],
-                        [
-                            -79.521,
-                            25.093
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 240,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 110455\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0655Z\nFL CSTL WTRS\nFROM 60SE MIA-150SE MIA-110SSE MIA-60SE MIA\nAREA TS MOV FROM 24025KT. TOPS ABV FL450.\n\nOUTLOOK VALID 110655-111055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-12-11T06:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-11T05:31"
+        "creationTime": "2025-12-11T04:39"
     }
 }
