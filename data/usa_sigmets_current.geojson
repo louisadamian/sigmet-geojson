@@ -59,24 +59,24 @@
                 "coordinates": [
                     [
                         [
-                            -95.664,
-                            26.546
+                            -76.383,
+                            31.27
                         ],
                         [
-                            -95.902,
-                            25.913
+                            -77.858,
+                            26.663
                         ],
                         [
-                            -96.821,
-                            25.919
+                            -79.569,
+                            26.872
                         ],
                         [
-                            -96.352,
-                            26.298
+                            -77.709,
+                            30.867
                         ],
                         [
-                            -95.664,
-                            26.546
+                            -76.383,
+                            31.27
                         ]
                     ]
                 ]
@@ -89,18 +89,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 41000,
-                "altitudeHi2": 41000,
-                "movementDir": 310,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 141755\nSIGC \nCONVECTIVE SIGMET 23C\nVALID UNTIL 1955Z\nTX CSTL WTRS\nFROM 100ENE BRO-80E BRO-30E BRO-60ENE BRO-100ENE BRO\nAREA TS MOV FROM 31020KT. TOPS TO FL410.\n\nOUTLOOK VALID 141955-142355\nTS ARE NOT EXPD.",
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 240,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 141855\nSIGE \nCONVECTIVE SIGMET 35E\nVALID UNTIL 2055Z\nFL GA CSTL WTRS\nFROM 200SSE ILM-120E PBI-30ENE PBI-170SE CHS-200SSE ILM\nAREA TS MOV FROM 24010KT. TOPS TO FL400.\n\nOUTLOOK VALID 142055-150055\nFROM 200SE CHS-210E PBI-70ENE PBI-80ENE TRV-200SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-14T19:55"
+                    "2025-12-14T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.55,
+                            26.735
+                        ],
+                        [
+                            -82.176,
+                            26.174
+                        ],
+                        [
+                            -83.331,
+                            25.156
+                        ],
+                        [
+                            -83.147,
+                            26.015
+                        ],
+                        [
+                            -82.55,
+                            26.735
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 270,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 141855\nSIGE \nCONVECTIVE SIGMET 36E\nVALID UNTIL 2055Z\nFL CSTL WTRS\nFROM 40S SRQ-30SW RSW-90WNW EYW-80WSW RSW-40S SRQ\nAREA TS MOV FROM 27015KT. TOPS TO FL380.\n\n\nOUTLOOK VALID 142055-150055\nFROM 200SE CHS-210E PBI-70ENE PBI-80ENE TRV-200SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-14T20:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-14T18:36"
+        "creationTime": "2025-12-14T19:21"
     }
 }
