@@ -8,154 +8,48 @@
                 "coordinates": [
                     [
                         [
-                            -67.83,
-                            46.04
+                            -79.171,
+                            27.674
                         ],
                         [
-                            -66.87,
-                            44.611
+                            -79.003,
+                            25.794
                         ],
                         [
-                            -66.614,
-                            43.172
+                            -79.785,
+                            25.607
                         ],
                         [
-                            -71.018,
-                            39.433
+                            -80.225,
+                            26.801
                         ],
                         [
-                            -73.461,
-                            40.395
-                        ],
-                        [
-                            -67.83,
-                            46.04
+                            -79.171,
+                            27.674
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KBOS",
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 8000,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 19000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 142038\nBOSU WS 142038\nSIGMET UNIFORM 2 VALID UNTIL 150038\nSIGMET \nME NH MA RI CT NY AND CSTL WTRS\nFROM HUL TO 60SW YSJ TO 140SE BGR TO 120SSW ACK TO 20SE JFK TO\nHUL\nOCNL SEV TURB BTN 080 AND FL190. DUE TO WNDSHR ASSOCD WITH JTST.\nRPTD BY ACFT. CONDS CONTG BYD 0038Z.",
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 280,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS31 KKCI 150155\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 0355Z\nFL AND CSTL WTRS\nFROM 70E TRV-70E MIA-30ESE MIA-10NW PBI-70E TRV\nAREA TS MOV FROM 28015KT. TOPS TO FL380.\n\nOUTLOOK VALID 150355-150755\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-12-15T00:38"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -82.287,
-                            36.133
-                        ],
-                        [
-                            -81.5,
-                            35.411
-                        ],
-                        [
-                            -83.642,
-                            33.627
-                        ],
-                        [
-                            -85.15,
-                            34.628
-                        ],
-                        [
-                            -84.331,
-                            36.255
-                        ],
-                        [
-                            -82.287,
-                            36.133
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KMIA",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 9000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS02 KKCI 142044\nMIAV WS 142044\nSIGMET VICTOR 1 VALID UNTIL 150044\nSIGMET \nNC SC GA TN\nFROM 20SSW HMV TO 30WNW CLT TO 40E ATL TO 20S GQO TO 30NW VXV TO\n20SSW HMV\nOCNL SEV TURB BLW 090. DUE TO STG LOW LVL WNDS AND WNDSHR ASSOCD\nWITH JTST. RPTD BY ACFT. CONDS CONTG BYD 0044Z.",
-                "validTimeTo": [
-                    "2025-12-15T00:44"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -82.287,
-                            36.133
-                        ],
-                        [
-                            -81.5,
-                            35.411
-                        ],
-                        [
-                            -83.642,
-                            33.627
-                        ],
-                        [
-                            -85.15,
-                            34.628
-                        ],
-                        [
-                            -84.331,
-                            36.255
-                        ],
-                        [
-                            -82.287,
-                            36.133
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KDFW",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 9000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 142044\nDFWV WS 142044\nSIGMET VICTOR 1 VALID UNTIL 150044\nSIGMET \nTN NC SC GA\nFROM 20SSW HMV TO 30WNW CLT TO 40E ATL TO 20S GQO TO 30NW VXV TO\n20SSW HMV\nOCNL SEV TURB BLW 090. DUE TO STG LOW LVL WNDS AND WNDSHR ASSOCD\nWITH JTST. RPTD BY ACFT. CONDS CONTG BYD 0044Z.",
-                "validTimeTo": [
-                    "2025-12-15T00:44"
+                    "2025-12-15T03:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-14T23:25"
+        "creationTime": "2025-12-15T02:22"
     }
 }
