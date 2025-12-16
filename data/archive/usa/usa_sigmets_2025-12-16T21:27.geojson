@@ -110,6 +110,53 @@
                 "coordinates": [
                     [
                         [
+                            -100.206,
+                            30.599
+                        ],
+                        [
+                            -98.078,
+                            29.639
+                        ],
+                        [
+                            -99.402,
+                            28.811
+                        ],
+                        [
+                            -101.18,
+                            29.715
+                        ],
+                        [
+                            -100.206,
+                            30.599
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 240,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 162055\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 2255Z\nTX\nFROM 20W JCT-20E SAT-70SW SAT-30NW DLF-20W JCT\nAREA TS MOV FROM 24015KT. TOPS TO FL310.\n\nOUTLOOK VALID 162255-170255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-16T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -122.58,
                             48.95
                         ],
@@ -153,60 +200,9 @@
                     "2025-12-17T00:59"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -98.068,
-                            30.186
-                        ],
-                        [
-                            -98.107,
-                            29.512
-                        ],
-                        [
-                            -100.336,
-                            28.438
-                        ],
-                        [
-                            -100.695,
-                            29.202
-                        ],
-                        [
-                            -99.277,
-                            30.129
-                        ],
-                        [
-                            -98.068,
-                            30.186
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
-                "movementDir": 240,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 162155\nSIGC \nCONVECTIVE SIGMET 3C\nVALID UNTIL 2355Z\nTX\nFROM 30WSW CWK-20ESE SAT-60SSE DLF-10SSE DLF-40SE JCT-30WSW CWK\nAREA TS MOV FROM 24025KT. TOPS TO FL350.\n\nOUTLOOK VALID 162355-170355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-12-16T23:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-16T22:26"
+        "creationTime": "2025-12-16T21:27"
     }
 }
