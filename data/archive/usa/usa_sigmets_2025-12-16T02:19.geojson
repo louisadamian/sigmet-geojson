@@ -36,6 +36,57 @@
             },
             "properties": {
                 "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 12000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 160217\nCHIW WS 160217\nSIGMET WHISKEY 3 VALID UNTIL 160617\nSIGMET \nND SD NE ID MT WY\nFROM 50SSE YQL TO 50NNW ISN TO 70NNW BFF TO 20NNW PIH TO 50SW YXC\nTO 50SSE YQL\nOCNL SEV TURB BLW 120. DUE TO STG LOW LVL WNDS AND WNDSHR ASSOCD\nWITH JTST AND MTN WV ACT. CONDS CONTG BYD 0617Z.",
+                "validTimeTo": [
+                    "2025-12-16T06:17"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -112.314,
+                            48.857
+                        ],
+                        [
+                            -104.117,
+                            48.951
+                        ],
+                        [
+                            -104.091,
+                            42.967
+                        ],
+                        [
+                            -112.824,
+                            43.177
+                        ],
+                        [
+                            -116.681,
+                            49.006
+                        ],
+                        [
+                            -112.314,
+                            48.857
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
                 "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
@@ -54,6 +105,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-16T04:00"
+        "creationTime": "2025-12-16T02:19"
     }
 }
