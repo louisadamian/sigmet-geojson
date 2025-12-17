@@ -102,28 +102,28 @@
                 "coordinates": [
                     [
                         [
-                            -94.009,
-                            28.778
+                            -96.749,
+                            29.681
                         ],
                         [
-                            -95.902,
-                            25.913
+                            -93.11,
+                            28.64
                         ],
                         [
-                            -96.862,
-                            26.112
+                            -94.973,
+                            25.9
                         ],
                         [
-                            -97.272,
-                            27.835
+                            -97.205,
+                            25.985
                         ],
                         [
-                            -96.839,
-                            28.566
+                            -97.922,
+                            29.169
                         ],
                         [
-                            -94.009,
-                            28.778
+                            -96.749,
+                            29.681
                         ]
                     ]
                 ]
@@ -138,16 +138,110 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 40000,
                 "altitudeHi2": 40000,
-                "movementDir": 260,
+                "movementDir": 240,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 171255\nSIGC \nCONVECTIVE SIGMET 20C\nVALID UNTIL 1455Z\nTX AND CSTL WTRS\nFROM 100SE IAH-80E BRO-30ENE BRO-10ESE CRP-30WSW PSX-100SE IAH\nAREA EMBD TS MOV FROM 26025KT. TOPS TO FL400.\n\nOUTLOOK VALID 171455-171855\nFROM CWK-30NE IAH-110S LCH-120SSW LCH-90SE PSX-80E BRO-BRO-70WNW\nCRP-CWK\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 171355\nSIGC \nCONVECTIVE SIGMET 21C\nVALID UNTIL 1555Z\nTX AND LA TX CSTL WTRS\nFROM 60NNW PSX-90S LCH-130E BRO-10ENE BRO-40SE SAT-60NNW PSX\nAREA EMBD TS MOV FROM 24025KT. TOPS TO FL400.\n\nOUTLOOK VALID 171555-171955\nFROM CWK-30NE IAH-110S LCH-120SSW LCH-100SE PSX-80E BRO-BRO-70WNW\nCRP-CWK\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-17T14:55"
+                    "2025-12-17T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -116.764,
+                            46.966
+                        ],
+                        [
+                            -114.284,
+                            46.512
+                        ],
+                        [
+                            -117.343,
+                            43.544
+                        ],
+                        [
+                            -118.672,
+                            44.582
+                        ],
+                        [
+                            -116.764,
+                            46.966
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 270,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS33 KKCI 171355\nSIGW \nCONVECTIVE SIGMET 3W\nVALID UNTIL 1555Z\nID OR WA\nFROM 50SE GEG-80SE MLP-50W BOI-40WSW BKE-50SE GEG\nAREA SEV EMBD TS MOV FROM 27045KT. TOPS TO FL330.\nWIND GUSTS TO 70KT POSS.\n\nOUTLOOK VALID 171555-171955\nFROM FCA-40NNE GTF-BIL-30WSW BOY-40WNW MTU-50E BAM-50SSW REO-40SW\nDNJ-FCA\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-17T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -117.033,
+                            48.767
+                        ],
+                        [
+                            -115.345,
+                            48.524
+                        ],
+                        [
+                            -116.981,
+                            46.479
+                        ],
+                        [
+                            -117.977,
+                            47.324
+                        ],
+                        [
+                            -117.033,
+                            48.767
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 250,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS33 KKCI 171355\nSIGW \nCONVECTIVE SIGMET 4W\nVALID UNTIL 1555Z\nMT ID WA\nFROM 70SW YXC-50WNW FCA-70SSE GEG-20SW GEG-70SW YXC\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL300.\n\nOUTLOOK VALID 171555-171955\nFROM FCA-40NNE GTF-BIL-30WSW BOY-40WNW MTU-50E BAM-50SSW REO-40SW\nDNJ-FCA\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-17T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-17T13:37"
+        "creationTime": "2025-12-17T14:31"
     }
 }
