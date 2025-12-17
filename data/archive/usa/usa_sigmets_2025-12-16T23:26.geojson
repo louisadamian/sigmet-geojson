@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -122.58,
+                            48.95
+                        ],
+                        [
+                            -120.133,
+                            48.855
+                        ],
+                        [
+                            -119.828,
+                            42.488
+                        ],
+                        [
+                            -121.643,
+                            42.484
+                        ],
+                        [
+                            -124.252,
+                            47.685
+                        ],
+                        [
+                            -122.58,
+                            48.95
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 12000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 162059\nSFOY WS 162059\nSIGMET YANKEE 1 VALID UNTIL 170059\nSIGMET \nWA OR\nFROM HUH TO 40SSE YDC TO 30E LKV TO 50W LKV TO 40SSE TOU TO HUH\nOCNL SEV TURB BLW 120. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 0059Z.",
+                "validTimeTo": [
+                    "2025-12-17T00:59"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -108.248,
                             47.424
                         ],
@@ -102,48 +153,48 @@
                 "coordinates": [
                     [
                         [
-                            -120.133,
-                            48.855
+                            -97.803,
+                            30.615
                         ],
                         [
-                            -119.893,
-                            43.567
+                            -97.308,
+                            29.915
                         ],
                         [
-                            -122.273,
-                            43.541
+                            -100.406,
+                            28.588
                         ],
                         [
-                            -124.278,
-                            48.064
+                            -100.908,
+                            29.239
                         ],
                         [
-                            -120.133,
-                            48.855
+                            -97.803,
+                            30.615
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KSFO",
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 0,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 12000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 170045\nSFOY WS 170045\nSIGMET YANKEE 2 VALID UNTIL 170445\nSIGMET \nWA OR\nFROM 40SSE YDC TO 70NNE LKV TO 60SW DSD TO 20SE TOU TO 40SSE YDC\nOCNL SEV TURB BLW 120. DUE TO STG LOW LVL WNDS AND STG UDDFS AND\nLLWS. RPTD BY ACFT. CONDS CONTG BYD 0445Z.",
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 240,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 162255\nSIGC \nCONVECTIVE SIGMET 4C\nVALID UNTIL 0055Z\nTX\nFROM 20NW CWK-30SSE CWK-50SSE DLF-10SW DLF-20NW CWK\nAREA TS MOV FROM 24025KT. TOPS TO FL350.\n\nOUTLOOK VALID 170055-170455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-12-17T04:45"
+                    "2025-12-17T00:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-17T02:08"
+        "creationTime": "2025-12-16T23:26"
     }
 }
