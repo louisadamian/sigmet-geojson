@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -73.317,
+                            42.131
+                        ],
+                        [
+                            -72.067,
+                            40.455
+                        ],
+                        [
+                            -73.155,
+                            40.158
+                        ],
+                        [
+                            -74.496,
+                            41.803
+                        ],
+                        [
+                            -73.317,
+                            42.131
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 20000,
+                "altitudeHi2": 20000,
+                "movementDir": 220,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 192155\nSIGE \nCONVECTIVE SIGMET 61E\nVALID UNTIL 2355Z\nMA CT NY AND NY CT CSTL WTRS\nFROM 30WNW BDL-30SSE HTO-40SE JFK-40ESE HNK-30WNW BDL\nAREA SEV TS MOV FROM 22045KT. TOPS TO FL200.\nWIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 192355-200355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-19T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -105.95,
                             46.38
                         ],
@@ -377,53 +424,6 @@
                 "coordinates": [
                     [
                         [
-                            -72.96,
-                            43.001
-                        ],
-                        [
-                            -71.214,
-                            40.915
-                        ],
-                        [
-                            -72.32,
-                            40.417
-                        ],
-                        [
-                            -74.143,
-                            42.135
-                        ],
-                        [
-                            -72.96,
-                            43.001
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 20000,
-                "altitudeHi2": 20000,
-                "movementDir": 220,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 192255\nSIGE \nCONVECTIVE SIGMET 62E\nVALID UNTIL 0055Z\nMA RI VT CT NY AND RI NY CT CSTL WTRS\nFROM 40ENE ALB-50E HTO-30S HTO-40SSW ALB-40ENE ALB\nAREA TS MOV FROM 22045KT. TOPS TO FL200.\n\nOUTLOOK VALID 200055-200455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-12-20T00:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -109.476,
                             42.108
                         ],
@@ -466,6 +466,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-19T23:26"
+        "creationTime": "2025-12-19T22:27"
     }
 }
