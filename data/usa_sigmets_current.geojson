@@ -8,147 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -121.147,
-                            40.921
-                        ],
-                        [
-                            -119.66,
-                            39.027
-                        ],
-                        [
-                            -120.701,
-                            38.437
-                        ],
-                        [
-                            -122.326,
-                            40.258
-                        ],
-                        [
-                            -121.147,
-                            40.921
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
-                "movementDir": 250,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS33 KKCI 211255\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 1455Z\nNV CA\nFROM 70NE RBL-30S FMG-40E SAC-10NNW RBL-70NE RBL\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL250.\n\nOUTLOOK VALID 211455-211855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-12-21T14:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -99.153,
-                            42.821
-                        ],
-                        [
-                            -91.468,
-                            38.227
-                        ],
-                        [
-                            -97.92,
-                            36.35
-                        ],
-                        [
-                            -100.832,
-                            39.451
-                        ],
-                        [
-                            -99.153,
-                            42.821
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KCHI",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 28000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 35000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS03 KKCI 211123\nCHIV WS 211123\nSIGMET VICTOR 2 VALID UNTIL 211523\nSIGMET \nNE KS IA MO OK\nFROM 40ENE ANW TO 50SE COU TO END TO 30WNW HLC TO 40ENE ANW\nOCNL SEV TURB BTN FL280 AND FL350. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS ENDG 1523Z.",
-                "validTimeTo": [
-                    "2025-12-21T15:23"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -99.153,
-                            42.821
-                        ],
-                        [
-                            -91.468,
-                            38.227
-                        ],
-                        [
-                            -97.92,
-                            36.35
-                        ],
-                        [
-                            -100.832,
-                            39.451
-                        ],
-                        [
-                            -99.153,
-                            42.821
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KDFW",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 28000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 35000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 211123\nDFWV WS 211123\nSIGMET VICTOR 2 VALID UNTIL 211523\nSIGMET \nOK NE KS IA MO\nFROM 40ENE ANW TO 50SE COU TO END TO 30WNW HLC TO 40ENE ANW\nOCNL SEV TURB BTN FL280 AND FL350. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS ENDG 1523Z.",
-                "validTimeTo": [
-                    "2025-12-21T15:23"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -119.129,
                             42.965
                         ],
@@ -235,9 +94,56 @@
                     "2025-12-21T15:30"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.147,
+                            40.921
+                        ],
+                        [
+                            -119.66,
+                            39.027
+                        ],
+                        [
+                            -120.701,
+                            38.437
+                        ],
+                        [
+                            -122.326,
+                            40.258
+                        ],
+                        [
+                            -121.147,
+                            40.921
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 250,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS33 KKCI 211355\nSIGW \nCONVECTIVE SIGMET 3W\nVALID UNTIL 1555Z\nNV CA\nFROM 70NE RBL-30S FMG-40E SAC-10NNW RBL-70NE RBL\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL250.\n\nOUTLOOK VALID 211555-211955\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-21T15:55"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-21T13:33"
+        "creationTime": "2025-12-21T14:25"
     }
 }
