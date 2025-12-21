@@ -32,7 +32,7 @@
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KSFO",
+                "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
@@ -42,9 +42,9 @@
                 "altitudeHi2": 16000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 211524\nSFOW WS 211524\nSIGMET WHISKEY 2 VALID UNTIL 211923\nSIGMET \nOR CA NV\nFROM 60WNW REO TO 20NW BTY TO 60NNE EHF TO 70N RBL TO 60WNW REO\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1923Z.",
+                "rawAirSigmet": "WSUS05 KKCI 211130\nSLCW WS 211130\nSIGMET WHISKEY 1 VALID UNTIL 211530\nSIGMET \nNV OR CA\nFROM 60WNW REO TO 20NW BTY TO 60NNE EHF TO 70N RBL TO 60WNW REO\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1530Z.",
                 "validTimeTo": [
-                    "2025-12-21T19:23"
+                    "2025-12-21T15:30"
                 ]
             }
         },
@@ -79,7 +79,7 @@
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KSLC",
+                "airportIcao": "KSFO",
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
@@ -89,14 +89,61 @@
                 "altitudeHi2": 16000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 211524\nSLCW WS 211524\nSIGMET WHISKEY 2 VALID UNTIL 211923\nSIGMET \nNV OR CA\nFROM 60WNW REO TO 20NW BTY TO 60NNE EHF TO 70N RBL TO 60WNW REO\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1923Z.",
+                "rawAirSigmet": "WSUS06 KKCI 211130\nSFOW WS 211130\nSIGMET WHISKEY 1 VALID UNTIL 211530\nSIGMET \nOR CA NV\nFROM 60WNW REO TO 20NW BTY TO 60NNE EHF TO 70N RBL TO 60WNW REO\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1530Z.",
                 "validTimeTo": [
-                    "2025-12-21T19:23"
+                    "2025-12-21T15:30"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.147,
+                            40.921
+                        ],
+                        [
+                            -119.66,
+                            39.027
+                        ],
+                        [
+                            -120.701,
+                            38.437
+                        ],
+                        [
+                            -122.326,
+                            40.258
+                        ],
+                        [
+                            -121.147,
+                            40.921
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 250,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS33 KKCI 211355\nSIGW \nCONVECTIVE SIGMET 3W\nVALID UNTIL 1555Z\nNV CA\nFROM 70NE RBL-30S FMG-40E SAC-10NNW RBL-70NE RBL\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL250.\n\nOUTLOOK VALID 211555-211955\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-21T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-21T15:26"
+        "creationTime": "2025-12-21T14:25"
     }
 }
