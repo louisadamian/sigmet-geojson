@@ -8,52 +8,111 @@
                 "coordinates": [
                     [
                         [
-                            -97.45,
-                            27.397
+                            -119.805,
+                            43.793
                         ],
                         [
-                            -96.271,
-                            25.916
+                            -118.381,
+                            41.668
                         ],
                         [
-                            -96.821,
-                            25.919
+                            -121.258,
+                            37.865
                         ],
                         [
-                            -97.595,
-                            26.385
+                            -122.715,
+                            33.457
                         ],
                         [
-                            -97.878,
-                            26.978
+                            -125.815,
+                            38.194
                         ],
                         [
-                            -97.45,
-                            27.397
+                            -123.338,
+                            41.707
+                        ],
+                        [
+                            -119.805,
+                            43.793
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 31000,
                 "altitudeLow2": null,
-                "altitudeHi1": 29000,
-                "altitudeHi2": 29000,
-                "movementDir": 160,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS32 KKCI 221955\nSIGC \nCONVECTIVE SIGMET 4C\nVALID UNTIL 2155Z\nTX AND CSTL WTRS\nFROM 30S CRP-60E BRO-30E BRO-30NNW BRO-60SSW CRP-30S CRP\nAREA TS MOV FROM 16010KT. TOPS TO FL290.\n\nOUTLOOK VALID 222155-230155\nFROM 40WNW CRP-70ESE CRP-60E BRO-BRO-30WNW BRO-40ENE LRD-40WNW\nCRP\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": null,
+                "altitudeHi2": 39000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 230837\nSLCY WS 230837\nSIGMET YANKEE 1 VALID UNTIL 231237\nSIGMET \nNV OR CA AND CSTL WTRS\nFROM 70ESE DSD TO 60SSW REO TO 20NW MOD TO 160WSW RZS TO 130WSW\nENI TO 50SSW OED TO 70ESE DSD\nOCNL SEV TURB BTN FL310 AND FL390. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1237Z.",
                 "validTimeTo": [
-                    "2025-12-22T21:55"
+                    "2025-12-23T12:37"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -119.805,
+                            43.793
+                        ],
+                        [
+                            -118.381,
+                            41.668
+                        ],
+                        [
+                            -121.258,
+                            37.865
+                        ],
+                        [
+                            -122.715,
+                            33.457
+                        ],
+                        [
+                            -125.815,
+                            38.194
+                        ],
+                        [
+                            -123.338,
+                            41.707
+                        ],
+                        [
+                            -119.805,
+                            43.793
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 31000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 39000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 230837\nSFOY WS 230837\nSIGMET YANKEE 1 VALID UNTIL 231237\nSIGMET \nOR CA NV AND CSTL WTRS\nFROM 70ESE DSD TO 60SSW REO TO 20NW MOD TO 160WSW RZS TO 130WSW\nENI TO 50SSW OED TO 70ESE DSD\nOCNL SEV TURB BTN FL310 AND FL390. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1237Z.",
+                "validTimeTo": [
+                    "2025-12-23T12:37"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-22T20:31"
+        "creationTime": "2025-12-23T08:39"
     }
 }
