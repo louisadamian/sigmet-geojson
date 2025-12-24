@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -121.042,
-                            39.712
-                        ],
-                        [
                             -120.264,
                             39.721
                         ],
                         [
-                            -120.182,
-                            37.882
+                            -120.061,
+                            38.332
                         ],
                         [
-                            -121.202,
-                            37.165
+                            -120.877,
+                            37.788
                         ],
                         [
-                            -121.042,
-                            39.712
+                            -121.056,
+                            39.36
+                        ],
+                        [
+                            -120.264,
+                            39.721
                         ]
                     ]
                 ]
@@ -42,14 +42,61 @@
                 "altitudeHi2": 25000,
                 "movementDir": 240,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS33 KKCI 241455\nSIGW \nCONVECTIVE SIGMET 6W\nVALID UNTIL 1655Z\nCA\nFROM 60ESE RBL-30WNW FMG-40ENE MOD-30SSW MOD-60ESE RBL\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL250.\n\nOUTLOOK VALID 241655-242055\nFROM 60NE DSD-50S TRM-210SW MZB-40WNW RZS-40W CZQ-70SSE OED-60NE\nDSD\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 241555\nSIGW \nCONVECTIVE SIGMET 7W\nVALID UNTIL 1755Z\nCA\nFROM 30WNW FMG-60NE MOD-10NNE MOD-60NNE SAC-30WNW FMG\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL250.\n\nOUTLOOK VALID 241755-242155\nFROM 60NE DSD-50S TRM-210SW MZB-40WNW RZS-40W CZQ-70SSE OED-60NE\nDSD\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-24T16:55"
+                    "2025-12-24T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.851,
+                            37.196
+                        ],
+                        [
+                            -117.174,
+                            34.207
+                        ],
+                        [
+                            -118.801,
+                            34.057
+                        ],
+                        [
+                            -120.017,
+                            36.815
+                        ],
+                        [
+                            -118.851,
+                            37.196
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 250,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 241555\nSIGW \nCONVECTIVE SIGMET 8W\nVALID UNTIL 1755Z\nCA AND CSTL WTRS\nFROM 50ENE CZQ-50SW HEC-20WNW LAX-10WSW CZQ-50ENE CZQ\nAREA EMBD TS MOV FROM 25025KT. TOPS TO FL250.\n\nOUTLOOK VALID 241755-242155\nFROM 60NE DSD-50S TRM-210SW MZB-40WNW RZS-40W CZQ-70SSE OED-60NE\nDSD\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-24T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-24T15:29"
+        "creationTime": "2025-12-24T16:34"
     }
 }
