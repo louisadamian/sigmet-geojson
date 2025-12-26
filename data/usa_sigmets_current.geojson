@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -86.04,
-                            43.835
+                            -85.458,
+                            44.512
                         ],
                         [
-                            -85.549,
-                            43.525
+                            -85.39,
+                            43.638
                         ],
                         [
-                            -85.953,
-                            42.789
+                            -86.951,
+                            43.166
                         ],
                         [
-                            -86.462,
-                            43.296
+                            -87.113,
+                            44.235
                         ],
                         [
-                            -86.04,
-                            43.835
+                            -85.458,
+                            44.512
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 26000,
-                "altitudeHi2": 26000,
-                "movementDir": 260,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 261255\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 1455Z\nMI LM\nFROM 40N MKG-30NE MKG-20W GRR-20WNW MKG-40N MKG\nAREA EMBD TS MOV FROM 26040KT. TOPS TO FL260.\n\nOUTLOOK VALID 261455-261855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 270,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 261455\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 1655Z\nMI LM\nFROM 10SSE TVC-40NE MKG-40W MKG-50ESE GRB-10SSE TVC\nAREA EMBD TS MOV FROM 27045KT. TOPS TO FL320.\n\nOUTLOOK VALID 261655-262055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2025-12-26T14:55"
+                    "2025-12-26T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -124.829,
+                            41.747
+                        ],
+                        [
+                            -124.23,
+                            41.505
+                        ],
+                        [
+                            -124.562,
+                            40.055
+                        ],
+                        [
+                            -125.452,
+                            39.723
+                        ],
+                        [
+                            -124.829,
+                            41.747
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 210,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS33 KKCI 261455\nSIGW \nCONVECTIVE SIGMET 18W\nVALID UNTIL 1655Z\nCA AND CSTL WTRS\nFROM 70NNW FOT-50N FOT-40SSW FOT-80SW FOT-70NNW FOT\nAREA EMBD TS MOV FROM 21030KT. TOPS TO FL310.\n\nOUTLOOK VALID 261655-262055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-26T16:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-26T13:37"
+        "creationTime": "2025-12-26T15:29"
     }
 }
