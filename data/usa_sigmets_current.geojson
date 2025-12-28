@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -95.88,
-                            39.585
+                            -91.532,
+                            40.314
                         ],
                         [
-                            -95.343,
-                            38.818
+                            -91.917,
+                            39.055
                         ],
                         [
-                            -96.827,
-                            38.338
+                            -95.924,
+                            38.902
                         ],
                         [
-                            -97.021,
-                            39.121
+                            -95.603,
+                            40.006
                         ],
                         [
-                            -95.88,
-                            39.585
+                            -91.532,
+                            40.314
                         ]
                     ]
                 ]
@@ -38,18 +38,120 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS32 KKCI 280655\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0855Z\nKS\nFROM 40SSE PWE-40SW MCI-50NE ICT-30ENE SLN-40SSE PWE\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL380.\n\nOUTLOOK VALID 280855-281255\nFROM DBQ-40ENE ORD-TTH-COU-OVR-DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 280755\nSIGC \nCONVECTIVE SIGMET 6C\nVALID UNTIL 0955Z\nIL MO KS NE\nFROM 30NNW UIN-20NE COU-60WSW MCI-30ESE PWE-30NNW UIN\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL350.\n\nOUTLOOK VALID 280955-281355\nFROM DBQ-40ENE ORD-TTH-COU-OVR-DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-28T08:55"
+                    "2025-12-28T09:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.056,
+                            40.715
+                        ],
+                        [
+                            -106.512,
+                            34.425
+                        ],
+                        [
+                            -121.184,
+                            31.319
+                        ],
+                        [
+                            -122.538,
+                            33.523
+                        ],
+                        [
+                            -111.59,
+                            40.001
+                        ],
+                        [
+                            -106.056,
+                            40.715
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 24000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 38000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 280803\nSLCV WS 280803\nSIGMET VICTOR 1 VALID UNTIL 281203\nSIGMET \nNV UT CO AZ NM CA AND CSTL WTRS\nFROM 40SSW LAR TO 40SSE ABQ TO 220WSW MZB TO 150WSW RZS TO 60NE\nDTA TO 40SSW LAR\nOCNL SEV TURB BTN FL240 AND FL380. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY B752. CONDS CONTG BYD 1203Z.",
+                "validTimeTo": [
+                    "2025-12-28T12:03"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.056,
+                            40.715
+                        ],
+                        [
+                            -106.512,
+                            34.425
+                        ],
+                        [
+                            -121.184,
+                            31.319
+                        ],
+                        [
+                            -122.538,
+                            33.523
+                        ],
+                        [
+                            -111.59,
+                            40.001
+                        ],
+                        [
+                            -106.056,
+                            40.715
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 24000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 38000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 280803\nSFOV WS 280803\nSIGMET VICTOR 1 VALID UNTIL 281203\nSIGMET \nCA NV UT CO AZ NM AND CSTL WTRS\nFROM 40SSW LAR TO 40SSE ABQ TO 220WSW MZB TO 150WSW RZS TO 60NE\nDTA TO 40SSW LAR\nOCNL SEV TURB BTN FL240 AND FL380. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY B752. CONDS CONTG BYD 1203Z.",
+                "validTimeTo": [
+                    "2025-12-28T12:03"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-28T07:27"
+        "creationTime": "2025-12-28T08:35"
     }
 }
