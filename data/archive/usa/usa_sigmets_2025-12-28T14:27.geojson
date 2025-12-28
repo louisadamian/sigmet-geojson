@@ -212,28 +212,28 @@
                 "coordinates": [
                     [
                         [
-                            -87.9,
-                            42.483
+                            -88.729,
+                            42.231
                         ],
                         [
-                            -86.32,
-                            41.105
+                            -87.983,
+                            40.935
                         ],
                         [
-                            -89.25,
-                            39.857
+                            -90.676,
+                            39.656
                         ],
                         [
-                            -91.115,
-                            39.543
+                            -94.283,
+                            38.933
                         ],
                         [
-                            -92.233,
-                            41.048
+                            -95.116,
+                            40.195
                         ],
                         [
-                            -87.9,
-                            42.483
+                            -88.729,
+                            42.231
                         ]
                     ]
                 ]
@@ -250,14 +250,61 @@
                 "altitudeHi2": 45000,
                 "movementDir": 240,
                 "movementSpd": 55,
-                "rawAirSigmet": "WSUS32 KKCI 281455\nSIGC \nCONVECTIVE SIGMET 13C\nVALID UNTIL 1655Z\nIN WI IL MO IA LM\nFROM 30N ORD-40S GIJ-20WNW AXC-20SSE UIN-40SW IOW-30N ORD\nAREA SEV EMBD TS MOV FROM 24055KT. TOPS TO FL450.\nHAIL TO 1 IN POSS.\n\nOUTLOOK VALID 281655-282055\nAREA 1...FROM DBQ-40ENE ORD-PXV-MEM-GGG-ACT-30SW TTT-70E RZC-40NW\nFAM-30SSE UIN-IOW-DBQ\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 40E MCB-90SE LEV-110S LCH-30WSW AEX-40E MCB\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 281355\nSIGC \nCONVECTIVE SIGMET 12C\nVALID UNTIL 1555Z\nIL MO IA KS\nFROM 40WNW ORD-40SSE JOT-30ESE UIN-30SE MCI-50E PWE-40WNW ORD\nAREA EMBD TS MOV FROM 24055KT. TOPS TO FL450.\n\nOUTLOOK VALID 281555-281955\nFROM DBQ-40ENE ORD-30WNW IND-50WNW COU-DSM-DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2025-12-28T16:55"
+                    "2025-12-28T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.303,
+                            44.765
+                        ],
+                        [
+                            -82.029,
+                            43.258
+                        ],
+                        [
+                            -82.887,
+                            42.565
+                        ],
+                        [
+                            -83.39,
+                            44.782
+                        ],
+                        [
+                            -82.303,
+                            44.765
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 281355\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 1555Z\nMI LH\nFROM 50ENE ASP-30E ECK-30NE DXO-20N ASP-50ENE ASP\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL250.\n\nOUTLOOK VALID 281555-281955\nFROM MBS-40N APE-30WNW IND-40WSW PMM-MBS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2025-12-28T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-28T15:27"
+        "creationTime": "2025-12-28T14:27"
     }
 }
