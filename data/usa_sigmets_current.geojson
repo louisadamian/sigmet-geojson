@@ -8,53 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -82.899,
-                            40.385
-                        ],
-                        [
-                            -81.222,
-                            40.147
-                        ],
-                        [
-                            -85.646,
-                            36.136
-                        ],
-                        [
-                            -87.48,
-                            35.365
-                        ],
-                        [
-                            -82.899,
-                            40.385
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 30000,
-                "altitudeHi2": 30000,
-                "movementDir": 230,
-                "movementSpd": 55,
-                "rawAirSigmet": "WSUS31 KKCI 290455\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0655Z\nOH TN KY\nFROM 20NW APE-20WNW AIR-50E BNA-40N MSL-20NW APE\nAREA TS MOV FROM 23055KT. TOPS TO FL300.\n\nOUTLOOK VALID 290655-291055\nFROM BUF-JST-30SE MSL-50NE PXV-DXO-30W CLE-BUF\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2025-12-29T06:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -87.536,
                             44.088
                         ],
@@ -94,9 +47,56 @@
                     "2025-12-29T07:49"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.971,
+                            40.618
+                        ],
+                        [
+                            -79.632,
+                            40.063
+                        ],
+                        [
+                            -85.902,
+                            35.212
+                        ],
+                        [
+                            -86.905,
+                            35.169
+                        ],
+                        [
+                            -81.971,
+                            40.618
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 230,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS31 KKCI 290555\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0755Z\nPA WV OH TN KY\nFROM 40NE APE-40WSW JST-40WNW GQO-40NE MSL-40NE APE\nAREA TS MOV FROM 23055KT. TOPS TO FL310.\n\nOUTLOOK VALID 290755-291155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-29T07:55"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-29T05:35"
+        "creationTime": "2025-12-29T06:48"
     }
 }
