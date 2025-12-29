@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -78.161,
+                            43.285
+                        ],
+                        [
+                            -75.32,
+                            42.725
+                        ],
+                        [
+                            -77.99,
+                            40.749
+                        ],
+                        [
+                            -80.822,
+                            40.636
+                        ],
+                        [
+                            -80.472,
+                            42.327
+                        ],
+                        [
+                            -78.161,
+                            43.285
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 230,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS31 KKCI 290855\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 1055Z\nNY PA OH LE\nFROM 30NE BUF-40N HNK-10S PSB-30WSW EWC-20NNW ERI-30NE BUF\nAREA TS MOV FROM 23055KT. TOPS TO FL310.\n\nOUTLOOK VALID 291055-291455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2025-12-29T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -83.39,
                             44.45
                         ],
@@ -110,60 +161,9 @@
                     "2025-12-29T11:45"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -73.566,
-                            44.921
-                        ],
-                        [
-                            -73.813,
-                            41.935
-                        ],
-                        [
-                            -80.52,
-                            40.595
-                        ],
-                        [
-                            -77.835,
-                            43.518
-                        ],
-                        [
-                            -76.849,
-                            43.628
-                        ],
-                        [
-                            -73.566,
-                            44.921
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 31000,
-                "altitudeHi2": 31000,
-                "movementDir": 230,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 290955\nSIGE \nCONVECTIVE SIGMET 10E\nVALID UNTIL 1155Z\nNY PA OH LO\nFROM 60NW MPV-50W BDL-20SW EWC-50NE BUF-40NW SYR-60NW MPV\nDMSHG AREA TS MOV FROM 23045KT. TOPS TO FL310.\n\nOUTLOOK VALID 291155-291555\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2025-12-29T11:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2025-12-29T10:33"
+        "creationTime": "2025-12-29T09:38"
     }
 }
