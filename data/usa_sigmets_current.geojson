@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -78.915,
-                            40.162
+                            -78.83,
+                            39.817
+                        ],
+                        [
+                            -78.633,
+                            39.228
+                        ],
+                        [
+                            -80.527,
+                            38.919
+                        ],
+                        [
+                            -80.491,
+                            39.405
                         ],
                         [
                             -78.83,
-                            39.655
-                        ],
-                        [
-                            -80.349,
-                            39.384
-                        ],
-                        [
-                            -80.358,
-                            39.663
-                        ],
-                        [
-                            -78.915,
-                            40.162
+                            39.817
                         ]
                     ]
                 ]
@@ -40,11 +40,11 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 16000,
                 "altitudeHi2": 16000,
-                "movementDir": 320,
+                "movementDir": 330,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 010755\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 0955Z\nPA MD WV\nFROM 10SSW JST-40S JST-30NNW EKN-30SE AIR-10SSW JST\nAREA EMBD TS MOV FROM 32040KT. TOPS TO FL160.\n\nOUTLOOK VALID 010955-011355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 010855\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 1055Z\nPA MD WV\nFROM 30S JST-50NW CSN-20W EKN-40SSE AIR-30S JST\nAREA EMBD TS MOV FROM 33040KT. TOPS TO FL160.\n\nOUTLOOK VALID 011055-011455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-01-01T09:55"
+                    "2026-01-01T10:55"
                 ]
             }
         },
@@ -55,40 +55,40 @@
                 "coordinates": [
                     [
                         [
-                            -75.32,
-                            41.723
+                            -76.361,
+                            40.394
                         ],
                         [
-                            -75.163,
-                            41.674
+                            -76.207,
+                            40.346
                         ],
                         [
-                            -75.098,
-                            41.557
+                            -76.143,
+                            40.228
                         ],
                         [
-                            -75.163,
-                            41.439
+                            -76.207,
+                            40.11
                         ],
                         [
-                            -75.32,
-                            41.391
+                            -76.361,
+                            40.062
                         ],
                         [
-                            -75.477,
-                            41.439
+                            -76.515,
+                            40.11
                         ],
                         [
-                            -75.542,
-                            41.557
+                            -76.579,
+                            40.228
                         ],
                         [
-                            -75.477,
-                            41.674
+                            -76.515,
+                            40.346
                         ],
                         [
-                            -75.32,
-                            41.723
+                            -76.361,
+                            40.394
                         ]
                     ]
                 ]
@@ -101,18 +101,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 18000,
-                "altitudeHi2": 18000,
-                "movementDir": 290,
+                "altitudeHi1": 16000,
+                "altitudeHi2": 16000,
+                "movementDir": 300,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS31 KKCI 010755\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0955Z\nPA\n30S HNK\nISOL EMBD TS D20 MOV FROM 29035KT. TOPS TO FL180.\n\nOUTLOOK VALID 010955-011355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 010855\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 1055Z\nPA\n30E HAR\nISOL EMBD TS D20 MOV FROM 30035KT. TOPS TO FL160.\n\nOUTLOOK VALID 011055-011455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-01-01T09:55"
+                    "2026-01-01T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.904,
+                            35.592
+                        ],
+                        [
+                            -122.303,
+                            35.272
+                        ],
+                        [
+                            -122.68,
+                            34.506
+                        ],
+                        [
+                            -123.752,
+                            34.875
+                        ],
+                        [
+                            -122.904,
+                            35.592
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 190,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS33 KKCI 010855\nSIGW \nCONVECTIVE SIGMET 1W\nVALID UNTIL 1055Z\nCA CSTL WTRS\nFROM 90SW SNS-90SSW SNS-140SSW SNS-150SW SNS-90SW SNS\nAREA TS MOV FROM 19030KT. TOPS TO FL260.\n\nOUTLOOK VALID 011055-011455\nFROM 50S SNS-LAX-170SW RZS-150SW SNS-50S SNS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-01T10:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-01T08:38"
+        "creationTime": "2026-01-01T09:32"
     }
 }
