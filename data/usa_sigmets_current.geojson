@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -121.474,
-                            39.507
+                            -122.806,
+                            37.536
                         ],
                         [
-                            -119.087,
-                            36.287
+                            -121.051,
+                            35.58
                         ],
                         [
-                            -122.593,
-                            34.478
+                            -122.8,
+                            34.473
                         ],
                         [
-                            -125,
-                            37.359
+                            -124.775,
+                            36.534
                         ],
                         [
-                            -121.474,
-                            39.507
+                            -122.806,
+                            37.536
                         ]
                     ]
                 ]
@@ -36,20 +36,67 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 19000,
+                "altitudeLow1": 21000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 31000,
+                "altitudeHi2": 30000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 061529\nSFOQ WS 061529\nSIGMET QUEBEC 6 VALID UNTIL 061929\nSIGMET \nCA AND CSTL WTRS\nFROM 50SE RBL TO 50SE CZQ TO 140W RZS TO 110WSW PYE TO 50SE RBL\nOCNL SEV TURB BTN FL190 AND FL310. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1929Z.",
+                "rawAirSigmet": "WSUS06 KKCI 061850\nSFOQ WS 061850\nSIGMET QUEBEC 7 VALID UNTIL 062250\nSIGMET \nCA AND CSTL WTRS\nFROM 30WSW OAK TO 70SSE SNS TO 150W RZS TO 130SW PYE TO 30WSW OAK\nOCNL SEV TURB BTN FL210 AND FL300. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 2250Z.",
                 "validTimeTo": [
-                    "2026-01-06T19:29"
+                    "2026-01-06T22:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -111.727,
+                            48.92
+                        ],
+                        [
+                            -111.404,
+                            45.687
+                        ],
+                        [
+                            -113.805,
+                            45.484
+                        ],
+                        [
+                            -114.667,
+                            48.981
+                        ],
+                        [
+                            -111.727,
+                            48.92
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 33000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 43000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 061907\nSLCR WS 061907\nSIGMET ROMEO 1 VALID UNTIL 062307\nSIGMET \nID MT\nFROM 60SE YQL TO 60SSE HLN TO 30NNE LKT TO 50NNW FCA TO 60SE YQL\nOCNL SEV TURB BTN FL330 AND FL430. DUE TO WNDSHR ASSOCD WITH JTST\nAND MTN WV ACT. RPTD BY A359. CONDS CONTG BYD 2307Z.",
+                "validTimeTo": [
+                    "2026-01-06T23:07"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-06T18:42"
+        "creationTime": "2026-01-06T19:23"
     }
 }
