@@ -8,57 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -115.78,
-                            48.765
-                        ],
-                        [
-                            -109.77,
-                            48.54
-                        ],
-                        [
-                            -104.3,
-                            40.853
-                        ],
-                        [
-                            -106.84,
-                            40.875
-                        ],
-                        [
-                            -110.526,
-                            42.452
-                        ],
-                        [
-                            -115.78,
-                            48.765
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 20000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 070744\nSLCU WS 070744\nSIGMET UNIFORM 4 VALID UNTIL 071144\nSIGMET \nID MT WY CO\nFROM 50S YXC TO HVR TO 30SE CYS TO 30NE CHE TO 20WSW BPI TO 50S\nYXC\nOCNL SEV TURB BLW FL200. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. CONDS ENDG 1144Z.",
-                "validTimeTo": [
-                    "2026-01-07T11:44"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -109.77,
                             49.043
                         ],
@@ -98,9 +47,60 @@
                     "2026-01-07T10:55"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.77,
+                            49.043
+                        ],
+                        [
+                            -104.15,
+                            40.738
+                        ],
+                        [
+                            -105.896,
+                            39.755
+                        ],
+                        [
+                            -110.596,
+                            42.935
+                        ],
+                        [
+                            -115.78,
+                            48.935
+                        ],
+                        [
+                            -109.77,
+                            49.043
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 20000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 070345\nSLCU WS 070345\nSIGMET UNIFORM 3 VALID UNTIL 070745\nSIGMET \nID MT WY CO\nFROM 30N HVR TO 40SE CYS TO 50ENE DBL TO 30NW BPI TO 40S YXC TO\n30N HVR\nOCNL SEV TURB BLW FL200. DUE TO STG LOW LVL WNDS AND STG UDDFS\nAND LLWS. RPTD BY ACFT. CONDS ENDG 0745Z.",
+                "validTimeTo": [
+                    "2026-01-07T07:45"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-07T08:40"
+        "creationTime": "2026-01-07T07:33"
     }
 }
