@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -101.121,
-                            33.697
+                            -97.261,
+                            37.135
                         ],
                         [
-                            -99.974,
-                            33.755
+                            -95.968,
+                            36.893
                         ],
                         [
-                            -100.41,
-                            32.286
+                            -96.365,
+                            36.006
                         ],
                         [
-                            -102.18,
-                            32.523
+                            -97.539,
+                            36.222
                         ],
                         [
-                            -101.121,
-                            33.697
+                            -97.261,
+                            37.135
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 34000,
-                "altitudeHi2": 34000,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
+                "movementDir": 220,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 080955\nSIGC \nCONVECTIVE SIGMET 3C\nVALID UNTIL 1155Z\nOK KS\nFROM 40SSE ICT-40WSW OSW-30WSW TUL-20ESE END-40SSE ICT\nAREA EMBD TS MOV FROM 22035KT. TOPS TO FL370.\n\nOUTLOOK VALID 081155-081555\nFROM 40NE MCI-30N SGF-40SE ACT-SJT-50WSW ICT-50S PWE-40NE MCI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-08T11:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -100.426,
+                            34.249
+                        ],
+                        [
+                            -98.895,
+                            33.375
+                        ],
+                        [
+                            -101.273,
+                            31.697
+                        ],
+                        [
+                            -102.938,
+                            32.484
+                        ],
+                        [
+                            -100.426,
+                            34.249
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
                 "movementDir": 230,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS32 KKCI 080855\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 1055Z\nTX\nFROM 40E LBB-40SSE CDS-30WSW ABI-30N MAF-40E LBB\nAREA EMBD TS MOV FROM 23050KT. TOPS TO FL340.\n\nOUTLOOK VALID 081055-081455\nFROM MCI-SGF-30NW RZC-50ESE ACT-SJT-50S MMB-40ENE SLN-MCI\n\\WST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 080955\nSIGC \nCONVECTIVE SIGMET 4C\nVALID UNTIL 1155Z\nTX\nFROM 10SW CDS-40SSW SPS-50ESE MAF-40NNE INK-10SW CDS\nAREA EMBD TS MOV FROM 23050KT. TOPS TO FL370.\n\nOUTLOOK VALID 081155-081555\nFROM 40NE MCI-30N SGF-40SE ACT-SJT-50WSW ICT-50S PWE-40NE MCI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-08T10:55"
+                    "2026-01-08T11:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-08T09:36"
+        "creationTime": "2026-01-08T10:34"
     }
 }
