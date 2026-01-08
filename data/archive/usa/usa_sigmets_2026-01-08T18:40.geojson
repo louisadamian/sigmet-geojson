@@ -55,24 +55,71 @@
                 "coordinates": [
                     [
                         [
-                            -90.828,
-                            40.927
+                            -92.284,
+                            39.905
                         ],
                         [
-                            -92.472,
-                            36.239
+                            -93.697,
+                            34.909
                         ],
                         [
-                            -94.557,
-                            35.145
+                            -95.493,
+                            35.085
                         ],
                         [
-                            -92.899,
-                            40.375
+                            -93.97,
+                            39.878
                         ],
                         [
-                            -90.828,
-                            40.927
+                            -92.284,
+                            39.905
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 220,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS32 KKCI 081755\nSIGC \nCONVECTIVE SIGMET 19C\nVALID UNTIL 1955Z\nMO AR OK KS\nFROM 20SE IRK-40SE FSM-20NE MLC-50NE MCI-20SE IRK\nAREA SEV EMBD TS MOV FROM 22050KT. TOPS TO FL350.\nTORNADOES...HAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 081955-082355\nFROM DBQ-TTH-50S LSU-40NNW PSX-40NNE MCI-DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\nREF WW 01.",
+                "validTimeTo": [
+                    "2026-01-08T19:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -114.575,
+                            36.549
+                        ],
+                        [
+                            -111.427,
+                            35.813
+                        ],
+                        [
+                            -112.713,
+                            34.235
+                        ],
+                        [
+                            -115.397,
+                            35.615
+                        ],
+                        [
+                            -114.575,
+                            36.549
                         ]
                     ]
                 ]
@@ -87,63 +134,16 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 31000,
                 "altitudeHi2": 31000,
-                "movementDir": 230,
-                "movementSpd": 60,
-                "rawAirSigmet": "WSUS32 KKCI 081855\nSIGC \nCONVECTIVE SIGMET 20C\nVALID UNTIL 2055Z\nIL MO AR IA OK\nFROM 50SE IOW-80E RZC-20SW FSM-20NW IRK-50SE IOW\nAREA EMBD TS MOV FROM 23060KT. TOPS TO FL310.\n\nOUTLOOK VALID 082055-090055\nFROM DBQ-TTH-50S LSU-40NNW PSX-40NNE MCI-DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-08T20:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -112.087,
-                            35.471
-                        ],
-                        [
-                            -110.8,
-                            35.392
-                        ],
-                        [
-                            -112.302,
-                            33.665
-                        ],
-                        [
-                            -114.316,
-                            34.463
-                        ],
-                        [
-                            -112.087,
-                            35.471
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 27000,
-                "altitudeHi2": 27000,
-                "movementDir": 310,
+                "movementDir": 270,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS33 KKCI 081855\nSIGW \nCONVECTIVE SIGMET 11W\nVALID UNTIL 2055Z\nAZ\nFROM 50NNE DRK-20N INW-20NW PHX-20SSE EED-50NNE DRK\nAREA EMBD TS MOV FROM 31020KT. TOPS TO FL270.\n\nOUTLOOK VALID 082055-090055\nFROM 50NNW TBC-70SSW RSK-40E SSO-TUS-50E EED-50NNW TBC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 081755\nSIGW \nCONVECTIVE SIGMET 10W\nVALID UNTIL 1955Z\nAZ NV CA\nFROM 40NE LAS-20SSW TBC-30SSW DRK-30SSW LAS-40NE LAS\nAREA EMBD TS MOV FROM 27020KT. TOPS TO FL310.\n\nOUTLOOK VALID 081955-082355\nFROM 50NNW TBC-70SSW RSK-40E SSO-TUS-50E EED-50NNW TBC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-08T20:55"
+                    "2026-01-08T19:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-08T19:26"
+        "creationTime": "2026-01-08T18:40"
     }
 }
