@@ -110,28 +110,79 @@
                 "coordinates": [
                     [
                         [
-                            -88.52,
-                            33.48
+                            -83.417,
+                            39.013
                         ],
                         [
-                            -87.413,
-                            32.597
+                            -84.048,
+                            36.207
                         ],
                         [
-                            -87.404,
-                            31.834
+                            -87.705,
+                            32.757
                         ],
                         [
-                            -89.133,
-                            30.728
+                            -90.022,
+                            32.588
                         ],
                         [
-                            -91.686,
-                            30.479
+                            -85.993,
+                            37.285
                         ],
                         [
-                            -88.52,
-                            33.48
+                            -83.417,
+                            39.013
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
+                "movementDir": 250,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 091355\nSIGC \nCONVECTIVE SIGMET 29C\nVALID UNTIL 1555Z\nOH GA TN KY AL MS\nFROM 60E CVG-20NNW VXV-60ENE MEI-10NNE MHZ-30NE BWG-60E CVG\nAREA SEV EMBD TS MOV FROM 25040KT. TOPS TO FL360.\nTORNADOES POSS.\n\nOUTLOOK VALID 091555-091955\nFROM BNA-40NW MGM-SJI-120SSE LCH-60NNW LRD-50ENE JCT-GGG-SQS-BNA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-09T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.705,
+                            32.757
+                        ],
+                        [
+                            -87.972,
+                            31.672
+                        ],
+                        [
+                            -89.713,
+                            30.829
+                        ],
+                        [
+                            -90.943,
+                            30.607
+                        ],
+                        [
+                            -88.951,
+                            32.687
+                        ],
+                        [
+                            -87.705,
+                            32.757
                         ]
                     ]
                 ]
@@ -146,67 +197,16 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 45000,
-                "movementDir": 240,
+                "movementDir": 230,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 091455\nSIGC \nCONVECTIVE SIGMET 31C\nVALID UNTIL 1655Z\nAL MS LA\nFROM IGB-60WNW MGM-60WSW MGM-40W SJI-20W LSU-IGB\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL450.\n\nOUTLOOK VALID 091655-092055\nFROM 40NE MSL-40NNW CEW-70S SJI-70SW LEV-30NNW CRP-50WNW\nCWK-40SSE EIC-50WSW SQS-40NE MSL\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 091355\nSIGC \nCONVECTIVE SIGMET 30C\nVALID UNTIL 1555Z\nAL MS LA\nFROM 60ENE MEI-60SE MEI-40SE MCB-20ENE LSU-20NNW MEI-60ENE MEI\nAREA EMBD TS MOV FROM 23030KT. TOPS TO FL450.\n\nOUTLOOK VALID 091555-091955\nFROM BNA-40NW MGM-SJI-120SSE LCH-60NNW LRD-50ENE JCT-GGG-SQS-BNA\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-09T16:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -84.12,
-                            37.201
-                        ],
-                        [
-                            -84.048,
-                            36.207
-                        ],
-                        [
-                            -87.413,
-                            32.597
-                        ],
-                        [
-                            -88.52,
-                            33.48
-                        ],
-                        [
-                            -86.993,
-                            35.525
-                        ],
-                        [
-                            -84.12,
-                            37.201
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 37000,
-                "altitudeHi2": 37000,
-                "movementDir": 250,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 091455\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 1655Z\nGA TN KY AL MS\nFROM 10N LOZ-20NNW VXV-60WNW MGM-IGB-40SSW BNA-10N LOZ\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL370.\n\nOUTLOOK VALID 091655-092055\nFROM LOZ-40W ODF-40NNW CEW-40NE MSL-LOZ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-09T16:55"
+                    "2026-01-09T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-09T15:32"
+        "creationTime": "2026-01-09T14:33"
     }
 }
