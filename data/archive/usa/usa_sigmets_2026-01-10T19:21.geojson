@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -83.346,
-                            33.304
+                            -83.498,
+                            32.997
                         ],
                         [
-                            -82.922,
-                            32.434
+                            -83.65,
+                            32.358
                         ],
                         [
-                            -87.92,
-                            29.808
+                            -88.762,
+                            29.397
                         ],
                         [
-                            -88.36,
-                            30.065
+                            -89.567,
+                            29.371
                         ],
                         [
-                            -83.346,
-                            33.304
+                            -86.462,
+                            32.099
+                        ],
+                        [
+                            -83.498,
+                            32.997
                         ]
                     ]
                 ]
@@ -38,13 +42,64 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
+                "altitudeHi1": 43000,
+                "altitudeHi2": 43000,
                 "movementDir": 250,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS31 KKCI 101955\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 2155Z\nFL GA AL AND FL AL MS CSTL WTRS\nFROM 40NNE MCN-40ESE MCN-60SSE SJI-40S SJI-40NNE MCN\nAREA EMBD TS MOV FROM 25030KT. TOPS TO FL350.\n\nOUTLOOK VALID 102155-110155\nFROM PSK-30SE GSO-70SSE CEW-40S SJI-PSK\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 101855\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 2055Z\nFL GA AL MS LA AND FL AL MS LA CSTL WTRS\nFROM 20NNE MCN-20S MCN-70ESE HRV-30ENE LEV-10SW MGM-20NNE MCN\nAREA TS MOV FROM 25030KT. TOPS TO FL430.\n\nOUTLOOK VALID 102055-110055\nFROM PSK-30SE GSO-70SSE CEW-40S SJI-PSK\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-10T21:55"
+                    "2026-01-10T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.498,
+                            32.997
+                        ],
+                        [
+                            -83.65,
+                            32.358
+                        ],
+                        [
+                            -88.762,
+                            29.397
+                        ],
+                        [
+                            -89.567,
+                            29.371
+                        ],
+                        [
+                            -86.462,
+                            32.099
+                        ],
+                        [
+                            -83.498,
+                            32.997
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 250,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 101855\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 2055Z\nFL GA AL MS LA AND FL AL MS LA CSTL WTRS\nFROM 20NNE MCN-20S MCN-70ESE HRV-30ENE LEV-10SW MGM-20NNE MCN\nAREA TS MOV FROM 25030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 102055-110055\nFROM PSK-30SE GSO-70SSE CEW-40S SJI-PSK\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-10T20:55"
                 ]
             }
         },
@@ -290,6 +345,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-10T20:30"
+        "creationTime": "2026-01-10T19:21"
     }
 }
