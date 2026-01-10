@@ -59,24 +59,75 @@
                 "coordinates": [
                     [
                         [
-                            -86.34,
-                            33.861
+                            -84.474,
+                            36.369
                         ],
                         [
-                            -84.479,
-                            32.793
+                            -82.499,
+                            35.221
                         ],
                         [
-                            -89.076,
-                            30.982
+                            -84.071,
+                            33.757
                         ],
                         [
-                            -90.1,
-                            32.259
+                            -85.897,
+                            34.703
                         ],
                         [
-                            -86.34,
-                            33.861
+                            -84.474,
+                            36.369
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 230,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 100655\nSIGC \nCONVECTIVE SIGMET 19C\nVALID UNTIL 0855Z\nNC SC GA TN AL\nFROM 40NW VXV-30WNW SPA-20ENE ATL-40WSW GQO-40NW VXV\nAREA EMBD TS MOV FROM 23035KT. TOPS TO FL350.\n\nOUTLOOK VALID 100855-101255\nFROM VUZ-CEW-100ESE PSX-CRP-TXK-VUZ\nREF WW 02.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-10T08:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.48,
+                            34.7
+                        ],
+                        [
+                            -85.21,
+                            33.05
+                        ],
+                        [
+                            -95.112,
+                            27.694
+                        ],
+                        [
+                            -97.046,
+                            28.255
+                        ],
+                        [
+                            -92.18,
+                            34.348
+                        ],
+                        [
+                            -87.48,
+                            34.7
                         ]
                     ]
                 ]
@@ -90,115 +141,17 @@
                 "altitudeLow1": null,
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 230,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 100555\nSIGC \nCONVECTIVE SIGMET 16C\nVALID UNTIL 0755Z\nGA AL MS\nFROM 30ENE VUZ-40ESE LGC-40WNW SJI-10S MHZ-30ENE VUZ\nAREA EMBD TS MOV FROM 23035KT. TOPS ABV FL450.\n\nOUTLOOK VALID 100755-101155\nFROM VUZ-CEW-100ESE PSX-CRP-TXK-VUZ\nREF WW 02.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-10T07:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -91.166,
-                            31.617
-                        ],
-                        [
-                            -90.536,
-                            31.535
-                        ],
-                        [
-                            -91.027,
-                            30.715
-                        ],
-                        [
-                            -91.714,
-                            30.835
-                        ],
-                        [
-                            -91.166,
-                            31.617
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 40000,
-                "altitudeHi2": 40000,
-                "movementDir": 210,
+                "altitudeHi2": 45000,
+                "movementDir": 220,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 100555\nSIGC \nCONVECTIVE SIGMET 17C\nVALID UNTIL 0755Z\nMS LA\nFROM 50WNW MCB-20NW MCB-20NE LSU-30NW LSU-50WNW MCB\nAREA EMBD TS MOV FROM 21040KT. TOPS TO FL400.\n\nOUTLOOK VALID 100755-101155\nFROM VUZ-CEW-100ESE PSX-CRP-TXK-VUZ\nREF WW 02.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 100655\nSIGC \nCONVECTIVE SIGMET 20C\nVALID UNTIL 0855Z\nGA AL MS LA AR TX AND LA TX CSTL WTRS\nFROM MSL-LGC-90SE PSX-30NE CRP-20S LIT-MSL\nAREA EMBD TS MOV FROM 22040KT. TOPS TO FL450.\n\nOUTLOOK VALID 100855-101255\nFROM VUZ-CEW-100ESE PSX-CRP-TXK-VUZ\nREF WW 02.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-10T07:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -90.214,
-                            34.595
-                        ],
-                        [
-                            -89.258,
-                            33.732
-                        ],
-                        [
-                            -95.552,
-                            28.758
-                        ],
-                        [
-                            -96.841,
-                            28.951
-                        ],
-                        [
-                            -94.07,
-                            33.51
-                        ],
-                        [
-                            -90.214,
-                            34.595
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 230,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 100555\nSIGC \nCONVECTIVE SIGMET 18C\nVALID UNTIL 0755Z\nMS LA AR TX AND TX CSTL WTRS\nFROM 30SSW MEM-40WNW IGB-40E PSX-30WNW PSX-TXK-30SSW MEM\nAREA SEV EMBD TS MOV FROM 23035KT. TOPS ABV FL450.\nWIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 100755-101155\nFROM VUZ-CEW-100ESE PSX-CRP-TXK-VUZ\nREF WW 02.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-10T07:55"
+                    "2026-01-10T08:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-10T06:40"
+        "creationTime": "2026-01-10T07:25"
     }
 }
