@@ -8,6 +8,116 @@
                 "coordinates": [
                     [
                         [
+                            -68.962,
+                            47.357
+                        ],
+                        [
+                            -67.745,
+                            47.005
+                        ],
+                        [
+                            -67.801,
+                            45.578
+                        ],
+                        [
+                            -67.083,
+                            43.53
+                        ],
+                        [
+                            -74.71,
+                            41.377
+                        ],
+                        [
+                            -76.462,
+                            42.695
+                        ],
+                        [
+                            -74.066,
+                            44.716
+                        ],
+                        [
+                            -71.237,
+                            45.152
+                        ],
+                        [
+                            -68.962,
+                            47.357
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 36000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 110306\nBOSQ WS 110306\nSIGMET QUEBEC 4 VALID UNTIL 110706\nSIGMET \nME NH VT MA CT NY NJ PA AND CSTL WTRS\nFROM 50NW PQI TO 20NE PQI TO 30E MLT TO 110SE BGR TO 20NNW SAX TO\n30SSW SYR TO 30ESE MSS TO 80NE MPV TO 50NW PQI\nOCNL SEV TURB BTN FL360 AND FL410. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 0706Z.",
+                "validTimeTo": [
+                    "2026-01-11T07:06"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -70.03,
+                            41.945
+                        ],
+                        [
+                            -68.797,
+                            41.655
+                        ],
+                        [
+                            -70.809,
+                            40.687
+                        ],
+                        [
+                            -71.44,
+                            40.917
+                        ],
+                        [
+                            -70.03,
+                            41.945
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 220,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 110555\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 0755Z\nMA AND MA RI CSTL WTRS\nFROM 40N ACK-60ENE ACK-50SW ACK-40E HTO-40N ACK\nAREA EMBD TS MOV FROM 22050KT. TOPS TO FL300.\n\nOUTLOOK VALID 110755-111155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-01-11T07:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -92.697,
                             37.358
                         ],
@@ -255,56 +365,9 @@
                     "2026-01-11T08:34"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -69.425,
-                            42.357
-                        ],
-                        [
-                            -68.17,
-                            41.839
-                        ],
-                        [
-                            -70.03,
-                            40.948
-                        ],
-                        [
-                            -70.956,
-                            41.363
-                        ],
-                        [
-                            -69.425,
-                            42.357
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 220,
-                "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 110655\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 0855Z\nMA AND CSTL WTRS\nFROM 70NNE ACK-90ENE ACK-20S ACK-30SE PVD-70NNE ACK\nAREA EMBD TS MOV FROM 22050KT. TOPS TO FL320.\n\nOUTLOOK VALID 110855-111255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2026-01-11T08:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-11T07:27"
+        "creationTime": "2026-01-11T06:42"
     }
 }
