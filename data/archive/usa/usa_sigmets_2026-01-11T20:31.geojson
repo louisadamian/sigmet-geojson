@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -110.943,
+                            48.854
+                        ],
+                        [
+                            -109.107,
+                            45.809
+                        ],
+                        [
+                            -111.233,
+                            45.624
+                        ],
+                        [
+                            -114.18,
+                            48.875
+                        ],
+                        [
+                            -110.943,
+                            48.854
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 33000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 111813\nSLCU WS 111813\nSIGMET UNIFORM 2 VALID UNTIL 112213\nSIGMET \nMT\nFROM 50WNW HVR TO 20W BIL TO 60ENE DLN TO 40N FCA TO 50WNW HVR\nOCNL SEV TURB BTN FL330 AND FL410. DUE TO MTN WV ACT. CONDS CONTG\nBYD 2213Z.",
+                "validTimeTo": [
+                    "2026-01-11T22:13"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -82.59,
                             40.15
                         ],
@@ -204,56 +251,9 @@
                     "2026-01-12T00:03"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -110.673,
-                            49.127
-                        ],
-                        [
-                            -107.19,
-                            43.086
-                        ],
-                        [
-                            -110.561,
-                            42.579
-                        ],
-                        [
-                            -114.667,
-                            48.981
-                        ],
-                        [
-                            -110.673,
-                            49.127
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 33000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 41000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 112122\nSLCU WS 112122\nSIGMET UNIFORM 3 VALID UNTIL 120122\nSIGMET \nID MT WY\nFROM 50NW HVR TO 40W DDY TO 20W BPI TO 50NNW FCA TO 50NW HVR\nOCNL SEV TURB BTN FL330 AND FL410. DUE TO MTN WV ACT. RPTD BY\nGALX. CONDS CONTG BYD 0122Z.",
-                "validTimeTo": [
-                    "2026-01-12T01:22"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-11T21:25"
+        "creationTime": "2026-01-11T20:31"
     }
 }
