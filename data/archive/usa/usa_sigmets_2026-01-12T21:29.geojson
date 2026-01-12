@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -111.172,
+                            48.913
+                        ],
+                        [
+                            -110.305,
+                            45.798
+                        ],
+                        [
+                            -113.398,
+                            45.838
+                        ],
+                        [
+                            -114.667,
+                            48.981
+                        ],
+                        [
+                            -111.172,
+                            48.913
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 17000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 121750\nSLCV WS 121750\nSIGMET VICTOR 2 VALID UNTIL 122150\nSIGMET \nMT\nFROM 60WNW HVR TO 70W BIL TO 50NW DLN TO 50NNW FCA TO 60WNW HVR\nOCNL SEV TURB BLW 170. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 2150Z.",
+                "validTimeTo": [
+                    "2026-01-12T21:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -114.667,
                             48.981
                         ],
@@ -98,56 +145,9 @@
                     "2026-01-13T00:53"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -111.172,
-                            48.913
-                        ],
-                        [
-                            -110.305,
-                            45.798
-                        ],
-                        [
-                            -113.398,
-                            45.838
-                        ],
-                        [
-                            -114.667,
-                            48.981
-                        ],
-                        [
-                            -111.172,
-                            48.913
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 16000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 122141\nSLCV WS 122141\nSIGMET VICTOR 3 VALID UNTIL 130141\nSIGMET \nMT\nFROM 60WNW HVR TO 70W BIL TO 50NW DLN TO 50NNW FCA TO 60WNW HVR\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 0141Z.",
-                "validTimeTo": [
-                    "2026-01-13T01:41"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-12T22:27"
+        "creationTime": "2026-01-12T21:29"
     }
 }
