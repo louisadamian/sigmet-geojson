@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -78.823,
-                            25.793
+                            -79.003,
+                            25.794
                         ],
                         [
-                            -79.132,
-                            24.735
+                            -79.264,
+                            24.856
                         ],
                         [
                             -79.67,
                             24.413
                         ],
                         [
-                            -80.3,
-                            24.632
+                            -79.879,
+                            24.878
                         ],
                         [
-                            -78.823,
-                            25.793
+                            -79.003,
+                            25.794
                         ]
                     ]
                 ]
@@ -41,15 +41,62 @@
                 "altitudeHi1": 28000,
                 "altitudeHi2": 28000,
                 "movementDir": 220,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 142055\nSIGE \nCONVECTIVE SIGMET 26E\nVALID UNTIL 2255Z\nFL CSTL WTRS\nFROM 80E MIA-90SE MIA-90SSE MIA-70S MIA-80E MIA\nAREA TS MOV FROM 22020KT. TOPS TO FL280.\n\nOUTLOOK VALID 142255-150255\nFROM 170SE SBY-180ESE ECG-140SSE ILM-210ENE PBI-170E PBI-70ENE\nPBI-130SSE MIA-60ESE EYW-70SSE ILM-170SE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 142155\nSIGE \nCONVECTIVE SIGMET 27E\nVALID UNTIL 2355Z\nFL CSTL WTRS\nFROM 70E MIA-80SE MIA-90SSE MIA-60SSE MIA-70E MIA\nAREA TS MOV FROM 22025KT. TOPS TO FL280.\n\nOUTLOOK VALID 142355-150355\nFROM 170SE SBY-180ESE ECG-140SSE ILM-210ENE PBI-170E PBI-80E\nPBI-130SSE MIA-60S MIA-100ESE CHS-170SE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-14T22:55"
+                    "2026-01-14T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.56,
+                            29.005
+                        ],
+                        [
+                            -81.34,
+                            28.54
+                        ],
+                        [
+                            -82.153,
+                            28.102
+                        ],
+                        [
+                            -82.291,
+                            28.537
+                        ],
+                        [
+                            -81.56,
+                            29.005
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 220,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 142155\nSIGE \nCONVECTIVE SIGMET 28E\nVALID UNTIL 2355Z\nFL\nFROM 30NNW ORL-ORL-30ENE PIE-50W ORL-30NNW ORL\nDVLPG AREA TS MOV FROM 22050KT. TOPS TO FL280.\n\nOUTLOOK VALID 142355-150355\nFROM 170SE SBY-180ESE ECG-140SSE ILM-210ENE PBI-170E PBI-80E\nPBI-130SSE MIA-60S MIA-100ESE CHS-170SE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-14T23:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-14T21:30"
+        "creationTime": "2026-01-14T22:31"
     }
 }
