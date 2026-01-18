@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -78.199,
-                            39.254
+                            -79.746,
+                            26.807
                         ],
                         [
-                            -77.568,
-                            38.875
+                            -79.155,
+                            26.677
                         ],
                         [
-                            -78.032,
-                            38.333
+                            -79.78,
+                            25.329
                         ],
                         [
-                            -78.721,
-                            38.637
+                            -80.3,
+                            25.468
                         ],
                         [
-                            -78.199,
-                            39.254
+                            -79.746,
+                            26.807
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 24000,
-                "altitudeHi2": 24000,
-                "movementDir": 210,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 170455\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 0655Z\nVA\nFROM 40NNW CSN-20NE CSN-20SSW CSN-40W CSN-40NNW CSN\nAREA EMBED TS MOV FROM 21045KT. TOPS TO FL240.\n\nOUTLOOK VALID 170655-171055\nTS ARE NOT EXPD.",
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 190,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 181055\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 1255Z\nFL AND CSTL WTRS\nFROM 20ENE PBI-50E PBI-40SE MIA-20S MIA-20ENE PBI\nAREA TS MOV FROM 19010KT. TOPS TO FL300.\n\nOUTLOOK VALID 181255-181655\nAREA 1...FROM 160ESE SBY-180ESE ECG-140SSE ILM-210ENE PBI-160ENE\nPBI-150ENE TRV-50ENE TRV-60S CHS-160ESE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 100SW TLH-60SW CTY-80W PIE-180WSW PIE-200ESE\nLEV-130S CEW-100SW TLH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-17T06:55"
+                    "2026-01-18T12:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -77.486,
+                            33.578
+                        ],
+                        [
+                            -76.19,
+                            32.928
+                        ],
+                        [
+                            -79.469,
+                            30.739
+                        ],
+                        [
+                            -79.59,
+                            31.968
+                        ],
+                        [
+                            -77.486,
+                            33.578
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 200,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 181055\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 1255Z\nNC SC GA CSTL WTRS\nFROM 50SSE ILM-120SE ILM-120SE SAV-60SSE CHS-50SSE ILM\nAREA TS MOV FROM 20030KT. TOPS TO FL280.\n\nOUTLOOK VALID 181255-181655\nAREA 1...FROM 160ESE SBY-180ESE ECG-140SSE ILM-210ENE PBI-160ENE\nPBI-150ENE TRV-50ENE TRV-60S CHS-160ESE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 100SW TLH-60SW CTY-80W PIE-180WSW PIE-200ESE\nLEV-130S CEW-100SW TLH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-18T12:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-17T05:28"
+        "creationTime": "2026-01-18T11:22"
     }
 }
