@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -75.642,
+                            32.45
+                        ],
+                        [
+                            -78.367,
+                            24.021
+                        ],
+                        [
+                            -81.8,
+                            24.087
+                        ],
+                        [
+                            -78.116,
+                            31.23
+                        ],
+                        [
+                            -75.642,
+                            32.45
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 190,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 181655\nSIGE \nCONVECTIVE SIGMET 14E\nVALID UNTIL 1855Z\nFL AND FL GA CSTL WTRS\nFROM 160SE ILM-150SE MIA-30S EYW-140SE CHS-160SE ILM\nAREA TS MOV FROM 19045KT. TOPS ABV FL450.\nREF INTL SIGMET DELTA SERIES.\n\nOUTLOOK VALID 181855-182255\nFROM 160ESE SBY-180ESE ECG-140SSE ILM-220ENE PBI-160ENE PBI-150SE\nMIA-60SW EYW-80SE CHS-160ESE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-18T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -73.01,
                             43.447
                         ],
@@ -204,56 +251,9 @@
                     "2026-01-18T19:30"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -76.818,
-                            32.196
-                        ],
-                        [
-                            -76.444,
-                            29.086
-                        ],
-                        [
-                            -78.367,
-                            24.021
-                        ],
-                        [
-                            -82.078,
-                            23.976
-                        ],
-                        [
-                            -76.818,
-                            32.196
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
-                "movementDir": 190,
-                "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 181755\nSIGE \nCONVECTIVE SIGMET 15E\nVALID UNTIL 1955Z\nFL AND FL SC GA CSTL WTRS\nFROM 140SSE ILM-230ENE TRV-150SE MIA-40SSW EYW-140SSE ILM\nAREA TS MOV FROM 19040KT. TOPS TO FL430.\nREF INTL SIGMET DELTA SERIES.\n\nOUTLOOK VALID 181955-182355\nFROM 170E ECG-180ESE ECG-140SSE ILM-220ENE PBI-160ENE PBI-150SE\nMIA-40SSW EYW-130SE CHS-170E ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-18T19:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-18T18:37"
+        "creationTime": "2026-01-18T17:25"
     }
 }
