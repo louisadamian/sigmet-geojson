@@ -12,16 +12,16 @@
                             26.522
                         ],
                         [
-                            -79.062,
-                            26.295
+                            -79.192,
+                            25.796
                         ],
                         [
-                            -80.3,
-                            24.3
+                            -79.67,
+                            24.413
                         ],
                         [
-                            -81.069,
-                            24.588
+                            -80.949,
+                            24.907
                         ],
                         [
                             -80.163,
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 28000,
-                "altitudeHi2": 28000,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 221755\nSIGE \nCONVECTIVE SIGMET 8E\nVALID UNTIL 1955Z\nFL AND CSTL WTRS\nFROM 10SSW PBI-60ESE PBI-90S MIA-40E EYW-10SSW PBI\nAREA EMBD TS MOV LTL. TOPS TO FL280.\n\nOUTLOOK VALID 221955-222355\nFROM 220ENE TRV-210ENE PBI-170ENE PBI-160E PBI-80ENE PBI-60E\nPBI-30SE MIA-PBI-80ENE TRV-140ENE TRV-220ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 221855\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 2055Z\nFL AND CSTL WTRS\nFROM 10SSW PBI-60E MIA-90SSE MIA-50ENE EYW-10SSW PBI\nAREA EMBD TS MOV LTL. TOPS TO FL310.\n\nOUTLOOK VALID 222055-230055\nFL AND CSTL WTRS\nFROM 230ENE TRV-210ENE PBI-170ENE PBI-160E PBI-70ENE PBI-60E\nPBI-30E MIA-30N PBI-80ENE TRV-140ENE TRV-230ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-22T19:55"
+                    "2026-01-22T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.28,
+                            28.736
+                        ],
+                        [
+                            -78.014,
+                            27.428
+                        ],
+                        [
+                            -79.056,
+                            27.058
+                        ],
+                        [
+                            -80.143,
+                            27.807
+                        ],
+                        [
+                            -79.28,
+                            28.736
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS31 KKCI 221855\nSIGE \nCONVECTIVE SIGMET 10E\nVALID UNTIL 2055Z\nFL CSTL WTRS\nFROM 90NE TRV-120ENE PBI-60ENE PBI-20ENE TRV-90NE TRV\nDVLPG AREA EMBD TS MOV LTL. TOPS TO FL370.\n\nOUTLOOK VALID 222055-230055\nFL AND CSTL WTRS\nFROM 230ENE TRV-210ENE PBI-170ENE PBI-160E PBI-70ENE PBI-60E\nPBI-30E MIA-30N PBI-80ENE TRV-140ENE TRV-230ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-22T20:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-22T18:47"
+        "creationTime": "2026-01-22T19:31"
     }
 }
