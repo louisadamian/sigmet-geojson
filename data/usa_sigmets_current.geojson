@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -77.808,
-                            43.181
+                            -77.111,
+                            43.156
                         ],
                         [
-                            -76.835,
-                            42.966
+                            -76.026,
+                            42.853
                         ],
                         [
-                            -80.653,
-                            40.327
+                            -79.632,
+                            40.063
                         ],
                         [
-                            -81.625,
-                            40.272
+                            -80.978,
+                            40.141
                         ],
                         [
-                            -77.808,
-                            43.181
+                            -77.111,
+                            43.156
                         ]
                     ]
                 ]
@@ -42,14 +42,61 @@
                 "altitudeHi2": 17000,
                 "movementDir": 250,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 220555\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 0755Z\nNY PA WV OH\nFROM 40ENE BUF-30WSW SYR-20NNE AIR-40WNW AIR-40ENE BUF\nAREA EMBD TS MOV FROM 25020KT. TOPS TO FL170.\n\nOUTLOOK VALID 220755-221155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 220655\nSIGE \nCONVECTIVE SIGMET 3E\nVALID UNTIL 0855Z\nNY PA WV OH\nFROM 40W SYR-20SSE SYR-40WSW JST-10NW AIR-40W SYR\nAREA EMBD TS MOV FROM 25020KT. TOPS TO FL170.\n\nOUTLOOK VALID 220855-221255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-01-22T06:54"
+                    "2026-01-22T08:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.3,
+                            40.685
+                        ],
+                        [
+                            -77.377,
+                            40.726
+                        ],
+                        [
+                            -79.161,
+                            39.705
+                        ],
+                        [
+                            -80.021,
+                            39.763
+                        ],
+                        [
+                            -78.3,
+                            40.685
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 17000,
+                "altitudeHi2": 17000,
+                "movementDir": 250,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS31 KKCI 220655\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 0855Z\nPA MD WV\nFROM 20SW PSB-30ESE PSB-40SSW JST-40ESE AIR-20SW PSB\nAREA EMBD TS MOV FROM 25020KT. TOPS TO FL170.\n\nOUTLOOK VALID 220855-221255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-01-22T08:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-22T06:48"
+        "creationTime": "2026-01-22T07:35"
     }
 }
