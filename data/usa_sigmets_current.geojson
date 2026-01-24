@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -93.555,
-                            31.155
+                            -93.4,
+                            30.937
                         ],
                         [
-                            -92.049,
-                            29.754
+                            -91.668,
+                            29.708
                         ],
                         [
-                            -95.375,
-                            27.931
+                            -94.984,
+                            27.578
                         ],
                         [
-                            -95.959,
-                            28.887
+                            -95.96,
+                            28.632
                         ],
                         [
-                            -93.555,
-                            31.155
+                            -93.4,
+                            30.937
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
                 "movementDir": 230,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 241455\nSIGC \nCONVECTIVE SIGMET 17C\nVALID UNTIL 1655Z\nLA TX AND CSTL WTRS\nFROM 60E LFK-60ESE LCH-70SE PSX-20ENE PSX-60E LFK\nAREA EMBD TS MOV FROM 23035KT. TOPS TO FL420.\n\nOUTLOOK VALID 241655-242055\nFROM MHZ-30WSW SJI-80WSW LEV-120SE IAH-100SE PSX-80E BRO-70SSE\nLRD-LFK-MHZ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 241555\nSIGC \nCONVECTIVE SIGMET 18C\nVALID UNTIL 1755Z\nLA TX AND CSTL WTRS\nFROM 50WSW AEX-50SSW LSU-100SE PSX-20ESE PSX-50WSW AEX\nAREA EMBD TS MOV FROM 23035KT. TOPS TO FL400.\n\nOUTLOOK VALID 241755-242155\nFROM MEI-SJI-100WSW LEV-120SE IAH-100SE PSX-80E BRO-30W BRO-40SSW\nCRP-40WNW AEX-MEI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-24T16:55"
+                    "2026-01-24T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -97.009,
+                            28.504
+                        ],
+                        [
+                            -95.805,
+                            27.68
+                        ],
+                        [
+                            -96.952,
+                            26.841
+                        ],
+                        [
+                            -97.851,
+                            27.544
+                        ],
+                        [
+                            -97.009,
+                            28.504
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 220,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 241555\nSIGC \nCONVECTIVE SIGMET 19C\nVALID UNTIL 1755Z\nTX AND CSTL WTRS\nFROM 40WSW PSX-70SSE PSX-60NNE BRO-30SW CRP-40WSW PSX\nAREA TS MOV FROM 22030KT. TOPS TO FL350.\n\nOUTLOOK VALID 241755-242155\nFROM MEI-SJI-100WSW LEV-120SE IAH-100SE PSX-80E BRO-30W BRO-40SSW\nCRP-40WNW AEX-MEI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-24T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-24T15:27"
+        "creationTime": "2026-01-24T16:34"
     }
 }
