@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -101.177,
-                            31.124
+                            -101.148,
+                            30.787
                         ],
                         [
                             -97.944,
                             30.735
                         ],
                         [
-                            -99.42,
-                            28.648
+                            -97.922,
+                            29.169
                         ],
                         [
-                            -100.55,
-                            28.895
+                            -100.48,
+                            28.746
                         ],
                         [
                             -101.476,
                             29.613
                         ],
                         [
-                            -101.177,
-                            31.124
+                            -101.148,
+                            30.787
                         ]
                     ]
                 ]
@@ -42,13 +42,60 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 28000,
-                "altitudeHi2": 28000,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
                 "movementDir": 220,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 240355\nSIGC \nCONVECTIVE SIGMET 3C\nVALID UNTIL 0555Z\nTX\nFROM 40WSW SJT-30NW CWK-70N LRD-30SSE DLF-40WNW DLF-40WSW SJT\nAREA TS MOV FROM 22020KT. TOPS TO FL280.\n\nOUTLOOK VALID 240555-240955\nFROM 50SE CDS-40SW PSX-40NW LRD-60ESE FST-50SSW LBB-50SE CDS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 240455\nSIGC \nCONVECTIVE SIGMET 4C\nVALID UNTIL 0655Z\nTX\nFROM 50SW SJT-30NW CWK-40SE SAT-40SSE DLF-40WNW DLF-50SW SJT\nAREA TS MOV FROM 22025KT. TOPS TO FL400.\n\nOUTLOOK VALID 240655-241055\nFROM 30W SPS-40SSE PSX-LRD-60ESE FST-50SSW LBB-30W SPS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-24T05:55"
+                    "2026-01-24T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -98.821,
+                            33.525
+                        ],
+                        [
+                            -98.575,
+                            32.92
+                        ],
+                        [
+                            -100.609,
+                            31.687
+                        ],
+                        [
+                            -101.266,
+                            32.336
+                        ],
+                        [
+                            -98.821,
+                            33.525
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 250,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 240455\nSIGC \nCONVECTIVE SIGMET 5C\nVALID UNTIL 0655Z\nTX\nFROM 30SSW SPS-70ENE ABI-20NNW SJT-50ENE MAF-30SSW SPS\nAREA EMBD TS MOV FROM 25035KT. TOPS TO FL250.\n\nOUTLOOK VALID 240655-241055\nFROM 30W SPS-40SSE PSX-LRD-60ESE FST-50SSW LBB-30W SPS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-24T06:55"
                 ]
             }
         },
@@ -63,16 +110,16 @@
                             32.984
                         ],
                         [
-                            -106.079,
-                            31.82
+                            -105.919,
+                            31.692
                         ],
                         [
-                            -106.872,
-                            31.819
+                            -107.062,
+                            31.818
                         ],
                         [
-                            -107.049,
-                            32.471
+                            -107.005,
+                            32.279
                         ],
                         [
                             -106.183,
@@ -93,18 +140,18 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
                 "movementDir": 240,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS33 KKCI 240355\nSIGW \nCONVECTIVE SIGMET 5W\nVALID UNTIL 0555Z\nTX NM\nFROM 30SW CME-10E ELP-30W ELP-30ENE DMN-60ESE TCS-30SW CME\nDMSHG AREA TS MOV FROM 24020KT. TOPS TO FL320.\n\nOUTLOOK VALID 240555-240955\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 240455\nSIGW \nCONVECTIVE SIGMET 6W\nVALID UNTIL 0655Z\nTX NM\nFROM 30SW CME-20ESE ELP-40W ELP-30E DMN-60ESE TCS-30SW CME\nDMSHG AREA TS MOV FROM 24020KT. TOPS TO FL270.\n\nOUTLOOK VALID 240655-241055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-01-24T05:55"
+                    "2026-01-24T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-24T04:40"
+        "creationTime": "2026-01-24T05:29"
     }
 }
