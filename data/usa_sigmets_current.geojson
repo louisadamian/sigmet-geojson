@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -100.532,
-                            30.344
+                            -97.27,
+                            30.995
                         ],
                         [
-                            -98.731,
-                            29.875
+                            -97.308,
+                            29.915
                         ],
                         [
-                            -100.48,
-                            28.746
+                            -100.336,
+                            28.438
                         ],
                         [
-                            -101.476,
-                            29.613
+                            -100.592,
+                            30.598
                         ],
                         [
-                            -100.532,
-                            30.344
+                            -97.27,
+                            30.995
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
+                "altitudeHi1": 41000,
+                "altitudeHi2": 41000,
                 "movementDir": 240,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 240655\nSIGC \nCONVECTIVE SIGMET 7C\nVALID UNTIL 0855Z\nTX\nFROM 40WSW JCT-20NW SAT-40SSE DLF-40WNW DLF-40WSW JCT\nAREA TS MOV FROM 24025KT. TOPS TO FL380.\n\nOUTLOOK VALID 240855-241255\nFROM TTT-CWK-30E PSX-LRD-50NW DLF-40NW ABI-TTT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 240755\nSIGC \nCONVECTIVE SIGMET 8C\nVALID UNTIL 0955Z\nTX\nFROM 40S ACT-30SSE CWK-60SSE DLF-40W JCT-40S ACT\nAREA EMBD TS MOV FROM 24025KT. TOPS TO FL410.\n\nOUTLOOK VALID 240955-241355\nFROM ABI-40NNW ACT-50SE CWK-50SE IAH-LRD-50NW DLF-ABI\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-24T08:55"
+                    "2026-01-24T09:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -108.536,
+                            32.014
+                        ],
+                        [
+                            -108.292,
+                            31.441
+                        ],
+                        [
+                            -109.635,
+                            31.498
+                        ],
+                        [
+                            -109.537,
+                            32.035
+                        ],
+                        [
+                            -108.536,
+                            32.014
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 230,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 240755\nSIGW \nCONVECTIVE SIGMET 7W\nVALID UNTIL 0955Z\nNM AZ\nFROM 40ESE SSO-70SE SSO-50SSW SSO-20SW SSO-40ESE SSO\nAREA EMBD TS MOV FROM 23025KT. TOPS TO FL250.\n\nOUTLOOK VALID 240955-241355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-01-24T09:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-24T07:26"
+        "creationTime": "2026-01-24T08:36"
     }
 }
