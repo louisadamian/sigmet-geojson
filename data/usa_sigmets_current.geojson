@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -91.84,
-                            30.671
+                            -90.536,
+                            31.535
                         ],
                         [
-                            -90.932,
-                            29.708
+                            -89.588,
+                            30.205
                         ],
                         [
-                            -95.664,
-                            27.372
+                            -93.977,
+                            28.295
                         ],
                         [
-                            -96.505,
-                            27.897
+                            -94.84,
+                            28.88
                         ],
                         [
-                            -91.84,
-                            30.671
+                            -90.536,
+                            31.535
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 44000,
-                "altitudeHi2": 44000,
+                "altitudeHi1": 42000,
+                "altitudeHi2": 42000,
                 "movementDir": 240,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 241855\nSIGC \nCONVECTIVE SIGMET 24C\nVALID UNTIL 2055Z\nLA AND LA TX CSTL WTRS\nFROM 30WNW LSU-50SSE LSU-90SSE PSX-50E CRP-30WNW LSU\nAREA EMBD TS MOV FROM 24035KT. TOPS TO FL440.\n\nOUTLOOK VALID 242055-250055\nFROM 30ESE MEI-30E SJI-50ESE HRV-110WSW LEV-120SSW LCH-100SE\nPSX-90ENE BRO-30NNE BRO-40SSE IAH-AEX-30ESE MEI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 241955\nSIGC \nCONVECTIVE SIGMET 25C\nVALID UNTIL 2155Z\nMS LA AND LA TX CSTL WTRS\nFROM 20NW MCB-30NE HRV-120SSW LCH-70SSE IAH-20NW MCB\nAREA EMBD TS MOV FROM 24035KT. TOPS TO FL420.\n\nOUTLOOK VALID 242155-250155\nFROM 50W MGM-CEW-50ESE HRV-110WSW LEV-120SSW LCH-100SE PSX-80SSE\nPSX-60SSE IAH-40NW MCB-50W MGM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-24T20:55"
+                    "2026-01-24T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.552,
+                            28.758
+                        ],
+                        [
+                            -94.916,
+                            28.244
+                        ],
+                        [
+                            -96.271,
+                            25.916
+                        ],
+                        [
+                            -97.238,
+                            26.227
+                        ],
+                        [
+                            -95.552,
+                            28.758
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 230,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 241955\nSIGC \nCONVECTIVE SIGMET 26C\nVALID UNTIL 2155Z\nTX CSTL WTRS\nFROM 40E PSX-80ESE PSX-60E BRO-20NNE BRO-40E PSX\nAREA EMBD TS MOV FROM 23030KT. TOPS TO FL400.\n\nOUTLOOK VALID 242155-250155\nFROM 50W MGM-CEW-50ESE HRV-110WSW LEV-120SSW LCH-100SE PSX-80SSE\nPSX-60SSE IAH-40NW MCB-50W MGM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-24T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-24T19:22"
+        "creationTime": "2026-01-24T20:30"
     }
 }
