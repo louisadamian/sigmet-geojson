@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -81.11,
-                            31.828
+                            -80.717,
+                            32.159
                         ],
                         [
-                            -80.735,
-                            31.388
+                            -80.284,
+                            31.452
                         ],
                         [
-                            -82.756,
-                            30.214
+                            -82.093,
+                            30.339
                         ],
                         [
-                            -83.05,
-                            30.435
+                            -82.882,
+                            30.768
                         ],
                         [
-                            -81.11,
-                            31.828
+                            -80.717,
+                            32.159
                         ]
                     ]
                 ]
@@ -38,18 +38,69 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 29000,
-                "altitudeHi2": 29000,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
                 "movementDir": 230,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 260355\nSIGE \nCONVECTIVE SIGMET 8E\nVALID UNTIL 0555Z\nFL GA AND GA CSTL WTRS\nFROM 20S SAV-50SSE SAV-40NNE CTY-50N CTY-20S SAV\nAREA TS MOV FROM 23045KT. TOPS TO FL290.\n\nOUTLOOK VALID 260555-260955\nFROM 130SSE HTO-170S ACK-140SE SIE-190ESE ECG-150ESE ILM-140SSE\nILM-110ESE CHS-50S ILM-100E ORF-130SSE HTO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS31 KKCI 260455\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 0655Z\nFL GA AND SC GA CSTL WTRS\nFROM 20E SAV-60SE SAV-30W CRG-50SSW AMG-20E SAV\nAREA TS MOV FROM 23040KT. TOPS TO FL320.\n\nOUTLOOK VALID 260655-261055\nFROM 160ESE SBY-190ESE ECG-150ESE ILM-140SSE ILM-120ESE CHS-50S\nILM-140E ORF-160ESE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-26T05:55"
+                    "2026-01-26T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.174,
+                            35.195
+                        ],
+                        [
+                            -73.76,
+                            34.225
+                        ],
+                        [
+                            -78.387,
+                            31.469
+                        ],
+                        [
+                            -78.762,
+                            32.437
+                        ],
+                        [
+                            -76.18,
+                            35.082
+                        ],
+                        [
+                            -73.174,
+                            35.195
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 39000,
+                "altitudeHi2": 39000,
+                "movementDir": 260,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS31 KKCI 260455\nSIGE \nCONVECTIVE SIGMET 10E\nVALID UNTIL 0655Z\nNC AND NC SC GA CSTL WTRS\nFROM 160ESE ECG-170SE ECG-120SE CHS-70ESE CHS-70S ECG-160ESE ECG\nAREA TS MOV FROM 26035KT. TOPS TO FL390.\nREF INTL SIGMET ALFA SERIES.\n\nOUTLOOK VALID 260655-261055\nFROM 160ESE SBY-190ESE ECG-150ESE ILM-140SSE ILM-120ESE CHS-50S\nILM-140E ORF-160ESE SBY\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-26T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-26T04:20"
+        "creationTime": "2026-01-26T05:38"
     }
 }
