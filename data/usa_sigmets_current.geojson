@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -73.918,
-                            35.465
+                            -72.472,
+                            36.193
                         ],
                         [
                             -71.513,
                             34.567
                         ],
                         [
-                            -77.709,
-                            30.867
+                            -76.239,
+                            30.961
                         ],
                         [
-                            -78.4,
-                            32.305
+                            -77.68,
+                            32.039
                         ],
                         [
-                            -73.918,
-                            35.465
+                            -72.472,
+                            36.193
                         ]
                     ]
                 ]
@@ -42,14 +42,61 @@
                 "altitudeHi2": 40000,
                 "movementDir": 230,
                 "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 261355\nSIGE \nCONVECTIVE SIGMET 24E\nVALID UNTIL 1555Z\nNC SC GA CSTL WTRS\nFROM 120ESE ECG-250ESE ECG-170SE CHS-90ESE CHS-120ESE ECG\nAREA TS MOV FROM 23045KT. TOPS TO FL400.\nREF INTL SIGMET ALFA SERIES.\n\nOUTLOOK VALID 261555-261955\nFROM 180ESE ECG-140SSE ILM-170E PBI-40ENE PBI-30N TRV-70NE\nOMN-130ESE CHS-180ESE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 261455\nSIGE \nCONVECTIVE SIGMET 25E\nVALID UNTIL 1655Z\nNC SC GA CSTL WTRS\nFROM 180E ECG-250ESE ECG-220SSE ILM-130ESE CHS-180E ECG\nAREA TS MOV FROM 23045KT. TOPS TO FL400.\nREF INTL SIGMET ALFA SERIES.\n\nOUTLOOK VALID 261655-262055\nFROM 180ESE ECG-140SSE ILM-170E PBI-40ENE PBI-30N TRV-70NE\nOMN-130ESE CHS-180ESE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-01-26T15:55"
+                    "2026-01-26T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.758,
+                            29.172
+                        ],
+                        [
+                            -80.272,
+                            28.145
+                        ],
+                        [
+                            -83.45,
+                            24.581
+                        ],
+                        [
+                            -84.181,
+                            25.462
+                        ],
+                        [
+                            -80.758,
+                            29.172
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 240,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS31 KKCI 261455\nSIGE \nCONVECTIVE SIGMET 26E\nVALID UNTIL 1655Z\nFL AND CSTL WTRS\nFROM 20ESE OMN-30NNE TRV-90W EYW-140WNW EYW-20ESE OMN\nDVLPG AREA EMBD TS MOV FROM 24035KT. TOPS TO FL300.\n\nOUTLOOK VALID 261655-262055\nFROM 180ESE ECG-140SSE ILM-170E PBI-40ENE PBI-30N TRV-70NE\nOMN-130ESE CHS-180ESE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-26T16:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-26T14:37"
+        "creationTime": "2026-01-26T15:37"
     }
 }
