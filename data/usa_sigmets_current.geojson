@@ -8,48 +8,95 @@
                 "coordinates": [
                     [
                         [
-                            -124.289,
-                            43.795
+                            -116.992,
+                            37.265
                         ],
                         [
-                            -123.719,
-                            43.068
+                            -114.47,
+                            35.435
                         ],
                         [
-                            -124.493,
-                            42.469
+                            -117.625,
+                            32.779
                         ],
                         [
-                            -125.013,
-                            43.097
+                            -119.77,
+                            34.51
                         ],
                         [
-                            -124.289,
-                            43.795
+                            -116.992,
+                            37.265
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KKCI",
+                "airportIcao": "KSLC",
                 "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
+                "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": null,
+                "altitudeLow1": 31000,
                 "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
-                "movementDir": 240,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS33 KKCI 280855\nSIGW \nCONVECTIVE SIGMET 1W\nVALID UNTIL 1055Z\nOR AND CSTL WTRS\nFROM 50WSW EUG-50NW OED-70W OED-100WNW OED-50WSW EUG\nAREA TS MOV FROM 24025KT. TOPS TO FL250.\n\nOUTLOOK VALID 281055-281455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 291913\nSLCQ WS 291913\nSIGMET QUEBEC 1 VALID UNTIL 292313\nSIGMET \nNV AZ CA AND CSTL WTRS\nFROM 30NNW BTY TO 40N EED TO 20W MZB TO RZS TO 30NNW BTY\nOCNL SEV TURB BTN FL310 AND FL410. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 2313Z.",
                 "validTimeTo": [
-                    "2026-01-28T10:55"
+                    "2026-01-29T23:13"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -116.992,
+                            37.265
+                        ],
+                        [
+                            -114.47,
+                            35.435
+                        ],
+                        [
+                            -117.625,
+                            32.779
+                        ],
+                        [
+                            -119.77,
+                            34.51
+                        ],
+                        [
+                            -116.992,
+                            37.265
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 31000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 291913\nSFOQ WS 291913\nSIGMET QUEBEC 1 VALID UNTIL 292313\nSIGMET \nCA NV AZ AND CSTL WTRS\nFROM 30NNW BTY TO 40N EED TO 20W MZB TO RZS TO 30NNW BTY\nOCNL SEV TURB BTN FL310 AND FL410. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 2313Z.",
+                "validTimeTo": [
+                    "2026-01-29T23:13"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-28T09:41"
+        "creationTime": "2026-01-29T19:34"
     }
 }
