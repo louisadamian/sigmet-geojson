@@ -8,53 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -74.882,
-                            35.182
-                        ],
-                        [
-                            -73.903,
-                            34.348
-                        ],
-                        [
-                            -75.775,
-                            32.566
-                        ],
-                        [
-                            -76.744,
-                            33.405
-                        ],
-                        [
-                            -74.882,
-                            35.182
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 33000,
-                "altitudeHi2": 33000,
-                "movementDir": 230,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 310455\nSIGE \nCONVECTIVE SIGMET 4E\nVALID UNTIL 0655Z\nNC CSTL WTRS\nFROM 90SE ECG-160SE ECG-150SE ILM-80SE ILM-90SE ECG\nAREA EMBD TS MOV FROM 23025KT. TOPS TO FL330.\n\nOUTLOOK VALID 310655-311055\nFROM 80ESE ECG-190ESE ECG-170SSE ILM-70SSE ILM-80ESE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
-                "validTimeTo": [
-                    "2026-01-31T06:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -114.667,
                             48.981
                         ],
@@ -94,9 +47,56 @@
                     "2026-01-31T07:58"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.882,
+                            35.182
+                        ],
+                        [
+                            -73.903,
+                            34.348
+                        ],
+                        [
+                            -76.239,
+                            30.961
+                        ],
+                        [
+                            -77.023,
+                            33.642
+                        ],
+                        [
+                            -74.882,
+                            35.182
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 230,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 310555\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0755Z\nNC CSTL WTRS\nFROM 90SE ECG-160SE ECG-220SSE ILM-60SE ILM-90SE ECG\nAREA EMBD TS MOV FROM 23025KT. TOPS TO FL330.\n\nOUTLOOK VALID 310755-311155\nFROM 80ESE ECG-180ESE ECG-140SSE ILM-70S ILM-80ESE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-31T06:54"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-01-31T05:46"
+        "creationTime": "2026-01-31T06:52"
     }
 }
