@@ -1,0 +1,102 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -114.667,
+                            48.981
+                        ],
+                        [
+                            -110.943,
+                            48.854
+                        ],
+                        [
+                            -109.61,
+                            47.05
+                        ],
+                        [
+                            -112.55,
+                            45.915
+                        ],
+                        [
+                            -114.667,
+                            48.981
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 16000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 310358\nSLCR WS 310358\nSIGMET ROMEO 2 VALID UNTIL 310758\nSIGMET \nMT\nFROM 50NNW FCA TO 50WNW HVR TO LWT TO 40N DLN TO 50NNW FCA\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n0758Z.",
+                "validTimeTo": [
+                    "2026-01-31T07:58"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -75.406,
+                            34.712
+                        ],
+                        [
+                            -75.107,
+                            33.363
+                        ],
+                        [
+                            -76.743,
+                            32.038
+                        ],
+                        [
+                            -77.186,
+                            32.962
+                        ],
+                        [
+                            -75.406,
+                            34.712
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 240,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 310355\nSIGE \nCONVECTIVE SIGMET 3E\nVALID UNTIL 0555Z\nNC SC CSTL WTRS\nFROM 100SSE ECG-150ESE ILM-150SSE ILM-90SSE ILM-100SSE ECG\nAREA EMBD TS MOV FROM 24025KT. TOPS TO FL320.\n\nOUTLOOK VALID 310555-310955\nFROM 90SE ECG-160SE ECG-160SSE ILM-110ESE CHS-70SSE ILM-90SE ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-01-31T05:55"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "creationTime": "2026-01-31T04:40"
+    }
+}
