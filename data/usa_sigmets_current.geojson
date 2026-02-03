@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -95.053,
-                            33.034
+                            -95.049,
+                            31.805
                         ],
                         [
-                            -93.256,
-                            32.961
+                            -93.053,
+                            31.729
                         ],
                         [
-                            -95.168,
-                            29.895
+                            -94.672,
+                            29.368
                         ],
                         [
-                            -96.311,
-                            30.782
+                            -96.238,
+                            29.637
                         ],
                         [
-                            -95.053,
-                            33.034
+                            -95.049,
+                            31.805
                         ]
                     ]
                 ]
@@ -38,18 +38,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 30000,
-                "altitudeHi2": 30000,
-                "movementDir": 280,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 270,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 032055\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 2255Z\nLA TX\nFROM 40NNW GGG-30ENE EIC-10ESE IAH-70NW IAH-40NNW GGG\nAREA TS MOV FROM 28020KT. TOPS TO FL300.\n\nOUTLOOK VALID 032255-040255\nFROM 40S LIT-MCB-50ESE PSX-30W PSX-50SSE CWK-50WNW GGG-40S LIT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 032155\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 2355Z\nLA TX AND TX CSTL WTRS\nFROM 40SSW GGG-40NW AEX-50SE IAH-50WSW IAH-40SSW GGG\nAREA SEV TS MOV FROM 27020KT. TOPS TO FL330.\nTORNADOES...HAIL TO 0.75 IN POSS.\n\nOUTLOOK VALID 032355-040355\nFROM 40S LIT-MCB-50ESE PSX-CWK-50WNW GGG-40S LIT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-02-03T22:55"
+                    "2026-02-03T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -103.474,
+                            38.452
+                        ],
+                        [
+                            -102.656,
+                            33.443
+                        ],
+                        [
+                            -108.804,
+                            33.19
+                        ],
+                        [
+                            -108.93,
+                            37.81
+                        ],
+                        [
+                            -103.474,
+                            38.452
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KDFW",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 32000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS04 KKCI 032145\nDFWU WS 032145\nSIGMET UNIFORM 1 VALID UNTIL 040145\nSIGMET \nTX CO NM\nFROM 40WNW LAA TO 40WSW LBB TO 60NNE SSO TO DVC TO 40WNW LAA\nOCNL SEV TURB BTN FL320 AND FL410. DUE TO WNDSHR ASSOCD WITH JTST\nAND MTN WV ACT. RPTD BY ACFT. INTSF AREA. CONDS CONTG BYD 0145Z.",
+                "validTimeTo": [
+                    "2026-02-04T01:45"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -103.474,
+                            38.452
+                        ],
+                        [
+                            -102.656,
+                            33.443
+                        ],
+                        [
+                            -108.804,
+                            33.19
+                        ],
+                        [
+                            -108.93,
+                            37.81
+                        ],
+                        [
+                            -103.474,
+                            38.452
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 32000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 41000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 032145\nSLCU WS 032145\nSIGMET UNIFORM 1 VALID UNTIL 040145\nSIGMET \nCO NM TX\nFROM 40WNW LAA TO 40WSW LBB TO 60NNE SSO TO DVC TO 40WNW LAA\nOCNL SEV TURB BTN FL320 AND FL410. DUE TO WNDSHR ASSOCD WITH JTST\nAND MTN WV ACT. RPTD BY ACFT. INTSF AREA. CONDS CONTG BYD 0145Z.",
+                "validTimeTo": [
+                    "2026-02-04T01:45"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-03T21:43"
+        "creationTime": "2026-02-03T22:39"
     }
 }
