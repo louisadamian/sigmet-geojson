@@ -1,0 +1,102 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.354,
+                            35.261
+                        ],
+                        [
+                            -71.513,
+                            34.567
+                        ],
+                        [
+                            -76.527,
+                            31.579
+                        ],
+                        [
+                            -77.68,
+                            32.039
+                        ],
+                        [
+                            -73.354,
+                            35.261
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 210,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 050155\nSIGE \nCONVECTIVE SIGMET 2E\nVALID UNTIL 0355Z\nNC SC GA CSTL WTRS\nFROM 150ESE ECG-250ESE ECG-180SSE ILM-130ESE CHS-150ESE ECG\nAREA EMBD TS MOV FROM 21030KT. TOPS TO FL300.\n\nOUTLOOK VALID 050355-050755\nFROM 170E ECG-190ESE ECG-150ESE ILM-140SSE ILM-220SE CHS-180ENE\nOMN-110SE CHS-90SE ILM-170E ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-05T03:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -117.666,
+                            35.472
+                        ],
+                        [
+                            -116.16,
+                            32.795
+                        ],
+                        [
+                            -117.23,
+                            32.78
+                        ],
+                        [
+                            -119.336,
+                            34.865
+                        ],
+                        [
+                            -117.666,
+                            35.472
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSFO",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 10000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS06 KKCI 050125\nSFOV WS 050125\nSIGMET VICTOR 3 VALID UNTIL 050525\nSIGMET \nCA AND CSTL WTRS\nFROM 70E EHF TO 50S TRM TO MZB TO 30NE RZS TO 70E EHF\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS ENDG 0525Z.",
+                "validTimeTo": [
+                    "2026-02-05T05:25"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "creationTime": "2026-02-05T02:48"
+    }
+}
