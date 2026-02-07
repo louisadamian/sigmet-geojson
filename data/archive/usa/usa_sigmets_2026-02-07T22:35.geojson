@@ -8,6 +8,69 @@
                 "coordinates": [
                     [
                         [
+                            -110.622,
+                            31.735
+                        ],
+                        [
+                            -110.415,
+                            31.661
+                        ],
+                        [
+                            -110.329,
+                            31.485
+                        ],
+                        [
+                            -110.415,
+                            31.308
+                        ],
+                        [
+                            -110.622,
+                            31.235
+                        ],
+                        [
+                            -110.829,
+                            31.308
+                        ],
+                        [
+                            -110.915,
+                            31.485
+                        ],
+                        [
+                            -110.829,
+                            31.661
+                        ],
+                        [
+                            -110.622,
+                            31.735
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS33 KKCI 072155\nSIGW \nCONVECTIVE SIGMET 1W\nVALID UNTIL 2355Z\nAZ\n40SSE TUS\nISOL TS D30 MOV LTL. TOPS TO FL330.\n\nOUTLOOK VALID 072355-080355\nTS ARE NOT EXPD.",
+                "validTimeTo": [
+                    "2026-02-07T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -110.943,
                             48.854
                         ],
@@ -108,53 +171,6 @@
                 "rawAirSigmet": "WSUS06 KKCI 072039\nSFOP WS 072039\nSIGMET PAPA 1 VALID UNTIL 080039\nSIGMET \nWA OR CA ID MT AND CSTL WTRS\nFROM 50WNW HVR TO 20W PIH TO 30NE OED TO 140WSW FOT TO 110W HQM\nTO 20W HUH TO 50WNW HVR\nOCNL SEV TURB BTN FL270 AND FL410. DUE TO WNDSHR ASSOCD WITH\nJTST. SHEAR WL INCRS THRU THE AFTN AND EVENG. CONDS CONTG BYD\n0039Z.",
                 "validTimeTo": [
                     "2026-02-08T00:39"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -110.643,
-                            31.865
-                        ],
-                        [
-                            -110.197,
-                            31.844
-                        ],
-                        [
-                            -110.094,
-                            31.392
-                        ],
-                        [
-                            -111.294,
-                            31.328
-                        ],
-                        [
-                            -110.643,
-                            31.865
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 33000,
-                "altitudeHi2": 33000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS33 KKCI 072255\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0055Z\nAZ\nFROM 20SE TUS-40ESE TUS-60SE TUS-50SSW TUS-20SE TUS\nAREA TS MOV LTL. TOPS TO FL330.\n\nOUTLOOK VALID 080055-080455\nTS ARE NOT EXPD.",
-                "validTimeTo": [
-                    "2026-02-08T00:55"
                 ]
             }
         },
@@ -325,6 +341,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-07T23:38"
+        "creationTime": "2026-02-07T22:35"
     }
 }
