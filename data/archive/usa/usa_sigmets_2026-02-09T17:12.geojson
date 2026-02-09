@@ -8,6 +8,57 @@
                 "coordinates": [
                     [
                         [
+                            -110.891,
+                            45.238
+                        ],
+                        [
+                            -107.06,
+                            44.84
+                        ],
+                        [
+                            -104.295,
+                            41.565
+                        ],
+                        [
+                            -104.87,
+                            37.155
+                        ],
+                        [
+                            -110.91,
+                            40.738
+                        ],
+                        [
+                            -110.891,
+                            45.238
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 18000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 091550\nSLCR WS 091550\nSIGMET ROMEO 1 VALID UNTIL 091950\nSIGMET \nID MT WY UT CO\nFROM 70E DLN TO SHR TO 30NE CYS TO 40N CIM TO 50NW MTU TO 70E DLN\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS. RPTD BY B738.\nCONDS CONTG BYD 1950Z.",
+                "validTimeTo": [
+                    "2026-02-09T19:50"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -107.961,
                             45.338
                         ],
@@ -51,60 +102,9 @@
                     "2026-02-09T21:09"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -106.44,
-                            44.332
-                        ],
-                        [
-                            -104.328,
-                            41.209
-                        ],
-                        [
-                            -104.426,
-                            36.845
-                        ],
-                        [
-                            -111.038,
-                            41.551
-                        ],
-                        [
-                            -111.224,
-                            43.975
-                        ],
-                        [
-                            -106.44,
-                            44.332
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 18000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 091929\nSLCR WS 091929\nSIGMET ROMEO 2 VALID UNTIL 092329\nSIGMET \nID WY UT CO NM\nFROM 20N CZI TO 20E CYS TO 30NE CIM TO 60NE SLC TO 30NW JAC TO\n20N CZI\nOCNL SEV TURB BLW FL180. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS CONTG BYD 2329Z.",
-                "validTimeTo": [
-                    "2026-02-09T23:29"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-09T19:34"
+        "creationTime": "2026-02-09T17:12"
     }
 }
