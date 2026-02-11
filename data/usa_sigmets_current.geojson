@@ -8,48 +8,95 @@
                 "coordinates": [
                     [
                         [
-                            -97.53,
-                            29.715
+                            -119.59,
+                            38.069
                         ],
                         [
-                            -96.31,
-                            28.76
+                            -119.229,
+                            37.349
                         ],
                         [
-                            -98.993,
-                            26.558
+                            -120.115,
+                            37.115
                         ],
                         [
-                            -99.952,
-                            27.949
+                            -120.761,
+                            37.695
                         ],
                         [
-                            -97.53,
-                            29.715
+                            -119.59,
+                            38.069
                         ]
                     ]
                 ]
             },
             "properties": {
                 "airSigmetId": null,
-                "airportIcao": "KDFW",
+                "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "ICE",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 18000,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 24000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS04 KKCI 101903\nDFWV WS 101903\nSIGMET VICTOR 1 VALID UNTIL 102303\nSIGMET \nTX\nFROM 40S CWK TO PSX TO 60SSE LRD TO 40NW LRD TO 40S CWK\nOCNL SEV RIME ICGIC BTN FL180 AND FL240. RPTD BY ACFT. CONDS\nCONTG BYD 2303Z.",
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 190,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS33 KKCI 110255\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0455Z\nCA\nFROM 70ENE MOD-40NE CZQ-20NW CZQ-10ENE MOD-70ENE MOD\nAREA EMBD TS MOV FROM 19050KT. TOPS TO FL260.\n\nOUTLOOK VALID 110455-110855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-10T23:03"
+                    "2026-02-11T04:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.245,
+                            39.547
+                        ],
+                        [
+                            -79.824,
+                            37.719
+                        ],
+                        [
+                            -83.672,
+                            37.385
+                        ],
+                        [
+                            -83.205,
+                            38.363
+                        ],
+                        [
+                            -79.245,
+                            39.547
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 29000,
+                "altitudeHi2": 29000,
+                "movementDir": 270,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 110255\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 0455Z\nMD VA WV OH KY\nFROM 50SSW JST-40NW LYH-30NE LOZ-60WSW HNN-50SSW JST\nDVLPG AREA TS MOV FROM 27050KT. TOPS TO FL290.\n\nOUTLOOK VALID 110455-110855\nTS ARE NOT EXPD.",
+                "validTimeTo": [
+                    "2026-02-11T04:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-10T22:52"
+        "creationTime": "2026-02-11T03:18"
     }
 }
