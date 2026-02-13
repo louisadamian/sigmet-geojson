@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -111.091,
-                            38.292
+                            -115.046,
+                            35.239
                         ],
                         [
-                            -111.181,
-                            37.498
+                            -114.183,
+                            35.005
                         ],
                         [
-                            -113.041,
-                            37.097
+                            -114.803,
+                            32.77
                         ],
                         [
-                            -113.14,
-                            37.687
+                            -116.16,
+                            32.633
                         ],
                         [
-                            -111.091,
-                            38.292
+                            -115.046,
+                            35.239
                         ]
                     ]
                 ]
@@ -38,18 +38,69 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 23000,
-                "altitudeHi2": 23000,
-                "movementDir": 230,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 220,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS33 KKCI 130755\nSIGW \nCONVECTIVE SIGMET 20W\nVALID UNTIL 0955Z\nAZ UT\nFROM 20WSW HVE-60SSW HVE-50SW BCE-40W BCE-20WSW HVE\nAREA TS MOV FROM 23010KT. TOPS TO FL230.\n\nOUTLOOK VALID 130955-131355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 131055\nSIGW \nCONVECTIVE SIGMET 21W\nVALID UNTIL 1255Z\nAZ NV CA\nFROM 40NW EED-20NE EED-10W BZA-60S TRM-40NW EED\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL250.\n\nOUTLOOK VALID 131255-131655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-13T08:54"
+                    "2026-02-13T12:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -111.478,
+                            32.569
+                        ],
+                        [
+                            -110.046,
+                            32.268
+                        ],
+                        [
+                            -110.546,
+                            31.328
+                        ],
+                        [
+                            -110.92,
+                            31.265
+                        ],
+                        [
+                            -112.187,
+                            31.647
+                        ],
+                        [
+                            -111.478,
+                            32.569
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 220,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS33 KKCI 131055\nSIGW \nCONVECTIVE SIGMET 22W\nVALID UNTIL 1255Z\nAZ\nFROM 40NW TUS-40W SSO-50SSE TUS-50S TUS-70WSW TUS-40NW TUS\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL260.\n\nOUTLOOK VALID 131255-131655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-13T12:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-13T08:54"
+        "creationTime": "2026-02-13T11:38"
     }
 }
