@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -108.683,
-                            40.975
+                            -108.121,
+                            40.772
                         ],
                         [
-                            -106.7,
-                            40.326
+                            -106.505,
+                            40.263
                         ],
                         [
-                            -109.344,
-                            36.744
+                            -107.806,
+                            36.985
                         ],
                         [
-                            -110.138,
-                            37.34
+                            -109.067,
+                            37.066
                         ],
                         [
-                            -110.436,
-                            39.915
+                            -109.52,
+                            40.341
                         ],
                         [
-                            -108.683,
-                            40.975
+                            -108.121,
+                            40.772
                         ]
                     ]
                 ]
@@ -42,13 +42,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 26000,
-                "altitudeHi2": 26000,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
                 "movementDir": 260,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS33 KKCI 130255\nSIGW \nCONVECTIVE SIGMET 7W\nVALID UNTIL 0455Z\nCO AZ UT\nFROM 40SSE OCS-30ESE CHE-60W RSK-70SSE HVE-20SW MTU-40SSE OCS\nAREA TS MOV FROM 26010KT. TOPS TO FL260.\n\nOUTLOOK VALID 130455-130855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS33 KKCI 130455\nSIGW \nCONVECTIVE SIGMET 12W\nVALID UNTIL 0655Z\nCO NM UT\nFROM 40WNW CHE-40ESE CHE-20NE RSK-50WNW RSK-30ENE MTU-40WNW CHE\nAREA TS MOV FROM 26015KT. TOPS TO FL270.\n\nOUTLOOK VALID 130655-131055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-13T04:55"
+                    "2026-02-13T06:55"
                 ]
             }
         },
@@ -59,28 +59,28 @@
                 "coordinates": [
                     [
                         [
-                            -113.696,
-                            41.887
+                            -112.876,
+                            41.427
                         ],
                         [
-                            -111.641,
-                            41.464
+                            -111.668,
+                            41.085
                         ],
                         [
-                            -112.306,
-                            39.235
+                            -112.714,
+                            39.365
                         ],
                         [
-                            -114.248,
-                            39.491
+                            -113.512,
+                            39.615
                         ],
                         [
-                            -116.108,
-                            40.822
+                            -113.929,
+                            41.037
                         ],
                         [
-                            -113.696,
-                            41.887
+                            -112.876,
+                            41.427
                         ]
                     ]
                 ]
@@ -93,18 +93,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 29000,
-                "altitudeHi2": 29000,
-                "movementDir": 260,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 250,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS33 KKCI 130255\nSIGW \nCONVECTIVE SIGMET 8W\nVALID UNTIL 0455Z\nUT NV\nFROM 50SE TWF-40NNE SLC-10ESE DTA-30ENE ELY-40ENE BAM-50SE TWF\nAREA TS MOV FROM 26010KT. TOPS TO FL290.\n\nOUTLOOK VALID 130455-130855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 130455\nSIGW \nCONVECTIVE SIGMET 13W\nVALID UNTIL 0655Z\nUT\nFROM 50SSW MLD-20NE SLC-10WNW DTA-50WNW DTA-20NNW BVL-50SSW MLD\nAREA TS MOV FROM 25010KT. TOPS TO FL320.\n\nOUTLOOK VALID 130655-131055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-13T04:55"
+                    "2026-02-13T06:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -111.521,
+                            37.942
+                        ],
+                        [
+                            -110.389,
+                            36.822
+                        ],
+                        [
+                            -112.512,
+                            35.616
+                        ],
+                        [
+                            -113.54,
+                            36.455
+                        ],
+                        [
+                            -111.521,
+                            37.942
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 24000,
+                "altitudeHi2": 24000,
+                "movementDir": 250,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS33 KKCI 130455\nSIGW \nCONVECTIVE SIGMET 14W\nVALID UNTIL 0655Z\nAZ UT\nFROM 40ENE BCE-60NE TBC-50E PGS-50N PGS-40ENE BCE\nAREA TS MOV FROM 25010KT. TOPS TO FL240.\n\nOUTLOOK VALID 130655-131055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-13T06:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-13T03:14"
+        "creationTime": "2026-02-13T05:24"
     }
 }
