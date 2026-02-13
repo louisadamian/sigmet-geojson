@@ -8,8 +8,8 @@
                 "coordinates": [
                     [
                         [
-                            -115.046,
-                            35.239
+                            -114.905,
+                            35.125
                         ],
                         [
                             -114.183,
@@ -20,12 +20,12 @@
                             32.77
                         ],
                         [
-                            -116.16,
-                            32.633
+                            -115.786,
+                            32.764
                         ],
                         [
-                            -115.046,
-                            35.239
+                            -114.905,
+                            35.125
                         ]
                     ]
                 ]
@@ -38,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
+                "altitudeHi1": 22000,
+                "altitudeHi2": 22000,
                 "movementDir": 220,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS33 KKCI 131055\nSIGW \nCONVECTIVE SIGMET 21W\nVALID UNTIL 1255Z\nAZ NV CA\nFROM 40NW EED-20NE EED-10W BZA-60S TRM-40NW EED\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL250.\n\nOUTLOOK VALID 131255-131655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 131255\nSIGW \nCONVECTIVE SIGMET 26W\nVALID UNTIL 1455Z\nAZ NV CA\nFROM 30NW EED-20NE EED-10W BZA-60W BZA-30NW EED\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL220.\n\nOUTLOOK VALID 131455-131855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-13T12:55"
+                    "2026-02-13T14:55"
                 ]
             }
         },
@@ -55,28 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -111.478,
-                            32.569
+                            -112.4,
+                            32.658
                         ],
                         [
-                            -110.046,
-                            32.268
-                        ],
-                        [
-                            -110.546,
-                            31.328
+                            -110.37,
+                            32.291
                         ],
                         [
                             -110.92,
-                            31.265
+                            31.435
                         ],
                         [
-                            -112.187,
-                            31.647
+                            -112.787,
+                            32.121
                         ],
                         [
-                            -111.478,
-                            32.569
+                            -112.4,
+                            32.658
                         ]
                     ]
                 ]
@@ -89,18 +85,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 26000,
-                "altitudeHi2": 26000,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
                 "movementDir": 220,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS33 KKCI 131055\nSIGW \nCONVECTIVE SIGMET 22W\nVALID UNTIL 1255Z\nAZ\nFROM 40NW TUS-40W SSO-50SSE TUS-50S TUS-70WSW TUS-40NW TUS\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL260.\n\nOUTLOOK VALID 131255-131655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS33 KKCI 131255\nSIGW \nCONVECTIVE SIGMET 27W\nVALID UNTIL 1455Z\nAZ\nFROM 50SSW PHX-30ENE TUS-40S TUS-100ESE BZA-50SSW PHX\nAREA EMBED TS MOV FROM 22010KT. TOPS TO FL280.\n\nOUTLOOK VALID 131455-131855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-13T12:55"
+                    "2026-02-13T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -111.708,
+                            35.763
+                        ],
+                        [
+                            -110.487,
+                            35.674
+                        ],
+                        [
+                            -111.086,
+                            34.825
+                        ],
+                        [
+                            -112.193,
+                            34.935
+                        ],
+                        [
+                            -111.708,
+                            35.763
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 23000,
+                "altitudeHi2": 23000,
+                "movementDir": 220,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS33 KKCI 131255\nSIGW \nCONVECTIVE SIGMET 28W\nVALID UNTIL 1455Z\nAZ\nFROM 30SW TBC-40NNE INW-20SW INW-20NE DRK-30SW TBC\nAREA TS MOV FROM 22010KT. TOPS TO FL230.\n\nOUTLOOK VALID 131455-131855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-13T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-13T11:38"
+        "creationTime": "2026-02-13T13:20"
     }
 }
