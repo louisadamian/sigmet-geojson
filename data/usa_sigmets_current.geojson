@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -76.672,
-                            31.888
+                            -91.858,
+                            46.564
                         ],
                         [
-                            -76.627,
-                            29.025
+                            -89.728,
+                            46.094
                         ],
                         [
-                            -78.062,
-                            29.265
+                            -90.645,
+                            45.624
                         ],
                         [
-                            -77.905,
-                            30.406
+                            -91.48,
+                            45.897
                         ],
                         [
-                            -76.672,
-                            31.888
+                            -91.858,
+                            46.564
                         ]
                     ]
                 ]
@@ -38,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
                 "movementDir": 240,
-                "movementSpd": 50,
-                "rawAirSigmet": "WSUS31 KKCI 160655\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 0855Z\nFL GA CSTL WTRS\nFROM 160SSE ILM-220ENE TRV-160E OMN-180ENE OMN-160SSE ILM\nAREA TS MOV FROM 24050KT. TOPS TO FL350.\nREF INTL SIGMET KILO SERIES.\n\nOUTLOOK VALID 160855-161255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 160855\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 1055Z\nWI\nFROM 20SE DLH-30NNW RHI-50W RHI-60N EAU-20SE DLH\nAREA TS MOV FROM 24020KT. TOPS TO FL270.\n\nOUTLOOK VALID 161055-161455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-16T08:55"
+                    "2026-02-16T10:55"
                 ]
             }
         },
@@ -55,24 +55,20 @@
                 "coordinates": [
                     [
                         [
-                            -74.292,
-                            35.599
+                            -76.166,
+                            30.803
                         ],
                         [
-                            -72.614,
-                            34.987
+                            -76.627,
+                            29.025
                         ],
                         [
-                            -78.116,
-                            31.23
+                            -79.616,
+                            27.997
                         ],
                         [
-                            -77.87,
-                            33.353
-                        ],
-                        [
-                            -74.292,
-                            35.599
+                            -76.166,
+                            30.803
                         ]
                     ]
                 ]
@@ -85,18 +81,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
+                "altitudeHi1": 39000,
+                "altitudeHi2": 39000,
+                "movementDir": 240,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 160855\nSIGE \nCONVECTIVE SIGMET 17E\nVALID UNTIL 1055Z\nFL CSTL WTRS\nFROM 230SSE ILM-220ENE TRV-50ENE TRV-230SSE ILM\nAREA TS MOV FROM 24050KT. TOPS TO FL390.\nREF INTL SIGMET KILO SERIES.\n\nOUTLOOK VALID 161055-161455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-16T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -72.673,
+                            36.199
+                        ],
+                        [
+                            -72.614,
+                            34.987
+                        ],
+                        [
+                            -76.818,
+                            32.196
+                        ],
+                        [
+                            -76.391,
+                            33.832
+                        ],
+                        [
+                            -72.673,
+                            36.199
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
                 "movementDir": 210,
                 "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 160655\nSIGE \nCONVECTIVE SIGMET 14E\nVALID UNTIL 0855Z\nNC SC GA CSTL WTRS\nFROM 100ESE ECG-190ESE ECG-140SE CHS-60S ILM-100ESE ECG\nAREA TS MOV FROM 21045KT. TOPS TO FL350.\nREF INTL SIGMET KILO SERIES.\n\nOUTLOOK VALID 160855-161255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 160855\nSIGE \nCONVECTIVE SIGMET 18E\nVALID UNTIL 1055Z\nNC SC CSTL WTRS\nFROM 170E ECG-190ESE ECG-140SSE ILM-80ESE ILM-170E ECG\nAREA TS MOV FROM 21045KT. TOPS TO FL340.\nREF INTL SIGMET KILO SERIES.\n\nOUTLOOK VALID 161055-161455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-16T08:55"
+                    "2026-02-16T10:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-16T07:16"
+        "creationTime": "2026-02-16T08:59"
     }
 }
