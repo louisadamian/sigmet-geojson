@@ -8,28 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -119.59,
-                            38.069
+                            -117.793,
+                            36.795
                         ],
                         [
-                            -115.714,
-                            34.543
+                            -115.552,
+                            35.308
                         ],
                         [
-                            -115.707,
-                            32.708
+                            -118.416,
+                            32.774
                         ],
                         [
-                            -117.782,
-                            32.586
+                            -120.618,
+                            33.802
                         ],
                         [
-                            -122.07,
-                            35.738
-                        ],
-                        [
-                            -119.59,
-                            38.069
+                            -117.793,
+                            36.795
                         ]
                     ]
                 ]
@@ -40,20 +36,83 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "TURB",
                 "severity": 5,
-                "altitudeLow1": 2000,
+                "altitudeLow1": 11000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 30000,
+                "altitudeHi2": 25000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS06 KKCI 162050\nSFON WS 162050\nSIGMET NOVEMBER 2 VALID UNTIL 170050\nSIGMET \nCA AND CSTL WTRS\nFROM 70ENE MOD TO 40ESE HEC TO 60SSE TRM TO 30WSW MZB TO 60SSW\nSNS TO 70ENE MOD\nOCNL SEV TURB BTN 020 AND FL300. DUE TO STG LOW LVL WNDS AND\nWNDSHR ASSOCD WITH JTST. RPTD BY ACFT. CONDS CONTG BYD 0050Z.",
+                "rawAirSigmet": "WSUS06 KKCI 170043\nSFON WS 170043\nSIGMET NOVEMBER 3 VALID UNTIL 170443\nSIGMET \nCA AND CSTL WTRS\nFROM 50W BTY TO 50SSW LAS TO 60W MZB TO 60SW RZS TO 50W BTY\nOCNL SEV TURB BTN 110 AND FL250. DUE TO WNDSHR ASSOCD WITH JTST.\nRPTD BY B737 E75 AND F900. CONDS CONTG BYD 0443Z.",
                 "validTimeTo": [
-                    "2026-02-17T00:50"
+                    "2026-02-17T04:43"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -119.404,
+                            37.129
+                        ],
+                        [
+                            -119.183,
+                            37.055
+                        ],
+                        [
+                            -119.092,
+                            36.879
+                        ],
+                        [
+                            -119.184,
+                            36.702
+                        ],
+                        [
+                            -119.404,
+                            36.629
+                        ],
+                        [
+                            -119.624,
+                            36.702
+                        ],
+                        [
+                            -119.716,
+                            36.879
+                        ],
+                        [
+                            -119.625,
+                            37.055
+                        ],
+                        [
+                            -119.404,
+                            37.129
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 23000,
+                "altitudeHi2": 23000,
+                "movementDir": 240,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 170155\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 0355Z\nCA\n20E CZQ\nDMSHG ISOL TS D30 MOV FROM 24025KT. TOPS TO FL230.\n\nOUTLOOK VALID 170355-170755\nFROM 60W OAL-40NE MZB-200SSW RZS-130WSW SNS-OAK-60W OAL\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-17T03:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-16T23:37"
+        "creationTime": "2026-02-17T02:50"
     }
 }
