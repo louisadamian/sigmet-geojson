@@ -8,57 +8,6 @@
                 "coordinates": [
                     [
                         [
-                            -111.835,
-                            45.248
-                        ],
-                        [
-                            -105.59,
-                            43.742
-                        ],
-                        [
-                            -103.6,
-                            37.773
-                        ],
-                        [
-                            -105.14,
-                            34.825
-                        ],
-                        [
-                            -111.88,
-                            37.689
-                        ],
-                        [
-                            -111.835,
-                            45.248
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 20000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 171048\nSLCP WS 171048\nSIGMET PAPA 2 VALID UNTIL 171448\nSIGMET \nID MT WY UT CO AZ NM\nFROM 30E DLN TO 40ESE CZI TO 30N TBE TO 50S FTI TO 20E BCE TO 30E\nDLN\nOCNL SEV TURB BLW FL200. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 1448Z.",
-                "validTimeTo": [
-                    "2026-02-17T14:48"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
                             -116.696,
                             35.265
                         ],
@@ -161,24 +110,28 @@
                 "coordinates": [
                     [
                         [
-                            -121.987,
-                            40.564
+                            -122.707,
+                            40.455
                         ],
                         [
-                            -121.922,
-                            37.965
+                            -120.744,
+                            40.351
                         ],
                         [
-                            -123.648,
-                            37.823
+                            -120.061,
+                            38.332
                         ],
                         [
-                            -123.921,
-                            40.435
+                            -126.896,
+                            36.673
                         ],
                         [
-                            -121.987,
-                            40.564
+                            -126.692,
+                            39
+                        ],
+                        [
+                            -122.707,
+                            40.455
                         ]
                     ]
                 ]
@@ -191,18 +144,167 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 27000,
-                "altitudeHi2": 27000,
-                "movementDir": 270,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 280,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS33 KKCI 171255\nSIGW \nCONVECTIVE SIGMET 32W\nVALID UNTIL 1455Z\nCA AND CSTL WTRS\nFROM 30NNE RBL-20NE OAK-40WSW PYE-20SE FOT-30NNE RBL\nAREA TS MOV FROM 27025KT. TOPS TO FL270.\n\nOUTLOOK VALID 171455-171855\nFROM 60SE EUG-MOD-210WSW PYE-130WNW FOT-60SE EUG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS33 KKCI 171455\nSIGW \nCONVECTIVE SIGMET 35W\nVALID UNTIL 1655Z\nCA AND CSTL WTRS\nFROM 30NW RBL-70NW FMG-60NE MOD-210WSW PYE-160W ENI-30NW RBL\nAREA EMBD TS MOV FROM 28025KT. TOPS TO FL250.\n\nOUTLOOK VALID 171655-172055\nFROM 30E EUG-70ENE EHF-150WSW RZS-130WSW SNS-150W ENI-130WSW\nFOT-130WSW ONP-30E EUG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-02-17T14:55"
+                    "2026-02-17T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.91,
+                            42.148
+                        ],
+                        [
+                            -122.314,
+                            41.4
+                        ],
+                        [
+                            -124.634,
+                            40.542
+                        ],
+                        [
+                            -125.17,
+                            41.371
+                        ],
+                        [
+                            -122.91,
+                            42.148
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 280,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 171455\nSIGW \nCONVECTIVE SIGMET 36W\nVALID UNTIL 1655Z\nCA OR AND CA CSTL WTRS\nFROM 20S OED-70SSE OED-20WSW FOT-60NW FOT-20S OED\nAREA EMBD TS MOV FROM 28025KT. TOPS TO FL280.\n\nOUTLOOK VALID 171655-172055\nFROM 30E EUG-70ENE EHF-150WSW RZS-130WSW SNS-150W ENI-130WSW\nFOT-130WSW ONP-30E EUG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-17T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.44,
+                            44
+                        ],
+                        [
+                            -103.48,
+                            41.89
+                        ],
+                        [
+                            -103.834,
+                            34.715
+                        ],
+                        [
+                            -106.586,
+                            34.575
+                        ],
+                        [
+                            -107.632,
+                            38.256
+                        ],
+                        [
+                            -106.44,
+                            44
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 20000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 171441\nCHIP WS 171441\nSIGMET PAPA 3 VALID UNTIL 171841\nSIGMET \nNE WY CO NM\nFROM CZI TO BFF TO 30SSW TCC TO 30SSE ABQ TO 30WSW HBU TO CZI\nOCNL SEV TURB BLW FL200. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1841Z.",
+                "validTimeTo": [
+                    "2026-02-17T18:41"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.44,
+                            44
+                        ],
+                        [
+                            -103.48,
+                            41.89
+                        ],
+                        [
+                            -103.834,
+                            34.715
+                        ],
+                        [
+                            -106.586,
+                            34.575
+                        ],
+                        [
+                            -107.632,
+                            38.256
+                        ],
+                        [
+                            -106.44,
+                            44
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 20000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 171441\nSLCP WS 171441\nSIGMET PAPA 3 VALID UNTIL 171841\nSIGMET \nWY CO NM NE\nFROM CZI TO BFF TO 30SSW TCC TO 30SSE ABQ TO 30WSW HBU TO CZI\nOCNL SEV TURB BLW FL200. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nCONDS CONTG BYD 1841Z.",
+                "validTimeTo": [
+                    "2026-02-17T18:41"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-17T13:22"
+        "creationTime": "2026-02-17T14:55"
     }
 }
