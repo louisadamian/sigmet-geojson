@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -85.664,
-                            41.335
+                            -85.19,
+                            41.645
                         ],
                         [
-                            -86.036,
-                            40.424
+                            -85.659,
+                            40.623
                         ],
                         [
-                            -88.43,
-                            40.501
+                            -87.945,
+                            40.557
                         ],
                         [
-                            -87.847,
-                            41.193
+                            -87.503,
+                            41.293
                         ],
                         [
-                            -85.664,
-                            41.335
+                            -85.19,
+                            41.645
                         ]
                     ]
                 ]
@@ -42,14 +42,61 @@
                 "altitudeHi2": 35000,
                 "movementDir": 240,
                 "movementSpd": 30,
-                "rawAirSigmet": "WSUS31 KKCI 190855\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 1055Z\nIN IL\nFROM 30NW FWA-40NNE IND-50NNE AXC-30SE JOT-30NW FWA\nAREA SVR TS MOV FROM 24030KT. TOPS TO FL350.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 191055-191455\nFROM 40W DXO-30SSW DXO-40NE ROD-50NNW CVG-TTH-40SE\nAXC-AXC-JOT-GIJ-40W DXO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 190955\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 1155Z\nIN IL\nFROM 40N FWA-30SW FWA-40W BVT-40ESE JOT-40N FWA\nAREA SEV TS MOV FROM 24030KT. TOPS TO FL350.\nHAIL TO 1 IN.\n\nOUTLOOK VALID 191155-191555\nFROM 40W DXO-30SSW DXO-40NE ROD-50NNW CVG-TTH-40SE\nAXC-AXC-JOT-GIJ-40W DXO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-02-19T10:55"
+                    "2026-02-19T11:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.358,
+                            37.843
+                        ],
+                        [
+                            -82.177,
+                            37.775
+                        ],
+                        [
+                            -83.539,
+                            36.836
+                        ],
+                        [
+                            -87.485,
+                            36.925
+                        ],
+                        [
+                            -86.358,
+                            37.843
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 25000,
+                "altitudeHi2": 25000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 190955\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 1155Z\nWV KY\nFROM 40WSW IIU-50W BKW-30ESE LOZ-50W BWG-40WSW IIU\nDVLPG AREA TS MOV FROM 24030KT. TOPS TO FL250.\n\nOUTLOOK VALID 191155-191555\nFROM 40W DXO-30SSW DXO-40NE ROD-50NNW CVG-TTH-40SE\nAXC-AXC-JOT-GIJ-40W DXO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-19T11:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-19T08:56"
+        "creationTime": "2026-02-19T09:58"
     }
 }
