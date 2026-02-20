@@ -55,28 +55,28 @@
                 "coordinates": [
                     [
                         [
-                            -74.54,
-                            40.567
+                            -71.43,
+                            41.055
                         ],
                         [
-                            -70.778,
-                            39.892
+                            -70.03,
+                            38.45
                         ],
                         [
-                            -72.58,
-                            37.313
+                            -70.71,
+                            37.838
                         ],
                         [
-                            -80.181,
-                            34.963
+                            -73.494,
+                            36.859
                         ],
                         [
-                            -83.091,
-                            34.026
+                            -75.52,
+                            38.853
                         ],
                         [
-                            -74.54,
-                            40.567
+                            -71.43,
+                            41.055
                         ]
                     ]
                 ]
@@ -89,18 +89,234 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
                 "movementDir": 240,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 201455\nSIGE \nCONVECTIVE SIGMET 32E\nVALID UNTIL 1655Z\nNJ PA DE MD VA NC DC SC GA AND RI DE NJ NY MD NC VA CSTL WTRS\nFROM 30S SAX-90SSW ACK-150SE SIE-40ESE CLT-50WNW IRQ-30S SAX\nAREA EMBD TS MOV FROM 24040KT. TOPS TO FL320.\n\nOUTLOOK VALID 201655-202055\nFROM 50S HTO-170S ACK-150ESE SBY-170E ECG-30ESE SBY-CYN-50S HTO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 201555\nSIGE \nCONVECTIVE SIGMET 33E\nVALID UNTIL 1755Z\nNJ DE MD AND MA RI DE NJ NY MD VA CSTL WTRS\nFROM 40S PVD-170S ACK-200SSE HTO-130E ORF-30N SBY-40S PVD\nAREA EMBD TS MOV FROM 24040KT. TOPS TO FL260.\n\nOUTLOOK VALID 201755-202155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-20T16:55"
+                    "2026-02-20T16:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.12,
+                            36.232
+                        ],
+                        [
+                            -72.673,
+                            36.199
+                        ],
+                        [
+                            -74.038,
+                            34.465
+                        ],
+                        [
+                            -75.633,
+                            35.17
+                        ],
+                        [
+                            -74.12,
+                            36.232
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 29000,
+                "altitudeHi2": 29000,
+                "movementDir": 240,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 201555\nSIGE \nCONVECTIVE SIGMET 34E\nVALID UNTIL 1755Z\nNC AND CSTL WTRS\nFROM 100E ECG-170E ECG-150SE ECG-70SSE ECG-100E ECG\nAREA TS MOV FROM 24050KT. TOPS TO FL290.\n\nOUTLOOK VALID 201755-202155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-20T16:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.133,
+                            42.573
+                        ],
+                        [
+                            -78.426,
+                            40.446
+                        ],
+                        [
+                            -82.332,
+                            38.985
+                        ],
+                        [
+                            -88.085,
+                            38.544
+                        ],
+                        [
+                            -88.32,
+                            41.55
+                        ],
+                        [
+                            -83.37,
+                            42.21
+                        ],
+                        [
+                            -82.521,
+                            41.418
+                        ],
+                        [
+                            -79.133,
+                            42.573
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 8000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 201618\nBOSW WS 201618\nSIGMET WHISKEY 1 VALID UNTIL 202018\nSIGMET \nNY PA OH LE WV LM MI IL IN KY\nFROM 30SW BUF TO 20ENE JST TO 20NW HNN TO 40NNW PXV TO JOT TO DXO\nTO 30W CLE TO 30SW BUF\nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS. RPTD BY C30J.\nCONDS CONTG BYD 2018Z.",
+                "validTimeTo": [
+                    "2026-02-20T20:18"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.133,
+                            42.573
+                        ],
+                        [
+                            -78.426,
+                            40.446
+                        ],
+                        [
+                            -82.332,
+                            38.985
+                        ],
+                        [
+                            -88.085,
+                            38.544
+                        ],
+                        [
+                            -88.32,
+                            41.55
+                        ],
+                        [
+                            -83.37,
+                            42.21
+                        ],
+                        [
+                            -82.521,
+                            41.418
+                        ],
+                        [
+                            -79.133,
+                            42.573
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 8000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 201618\nCHIW WS 201618\nSIGMET WHISKEY 1 VALID UNTIL 202018\nSIGMET \nLM MI IL IN KY NY PA OH LE WV\nFROM 30SW BUF TO 20ENE JST TO 20NW HNN TO 40NNW PXV TO JOT TO DXO\nTO 30W CLE TO 30SW BUF\nOCNL SEV TURB BLW 080. DUE TO STG LOW LVL WNDS. RPTD BY C30J.\nCONDS CONTG BYD 2018Z.",
+                "validTimeTo": [
+                    "2026-02-20T20:18"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.796,
+                            37.985
+                        ],
+                        [
+                            -104.551,
+                            37.104
+                        ],
+                        [
+                            -104.62,
+                            32.343
+                        ],
+                        [
+                            -108.709,
+                            32.461
+                        ],
+                        [
+                            -111.033,
+                            35.655
+                        ],
+                        [
+                            -106.796,
+                            37.985
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 16000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 201627\nSLCX WS 201627\nSIGMET XRAY 1 VALID UNTIL 202027\nSIGMET \nCO AZ NM\nFROM 30SSE HBU TO 40NNE CIM TO 60S CME TO 30ENE SSO TO 30SSE TBC\nTO 30SSE HBU\nOCNL SEV TURB BLW 160. DUE TO STG LOW LVL WNDS. RPTD BY ACFT.\nCONDS CONTG BYD 2027Z.",
+                "validTimeTo": [
+                    "2026-02-20T20:27"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-20T15:44"
+        "creationTime": "2026-02-20T16:52"
     }
 }
