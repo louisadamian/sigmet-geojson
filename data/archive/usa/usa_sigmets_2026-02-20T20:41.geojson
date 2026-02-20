@@ -228,24 +228,24 @@
                 "coordinates": [
                     [
                         [
-                            -83.65,
-                            32.358
+                            -68.724,
+                            38.816
                         ],
                         [
-                            -82.679,
-                            30.371
+                            -71.027,
+                            36.139
                         ],
                         [
-                            -87.948,
-                            30.374
+                            -72.58,
+                            37.313
                         ],
                         [
-                            -87.669,
-                            31.319
+                            -71.097,
+                            38.606
                         ],
                         [
-                            -83.65,
-                            32.358
+                            -68.724,
+                            38.816
                         ]
                     ]
                 ]
@@ -258,18 +258,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 27000,
-                "altitudeHi2": 27000,
-                "movementDir": 230,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS31 KKCI 202055\nSIGE \nCONVECTIVE SIGMET 44E\nVALID UNTIL 2255Z\nFL GA AL\nFROM 20S MCN-50NNE CTY-30SE SJI-50NE SJI-20S MCN\nDVLPG AREA TS MOV FROM 23030KT. TOPS TO FL270.\n\nOUTLOOK VALID 202255-210255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 240,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS31 KKCI 201955\nSIGE \nCONVECTIVE SIGMET 41E\nVALID UNTIL 2155Z\nMA RI DE NJ NY MD CSTL WTRS\nFROM 160SSE ACK-250E ECG-150SE SIE-150SSE HTO-160SSE ACK\nDMSHG AREA EMBD TS MOV FROM 24040KT. TOPS TO FL300.\n\nOUTLOOK VALID 202155-210155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-20T22:55"
+                    "2026-02-20T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -77.253,
+                            42.835
+                        ],
+                        [
+                            -76.733,
+                            41.885
+                        ],
+                        [
+                            -78.858,
+                            41.507
+                        ],
+                        [
+                            -78.65,
+                            42.598
+                        ],
+                        [
+                            -77.253,
+                            42.835
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 201955\nSIGE \nCONVECTIVE SIGMET 42E\nVALID UNTIL 2155Z\nNY PA\nFROM 50WSW SYR-60ENE SLT-40W SLT-20S BUF-50WSW SYR\nDVLPG AREA TS MOV FROM 24045KT. TOPS TO FL260.\n\nOUTLOOK VALID 202155-210155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-20T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -75.815,
+                            37.017
+                        ],
+                        [
+                            -73.494,
+                            36.859
+                        ],
+                        [
+                            -75.105,
+                            34.096
+                        ],
+                        [
+                            -78.243,
+                            34.477
+                        ],
+                        [
+                            -75.815,
+                            37.017
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 260,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS31 KKCI 201955\nSIGE \nCONVECTIVE SIGMET 43E\nVALID UNTIL 2155Z\nVA NC AND CSTL WTRS\nFROM 20ENE ORF-130E ORF-140SSE ECG-20WNW ILM-20ENE ORF\nDMSHG AREA TS MOV FROM 26040KT. TOPS TO FL330.\n\nOUTLOOK VALID 202155-210155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-20T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-20T21:33"
+        "creationTime": "2026-02-20T20:41"
     }
 }
