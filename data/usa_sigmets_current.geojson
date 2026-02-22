@@ -46,14 +46,61 @@
                 "altitudeHi2": 36000,
                 "movementDir": 250,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 220855\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 1055Z\nNC SC AND CSTL WTRS\nFROM 30NW ECG-180ESE ECG-140SE ILM-60SW ILM-20SSW RDU-30NW ECG\nAREA TS MOV FROM 25040KT. TOPS TO FL360.\n\nOUTLOOK VALID 221055-221455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "rawAirSigmet": "WSUS31 KKCI 220955\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 1155Z\nNC SC AND CSTL WTRS\nFROM 30NW ECG-180ESE ECG-140SE ILM-60SW ILM-20SSW RDU-30NW ECG\nAREA EMBD TS MOV FROM 25040KT. TOPS TO FL360.\n\nOUTLOOK VALID 221155-221555\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-22T10:55"
+                    "2026-02-22T11:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.68,
+                            28.997
+                        ],
+                        [
+                            -84.378,
+                            27.9
+                        ],
+                        [
+                            -85.292,
+                            26.356
+                        ],
+                        [
+                            -86.68,
+                            27.506
+                        ],
+                        [
+                            -86.68,
+                            28.997
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 250,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 220955\nSIGE \nCONVECTIVE SIGMET 14E\nVALID UNTIL 1155Z\nFL CSTL WTRS\nFROM 110S CEW-90W PIE-160WSW SRQ-200S CEW-110S CEW\nAREA TS MOV FROM 25030KT. TOPS TO FL400.\n\nOUTLOOK VALID 221155-221555\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-02-22T11:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-22T09:39"
+        "creationTime": "2026-02-22T10:35"
     }
 }
