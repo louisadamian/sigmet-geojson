@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -67.083,
+                            43.53
+                        ],
+                        [
+                            -67.005,
+                            40.284
+                        ],
+                        [
+                            -75.68,
+                            40.58
+                        ],
+                        [
+                            -76.2,
+                            43.16
+                        ],
+                        [
+                            -67.083,
+                            43.53
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 15000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 231349\nBOSO WS 231349\nSIGMET OSCAR 1 VALID UNTIL 231749\nSIGMET \nME NH VT MA RI CT NY NJ PA AND CSTL WTRS\nFROM 110SE BGR TO 150ESE ACK TO ETX TO SYR TO 110SE BGR\nOCNL SEV TURB BLW 150. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n1749Z.",
+                "validTimeTo": [
+                    "2026-02-23T17:49"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -120.52,
                             49.47
                         ],
@@ -47,56 +94,9 @@
                     "2026-02-23T20:52"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -66.87,
-                            44.611
-                        ],
-                        [
-                            -67.005,
-                            40.284
-                        ],
-                        [
-                            -74.805,
-                            40.577
-                        ],
-                        [
-                            -73.063,
-                            43.863
-                        ],
-                        [
-                            -66.87,
-                            44.611
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KBOS",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 15000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 231727\nBOSO WS 231727\nSIGMET OSCAR 2 VALID UNTIL 232127\nSIGMET \nME NH VT MA RI CT NY NJ AND CSTL WTRS\nFROM 60SW YSJ TO 150ESE ACK TO 40E ETX TO 30SW MPV TO 60SW YSJ\nOCNL SEV TURB BLW 150. DUE TO STG LOW LVL WNDS. CONDS CONTG BYD\n2127Z.",
-                "validTimeTo": [
-                    "2026-02-23T21:27"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-23T19:17"
+        "creationTime": "2026-02-23T17:08"
     }
 }
