@@ -8,40 +8,32 @@
                 "coordinates": [
                     [
                         [
-                            -71.703,
-                            41.277
+                            -69.355,
+                            41.332
                         ],
                         [
-                            -71.547,
-                            41.229
+                            -70.963,
+                            41.537
                         ],
                         [
-                            -71.482,
-                            41.111
+                            -72.025,
+                            41.143
                         ],
                         [
-                            -71.547,
-                            40.993
+                            -71.736,
+                            40.694
                         ],
                         [
-                            -71.703,
-                            40.945
+                            -70.867,
+                            41.017
                         ],
                         [
-                            -71.859,
-                            40.993
+                            -69.471,
+                            40.84
                         ],
                         [
-                            -71.924,
-                            41.111
-                        ],
-                        [
-                            -71.859,
-                            41.229
-                        ],
-                        [
-                            -71.703,
-                            41.277
+                            -69.355,
+                            41.332
                         ]
                     ]
                 ]
@@ -57,15 +49,62 @@
                 "altitudeHi1": 28000,
                 "altitudeHi2": 28000,
                 "movementDir": 150,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS31 KKCI 230655\nSIGE \nCONVECTIVE SIGMET 6E\nVALID UNTIL 0855Z\nRI AND RI NY CT CSTL WTRS\n30ENE HTO\nISOL EMBD TS D20 MOV FROM 15015KT. TOPS TO FL280.\n\nOUTLOOK VALID 230855-231255\nFROM 30NE ACK-140E ACK-200SE ACK-200ESE SIE-50SE SIE-30SSE\nJFK-PVD-30NE ACK\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 230855\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 1055Z\nMA RI NY AND MA RI NY CT CSTL WTRS\nFROM 30ESE ACK-40W ACK-20E HTO\nLINE EMBD TS 30 NM WIDE MOV FROM 15030KT. TOPS TO FL280.\n\nOUTLOOK VALID 231055-231455\nFROM 50NNE ACK-140E ACK-200SE ACK-200ESE SIE-50SE SIE-30SSE\nJFK-PVD-50NNE ACK\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-02-23T08:55"
+                    "2026-02-23T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -67.005,
+                            40.284
+                        ],
+                        [
+                            -67.011,
+                            38.89
+                        ],
+                        [
+                            -68.644,
+                            38.657
+                        ],
+                        [
+                            -68.494,
+                            40.095
+                        ],
+                        [
+                            -67.005,
+                            40.284
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 180,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 230855\nSIGE \nCONVECTIVE SIGMET 10E\nVALID UNTIL 1055Z\nMA CSTL WTRS\nFROM 150ESE ACK-200SE ACK-170SSE ACK-100SE ACK-150ESE ACK\nAREA EMBD TS MOV FROM 18030KT. TOPS TO FL280.\n\nOUTLOOK VALID 231055-231455\nFROM 50NNE ACK-140E ACK-200SE ACK-200ESE SIE-50SE SIE-30SSE\nJFK-PVD-50NNE ACK\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-23T10:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-23T07:17"
+        "creationTime": "2026-02-23T09:00"
     }
 }
