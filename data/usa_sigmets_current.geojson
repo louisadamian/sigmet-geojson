@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -101.444,
-                            42.114
+                            -99.99,
+                            41.905
                         ],
                         [
-                            -98.662,
-                            41.145
+                            -97.849,
+                            40.458
                         ],
                         [
-                            -100.432,
-                            40.079
+                            -100.386,
+                            39.381
                         ],
                         [
-                            -103.293,
-                            41.335
+                            -102.162,
+                            41.352
                         ],
                         [
-                            -101.444,
-                            42.114
+                            -99.99,
+                            41.905
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 25000,
-                "altitudeHi2": 25000,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
                 "movementDir": 300,
-                "movementSpd": 55,
-                "rawAirSigmet": "WSUS32 KKCI 251955\nSIGC \nCONVECTIVE SIGMET 1C\nVALID UNTIL 2155Z\nNE CO\nFROM 70WSW ANW-20SW OBH-10SE MCK-20NW SNY-70WSW ANW\nAREA EMBD TS MOV FROM 30055KT. TOPS TO FL250.\n\nOUTLOOK VALID 252155-260155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS32 KKCI 252055\nSIGC \nCONVECTIVE SIGMET 2C\nVALID UNTIL 2255Z\nKS NE\nFROM 40S ANW-60SSE OBH-10NW HLC-40ENE SNY-40S ANW\nAREA SEV TS MOV FROM 30050KT. TOPS TO FL270.\nWIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 252255-260255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-02-25T21:55"
+                    "2026-02-25T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -104.516,
+                            40.745
+                        ],
+                        [
+                            -104.43,
+                            38.29
+                        ],
+                        [
+                            -107.04,
+                            38.118
+                        ],
+                        [
+                            -107.205,
+                            39.675
+                        ],
+                        [
+                            -104.516,
+                            40.745
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 19000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 252123\nSLCY WS 252123\nSIGMET YANKEE 1 VALID UNTIL 260123\nSIGMET \nCO\nFROM 30SSE CYS TO PUB TO 20S HBU TO 20NW DBL TO 30SSE CYS\nOCNL SEV TURB BLW FL190. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY C560 AND C56X. CONDS CONTG BYD 0123Z.",
+                "validTimeTo": [
+                    "2026-02-26T01:23"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-25T20:45"
+        "creationTime": "2026-02-25T21:42"
     }
 }
