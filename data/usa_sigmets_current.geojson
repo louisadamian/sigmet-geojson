@@ -8,71 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -104.77,
-                            41.21
+                            -85.621,
+                            35.88
                         ],
                         [
-                            -104.43,
-                            38.29
+                            -85.15,
+                            34.96
                         ],
                         [
-                            -107.04,
-                            38.118
+                            -90.28,
+                            33.46
                         ],
                         [
-                            -107.78,
-                            40.875
+                            -89.825,
+                            34.753
                         ],
                         [
-                            -104.77,
-                            41.21
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KSLC",
-                "airSigmetType": "SIGMET",
-                "hazard": "TURB",
-                "severity": 5,
-                "altitudeLow1": 0,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 19000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS05 KKCI 252251\nSLCY WS 252251\nSIGMET YANKEE 2 VALID UNTIL 260251\nSIGMET \nWY CO\nFROM CYS TO PUB TO 20S HBU TO 30NW CHE TO CYS\nOCNL SEV TURB BLW FL190. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 0251Z.",
-                "validTimeTo": [
-                    "2026-02-26T02:51"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -97.95,
-                            39.544
-                        ],
-                        [
-                            -94.987,
-                            38.825
-                        ],
-                        [
-                            -97.876,
-                            37.515
-                        ],
-                        [
-                            -98.841,
-                            37.743
-                        ],
-                        [
-                            -97.95,
-                            39.544
+                            -85.621,
+                            35.88
                         ]
                     ]
                 ]
@@ -88,15 +41,62 @@
                 "altitudeHi1": 28000,
                 "altitudeHi2": 28000,
                 "movementDir": 290,
-                "movementSpd": 50,
-                "rawAirSigmet": "WSUS32 KKCI 260155\nSIGC \nCONVECTIVE SIGMET 3C\nVALID UNTIL 0355Z\nKS\nFROM 40NNW SLN-30SSW MCI-20SW ICT-60W ICT-40NNW SLN\nAREA EMBD TS MOV FROM 29050KT. TOPS TO FL280.\n\nOUTLOOK VALID 260355-260755\nAREA 1...FROM 40ENE LBF-50NW COU-SGF-30SE LAA-AKO-40ENE LBF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 40E PXV-40NNE MSL-30SSE DYR-70SW PXV-40E PXV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 261255\nSIGC \nCONVECTIVE SIGMET 6C\nVALID UNTIL 1455Z\nGA TN AL MS\nFROM 60NNW GQO-GQO-SQS-20SSE MEM-60NNW GQO\nDVLPG AREA EMBD TS MOV FROM 29025KT. TOPS TO FL280.\n\nOUTLOOK VALID 261455-261855\nFROM BWG-MGM-LSU-40SE LIT-40NNE DYR-BWG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-02-26T03:55"
+                    "2026-02-26T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.354,
+                            35.261
+                        ],
+                        [
+                            -73.76,
+                            34.225
+                        ],
+                        [
+                            -76.024,
+                            33.7
+                        ],
+                        [
+                            -75.559,
+                            35.02
+                        ],
+                        [
+                            -73.354,
+                            35.261
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 26000,
+                "altitudeHi2": 26000,
+                "movementDir": 260,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS31 KKCI 261255\nSIGE \nCONVECTIVE SIGMET 1E\nVALID UNTIL 1455Z\nNC CSTL WTRS\nFROM 150ESE ECG-170SE ECG-100ESE ILM-80SSE ECG-150ESE ECG\nDVLPG AREA EMBD TS MOV FROM 26020KT. TOPS TO FL260.\n\nOUTLOOK VALID 261455-261855\nAREA 1...FROM 30ESE LYH-40S CAE-MGM-BWG-30ESE LYH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 170E ECG-190ESE ECG-130SE ILM-50SE ECG-170E ECG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-02-26T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-02-26T02:47"
+        "creationTime": "2026-02-26T13:26"
     }
 }
