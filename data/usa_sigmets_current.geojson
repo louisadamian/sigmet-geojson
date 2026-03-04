@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -91.587,
-                            40.085
+                            -91.138,
+                            41.163
                         ],
                         [
-                            -85.361,
-                            40.125
+                            -84.443,
+                            40.416
                         ],
                         [
-                            -85.906,
-                            38.714
+                            -84.863,
+                            38.713
                         ],
                         [
                             -91.888,
                             39.378
                         ],
                         [
-                            -91.587,
-                            40.085
+                            -91.138,
+                            41.163
                         ]
                     ]
                 ]
@@ -38,18 +38,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
+                "altitudeHi1": 39000,
+                "altitudeHi2": 39000,
                 "movementDir": 260,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS32 KKCI 040355\nSIGC \nCONVECTIVE SIGMET 7C\nVALID UNTIL 0555Z\nIN IL MO\nFROM 20NW UIN-50ENE IND-40NNW IIU-40SW UIN-20NW UIN\nAREA EMBD TS MOV FROM 26040KT. TOPS TO FL420.\n\nOUTLOOK VALID 040555-040955\nFROM JOT-IND-ARG-ABI-TXO-LBL-ICT-JOT\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 040455\nSIGC \nCONVECTIVE SIGMET 8C\nVALID UNTIL 0655Z\nOH KY IN IL MO IA\nFROM 30SE IOW-20WNW ROD-20SSW CVG-40SW UIN-30SE IOW\nAREA EMBD TS MOV FROM 26040KT. TOPS TO FL390.\n\nOUTLOOK VALID 040655-041055\nFROM BVT-BWG-LIT-ABI-TXO-LBL-ICT-BVT\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-04T04:54"
+                    "2026-03-04T05:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -100.28,
+                            35.205
+                        ],
+                        [
+                            -99.716,
+                            34.561
+                        ],
+                        [
+                            -100.651,
+                            34.242
+                        ],
+                        [
+                            -101.026,
+                            34.622
+                        ],
+                        [
+                            -100.28,
+                            35.205
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 040455\nSIGC \nCONVECTIVE SIGMET 9C\nVALID UNTIL 0655Z\nTX OK\nFROM 50N CDS-30ENE CDS-20WSW CDS-40WNW CDS-50N CDS\nDVLPG AREA TS MOV FROM 24030KT. TOPS TO FL340.\n\nOUTLOOK VALID 040655-041055\nFROM BVT-BWG-LIT-ABI-TXO-LBL-ICT-BVT\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-04T05:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -100.526,
+                            36.683
+                        ],
+                        [
+                            -99.88,
+                            35.837
+                        ],
+                        [
+                            -101.202,
+                            35.645
+                        ],
+                        [
+                            -101.64,
+                            36.125
+                        ],
+                        [
+                            -100.526,
+                            36.683
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 040455\nSIGC \nCONVECTIVE SIGMET 10C\nVALID UNTIL 0655Z\nTX OK\nFROM 30SE LBL-30S MMB-30NE AMA-50N AMA-30SE LBL\nDVLPG AREA TS MOV FROM 24030KT. TOPS TO FL370.\n\nOUTLOOK VALID 040655-041055\nFROM BVT-BWG-LIT-ABI-TXO-LBL-ICT-BVT\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-04T05:54"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-04T04:47"
+        "creationTime": "2026-03-04T05:52"
     }
 }
