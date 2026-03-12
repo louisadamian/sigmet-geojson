@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -84.339,
-                            34.957
+                            -84.862,
+                            35.195
                         ],
                         [
-                            -82.555,
-                            34.443
+                            -82.993,
+                            34.085
                         ],
                         [
-                            -84.664,
-                            29.946
+                            -85.183,
+                            29.852
                         ],
                         [
-                            -86.68,
-                            29.33
+                            -87.92,
+                            29.808
                         ],
                         [
-                            -84.339,
-                            34.957
+                            -84.862,
+                            35.195
                         ]
                     ]
                 ]
@@ -42,9 +42,56 @@
                 "altitudeHi2": 43000,
                 "movementDir": 240,
                 "movementSpd": 50,
-                "rawAirSigmet": "WSUS32 KKCI 120955\nSIGC \nCONVECTIVE SIGMET 16C\nVALID UNTIL 1155Z\nNC SC FL GA TN AL AND FL CSTL WTRS\nFROM 40E GQO-40ESE ODF-40SSW TLH-90S CEW-40E GQO\nAREA SEV EMBD TS MOV FROM 24050KT. TOPS TO FL430.\nTORNADOES...HAIL TO 1 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 121155-121555\nFROM VUZ-170S CEW-60SSE LEV-30NE HRV-MEI-VUZ\nREF WW 49.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 120855\nSIGC \nCONVECTIVE SIGMET 15C\nVALID UNTIL 1055Z\nFL GA TN AL AND FL AL CSTL WTRS\nFROM 20NE GQO-40SSE ODF-60SW TLH-60SSE SJI-20NE GQO\nAREA SEV EMBD TS MOV FROM 24050KT. TOPS TO FL430.\nTORNADOES...HAIL TO 1 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 121055-121455\nFROM VUZ-170S CEW-60SSE LEV-30NE HRV-MEI-VUZ\nREF WW 49.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-12T10:54"
+                    "2026-03-12T09:54"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -67.195,
+                            44.372
+                        ],
+                        [
+                            -66.614,
+                            43.172
+                        ],
+                        [
+                            -70.359,
+                            41.888
+                        ],
+                        [
+                            -71.068,
+                            43.429
+                        ],
+                        [
+                            -67.195,
+                            44.372
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 250,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS31 KKCI 120855\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 1055Z\nME MA NH AND CSTL WTRS\nFROM 80SW YSJ-140SE BGR-40SE BOS-20W ENE-80SW YSJ\nAREA EMBD TS MOV FROM 25055KT. TOPS TO FL300.\n\nOUTLOOK VALID 121055-121455\nFROM EMI-70E ORF-CHS-70WNW PIE-160S CEW-VUZ-60NE LOZ-EMI\nREF WW 49.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-12T09:54"
                 ]
             }
         },
@@ -199,6 +246,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-12T10:51"
+        "creationTime": "2026-03-12T09:54"
     }
 }
