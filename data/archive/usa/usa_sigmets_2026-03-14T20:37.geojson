@@ -110,24 +110,24 @@
                 "coordinates": [
                     [
                         [
-                            -80.305,
-                            26.215
+                            -79.106,
+                            25.348
                         ],
                         [
-                            -80.513,
+                            -78.621,
+                            24.26
+                        ],
+                        [
+                            -80.12,
+                            23.945
+                        ],
+                        [
+                            -80.087,
                             25.335
                         ],
                         [
-                            -81.155,
-                            25.478
-                        ],
-                        [
-                            -80.984,
-                            26.053
-                        ],
-                        [
-                            -80.305,
-                            26.215
+                            -79.106,
+                            25.348
                         ]
                     ]
                 ]
@@ -140,18 +140,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 60000,
-                "movementDir": 210,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS31 KKCI 142055\nSIGE \nCONVECTIVE SIGMET 27E\nVALID UNTIL 2255Z\nFL\nFROM 30SSW PBI-30SSW MIA-50WSW MIA-40WNW MIA-30SSW PBI\nAREA SEV TS MOV FROM 21010KT. TOPS ABV FL450.\nHAIL TO 1 IN...WIND GUSTS TO 60KT POSS.\n\nOUTLOOK VALID 142255-150255\nFROM 220ENE OMN-170E PBI-70E PBI-150SE MIA-70SW EYW-PIE-220ENE\nOMN\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS31 KKCI 141955\nSIGE \nCONVECTIVE SIGMET 25E\nVALID UNTIL 2155Z\nFL CSTL WTRS\nFROM 70ESE MIA-130SE MIA-100ESE EYW-30SSE MIA-70ESE MIA\nAREA TS MOV LTL. TOPS TO FL360.\nREF INTL SIGMET CHARLIES SERIES.\n\nOUTLOOK VALID 142155-150155\nFROM 220SE CHS-170E PBI-70E PBI-150SE MIA-70SW EYW-PIE-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-14T22:55"
+                    "2026-03-14T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.201,
+                            28.294
+                        ],
+                        [
+                            -79.619,
+                            25.544
+                        ],
+                        [
+                            -81.147,
+                            25.179
+                        ],
+                        [
+                            -81.196,
+                            28.233
+                        ],
+                        [
+                            -80.201,
+                            28.294
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 42000,
+                "altitudeHi2": 42000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS31 KKCI 141955\nSIGE \nCONVECTIVE SIGMET 26E\nVALID UNTIL 2155Z\nFL AND CSTL WTRS\nFROM 40NNE TRV-40ESE MIA-50NE EYW-20SSE ORL-40NNE TRV\nAREA SEV TS MOV LTL. TOPS TO FL420.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 142155-150155\nFROM 220SE CHS-170E PBI-70E PBI-150SE MIA-70SW EYW-PIE-220SE CHS\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-14T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-14T21:34"
+        "creationTime": "2026-03-14T20:37"
     }
 }
