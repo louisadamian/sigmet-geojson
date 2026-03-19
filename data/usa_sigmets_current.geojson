@@ -8,28 +8,71 @@
                 "coordinates": [
                     [
                         [
-                            -84.344,
-                            43.065
+                            -111.899,
+                            49.036
                         ],
                         [
-                            -82.72,
-                            42.757
+                            -107.745,
+                            46.061
                         ],
                         [
-                            -83.37,
-                            42.21
+                            -112.185,
+                            45.864
                         ],
                         [
-                            -80.21,
-                            40.498
+                            -114.667,
+                            48.981
                         ],
                         [
-                            -84.454,
-                            38.555
+                            -111.899,
+                            49.036
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 15000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 190225\nSLCN WS 190225\nSIGMET NOVEMBER 1 VALID UNTIL 190625\nSIGMET \nMT\nFROM 50SE YQL TO 40ENE BIL TO 40NNE DLN TO 50NNW FCA TO 50SE YQL\nOCNL SEV TURB BLW 150. DUE TO STG LOW LVL WNDS AND STG UDDFS AND\nLLWS. RPTD BY ACFT. AREA IS INTSF. CONDS CONTG BYD 0625Z.",
+                "validTimeTo": [
+                    "2026-03-19T06:25"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.229,
+                            41.974
                         ],
                         [
-                            -84.344,
-                            43.065
+                            -77.87,
+                            38.972
+                        ],
+                        [
+                            -80.824,
+                            37.545
+                        ],
+                        [
+                            -82.926,
+                            40.764
+                        ],
+                        [
+                            -78.229,
+                            41.974
                         ]
                     ]
                 ]
@@ -40,114 +83,20 @@
                 "airSigmetType": "SIGMET",
                 "hazard": "ICE",
                 "severity": 5,
-                "altitudeLow1": 3000,
+                "altitudeLow1": 5000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 9000,
+                "altitudeHi2": 11000,
                 "movementDir": null,
                 "movementSpd": null,
-                "rawAirSigmet": "WSUS01 KKCI 182212\nBOSY WS 182212\nSIGMET YANKEE 1 VALID UNTIL 190212\nSIGMET \nPA OH LE WV MI KY\nFROM 30SSW MBS TO 30S ECK TO DXO TO 20S EWC TO 30SSE CVG TO 30SSW\nMBS\nOCNL SEV RIME ICGIC BTN 030 AND 090. RPTD BY ACFT. CONDS CONTG\nBYD 0212Z.",
+                "rawAirSigmet": "WSUS01 KKCI 190307\nBOSO WS 190307\nSIGMET OSCAR 1 VALID UNTIL 190707\nSIGMET \nPA OH WV MD VA\nFROM 30NNW SLT TO 20N CSN TO 20SE BKW TO 40NNW APE TO 30NNW SLT\nOCNL SEV RIME/MXD ICGICIP BTN 050 AND 110. RPTD BY ACFT. CONDS\nCONTG BYD 0707Z.",
                 "validTimeTo": [
-                    "2026-03-19T02:12"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -84.344,
-                            43.065
-                        ],
-                        [
-                            -82.72,
-                            42.757
-                        ],
-                        [
-                            -83.37,
-                            42.21
-                        ],
-                        [
-                            -80.21,
-                            40.498
-                        ],
-                        [
-                            -84.454,
-                            38.555
-                        ],
-                        [
-                            -84.344,
-                            43.065
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KCHI",
-                "airSigmetType": "SIGMET",
-                "hazard": "ICE",
-                "severity": 5,
-                "altitudeLow1": 3000,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 9000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS03 KKCI 182212\nCHIY WS 182212\nSIGMET YANKEE 1 VALID UNTIL 190212\nSIGMET \nMI KY PA OH LE WV\nFROM 30SSW MBS TO 30S ECK TO DXO TO 20S EWC TO 30SSE CVG TO 30SSW\nMBS\nOCNL SEV RIME ICGIC BTN 030 AND 090. RPTD BY ACFT. CONDS CONTG\nBYD 0212Z.",
-                "validTimeTo": [
-                    "2026-03-19T02:12"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -78.942,
-                            25.285
-                        ],
-                        [
-                            -78.244,
-                            23.905
-                        ],
-                        [
-                            -79.465,
-                            23.955
-                        ],
-                        [
-                            -78.942,
-                            25.285
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
-                "movementDir": null,
-                "movementSpd": null,
-                "rawAirSigmet": "WSUS31 KKCI 182255\nSIGE \nCONVECTIVE SIGMET 17E\nVALID UNTIL 0055Z\nFL CSTL WTRS\nFROM 80ESE MIA-160SE MIA-120SSE MIA-80ESE MIA\nAREA TS MOV LTL. TOPS TO FL380.\nREF INTL SIGMET GOLF SERIES.\n\nOUTLOOK VALID 190055-190455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2026-03-19T00:55"
+                    "2026-03-19T07:07"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-18T23:37"
+        "creationTime": "2026-03-19T03:13"
     }
 }
