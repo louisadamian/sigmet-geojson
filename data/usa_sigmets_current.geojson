@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -76.354,
-                            41.736
+                            -79.887,
+                            41.892
                         ],
                         [
-                            -76.684,
-                            40.844
+                            -75.32,
+                            41.557
                         ],
                         [
-                            -79.137,
-                            40.085
+                            -76.619,
+                            40.102
                         ],
                         [
-                            -80.377,
-                            40.523
+                            -82.59,
+                            39.647
                         ],
                         [
-                            -81.228,
-                            41.611
+                            -83.2,
+                            40.341
                         ],
                         [
-                            -76.354,
-                            41.736
+                            -79.887,
+                            41.892
                         ]
                     ]
                 ]
@@ -42,18 +42,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
-                "movementDir": 270,
-                "movementSpd": 60,
-                "rawAirSigmet": "WSUS31 KKCI 221955\nSIGE \nCONVECTIVE SIGMET 28E\nVALID UNTIL 2155Z\nPA OH\nFROM 50WSW HNK-40NNE HAR-20SW JST-20SSW EWC-30ENE CLE-50WSW HNK\nAREA TS MOV FROM 27060KT. TOPS TO FL380.\n\nOUTLOOK VALID 222155-230155\nFROM ERI-BDL-60SSW HTO-BKW-BWG-TTH-CLE-ERI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 43000,
+                "altitudeHi2": 43000,
+                "movementDir": 280,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 222055\nSIGE \nCONVECTIVE SIGMET 29E\nVALID UNTIL 2255Z\nPA WV OH\nFROM 20ESE ERI-30S HNK-20ESE HAR-30S APE-30WNW APE-20ESE ERI\nAREA SEV TS MOV FROM 28030KT. TOPS TO FL430.\nHAIL TO 2 IN...WIND GUSTS TO 65KT POSS.\n\nOUTLOOK VALID 222255-230255\nFROM ERI-BDL-60SSW HTO-BKW-BWG-TTH-CLE-ERI\nREF WW 72.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-22T21:55"
+                    "2026-03-22T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.08,
+                            43.53
+                        ],
+                        [
+                            -83.37,
+                            41.375
+                        ],
+                        [
+                            -88.85,
+                            40.395
+                        ],
+                        [
+                            -90.71,
+                            42.4
+                        ],
+                        [
+                            -84.08,
+                            43.53
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 6000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 12000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 222113\nBOSP WS 222113\nSIGMET PAPA 1 VALID UNTIL 230110\nSIGMET \nOH LE IA WI LM MI IL IN\nFROM MBS TO 50S DXO TO 40N AXC TO DBQ TO MBS\nOCNL SEV TURB BTN 060 AND 120. DUE TO STG LOW LVL WNDS. RPTD BY\nACFT. VIRGA AND WIND INDUCED TURB. CONDS CONTG BYD 0110Z.",
+                "validTimeTo": [
+                    "2026-03-23T01:10"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.08,
+                            43.53
+                        ],
+                        [
+                            -83.37,
+                            41.375
+                        ],
+                        [
+                            -88.85,
+                            40.395
+                        ],
+                        [
+                            -90.71,
+                            42.4
+                        ],
+                        [
+                            -84.08,
+                            43.53
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KCHI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 6000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 12000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS03 KKCI 222113\nCHIP WS 222113\nSIGMET PAPA 1 VALID UNTIL 230110\nSIGMET \nIA WI LM MI IL IN OH LE\nFROM MBS TO 50S DXO TO 40N AXC TO DBQ TO MBS\nOCNL SEV TURB BTN 060 AND 120. DUE TO STG LOW LVL WNDS. RPTD BY\nACFT. VIRGA AND WIND INDUCED TURB. CONDS CONTG BYD 0110Z.",
+                "validTimeTo": [
+                    "2026-03-23T01:10"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-22T20:37"
+        "creationTime": "2026-03-22T21:33"
     }
 }
