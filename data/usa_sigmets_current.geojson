@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -79.149,
-                            31.044
+                            -80.687,
+                            31.043
                         ],
                         [
-                            -78.628,
-                            29.277
+                            -79.719,
+                            30.964
                         ],
                         [
-                            -79.586,
-                            29.291
+                            -79.819,
+                            28.269
                         ],
                         [
-                            -80.079,
-                            30.841
+                            -81.11,
+                            29.129
                         ],
                         [
-                            -79.149,
-                            31.044
+                            -80.687,
+                            31.043
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 30000,
-                "altitudeHi2": 30000,
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
                 "movementDir": 350,
                 "movementSpd": 10,
-                "rawAirSigmet": "WSUS31 KKCI 241255\nSIGE \nCONVECTIVE SIGMET 9E\nVALID UNTIL 1455Z\nFL GA CSTL WTRS\nFROM 120SSE CHS-130E OMN-80E OMN-80ENE CRG-120SSE CHS\nAREA TS MOV FROM 35010KT. TOPS TO FL300.\n\nOUTLOOK VALID 241455-241855\nFROM 40NE CRG-220ENE OMN-210ENE TRV-70ENE TRV-ORL-40WNW OMN-40NE\nCRG\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 241655\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 1855Z\nFL AND FL GA CSTL WTRS\nFROM 60NE CRG-100ENE CRG-50NE TRV-10S OMN-60NE CRG\nAREA TS MOV FROM 35010KT. TOPS TO FL360.\n\nOUTLOOK VALID 241855-242255\nFROM 50ESE SAV-180ESE CHS-220ENE TRV-100ENE TRV-ORL-40WNW\nOMN-50ESE SAV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-24T14:55"
+                    "2026-03-24T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.691,
+                            48.054
+                        ],
+                        [
+                            -122.995,
+                            47.245
+                        ],
+                        [
+                            -124.15,
+                            47.282
+                        ],
+                        [
+                            -123.934,
+                            48.105
+                        ],
+                        [
+                            -122.691,
+                            48.054
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 240,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS33 KKCI 241655\nSIGW \nCONVECTIVE SIGMET 2W\nVALID UNTIL 1855Z\nWA\nFROM 40NNW SEA-30WSW SEA-20N HQM-30ESE TOU-40NNW SEA\nAREA EMBD TS MOV FROM 24050KT. TOPS TO FL280.\n\nOUTLOOK VALID 241855-242255\nTS ARE NOT EXPD.",
+                "validTimeTo": [
+                    "2026-03-24T18:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-24T13:42"
+        "creationTime": "2026-03-24T17:10"
     }
 }
