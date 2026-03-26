@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -86.37,
-                            39.478
+                            -89.235,
+                            42.411
                         ],
                         [
-                            -83.907,
-                            39.272
+                            -89.144,
+                            41.801
                         ],
                         [
-                            -83.946,
-                            38.427
+                            -90.71,
+                            41.735
                         ],
                         [
-                            -85.78,
-                            38.035
+                            -90.881,
+                            42.093
                         ],
                         [
-                            -86.37,
-                            39.478
+                            -89.235,
+                            42.411
                         ]
                     ]
                 ]
@@ -40,16 +40,63 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 33000,
                 "altitudeHi2": 33000,
+                "movementDir": 270,
+                "movementSpd": 55,
+                "rawAirSigmet": "WSUS32 KKCI 261455\nSIGC \nCONVECTIVE SIGMET 29C\nVALID UNTIL 1655Z\nIL IA\nFROM 60SW BAE-40WNW JOT-40S DBQ-20SSW DBQ-60SW BAE\nAREA TS MOV FROM 27055KT. TOPS TO FL330.\n\nOUTLOOK VALID 261655-262055\nFROM 40WNW DBQ-PMM-TTH-30S IRK-40WNW DBQ\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-26T16:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.912,
+                            38.763
+                        ],
+                        [
+                            -82.624,
+                            38.556
+                        ],
+                        [
+                            -83.374,
+                            37.618
+                        ],
+                        [
+                            -84.375,
+                            38.405
+                        ],
+                        [
+                            -83.912,
+                            38.763
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
                 "movementDir": 300,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 261155\nSIGC \nCONVECTIVE SIGMET 28C\nVALID UNTIL 1355Z\nOH KY IN\nFROM 20S IND-40ENE CVG-50SE CVG-10WSW IIU-20S IND\nAREA TS MOV FROM 30035KT. TOPS TO FL330.\n\nOUTLOOK VALID 261355-261755\nFROM ROD-40SSW APE-70NE LOZ-IIU-40N IIU-ROD\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 261455\nSIGE \nCONVECTIVE SIGMET 14E\nVALID UNTIL 1655Z\nOH KY\nFROM 40ESE CVG-30WSW HNN-50NE LOZ-40SSE CVG-40ESE CVG\nDMSHG AREA TS MOV FROM 30035KT. TOPS TO FL350.\n\nOUTLOOK VALID 261655-262055\nFROM ECK-DXO-30WNW CLE-BUF-JST-TTH-PMM-ECK\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-03-26T13:55"
+                    "2026-03-26T16:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-26T11:55"
+        "creationTime": "2026-03-26T15:16"
     }
 }
