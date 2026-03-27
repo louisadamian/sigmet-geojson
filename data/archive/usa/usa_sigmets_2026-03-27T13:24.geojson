@@ -8,6 +8,53 @@
                 "coordinates": [
                     [
                         [
+                            -91.574,
+                            38.818
+                        ],
+                        [
+                            -91.003,
+                            37.413
+                        ],
+                        [
+                            -95.213,
+                            36.391
+                        ],
+                        [
+                            -95.443,
+                            37.615
+                        ],
+                        [
+                            -91.574,
+                            38.818
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 32000,
+                "altitudeHi2": 32000,
+                "movementDir": 270,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS32 KKCI 271255\nSIGC \nCONVECTIVE SIGMET 26C\nVALID UNTIL 1455Z\nMO OK KS\nFROM 30E COU-40WSW FAM-30ENE TUL-30NNW OSW-30E COU\nAREA EMBD TS MOV FROM 27045KT. TOPS TO FL320.\n\nOUTLOOK VALID 271455-271855\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-03-27T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
                             -100.916,
                             33.696
                         ],
@@ -102,56 +149,9 @@
                     "2026-03-27T17:18"
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -90.726,
-                            38.395
-                        ],
-                        [
-                            -89.988,
-                            37.205
-                        ],
-                        [
-                            -95.351,
-                            35.843
-                        ],
-                        [
-                            -96.03,
-                            36.665
-                        ],
-                        [
-                            -90.726,
-                            38.395
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 290,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 271455\nSIGC \nCONVECTIVE SIGMET 28C\nVALID UNTIL 1655Z\nMO AR OK KS\nFROM 30SSW STL-30SSE FAM-30SE TUL-30NNW TUL-30SSW STL\nAREA EMBD TS MOV FROM 29045KT. TOPS TO FL320.\n\nOUTLOOK VALID 271655-272055\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
-                "validTimeTo": [
-                    "2026-03-27T16:55"
-                ]
-            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-27T15:00"
+        "creationTime": "2026-03-27T13:24"
     }
 }
