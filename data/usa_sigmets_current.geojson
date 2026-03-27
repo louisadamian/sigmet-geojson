@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -89.762,
-                            36.375
+                            -95.79,
+                            35.697
                         ],
                         [
-                            -90.413,
-                            34.704
+                            -92.649,
+                            35.6
                         ],
                         [
-                            -93.697,
-                            34.909
+                            -92.988,
+                            34.677
                         ],
                         [
-                            -94.12,
-                            36.421
+                            -95.405,
+                            34.977
                         ],
                         [
-                            -89.762,
-                            36.375
+                            -95.79,
+                            35.697
                         ]
                     ]
                 ]
@@ -38,18 +38,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 30000,
-                "altitudeHi2": 30000,
+                "altitudeHi1": 29000,
+                "altitudeHi2": 29000,
                 "movementDir": 290,
-                "movementSpd": 45,
-                "rawAirSigmet": "WSUS32 KKCI 272055\nSIGC \nCONVECTIVE SIGMET 32C\nVALID UNTIL 2255Z\nTN MS MO AR\nFROM 30NW DYR-30SW MEM-40SE FSM-10N RZC-30NW DYR\nAREA TS MOV FROM 29045KT. TOPS TO FL300.\n\nOUTLOOK VALID 272255-280255\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 272155\nSIGC \nCONVECTIVE SIGMET 33C\nVALID UNTIL 2355Z\nAR OK\nFROM 30S TUL-60NNW LIT-40W LIT-20ENE MLC-30S TUL\nAREA TS MOV FROM 29030KT. TOPS TO FL290.\n\nOUTLOOK VALID 272355-280355\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-03-27T22:55"
+                    "2026-03-27T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -78.091,
+                            37.243
+                        ],
+                        [
+                            -77.795,
+                            36.578
+                        ],
+                        [
+                            -79.688,
+                            36.285
+                        ],
+                        [
+                            -80.129,
+                            36.896
+                        ],
+                        [
+                            -78.091,
+                            37.243
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 27000,
+                "altitudeHi2": 27000,
+                "movementDir": 270,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS31 KKCI 272155\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 2355Z\nVA NC\nFROM 40WSW RIC-60SSW RIC-20NE GSO-30ESE PSK-40WSW RIC\nDVLPG AREA TS MOV FROM 27025KT. TOPS TO FL270.\n\nOUTLOOK VALID 272355-280355\nFROM ORF-90SE ECG-90SSE ILM-IRQ-30S HMV-ORF\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-03-27T23:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-27T21:46"
+        "creationTime": "2026-03-27T22:43"
     }
 }
