@@ -102,9 +102,56 @@
                     "2026-03-27T17:18"
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.391,
+                            37.977
+                        ],
+                        [
+                            -90.23,
+                            37.167
+                        ],
+                        [
+                            -95.633,
+                            35.893
+                        ],
+                        [
+                            -95.79,
+                            36.532
+                        ],
+                        [
+                            -90.391,
+                            37.977
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 270,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS32 KKCI 271555\nSIGC \nCONVECTIVE SIGMET 29C\nVALID UNTIL 1755Z\nMO AR OK\nFROM 20NNW FAM-30S FAM-20SSE TUL-20N TUL-20NNW FAM\nAREA EMBD TS MOV FROM 27045KT. TOPS TO FL310.\n\nOUTLOOK VALID 271755-272155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-03-27T17:55"
+                ]
+            }
         }
     ],
     "metadata": {
-        "creationTime": "2026-03-27T17:02"
+        "creationTime": "2026-03-27T15:58"
     }
 }
