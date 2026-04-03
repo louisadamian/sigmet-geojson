@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -83.586,
-                            29.791
+                            -73.636,
+                            44.585
                         ],
                         [
-                            -83.27,
-                            29.135
+                            -73.155,
+                            43.218
                         ],
                         [
-                            -83.992,
-                            28.771
+                            -75.147,
+                            42.835
                         ],
                         [
-                            -84.37,
-                            29.392
+                            -76.2,
+                            43.825
                         ],
                         [
-                            -83.586,
-                            29.791
+                            -73.636,
+                            44.585
                         ]
                     ]
                 ]
@@ -38,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
-                "movementDir": 150,
-                "movementSpd": 5,
-                "rawAirSigmet": "WSUS31 KKCI 031255\nSIGE \nCONVECTIVE SIGMET 35E\nVALID UNTIL 1455Z\nFL AND CSTL WTRS\nFROM 30WNW CTY-30SSW CTY-70SW CTY-70S TLH-30WNW CTY\nAREA TS MOV FROM 15005KT. TOPS TO FL430.\n\nOUTLOOK VALID 031455-031855\nFROM 50N FLO-40WSW ILM-40S SAV-ORL-30N PIE-50NW TLH-40NNW PZD-50N\nFLO\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 29000,
+                "altitudeHi2": 29000,
+                "movementDir": 230,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 031055\nSIGE \nCONVECTIVE SIGMET 30E\nVALID UNTIL 1255Z\nVT NY\nFROM 50ESE MSS-40NE ALB-50ESE SYR-40N SYR-50ESE MSS\nAREA EMBD TS MOV FROM 23045KT. TOPS TO FL290.\n\nOUTLOOK VALID 031255-031655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-03T14:55"
+                    "2026-04-03T12:55"
                 ]
             }
         },
@@ -55,24 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -96.291,
-                            43.293
+                            -84.076,
+                            29.946
                         ],
                         [
-                            -94.472,
-                            41.691
+                            -83.461,
+                            29.955
                         ],
                         [
-                            -95.405,
-                            40.555
+                            -82.899,
+                            28.375
                         ],
                         [
-                            -98.205,
-                            42.825
+                            -84.077,
+                            28.412
                         ],
                         [
-                            -96.291,
-                            43.293
+                            -84.076,
+                            29.946
                         ]
                     ]
                 ]
@@ -85,13 +85,60 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 42000,
-                "altitudeHi2": 42000,
-                "movementDir": 220,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 031255\nSIGC \nCONVECTIVE SIGMET 16C\nVALID UNTIL 1455Z\nMO IA NE SD\nFROM 30SE FSD-40WNW DSM-40SSE OVR-30NE ONL-30SE FSD\nAREA TS MOV FROM 22030KT. TOPS TO FL420.\n\nOUTLOOK VALID 031455-031855\nAREA 1...FROM 40NNW MCW-DBQ-BVT-PXV-30E BUM-40S OKC-70SSE\nMMB-40NNW MCW\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM MLC-40N ELD-HRV-50WSW LEV-60E CWK-90W LRD-140SW\nDLF-40S FST-ABI-MLC\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 150,
+                "movementSpd": 5,
+                "rawAirSigmet": "WSUS31 KKCI 031055\nSIGE \nCONVECTIVE SIGMET 31E\nVALID UNTIL 1255Z\nFL AND CSTL WTRS\nFROM 40SSE TLH-30NW CTY-30NNW PIE-80WNW PIE-40SSE TLH\nAREA TS MOV FROM 15005KT. TOPS TO FL400.\n\nOUTLOOK VALID 031255-031655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-03T14:55"
+                    "2026-04-03T12:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -104.335,
+                            46.402
+                        ],
+                        [
+                            -104.177,
+                            43.116
+                        ],
+                        [
+                            -106.7,
+                            42.962
+                        ],
+                        [
+                            -106.289,
+                            46.144
+                        ],
+                        [
+                            -104.335,
+                            46.402
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KSLC",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 19000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 27000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS05 KKCI 030956\nSLCO WS 030956\nSIGMET OSCAR 1 VALID UNTIL 031356\nSIGMET \nMT WY\nFROM 70WSW DIK TO 80NNW BFF TO 20WSW DDY TO 20SW MLS TO 70WSW DIK\nOCNL SEV TURB BTN FL190 AND FL270. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1356Z.",
+                "validTimeTo": [
+                    "2026-04-03T13:56"
                 ]
             }
         },
@@ -144,6 +191,6 @@
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-03T13:22"
+        "creationTime": "2026-04-03T11:44"
     }
 }
