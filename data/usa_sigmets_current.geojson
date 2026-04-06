@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -78.08,
-                            30.349
-                        ],
-                        [
-                            -78.329,
-                            29.543
-                        ],
-                        [
-                            -79.446,
-                            28.058
-                        ],
-                        [
                             -80.157,
                             30.333
                         ],
                         [
-                            -78.08,
-                            30.349
+                            -78.265,
+                            30.287
+                        ],
+                        [
+                            -78.062,
+                            29.265
+                        ],
+                        [
+                            -79.28,
+                            28.736
+                        ],
+                        [
+                            -80.157,
+                            30.333
                         ]
                     ]
                 ]
@@ -38,18 +38,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
-                "movementDir": 260,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS31 KKCI 061655\nSIGE \nCONVECTIVE SIGMET 29E\nVALID UNTIL 1855Z\nFL CSTL WTRS\nFROM 170ENE OMN-160NE TRV-60ENE TRV-70E CRG-170ENE OMN\nAREA EMBD TS MOV FROM 26010KT. TOPS TO FL360.\n\nOUTLOOK VALID 061855-062255\nFROM 130SSE ILM-220ENE OMN-210ENE TRV-40ESE EYW-200W PIE-130SSE\nILM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 250,
+                "movementSpd": 5,
+                "rawAirSigmet": "WSUS31 KKCI 061855\nSIGE \nCONVECTIVE SIGMET 32E\nVALID UNTIL 2055Z\nFL CSTL WTRS\nFROM 70E CRG-160ENE OMN-160E OMN-90NE TRV-70E CRG\nAREA EMBD TS MOV FROM 25005KT. TOPS TO FL380.\n\nOUTLOOK VALID 062055-070055\nFROM 130SSE ILM-220ENE OMN-210ENE TRV-40ESE EYW-200W PIE-130SSE\nILM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-04-06T17:54"
+                    "2026-04-06T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.578,
+                            29.106
+                        ],
+                        [
+                            -78.974,
+                            26.676
+                        ],
+                        [
+                            -81.922,
+                            26.223
+                        ],
+                        [
+                            -82.824,
+                            28.217
+                        ],
+                        [
+                            -80.578,
+                            29.106
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 39000,
+                "altitudeHi2": 39000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS31 KKCI 061855\nSIGE \nCONVECTIVE SIGMET 33E\nVALID UNTIL 2055Z\nFL AND CSTL WTRS\nFROM 30ESE OMN-60E PBI-20SSW RSW-20NNW PIE-30ESE OMN\nAREA TS MOV LTL. TOPS TO FL390.\n\nOUTLOOK VALID 062055-070055\nFROM 130SSE ILM-220ENE OMN-210ENE TRV-40ESE EYW-200W PIE-130SSE\nILM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-04-06T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -82.72,
+                            43.26
+                        ],
+                        [
+                            -83.052,
+                            42.445
+                        ],
+                        [
+                            -83.999,
+                            42.401
+                        ],
+                        [
+                            -83.905,
+                            43.223
+                        ],
+                        [
+                            -82.72,
+                            43.26
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 22000,
+                "altitudeHi2": 22000,
+                "movementDir": 290,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 061855\nSIGE \nCONVECTIVE SIGMET 34E\nVALID UNTIL 2055Z\nMI\nFROM ECK-20NE DXO-30WNW DXO-20SSE MBS-ECK\nAREA EMBD TS MOV FROM 29010KT. TOPS TO FL220.\n\nOUTLOOK VALID 062055-070055\nFROM 130SSE ILM-220ENE OMN-210ENE TRV-40ESE EYW-200W PIE-130SSE\nILM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-04-06T20:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-06T17:53"
+        "creationTime": "2026-04-06T19:12"
     }
 }
