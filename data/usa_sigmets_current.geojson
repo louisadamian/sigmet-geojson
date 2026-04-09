@@ -8,28 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -121.563,
-                            41.326
+                            -98.35,
+                            40.212
                         ],
                         [
-                            -121.029,
-                            40.475
+                            -96.21,
+                            39.365
                         ],
                         [
-                            -120.459,
-                            39.782
+                            -96.982,
+                            38.219
                         ],
                         [
-                            -121.474,
-                            39.507
+                            -98.535,
+                            39.632
                         ],
                         [
-                            -122.24,
-                            40.603
-                        ],
-                        [
-                            -121.563,
-                            41.326
+                            -98.35,
+                            40.212
                         ]
                     ]
                 ]
@@ -42,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 31000,
-                "altitudeHi2": 31000,
-                "movementDir": 250,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS33 KKCI 090855\nSIGW \nCONVECTIVE SIGMET 13W\nVALID UNTIL 1055Z\nCA\nFROM 80NNE RBL-60ENE RBL-40WNW FMG-50SE RBL-30N RBL-80NNE RBL\nAREA TS MOV FROM 25030KT. TOPS TO FL310.\n\nOUTLOOK VALID 091055-091455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 270,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 091055\nSIGC \nCONVECTIVE SIGMET 9C\nVALID UNTIL 1255Z\nKS NE\nFROM 70S OBH-50S PWE-40NE ICT-60NW SLN-70S OBH\nAREA TS MOV FROM 27025KT. TOPS TO FL350.\n\nOUTLOOK VALID 091255-091655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-09T10:55"
+                    "2026-04-09T12:55"
                 ]
             }
         },
@@ -59,24 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -80.228,
-                            28.977
+                            -99.619,
+                            39.728
                         ],
                         [
-                            -78.796,
-                            27.67
+                            -98.216,
+                            38.736
                         ],
                         [
-                            -80.434,
-                            26.807
+                            -100.705,
+                            36.337
                         ],
                         [
-                            -81.718,
-                            28.539
+                            -101.69,
+                            38.725
                         ],
                         [
-                            -80.228,
-                            28.977
+                            -99.619,
+                            39.728
                         ]
                     ]
                 ]
@@ -89,18 +85,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 28000,
-                "altitudeHi2": 28000,
-                "movementDir": 90,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS31 KKCI 090855\nSIGE \nCONVECTIVE SIGMET 5E\nVALID UNTIL 1055Z\nFL AND CSTL WTRS\nFROM 50ESE OMN-90E TRV-20WNW PBI-20W ORL-50ESE OMN\nAREA EMBD TS MOV FROM 09010KT. TOPS TO FL280.\n\nOUTLOOK VALID 091055-091455\nFROM 170ENE TRV-150ENE PBI-60E PBI-110SSE MIA-80WSW EYW-90SSW\nSRQ-PBI-30E ORL-170ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 260,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 091055\nSIGC \nCONVECTIVE SIGMET 10C\nVALID UNTIL 1255Z\nTX OK KS\nFROM 40NE HLC-30WSW SLN-40W MMB-40S GLD-40NE HLC\nAREA TS MOV FROM 26020KT. TOPS TO FL330.\n\nOUTLOOK VALID 091255-091655\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-09T10:55"
+                    "2026-04-09T12:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.586,
+                            29.291
+                        ],
+                        [
+                            -78.796,
+                            27.67
+                        ],
+                        [
+                            -80.609,
+                            26.487
+                        ],
+                        [
+                            -81.868,
+                            28.346
+                        ],
+                        [
+                            -79.586,
+                            29.291
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 70,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 091055\nSIGE \nCONVECTIVE SIGMET 7E\nVALID UNTIL 1255Z\nFL AND CSTL WTRS\nFROM 80E OMN-90E TRV-30WSW PBI-30WSW ORL-80E OMN\nAREA EMBD TS MOV FROM 07010KT. TOPS TO FL350.\n\nOUTLOOK VALID 091255-091655\nFROM 170ENE TRV-150ENE PBI-60E PBI-110SSE MIA-80WSW EYW-90SSW\nSRQ-PBI-30E ORL-170ENE TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-04-09T12:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-09T09:20"
+        "creationTime": "2026-04-09T11:08"
     }
 }
