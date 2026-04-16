@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -83.112,
-                            41.745
+                            -89.493,
+                            38.536
                         ],
                         [
-                            -81.622,
-                            41.42
+                            -88.44,
+                            36.722
                         ],
                         [
-                            -84.125,
-                            40.132
+                            -90.63,
+                            36.897
                         ],
                         [
-                            -84.509,
-                            40.645
+                            -90.816,
+                            37.476
                         ],
                         [
-                            -83.112,
-                            41.745
+                            -89.493,
+                            38.536
                         ]
                     ]
                 ]
@@ -38,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 28000,
-                "altitudeHi2": 28000,
-                "movementDir": 230,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 260,
                 "movementSpd": 40,
-                "rawAirSigmet": "WSUS31 KKCI 161755\nSIGE \nCONVECTIVE SIGMET 16E\nVALID UNTIL 1955Z\nOH LE\nFROM 30SSE DXO-10E CLE-10SSW ROD-30NW ROD-30SSE DXO\nDVLPG AREA TS MOV FROM 23040KT. TOPS TO FL280.\n\nOUTLOOK VALID 161955-162355\nFROM 60WNW BGR-50E ENE-30NNW LYH-30ENE MSL-40WSW GIJ-TVC-50ENE\nASP-30ESE ECK-DXO-40WNW CLE-BUF-YYZ-40NW SYR-50E MSS-60WNW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "rawAirSigmet": "WSUS32 KKCI 161955\nSIGC \nCONVECTIVE SIGMET 55C\nVALID UNTIL 2155Z\nKY IL MO\nFROM 50ESE STL-60NE DYR-50SSW FAM-30WSW FAM-50ESE STL\nAREA SEV TS MOV FROM 26040KT. TOPS ABV FL450.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 162155-170155\nFROM 30SW COU-30ENE PXV-30NE MSL-50ENE ELD-30NNW SJT-30S END-30SW\nCOU\nREF WW 127.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
                 "validTimeTo": [
-                    "2026-04-16T19:55"
+                    "2026-04-16T21:55"
                 ]
             }
         },
@@ -55,24 +55,71 @@
                 "coordinates": [
                     [
                         [
-                            -90.234,
-                            38.395
+                            -90.866,
+                            37.668
                         ],
                         [
-                            -89.49,
-                            37.077
+                            -89.896,
+                            36.211
                         ],
                         [
-                            -91.535,
-                            36.579
+                            -91.573,
+                            36.108
                         ],
                         [
-                            -92.744,
-                            37.551
+                            -91.831,
+                            36.812
                         ],
                         [
-                            -90.234,
-                            38.395
+                            -90.866,
+                            37.668
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 260,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 161955\nSIGC \nCONVECTIVE SIGMET 56C\nVALID UNTIL 2155Z\nMO AR\nFROM 30W FAM-30WNW DYR-30W ARG-60NW ARG-30W FAM\nAREA SEV TS MOV FROM 26030KT. TOPS ABV FL450.\nHAIL TO 1.5 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 162155-170155\nFROM 30SW COU-30ENE PXV-30NE MSL-50ENE ELD-30NNW SJT-30S END-30SW\nCOU\nREF WW 127.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "validTimeTo": [
+                    "2026-04-16T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -91.917,
+                            39.055
+                        ],
+                        [
+                            -90.23,
+                            38.173
+                        ],
+                        [
+                            -92.076,
+                            37.353
+                        ],
+                        [
+                            -93.33,
+                            38.025
+                        ],
+                        [
+                            -91.917,
+                            39.055
                         ]
                     ]
                 ]
@@ -88,10 +135,10 @@
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
                 "movementDir": 250,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 161755\nSIGC \nCONVECTIVE SIGMET 50C\nVALID UNTIL 1955Z\nIL MO\nFROM 30SSE STL-50SE FAM-40NW ARG-30ENE SGF-30SSE STL\nAREA SEV TS MOV FROM 25030KT. TOPS ABV FL450.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 161955-162355\nFROM 30SW COU-30ENE PXV-30NE MSL-50ENE ELD-30NNW SJT-30S END-30SW\nCOU\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS32 KKCI 161955\nSIGC \nCONVECTIVE SIGMET 57C\nVALID UNTIL 2155Z\nIL MO\nFROM 20NE COU-30N FAM-60E SGF-40N SGF-20NE COU\nAREA SEV TS MOV FROM 25010KT. TOPS ABV FL450.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 162155-170155\nFROM 30SW COU-30ENE PXV-30NE MSL-50ENE ELD-30NNW SJT-30S END-30SW\nCOU\nREF WW 127.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
                 "validTimeTo": [
-                    "2026-04-16T19:55"
+                    "2026-04-16T21:55"
                 ]
             }
         },
@@ -102,24 +149,24 @@
                 "coordinates": [
                     [
                         [
-                            -86.206,
-                            43.291
+                            -78.231,
+                            42.802
                         ],
                         [
-                            -84.667,
-                            42.533
+                            -80.56,
+                            39.275
                         ],
                         [
-                            -87.07,
-                            40.228
+                            -83.419,
+                            40.758
                         ],
                         [
-                            -88.112,
-                            41.914
+                            -81.195,
+                            42.017
                         ],
                         [
-                            -86.206,
-                            43.291
+                            -78.231,
+                            42.802
                         ]
                     ]
                 ]
@@ -132,18 +179,159 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
-                "movementDir": 260,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 161755\nSIGC \nCONVECTIVE SIGMET 51C\nVALID UNTIL 1955Z\nMI IN IL LM\nFROM 10NW MKG-40ESE GRR-20S BVT-10WSW ORD-10NW MKG\nAREA TS MOV FROM 26030KT. TOPS TO FL360.\n\nOUTLOOK VALID 161955-162355\nFROM 30SW COU-30ENE PXV-30NE MSL-50ENE ELD-30NNW SJT-30S END-30SW\nCOU\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "altitudeHi1": 42000,
+                "altitudeHi2": 42000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 161955\nSIGE \nCONVECTIVE SIGMET 20E\nVALID UNTIL 2155Z\nNY PA WV OH LE\nFROM 20ESE BUF-30NW EKN-40NE ROD-40W ERI-20ESE BUF\nAREA SEV TS MOV FROM 24045KT. TOPS TO FL420.\nHAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 162155-170155\nFROM 60WNW BGR-50E ENE-30NNW LYH-30ENE MSL-40WSW GIJ-TVC-50ENE\nASP-30ESE ECK-DXO-40WNW CLE-BUF-YYZ-40NW SYR-50E MSS-60WNW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
                 "validTimeTo": [
-                    "2026-04-16T19:55"
+                    "2026-04-16T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.209,
+                            40.618
+                        ],
+                        [
+                            -80.56,
+                            39.275
+                        ],
+                        [
+                            -82.96,
+                            37.406
+                        ],
+                        [
+                            -84.525,
+                            37.801
+                        ],
+                        [
+                            -83.209,
+                            40.618
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 21000,
+                "altitudeHi2": 21000,
+                "movementDir": 240,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS31 KKCI 161955\nSIGE \nCONVECTIVE SIGMET 21E\nVALID UNTIL 2155Z\nWV OH KY\nFROM 40NW APE-30NW EKN-60ENE LOZ-50NNW LOZ-40NW APE\nAREA TS MOV FROM 24040KT. TOPS TO FL210.\n\nOUTLOOK VALID 162155-170155\nFROM 60WNW BGR-50E ENE-30NNW LYH-30ENE MSL-40WSW GIJ-TVC-50ENE\nASP-30ESE ECK-DXO-40WNW CLE-BUF-YYZ-40NW SYR-50E MSS-60WNW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "validTimeTo": [
+                    "2026-04-16T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.403,
+                            44.808
+                        ],
+                        [
+                            -72.96,
+                            43.001
+                        ],
+                        [
+                            -76.521,
+                            42.925
+                        ],
+                        [
+                            -76.552,
+                            43.774
+                        ],
+                        [
+                            -73.403,
+                            44.808
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 161955\nSIGE \nCONVECTIVE SIGMET 22E\nVALID UNTIL 2155Z\nVT NY LO\nFROM 50NW MPV-40ENE ALB-20SW SYR-40NNW SYR-50NW MPV\nAREA TS MOV FROM 24045KT. TOPS TO FL310.\n\nOUTLOOK VALID 162155-170155\nFROM 60WNW BGR-50E ENE-30NNW LYH-30ENE MSL-40WSW GIJ-TVC-50ENE\nASP-30ESE ECK-DXO-40WNW CLE-BUF-YYZ-40NW SYR-50E MSS-60WNW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "validTimeTo": [
+                    "2026-04-16T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.247,
+                            43.651
+                        ],
+                        [
+                            -83.108,
+                            42.674
+                        ],
+                        [
+                            -86.285,
+                            39.968
+                        ],
+                        [
+                            -88.112,
+                            41.914
+                        ],
+                        [
+                            -84.247,
+                            43.651
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 250,
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS31 KKCI 161955\nSIGE \nCONVECTIVE SIGMET 23E\nVALID UNTIL 2155Z\nOH MI IN IL LM\nFROM 10NW MBS-30NNE DXO-10NNE IND-10WSW ORD-10NW MBS\nAREA TS MOV FROM 25035KT. TOPS TO FL350.\n\nOUTLOOK VALID 162155-170155\nFROM 60WNW BGR-50E ENE-30NNW LYH-30ENE MSL-40WSW GIJ-TVC-50ENE\nASP-30ESE ECK-DXO-40WNW CLE-BUF-YYZ-40NW SYR-50E MSS-60WNW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nBACKUP OF AWC DOMESTIC G-AIRMETS/SIGMETS BY THE AIR FORCE 15TH\nOWS /SCOTT AFB/ WILL BE FM 15Z TO 21Z APRIL 16. AIR FORCE 15TH\nOWS COORDINATION NUMBER IS 618-256-1394.",
+                "validTimeTo": [
+                    "2026-04-16T21:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-16T18:12"
+        "creationTime": "2026-04-16T20:02"
     }
 }
