@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -98.264,
-                            29.64
+                            -99.225,
+                            29.638
                         ],
                         [
-                            -96.579,
-                            28.995
+                            -95.736,
+                            28.759
                         ],
                         [
-                            -99.952,
-                            27.949
+                            -97.233,
+                            27.435
                         ],
                         [
-                            -100.624,
-                            29.053
+                            -99.685,
+                            27.715
                         ],
                         [
-                            -98.264,
-                            29.64
+                            -100.55,
+                            28.895
+                        ],
+                        [
+                            -99.225,
+                            29.638
                         ]
                     ]
                 ]
@@ -41,10 +45,10 @@
                 "altitudeHi1": 32000,
                 "altitudeHi2": 32000,
                 "movementDir": 250,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 191455\nSIGC \nCONVECTIVE SIGMET 33C\nVALID UNTIL 1655Z\nTX\nFROM 10E SAT-20NW PSX-40NW LRD-20SSE DLF-10E SAT\nAREA EMBD TS MOV FROM 25020KT. TOPS TO FL320.\n\nOUTLOOK VALID 191655-192055\nFROM SAT-30NW PSX-CRP-30NW LRD-DLF-SAT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 191555\nSIGC \nCONVECTIVE SIGMET 35C\nVALID UNTIL 1755Z\nTX AND CSTL WTRS\nFROM 40W SAT-30E PSX-30SSE CRP-20NW LRD-30SSE DLF-40W SAT\nAREA EMBD TS MOV FROM 25015KT. TOPS TO FL320.\n\nOUTLOOK VALID 191755-192155\nFROM SAT-30NW PSX-CRP-30NW LRD-DLF-SAT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-04-19T16:55"
+                    "2026-04-19T17:55"
                 ]
             }
         },
@@ -55,28 +59,24 @@
                 "coordinates": [
                     [
                         [
-                            -97.45,
-                            28.565
+                            -71.268,
+                            41.841
                         ],
                         [
-                            -96.925,
-                            27.706
+                            -71.545,
+                            40.327
                         ],
                         [
-                            -97.45,
-                            27.235
+                            -72.998,
+                            40.037
                         ],
                         [
-                            -99.42,
-                            27.48
+                            -72.375,
+                            41.705
                         ],
                         [
-                            -99.952,
-                            27.949
-                        ],
-                        [
-                            -97.45,
-                            28.565
+                            -71.268,
+                            41.841
                         ]
                     ]
                 ]
@@ -89,18 +89,73 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
-                "movementDir": 240,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 191455\nSIGC \nCONVECTIVE SIGMET 34C\nVALID UNTIL 1655Z\nTX AND CSTL WTRS\nFROM 40N CRP-30ESE CRP-40S CRP-LRD-40NW LRD-40N CRP\nAREA EMBD TS MOV FROM 24020KT. TOPS TO FL350.\n\nOUTLOOK VALID 191655-192055\nFROM SAT-30NW PSX-CRP-30NW LRD-DLF-SAT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "altitudeHi1": 31000,
+                "altitudeHi2": 31000,
+                "movementDir": 220,
+                "movementSpd": 50,
+                "rawAirSigmet": "WSUS31 KKCI 191600 CCA\nSIGE \nCONVECTIVE SIGMET 12E\nVALID UNTIL 1755Z\nMA RI CT NY AND RI NY CT CSTL WTRS\nFROM 10NE PVD-50SE HTO-50SE JFK-20SE BDL-10NE PVD\nAREA TS MOV FROM 22050KT. TOPS TO FL310.\n...COR SIGMET BODY...\n\nOUTLOOK VALID 191755-192155\nAREA 1...FROM 50WSW BGR-70SE BGR-170S ACK-150SE SIE-180ESE\nECG-130SSE ILM-70SE ILM-50S ECG-100SSE HTO-50WSW BGR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 30NW TRV-70E TRV-50S MIA-50NE EYW-30NW TRV\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-04-19T16:55"
+                    "2026-04-19T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -71.868,
+                            44.218
+                        ],
+                        [
+                            -68.87,
+                            43.672
+                        ],
+                        [
+                            -69.688,
+                            41.894
+                        ],
+                        [
+                            -74.325,
+                            36.875
+                        ],
+                        [
+                            -77.87,
+                            38.64
+                        ],
+                        [
+                            -73.8,
+                            42.085
+                        ],
+                        [
+                            -71.868,
+                            44.218
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 6000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 15000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 191605\nBOSQ WS 191605\nSIGMET QUEBEC 1 VALID UNTIL 192005\nSIGMET \nME NH VT MA RI CT NY NJ PA MD DC DE VA AND CSTL WTRS\nFROM 30E MPV TO 70S BGR TO 40NNE ACK TO 90E ORF TO CSN TO 40S ALB\nTO 30E MPV\nOCNL SEV TURB BTN 060 AND 150. DUE TO STG LOW LVL WNDS. RPTD BY\nACFT. CONDS CONTG BYD 2005Z.",
+                "validTimeTo": [
+                    "2026-04-19T20:05"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-19T15:47"
+        "creationTime": "2026-04-19T16:52"
     }
 }
