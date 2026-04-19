@@ -8,28 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -94.176,
-                            31.351
+                            -77.02,
+                            40.401
                         ],
                         [
-                            -92.886,
-                            30.605
+                            -76.219,
+                            39.973
                         ],
                         [
-                            -94.291,
-                            29.574
+                            -77.87,
+                            38.64
                         ],
                         [
-                            -99.952,
-                            27.949
+                            -78.328,
+                            38.995
                         ],
                         [
-                            -100.951,
-                            29.425
-                        ],
-                        [
-                            -94.176,
-                            31.351
+                            -77.02,
+                            40.401
                         ]
                     ]
                 ]
@@ -42,13 +38,13 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
-                "movementDir": 250,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 190655\nSIGC \nCONVECTIVE SIGMET 15C\nVALID UNTIL 0855Z\nLA TX AND TX CSTL WTRS\nFROM 30ENE LFK-30NNE LCH-60ESE IAH-40NW LRD-10WNW DLF-30ENE LFK\nAREA EMBD TS MOV FROM 25025KT. TOPS TO FL360.\n\nOUTLOOK VALID 190855-191255\nFROM 40NE LCH-40SE LCH-PSX-50SSE CWK-30NNW IAH-40NE LCH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
+                "movementDir": 220,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS31 KKCI 190855\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 1055Z\nPA MD VA WV\nFROM 10N HAR-40ESE HAR-CSN-30NW CSN-10N HAR\nAREA EMBD TS MOV FROM 22030KT. TOPS TO FL300.\n\nOUTLOOK VALID 191055-191455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-19T08:55"
+                    "2026-04-19T10:55"
                 ]
             }
         },
@@ -59,24 +55,71 @@
                 "coordinates": [
                     [
                         [
-                            -97.183,
-                            28.135
+                            -95.762,
+                            30.315
                         ],
                         [
-                            -96.657,
-                            27.193
+                            -94.81,
+                            29.489
                         ],
                         [
-                            -98.584,
-                            26.362
+                            -97.45,
+                            28.565
                         ],
                         [
-                            -99.277,
-                            27.173
+                            -97.695,
+                            29.638
                         ],
                         [
-                            -97.183,
-                            28.135
+                            -95.762,
+                            30.315
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 250,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 190855\nSIGC \nCONVECTIVE SIGMET 19C\nVALID UNTIL 1055Z\nTX\nFROM 30NW IAH-40SE IAH-40N CRP-40E SAT-30NW IAH\nAREA EMBD TS MOV FROM 25025KT. TOPS TO FL330.\n\nOUTLOOK VALID 191055-191455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-04-19T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -96.714,
+                            28.404
+                        ],
+                        [
+                            -95.89,
+                            27.317
+                        ],
+                        [
+                            -98.993,
+                            26.558
+                        ],
+                        [
+                            -99.564,
+                            27.787
+                        ],
+                        [
+                            -96.714,
+                            28.404
                         ]
                     ]
                 ]
@@ -93,14 +136,61 @@
                 "altitudeHi2": 35000,
                 "movementDir": 240,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 190655\nSIGC \nCONVECTIVE SIGMET 16C\nVALID UNTIL 0855Z\nTX AND CSTL WTRS\nFROM 20NE CRP-60SE CRP-70WNW BRO-20SSE LRD-20NE CRP\nAREA TS MOV FROM 24020KT. TOPS TO FL350.\n\nOUTLOOK VALID 190855-191255\nFROM 40NE LCH-40SE LCH-PSX-50SSE CWK-30NNW IAH-40NE LCH\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 190855\nSIGC \nCONVECTIVE SIGMET 20C\nVALID UNTIL 1055Z\nTX AND CSTL WTRS\nFROM 30SW PSX-90ESE CRP-60SSE LRD-20NNW LRD-30SW PSX\nAREA TS MOV FROM 24020KT. TOPS TO FL350.\n\nOUTLOOK VALID 191055-191455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
                 "validTimeTo": [
-                    "2026-04-19T08:55"
+                    "2026-04-19T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -98.46,
+                            30.305
+                        ],
+                        [
+                            -97.814,
+                            28.671
+                        ],
+                        [
+                            -99.708,
+                            28.094
+                        ],
+                        [
+                            -100.238,
+                            29.166
+                        ],
+                        [
+                            -98.46,
+                            30.305
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 250,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 190855\nSIGC \nCONVECTIVE SIGMET 21C\nVALID UNTIL 1055Z\nTX\nFROM 40N SAT-50NNW CRP-40NNW LRD-30ESE DLF-40N SAT\nAREA TS MOV FROM 25020KT. TOPS TO FL380.\n\nOUTLOOK VALID 191055-191455\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-04-19T10:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-19T07:43"
+        "creationTime": "2026-04-19T09:02"
     }
 }
