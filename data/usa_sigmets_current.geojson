@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -95.696,
-                            31.156
+                            -95.308,
+                            31.159
                         ],
                         [
-                            -94.138,
-                            28.894
+                            -94.187,
+                            29.196
                         ],
                         [
-                            -95.931,
-                            28.759
+                            -95.552,
+                            28.758
                         ],
                         [
-                            -97.827,
-                            30.994
+                            -97.754,
+                            30.845
                         ],
                         [
-                            -95.696,
-                            31.156
+                            -95.308,
+                            31.159
                         ]
                     ]
                 ]
@@ -38,18 +38,73 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 35000,
-                "altitudeHi2": 35000,
+                "altitudeHi1": 30000,
+                "altitudeHi2": 30000,
                 "movementDir": 240,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 211455\nSIGC \nCONVECTIVE SIGMET 27C\nVALID UNTIL 1655Z\nTX AND CSTL WTRS\nFROM 50W LFK-90SE IAH-20E PSX-40NNW CWK-50W LFK\nAREA EMBD TS MOV FROM 24030KT. TOPS TO FL350.\n\nOUTLOOK VALID 211655-212055\nFROM MLC-40WNW LCH-90SSW LCH-50SSW CRP-40S JCT-40NW SPS-MLC\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 211655\nSIGC \nCONVECTIVE SIGMET 30C\nVALID UNTIL 1855Z\nTX AND CSTL WTRS\nFROM 30W LFK-80SW LCH-40E PSX-30NNW CWK-30W LFK\nAREA EMBD TS MOV FROM 24025KT. TOPS TO FL300.\n\nOUTLOOK VALID 211855-212255\nAREA 1...FROM 40W FSM-30SSW ELD-80SSW LSU-90SSW LCH-PSX-CRP-60S\nSAT-70ENE JCT-40SW OKC-40W FSM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 40NW MBS-DXO-40W FWA-40NW BVT-BDF-DBQ-60NE BAE-40NW\nMBS\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-04-21T16:55"
+                    "2026-04-21T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.779,
+                            44.051
+                        ],
+                        [
+                            -87.272,
+                            43.805
+                        ],
+                        [
+                            -90.332,
+                            42.202
+                        ],
+                        [
+                            -89.826,
+                            41.653
+                        ],
+                        [
+                            -86.938,
+                            43.164
+                        ],
+                        [
+                            -84.667,
+                            43.391
+                        ],
+                        [
+                            -84.779,
+                            44.051
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 40000,
+                "altitudeHi2": 40000,
+                "movementDir": 270,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 211655\nSIGC \nCONVECTIVE SIGMET 31C\nVALID UNTIL 1855Z\nMI WI IL LM\nFROM 30WNW MBS-50WNW MKG-40SE DBQ\nLINE TS 40 NM WIDE MOV FROM 27040KT. TOPS TO FL400.\n\nOUTLOOK VALID 211855-212255\nAREA 1...FROM 40W FSM-30SSW ELD-80SSW LSU-90SSW LCH-PSX-CRP-60S\nSAT-70ENE JCT-40SW OKC-40W FSM\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 40NW MBS-DXO-40W FWA-40NW BVT-BDF-DBQ-60NE BAE-40NW\nMBS\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-04-21T18:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-21T15:23"
+        "creationTime": "2026-04-21T17:12"
     }
 }
