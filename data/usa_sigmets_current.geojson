@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -96.344,
-                            42.877
+                            -94.392,
+                            43.405
                         ],
                         [
-                            -95.344,
-                            42.925
+                            -96.376,
+                            39.893
                         ],
                         [
-                            -96.678,
-                            40.555
+                            -97.62,
+                            39.595
                         ],
                         [
-                            -97.423,
-                            40.575
+                            -95.817,
+                            42.941
                         ],
                         [
-                            -96.344,
-                            42.877
+                            -94.392,
+                            43.405
                         ]
                     ]
                 ]
@@ -42,14 +42,159 @@
                 "altitudeHi2": 60000,
                 "movementDir": 220,
                 "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 231755\nSIGC \nCONVECTIVE SIGMET 44C\nVALID UNTIL 1955Z\nIA NE SD\nFROM 50SSE FSD-50WNW FOD-30NW PWE-60WNW PWE-50SSE FSD\nAREA SEV TS MOV FROM 22025KT. TOPS ABV FL450.\nHAIL TO 1.25 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 231955-232355\nAREA 1...FROM 60SSE YWG-30E INL-70NNW RHI-STL-40E MCI-50ENE\nEND-40SW ICT-40ENE FSD-60SSE YWG\nREF WW 134.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nOUTLOOK VALID 231955-232355\nAREA 2...FROM 40N LIT-SQS-40WNW LEV-IAH-GGG-40N LIT\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS32 KKCI 231955\nSIGC \nCONVECTIVE SIGMET 47C\nVALID UNTIL 2155Z\nIA KS NE\nFROM 50WNW MCW-20SSW PWE-40N SLN-60SE FSD-50WNW MCW\nAREA SEV TS MOV FROM 22025KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1.5 IN...WIND GUSTS TO 50KT POSS.\n\nOUTLOOK VALID 232155-240155\nFROM 60WNW INL-60NW SAW-BAE-COU-40WSW TUL-40SW ICT-RWF-60WNW INL\nREF WW 134 135 136.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-04-23T19:55"
+                    "2026-04-23T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94.403,
+                            46.964
+                        ],
+                        [
+                            -93.511,
+                            46.705
+                        ],
+                        [
+                            -94.392,
+                            43.405
+                        ],
+                        [
+                            -95.817,
+                            42.941
+                        ],
+                        [
+                            -94.403,
+                            46.964
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 60000,
+                "movementDir": 200,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 231955\nSIGC \nCONVECTIVE SIGMET 48C\nVALID UNTIL 2155Z\nMN IA\nFROM 40NNW BRD-30NE BRD-50WNW MCW-60SE FSD-40NNW BRD\nAREA TS MOV FROM 20030KT. TOPS ABV FL450.\n\nOUTLOOK VALID 232155-240155\nFROM 60WNW INL-60NW SAW-BAE-COU-40WSW TUL-40SW ICT-RWF-60WNW INL\nREF WW 134 135 136.\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-04-23T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.681,
+                            41.113
+                        ],
+                        [
+                            -81.073,
+                            40.484
+                        ],
+                        [
+                            -81.254,
+                            40.019
+                        ],
+                        [
+                            -82.336,
+                            40.614
+                        ],
+                        [
+                            -81.681,
+                            41.113
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 36000,
+                "altitudeHi2": 36000,
+                "movementDir": 280,
+                "movementSpd": 10,
+                "rawAirSigmet": "WSUS31 KKCI 231955\nSIGE \nCONVECTIVE SIGMET 11E\nVALID UNTIL 2155Z\nOH\nFROM 20SSE CLE-30NNW AIR-20W AIR-30NNE APE-20SSE CLE\nAREA TS MOV FROM 28010KT. TOPS TO FL360.\n\nOUTLOOK VALID 232155-240155\nTS ARE NOT EXPD TO REQUIRE WST ISSUANCES.",
+                "validTimeTo": [
+                    "2026-04-23T21:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.72,
+                            44.91
+                        ],
+                        [
+                            -72.211,
+                            44.834
+                        ],
+                        [
+                            -70.342,
+                            41.045
+                        ],
+                        [
+                            -73.107,
+                            40.628
+                        ],
+                        [
+                            -76.644,
+                            43.931
+                        ],
+                        [
+                            -74.72,
+                            44.91
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KBOS",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 0,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 10000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS01 KKCI 231930\nBOSX WS 231930\nSIGMET XRAY 1 VALID UNTIL 232330\nSIGMET \nNH VT MA RI CT NY LO AND CSTL WTRS\nFROM MSS TO 40NNE MPV TO 20SW ACK TO 30E JFK TO 50NNW SYR TO MSS\nOCNL SEV TURB BLW 100. DUE TO STG LOW LVL WNDS. RPTD BY RV14 AND\nSR22. CONDS CONTG BYD 2330Z.",
+                "validTimeTo": [
+                    "2026-04-23T23:30"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-04-23T18:10"
+        "creationTime": "2026-04-23T20:09"
     }
 }
