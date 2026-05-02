@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -80.963,
-                            30.809
+                            -80.079,
+                            30.841
                         ],
                         [
-                            -79.512,
-                            29.865
+                            -77.69,
+                            28.669
                         ],
                         [
-                            -84.103,
-                            26.817
+                            -83.734,
+                            26.334
                         ],
                         [
-                            -84.422,
-                            27.388
+                            -84.407,
+                            27.263
                         ],
                         [
-                            -85.881,
-                            27.873
+                            -85.13,
+                            27.888
                         ],
                         [
-                            -80.963,
-                            30.809
+                            -80.079,
+                            30.841
                         ]
                     ]
                 ]
@@ -44,16 +44,110 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 60000,
-                "movementDir": 260,
+                "movementDir": 250,
                 "movementSpd": 45,
-                "rawAirSigmet": "WSUS31 KKCI 021655\nSIGE \nCONVECTIVE SIGMET 13E\nVALID UNTIL 1855Z\nFL AND FL GA CSTL WTRS\nFROM 40NE CRG-90ENE OMN-90WSW SRQ-100W SRQ-170W PIE-40NE CRG\nAREA EMBD TS MOV FROM 26045KT. TOPS ABV FL450.\nREF INTL SIGMET SERIES FOXTROT.\n\nOUTLOOK VALID 021855-022255\nFROM 150ESE ILM-140SSE ILM-200SE CHS-220ENE TRV-90WNW EYW-100WSW\nPIE-180WSW PIE-170SE LEV-160S CEW-50ESE SAV-90ESE ILM-150ESE ILM\nREF WW 183.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 021855\nSIGE \nCONVECTIVE SIGMET 16E\nVALID UNTIL 2055Z\nFL AND CSTL WTRS\nFROM 80ENE CRG-160ENE TRV-90SW SRQ-100WSW PIE-130W PIE-80ENE CRG\nAREA SEV TS MOV FROM 25045KT. TOPS ABV FL450.\nTORNADOES...HAIL TO 1 IN...WIND GUSTS TO 50KT POSS.\nREF INTL SIGMET SERIES FOXTROT.\n\nOUTLOOK VALID 022055-030055\nFROM 150ESE ILM-140SSE ILM-200SE CHS-220ENE TRV-70W EYW-100WSW\nPIE-180WSW PIE-210W PIE-60SE SAV-90ESE ILM-150ESE ILM\nREF WW 183.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-05-02T18:55"
+                    "2026-05-02T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -77.263,
+                            33.12
+                        ],
+                        [
+                            -76.049,
+                            32.806
+                        ],
+                        [
+                            -78.248,
+                            31.346
+                        ],
+                        [
+                            -78.792,
+                            31.823
+                        ],
+                        [
+                            -77.263,
+                            33.12
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 240,
+                "movementSpd": 45,
+                "rawAirSigmet": "WSUS31 KKCI 021855\nSIGE \nCONVECTIVE SIGMET 17E\nVALID UNTIL 2055Z\nNC SC GA CSTL WTRS\nFROM 80SSE ILM-130SE ILM-130SE CHS-90SE CHS-80SSE ILM\nAREA EMBD TS MOV FROM 24045KT. TOPS TO FL350.\n\nOUTLOOK VALID 022055-030055\nFROM 150ESE ILM-140SSE ILM-200SE CHS-220ENE TRV-70W EYW-100WSW\nPIE-180WSW PIE-210W PIE-60SE SAV-90ESE ILM-150ESE ILM\nREF WW 183.\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-05-02T20:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -106.82,
+                            35.705
+                        ],
+                        [
+                            -106.912,
+                            33.407
+                        ],
+                        [
+                            -110.267,
+                            33.475
+                        ],
+                        [
+                            -109.14,
+                            35.417
+                        ],
+                        [
+                            -106.82,
+                            35.705
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": null,
+                "movementSpd": null,
+                "rawAirSigmet": "WSUS33 KKCI 021855\nSIGW \nCONVECTIVE SIGMET 4W\nVALID UNTIL 2055Z\nNM AZ\nFROM 40N ABQ-20ENE TCS-80SW SJN-60N SJN-40N ABQ\nAREA EMBD TS MOV LTL. TOPS TO FL280.\n\nOUTLOOK VALID 022055-030055\nAREA 1...FROM 50WNW FTI-30WNW CME-30NE SSO-80SW SJN-60NNE\nSJN-50WNW FTI\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 40N DSD-50ESE LKV-50SE FMG-30SSW FMG-60W\nOED-EUG-40N DSD\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 3...FROM 50NW HVR-GTF-40SE FCA-50SE YXC-50NW HVR\nWST ISSUANCES POSS. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-05-02T20:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-05-02T17:52"
+        "creationTime": "2026-05-02T19:11"
     }
 }
