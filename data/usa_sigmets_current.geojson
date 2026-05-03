@@ -8,28 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -80.434,
-                            26.807
+                            -79.296,
+                            27.383
                         ],
                         [
-                            -79.229,
-                            26.358
+                            -78.878,
+                            27.122
                         ],
                         [
-                            -79.445,
-                            25.478
+                            -79.106,
+                            25.348
                         ],
                         [
-                            -83.262,
-                            24.583
+                            -80.694,
+                            25.444
                         ],
                         [
-                            -83.672,
-                            25.28
+                            -80.611,
+                            26.872
                         ],
                         [
-                            -80.434,
-                            26.807
+                            -79.296,
+                            27.383
                         ]
                     ]
                 ]
@@ -42,18 +42,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 45000,
-                "altitudeHi2": 45000,
+                "altitudeHi1": 41000,
+                "altitudeHi2": 41000,
                 "movementDir": 240,
                 "movementSpd": 20,
-                "rawAirSigmet": "WSUS31 KKCI 031055\nSIGE \nCONVECTIVE SIGMET 24E\nVALID UNTIL 1255Z\nFL AND CSTL WTRS\nFROM 20WNW PBI-50ESE PBI-50ESE MIA-80W EYW-110WNW EYW-20WNW PBI\nAREA TS MOV FROM 24020KT. TOPS TO FL450.\nREF INTL SIGMET FOXTROT SERIES.\n\nOUTLOOK VALID 031255-031655\nAREA 1...FROM 210ENE TRV-170E PBI-70ENE PBI-100SE MIA-80WSW\nEYW-110WNW EYW-30S ORL-210ENE TRV\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 60SW YSJ-150ESE ACK-170SE ACK-110S ACK-60ESE\nHTO-30SE BOS-30SSE BGR-60SW YSJ\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "rawAirSigmet": "WSUS31 KKCI 031255\nSIGE \nCONVECTIVE SIGMET 27E\nVALID UNTIL 1455Z\nFL AND CSTL WTRS\nFROM 60NE PBI-70ENE PBI-70ESE MIA-30SW MIA-30WNW PBI-60NE PBI\nAREA TS MOV FROM 24020KT. TOPS TO FL410.\n\nOUTLOOK VALID 031455-031855\nAREA 1...FROM 200ENE TRV-170E PBI-70ENE PBI-80ESE MIA-80WSW\nEYW-110WNW EYW-40W TRV-200ENE TRV\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 60SW YSJ-150ESE ACK-140SE ACK-100S ACK-50SW\nACK-30SE BOS-30SSE BGR-60SW YSJ\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
                 "validTimeTo": [
-                    "2026-05-03T11:54"
+                    "2026-05-03T14:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.86,
+                            26.219
+                        ],
+                        [
+                            -82.135,
+                            25.758
+                        ],
+                        [
+                            -81.933,
+                            24.469
+                        ],
+                        [
+                            -83.262,
+                            24.583
+                        ],
+                        [
+                            -83.86,
+                            26.219
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 41000,
+                "altitudeHi2": 41000,
+                "movementDir": 240,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS31 KKCI 031255\nSIGE \nCONVECTIVE SIGMET 28E\nVALID UNTIL 1455Z\nFL AND CSTL WTRS\nFROM 100SW SRQ-50SSW RSW-10SW EYW-80W EYW-100SW SRQ\nAREA TS MOV FROM 24020KT. TOPS TO FL410.\nREF INTL SIGMET FOXTROT SERIES.\n\nOUTLOOK VALID 031455-031855\nAREA 1...FROM 200ENE TRV-170E PBI-70ENE PBI-80ESE MIA-80WSW\nEYW-110WNW EYW-40W TRV-200ENE TRV\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.\n\nAREA 2...FROM 60SW YSJ-150ESE ACK-140SE ACK-100S ACK-50SW\nACK-30SE BOS-30SSE BGR-60SW YSJ\nWST ISSUANCES EXPD. REFER TO MOST RECENT ACUS01 KWNS FROM STORM\nPREDICTION CENTER FOR SYNOPSIS AND METEOROLOGICAL DETAILS.",
+                "validTimeTo": [
+                    "2026-05-03T14:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-05-03T11:52"
+        "creationTime": "2026-05-03T13:40"
     }
 }
