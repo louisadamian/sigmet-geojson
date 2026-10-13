@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -104.456,
-                            41.445
+                            -86.446,
+                            41.029
                         ],
                         [
-                            -104.43,
-                            37.791
+                            -86.37,
+                            40.309
                         ],
                         [
-                            -113.862,
-                            36.232
+                            -88.251,
+                            39.923
                         ],
                         [
-                            -113.943,
-                            37.896
+                            -88.44,
+                            40.501
                         ],
                         [
-                            -104.456,
-                            41.445
+                            -86.446,
+                            41.029
                         ]
                     ]
                 ]
@@ -34,7 +34,101 @@
                 "airSigmetId": null,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 270,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 131455\nMKCC WST 131455\n\nCONVECTIVE SIGMET 38C\nVALID UNTIL 1655Z\nIN IL\nFROM 40NE BVT-30N IND-30ENE AXC-50NNE AXC-40NE BVT\nDMSHG AREA TS MOV FROM 27020KT. TOPS TO FL280.\n\n",
+                "validTimeTo": [
+                    "2026-10-13T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.163,
+                            25.082
+                        ],
+                        [
+                            -81.296,
+                            24.394
+                        ],
+                        [
+                            -81.156,
+                            24
+                        ],
+                        [
+                            -83.142,
+                            24.064
+                        ],
+                        [
+                            -83.163,
+                            25.082
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
+                "movementDir": null,
+                "movementSpd": 0,
+                "rawAirSigmet": "WSUS31 KKCI 131455\nMKCE WST 131455\nCONVECTIVE SIGMET 21E\nVALID UNTIL 1655Z\nFL AND CSTL WTRS\nFROM 80WNW EYW-30ESE EYW-50SE EYW-80WSW EYW-80WNW EYW\nAREA TS MOV LTL. TOPS TO FL450.\n\n",
+                "validTimeTo": [
+                    "2026-10-13T15:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.114,
+                            25.34
+                        ],
+                        [
+                            -78.241,
+                            23.903
+                        ],
+                        [
+                            -81.156,
+                            24
+                        ],
+                        [
+                            -81.296,
+                            24.394
+                        ],
+                        [
+                            -79.114,
+                            25.34
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
@@ -42,9 +136,9 @@
                 "altitudeHi2": null,
                 "movementDir": 180,
                 "movementSpd": 0,
-                "rawAirSigmet": "WSUS05 KKCI 130351\nSLCQ WS 130351\nSIGMET QUEBEC 1 VALID UNTIL 130751\nWY UT CO AZ\nFROM 20NE CYS TO 30S PUB TO 40NNW PGS TO 30SE ILC TO 20NE CYS\nOCNL SEV TURB BTN 080 AND FL240. DUE TO STG LOW LVL WNDS AND MTN\nWV ACT. RPTD BY A319 E170 AND BE20. CONDS CONTG BYD 0751Z.\n....",
+                "rawAirSigmet": "WSUS31 KKCI 131455\nMKCE WST 131455\nCONVECTIVE SIGMET 22E\nVALID UNTIL 1655Z\nFL CSTL WTRS\nFROM 70ESE MIA-160SE MIA-50SE EYW-30ESE EYW-70ESE MIA\nAREA TS MOV FROM LTL. TOPS TO FL390.\nREF INTL SIGMET INDIA SERIES.\n\n",
                 "validTimeTo": [
-                    "2026-10-13T07:51"
+                    "2026-10-13T15:55"
                 ]
             }
         },
@@ -55,24 +149,28 @@
                 "coordinates": [
                     [
                         [
-                            -81.455,
-                            25.361
+                            -71.573,
+                            44.922
                         ],
                         [
-                            -81.125,
-                            24.849
+                            -72.231,
+                            43.689
                         ],
                         [
-                            -81.8,
-                            24.257
+                            -77.036,
+                            42.897
                         ],
                         [
-                            -82.189,
-                            24.942
+                            -76.85,
+                            43.629
                         ],
                         [
-                            -81.455,
-                            25.361
+                            -75.19,
+                            44.909
+                        ],
+                        [
+                            -71.573,
+                            44.922
                         ]
                     ]
                 ]
@@ -85,214 +183,18 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
-                "movementDir": 70,
-                "movementSpd": 10,
-                "rawAirSigmet": "WSUS31 KKCI 130655\nMKCE WST 130655\nCONVECTIVE SIGMET 3E\nVALID UNTIL 0855Z\nFL AND CSTL WTRS\nFROM 50NNE EYW-40ENE EYW-20S EYW-30NW EYW-50NNE EYW\nAREA TS MOV FROM 07010KT. TOPS TO FL430.\n\n",
-                "validTimeTo": [
-                    "2026-10-13T08:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.403,
-                            48.106
-                        ],
-                        [
-                            -82.389,
-                            45.152
-                        ],
-                        [
-                            -82.454,
-                            42.8
-                        ],
-                        [
-                            -83.537,
-                            41.901
-                        ],
-                        [
-                            -89.45,
-                            46.295
-                        ],
-                        [
-                            -88.403,
-                            48.106
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 39000,
-                "altitudeHi2": 39000,
-                "movementDir": 250,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 270,
                 "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 130655\nMKCC WST 130655\nCONVECTIVE SIGMET 17C\nVALID UNTIL 0855Z\nMI WI LH LS LM\nFROM 40ESE YQT-60NE ASP-30SSE ECK-20SSW DXO-40N RHI-40ESE YQT\nAREA EMBD TS MOV FROM 25035KT. TOPS TO FL390.\n\n",
+                "rawAirSigmet": "WSUS31 KKCI 131455\nMKCE WST 131455\nCONVECTIVE SIGMET 23E\nVALID UNTIL 1655Z\nNH VT NY\nFROM 60NE MPV-40NW CON-40WSW SYR-40NW SYR-20W MSS-60NE MPV\nAREA TS MOV FROM 27035KT. TOPS TO FL340.\n\n",
                 "validTimeTo": [
-                    "2026-10-13T08:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -103.561,
-                            44.898
-                        ],
-                        [
-                            -102.162,
-                            43.717
-                        ],
-                        [
-                            -105.082,
-                            40.974
-                        ],
-                        [
-                            -108.185,
-                            40.517
-                        ],
-                        [
-                            -108.551,
-                            41.236
-                        ],
-                        [
-                            -103.561,
-                            44.898
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 33000,
-                "altitudeHi2": 33000,
-                "movementDir": 240,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 130655\nMKCC WST 130655\nCONVECTIVE SIGMET 18C\nVALID UNTIL 0855Z\nNE SD CO WY\nFROM 60NNW RAP-40ESE RAP-20SW CYS-40W CHE-30SE OCS-60NNW RAP\nAREA EMBD TS MOV FROM 24020KT. TOPS TO FL330.\n\n",
-                "validTimeTo": [
-                    "2026-10-13T08:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -104.62,
-                            32.175
-                        ],
-                        [
-                            -103.959,
-                            31.608
-                        ],
-                        [
-                            -105.026,
-                            30.67
-                        ],
-                        [
-                            -105.729,
-                            31.348
-                        ],
-                        [
-                            -104.62,
-                            32.175
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 32000,
-                "altitudeHi2": 32000,
-                "movementDir": 210,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 130655\nMKCC WST 130655\nCONVECTIVE SIGMET 19C\nVALID UNTIL 0855Z\nTX NM\nFROM 70S CME-40WSW INK-60WNW MRF-40SE ELP-70S CME\nAREA TS MOV FROM 21025KT. TOPS TO FL320.\n\n",
-                "validTimeTo": [
-                    "2026-10-13T08:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -95.406,
-                            41.787
-                        ],
-                        [
-                            -94.728,
-                            40.841
-                        ],
-                        [
-                            -96.863,
-                            40.198
-                        ],
-                        [
-                            -97.573,
-                            40.789
-                        ],
-                        [
-                            -95.406,
-                            41.787
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 36000,
-                "altitudeHi2": 36000,
-                "movementDir": 210,
-                "movementSpd": 35,
-                "rawAirSigmet": "WSUS32 KKCI 130655\nMKCC WST 130655\nCONVECTIVE SIGMET 20C\nVALID UNTIL 0855Z\nMO IA NE\nFROM 40NNE OVR-50ESE OVR-30W PWE-50SE OBH-40NNE OVR\nAREA TS MOV FROM 21035KT. TOPS TO FL360.\n\n",
-                "validTimeTo": [
-                    "2026-10-13T08:55"
+                    "2026-10-13T15:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-10-13T07:35"
+        "creationTime": "2026-10-13T15:50"
     }
 }
