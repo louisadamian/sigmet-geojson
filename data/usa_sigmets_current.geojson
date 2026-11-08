@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -112.404,
-                            49.017
+                            -109.77,
+                            49.039
                         ],
                         [
-                            -111.054,
-                            46.867
+                            -107.078,
+                            42.499
                         ],
                         [
-                            -113.278,
-                            46.212
+                            -110.61,
+                            41.653
                         ],
                         [
                             -115.384,
                             48.987
                         ],
                         [
-                            -112.404,
-                            49.017
+                            -109.77,
+                            49.039
                         ]
                     ]
                 ]
@@ -42,9 +42,9 @@
                 "altitudeHi2": 15000,
                 "movementDir": 180,
                 "movementSpd": 0,
-                "rawAirSigmet": "WSUS05 KKCI 081455\nSLCX WS 081455\nSIGMET XRAY 3 VALID UNTIL 081855\nMT\nFROM 40SSE YQL TO 40ENE HLN TO 60WSW HLN TO 40SSE YXC TO 40SSE\nYQL\nOCNL SEV TURB BLW 150. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 1855Z.\n....",
+                "rawAirSigmet": "WSUS05 KKCI 081955\nSLCX WS 081955\nSIGMET XRAY 5 VALID UNTIL 082355\nID MT WY\nFROM 30N HVR TO 50SW DDY TO 60SSW BPI TO 40SSE YXC TO 30N HVR\nOCNL SEV TURB BLW 150. DUE TO STG LOW LVL WNDS AND MTN WV ACT.\nRPTD BY ACFT. CONDS CONTG BYD 2355Z.\n....",
                 "validTimeTo": [
-                    "2026-11-08T18:55"
+                    "2026-11-08T23:55"
                 ]
             }
         },
@@ -55,28 +55,75 @@
                 "coordinates": [
                     [
                         [
-                            -97.53,
-                            30.047
+                            -115.384,
+                            48.987
                         ],
                         [
-                            -95.35,
-                            29.461
+                            -109.77,
+                            48.873
                         ],
                         [
-                            -95.9,
-                            25.912
+                            -107.078,
+                            42.499
+                        ],
+                        [
+                            -110.61,
+                            41.653
+                        ],
+                        [
+                            -115.384,
+                            48.987
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 34000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 43000,
+                "movementDir": 180,
+                "movementSpd": 0,
+                "rawAirSigmet": "WSUS05 KKCI 081955\nSLCY WS 081955\nSIGMET YANKEE 1 VALID UNTIL 082355\nID MT WY\nFROM 40SSE YXC TO 20N HVR TO 50SW DDY TO 60SSW BPI TO 40SSE YXC\nOCNL SEV TURB BTN FL340 AND FL430. DUE TO MTN WV ACT. RPTD BY\nACFT. CONDS CONTG BYD 2355Z.\n....",
+                "validTimeTo": [
+                    "2026-11-08T23:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.126,
+                            29.5
+                        ],
+                        [
+                            -94.057,
+                            27.896
+                        ],
+                        [
+                            -95.161,
+                            25.903
                         ],
                         [
                             -97.895,
                             26.106
                         ],
                         [
-                            -99.42,
-                            28.312
+                            -98.753,
+                            28.067
                         ],
                         [
-                            -97.53,
-                            30.047
+                            -95.126,
+                            29.5
                         ]
                     ]
                 ]
@@ -89,69 +136,18 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
                 "movementDir": 250,
                 "movementSpd": 15,
-                "rawAirSigmet": "WSUS32 KKCI 081655\nMKCC WST 081655\nCONVECTIVE SIGMET 30C\nVALID UNTIL 1855Z\nTX AND CSTL WTRS\nFROM 20S CWK-30S IAH-80E BRO-30WNW BRO-50N LRD-20S CWK\nAREA EMBD TS MOV FROM 25015KT. TOPS TO FL430.",
+                "rawAirSigmet": "WSUS32 KKCI 082055\nMKCC WST 082055\nCONVECTIVE SIGMET 34C\nVALID UNTIL 2255Z\nTX AND CSTL WTRS\nFROM 30SSE IAH-130ESE PSX-120E BRO-30WNW BRO-50NE LRD-30SSE IAH\nAREA EMBD TS MOV FROM 25015KT. TOPS TO FL450.",
                 "validTimeTo": [
-                    "2026-11-08T18:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -125.164,
-                            48.652
-                        ],
-                        [
-                            -123.047,
-                            48.178
-                        ],
-                        [
-                            -123.048,
-                            47.438
-                        ],
-                        [
-                            -125.368,
-                            46.944
-                        ],
-                        [
-                            -126.453,
-                            47.765
-                        ],
-                        [
-                            -125.164,
-                            48.652
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": null,
-                "movementDir": 180,
-                "movementSpd": 0,
-                "rawAirSigmet": "WSUS33 KKCI 081655\nMKCW WST 081655\nCONVECTIVE SIGMET 28W\nVALID UNTIL 1855Z\nWA AND CSTL WTRS\nFROM 30NW TOU-50SSW HUH-30W SEA-50W HQM-80WSW TOU-30NW TOU\nAREA TS MOV FROM 20KT. TOPS TO FL240.",
-                "validTimeTo": [
-                    "2026-11-08T18:55"
+                    "2026-11-08T22:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-08T16:59"
+        "creationTime": "2026-11-08T21:01"
     }
 }
