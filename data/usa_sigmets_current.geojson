@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -97.074,
-                            27.899
+                            -95.173,
+                            30.025
                         ],
                         [
-                            -97.45,
-                            27.235
+                            -93.679,
+                            28.905
                         ],
                         [
-                            -98.482,
-                            27.477
+                            -95.53,
+                            25.908
+                        ],
+                        [
+                            -97.38,
+                            25.92
                         ],
                         [
                             -98.391,
                             27.897
                         ],
                         [
-                            -97.074,
-                            27.899
+                            -95.173,
+                            30.025
                         ]
                     ]
                 ]
@@ -38,18 +42,112 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 43000,
-                "altitudeHi2": 43000,
-                "movementDir": 200,
-                "movementSpd": 20,
-                "rawAirSigmet": "WSUS32 KKCI 100855\nMKCC WST 100855\nCONVECTIVE SIGMET 1C\nVALID UNTIL 1055Z\nTX AND CSTL WTRS\nFROM 20E CRP-40S CRP-50E LRD-50W CRP-20E CRP\nINTSF AREA TS MOV FROM 20020KT. TOPS TO FL430.",
+                "altitudeHi1": 45000,
+                "altitudeHi2": 45000,
+                "movementDir": 230,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 101655\nMKCC WST 101655\n\nCONVECTIVE SIGMET 14C\nVALID UNTIL 1855Z\nTX AND CSTL WTRS\nFROM 10ENE IAH-80SSW LCH-100E BRO-BRO-50W CRP-10ENE IAH\nAREA TS MOV FROM 23025KT. TOPS ABV FL450.",
                 "validTimeTo": [
-                    "2026-11-10T10:55"
+                    "2026-11-10T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -93.679,
+                            28.905
+                        ],
+                        [
+                            -92.516,
+                            28.914
+                        ],
+                        [
+                            -93.11,
+                            27.478
+                        ],
+                        [
+                            -94.721,
+                            27.339
+                        ],
+                        [
+                            -93.679,
+                            28.905
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 37000,
+                "altitudeHi2": 37000,
+                "movementDir": 250,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 101655\nMKCC WST 101655\n\nCONVECTIVE SIGMET 15C\nVALID UNTIL 1855Z\nLA TX CSTL WTRS\nFROM 80SSW LCH-80SSE LCH-160S LCH-120SE PSX-80SSW LCH\nAREA TS MOV FROM 25025KT. TOPS TO FL370.",
+                "validTimeTo": [
+                    "2026-11-10T18:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -123.464,
+                            45.487
+                        ],
+                        [
+                            -123.709,
+                            43.766
+                        ],
+                        [
+                            -126.605,
+                            43.771
+                        ],
+                        [
+                            -126.47,
+                            45.24
+                        ],
+                        [
+                            -123.464,
+                            45.487
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 33000,
+                "altitudeHi2": 33000,
+                "movementDir": 280,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 101655\nMKCW WST 101655\n\nCONVECTIVE SIGMET 3W\nVALID UNTIL 1855Z\nOR AND CSTL WTRS\nFROM 40WSW BTG-30SW EUG-120WSW ONP-110WNW ONP-40WSW BTG\nAREA TS MOV FROM 28025KT. TOPS TO FL330.",
+                "validTimeTo": [
+                    "2026-11-10T18:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-10T09:36"
+        "creationTime": "2026-11-10T17:38"
     }
 }
