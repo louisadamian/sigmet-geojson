@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -121.3,
-                            44.25
+                            -118.059,
+                            45.957
                         ],
                         [
-                            -115.167,
-                            37.987
+                            -113.114,
+                            38.828
                         ],
                         [
-                            -117.702,
-                            36.471
-                        ],
-                        [
-                            -123.75,
-                            42.726
+                            -116.277,
+                            37.725
                         ],
                         [
                             -121.3,
                             44.25
+                        ],
+                        [
+                            -118.059,
+                            45.957
                         ]
                     ]
                 ]
@@ -39,12 +39,12 @@
                 "altitudeLow1": 20000,
                 "altitudeLow2": null,
                 "altitudeHi1": null,
-                "altitudeHi2": 24000,
+                "altitudeHi2": 30000,
                 "movementDir": 180,
                 "movementSpd": 0,
-                "rawAirSigmet": "WSUS06 KKCI 140655\nSFOO WS 140655\nSIGMET OSCAR 7 VALID UNTIL 141055\nOR CA NV\nFROM DSD TO 40WSW ILC TO 50WSW BTY TO 40WNW OED TO DSD\nOCNL SEV TURB BTN FL200 AND FL240. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1055Z.\n....",
+                "rawAirSigmet": "WSUS06 KKCI 141255\nSFOO WS 141255\nSIGMET OSCAR 9 VALID UNTIL 141655\nOR ID NV UT\nFROM 40ENE PDT TO 40SW DTA TO 60NNE BTY TO DSD TO 40ENE PDT\nOCNL SEV TURB BTN FL200 AND FL300. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1655Z.\n....",
                 "validTimeTo": [
-                    "2026-11-14T10:55"
+                    "2026-11-14T16:55"
                 ]
             }
         },
@@ -55,28 +55,75 @@
                 "coordinates": [
                     [
                         [
-                            -102.72,
-                            33.697
+                            -69.203,
+                            45.075
                         ],
                         [
-                            -100.562,
-                            33.066
+                            -68.87,
+                            44.84
                         ],
                         [
-                            -100.77,
-                            29.859
+                            -76.082,
+                            40.449
                         ],
                         [
-                            -102.455,
-                            29.877
+                            -78.646,
+                            41.836
                         ],
                         [
-                            -103.95,
-                            30.633
+                            -75.051,
+                            44.674
                         ],
                         [
-                            -102.72,
-                            33.697
+                            -69.203,
+                            45.075
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "ICE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": null,
+                "movementDir": 180,
+                "movementSpd": 0,
+                "rawAirSigmet": "WSUS01 KKCI 141315\nBOSQ WS 141315\nSIGMET QUEBEC 1 VALID UNTIL 141715\nME NH VT MA NY PA\nFROM 20NW BGR TO BGR TO 20WSW ETX TO 30SE JHW TO 20SW MSS TO 20NW\nBGR\nOCNL SEV MXD/CLR ICGICIP BTN 020 AND 090. CONDS CONTG BYD 1715Z.\n....",
+                "validTimeTo": [
+                    "2026-11-14T17:15"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -99.513,
+                            29.246
+                        ],
+                        [
+                            -98.886,
+                            28.714
+                        ],
+                        [
+                            -99.789,
+                            28.245
+                        ],
+                        [
+                            -100.099,
+                            28.77
+                        ],
+                        [
+                            -99.513,
+                            29.246
                         ]
                     ]
                 ]
@@ -89,18 +136,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 34000,
-                "altitudeHi2": 34000,
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
                 "movementDir": 240,
-                "movementSpd": 30,
-                "rawAirSigmet": "WSUS32 KKCI 140955\nMKCC WST 140955\nCONVECTIVE SIGMET 13C\nVALID UNTIL 1155Z\nTX NM\nFROM 40W LBB-50NW ABI-30N DLF-70SSE FST-20N MRF-40W LBB\nAREA TS MOV FROM 24030KT. TOPS TO FL340.",
+                "movementSpd": 35,
+                "rawAirSigmet": "WSUS32 KKCI 141555\nMKCC WST 141555\nCONVECTIVE SIGMET 20C\nVALID UNTIL 1755Z\nTX\nFROM 60WSW SAT-60SSW SAT-50NNW LRD-50SE DLF-60WSW SAT\nDMSHG AREA TS MOV FROM 24035KT. TOPS TO FL280.",
                 "validTimeTo": [
-                    "2026-11-14T11:55"
+                    "2026-11-14T17:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -112.312,
+                            35.614
+                        ],
+                        [
+                            -111.27,
+                            35.621
+                        ],
+                        [
+                            -111.733,
+                            34.958
+                        ],
+                        [
+                            -112.48,
+                            35.365
+                        ],
+                        [
+                            -112.312,
+                            35.614
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 29000,
+                "altitudeHi2": 29000,
+                "movementDir": 280,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS33 KKCI 141555\nMKCW WST 141555\nCONVECTIVE SIGMET 16W\nVALID UNTIL 1755Z\nAZ\nFROM 60E PGS-30S TBC-40ENE DRK-40N DRK-60E PGS\nAREA TS MOV FROM 28025KT. TOPS TO FL290.",
+                "validTimeTo": [
+                    "2026-11-14T17:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-14T10:03"
+        "creationTime": "2026-11-14T16:31"
     }
 }

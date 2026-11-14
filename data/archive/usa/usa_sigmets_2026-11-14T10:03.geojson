@@ -1,0 +1,106 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.3,
+                            44.25
+                        ],
+                        [
+                            -115.167,
+                            37.987
+                        ],
+                        [
+                            -117.702,
+                            36.471
+                        ],
+                        [
+                            -123.75,
+                            42.726
+                        ],
+                        [
+                            -121.3,
+                            44.25
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "TURB",
+                "severity": 5,
+                "altitudeLow1": 20000,
+                "altitudeLow2": null,
+                "altitudeHi1": null,
+                "altitudeHi2": 24000,
+                "movementDir": 180,
+                "movementSpd": 0,
+                "rawAirSigmet": "WSUS06 KKCI 140655\nSFOO WS 140655\nSIGMET OSCAR 7 VALID UNTIL 141055\nOR CA NV\nFROM DSD TO 40WSW ILC TO 50WSW BTY TO 40WNW OED TO DSD\nOCNL SEV TURB BTN FL200 AND FL240. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 1055Z.\n....",
+                "validTimeTo": [
+                    "2026-11-14T10:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -102.72,
+                            33.697
+                        ],
+                        [
+                            -100.562,
+                            33.066
+                        ],
+                        [
+                            -100.77,
+                            29.859
+                        ],
+                        [
+                            -102.455,
+                            29.877
+                        ],
+                        [
+                            -103.95,
+                            30.633
+                        ],
+                        [
+                            -102.72,
+                            33.697
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 34000,
+                "altitudeHi2": 34000,
+                "movementDir": 240,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS32 KKCI 140955\nMKCC WST 140955\nCONVECTIVE SIGMET 13C\nVALID UNTIL 1155Z\nTX NM\nFROM 40W LBB-50NW ABI-30N DLF-70SSE FST-20N MRF-40W LBB\nAREA TS MOV FROM 24030KT. TOPS TO FL340.",
+                "validTimeTo": [
+                    "2026-11-14T11:55"
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "creationTime": "2026-11-14T10:03"
+    }
+}
