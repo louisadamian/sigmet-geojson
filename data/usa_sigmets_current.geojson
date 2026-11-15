@@ -8,24 +8,24 @@
                 "coordinates": [
                     [
                         [
-                            -95.944,
-                            35.891
+                            -94.12,
+                            36.25
                         ],
                         [
-                            -90.1,
-                            32.43
+                            -88.52,
+                            32.981
                         ],
                         [
-                            -90.226,
-                            30.309
+                            -89.296,
+                            29.588
                         ],
                         [
-                            -98.166,
-                            31.332
+                            -97.175,
+                            30.25
                         ],
                         [
-                            -95.944,
-                            35.891
+                            -94.12,
+                            36.25
                         ]
                     ]
                 ]
@@ -42,9 +42,9 @@
                 "altitudeHi2": 33000,
                 "movementDir": 180,
                 "movementSpd": 0,
-                "rawAirSigmet": "WSUS04 KKCI 151619\nDFWR WS 151619\nSIGMET ROMEO 2 VALID UNTIL 152019\nOK TX AR LA MS\nFROM 20SSW TUL TO MHZ TO 30NNW HRV TO 50WSW ACT TO 20SSW TUL\nOCNL SEV TURB BTN FL240 AND FL330. DUE TO WNDSHR ASSOCD WITH\nJTST. CONDS CONTG BYD 2019Z.\n....",
+                "rawAirSigmet": "WSUS04 KKCI 151917\nDFWR WS 151917\nSIGMET ROMEO 3 VALID UNTIL 152317\nOK TX AR LA MS AND CSTL WTRS\nFROM RZC TO 30S IGB TO 40ESE HRV TO 20ESE CWK TO RZC\nOCNL SEV TURB BTN FL240 AND FL330. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 2317Z.\n....",
                 "validTimeTo": [
-                    "2026-11-15T20:19"
+                    "2026-11-15T23:17"
                 ]
             }
         },
@@ -55,28 +55,24 @@
                 "coordinates": [
                     [
                         [
-                            -94.39,
-                            29.957
-                        ],
-                        [
-                            -93.11,
-                            27.644
-                        ],
-                        [
-                            -95.9,
-                            25.912
-                        ],
-                        [
-                            -97.38,
-                            26.585
-                        ],
-                        [
                             -96.31,
                             28.095
                         ],
                         [
-                            -94.39,
-                            29.957
+                            -95.323,
+                            26.686
+                        ],
+                        [
+                            -96.085,
+                            25.914
+                        ],
+                        [
+                            -96.931,
+                            27.704
+                        ],
+                        [
+                            -96.31,
+                            28.095
                         ]
                     ]
                 ]
@@ -91,16 +87,67 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 45000,
-                "movementDir": 250,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 151655\nMKCC WST 151655\nCONVECTIVE SIGMET 38C\nVALID UNTIL 1855Z\nTX AND LA TX CSTL WTRS\nFROM 50E IAH-150S LCH-80E BRO-40N BRO-40S PSX-50E IAH\nAREA TS MOV FROM 25025KT. TOPS ABV FL450.",
+                "movementDir": 280,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 152055\nMKCC WST 152055\nCONVECTIVE SIGMET 44C\nVALID UNTIL 2255Z\nTX CSTL WTRS\nFROM 40S PSX-120ENE BRO-70E BRO-30ESE CRP-40S PSX\nAREA TS MOV FROM 28015KT. TOPS ABV FL450.\nREF INTL SIGMET JULIETT SERIES.",
                 "validTimeTo": [
-                    "2026-11-15T18:55"
+                    "2026-11-15T22:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.622,
+                            30.195
+                        ],
+                        [
+                            -93.75,
+                            28.75
+                        ],
+                        [
+                            -93.959,
+                            28.286
+                        ],
+                        [
+                            -94.983,
+                            27.577
+                        ],
+                        [
+                            -96.31,
+                            28.76
+                        ],
+                        [
+                            -95.622,
+                            30.195
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 38000,
+                "altitudeHi2": 38000,
+                "movementDir": 260,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 152055\nMKCC WST 152055\nCONVECTIVE SIGMET 45C\nVALID UNTIL 2255Z\nTX AND CSTL WTRS\nFROM 20NW IAH-90SSW LCH-120SSW LCH-100SE PSX-PSX-20NW IAH\nAREA TS MOV FROM 26025KT. TOPS TO FL380.\nREF INTL SIGMET JULIETT SERIES.",
+                "validTimeTo": [
+                    "2026-11-15T22:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-15T16:56"
+        "creationTime": "2026-11-15T21:38"
     }
 }
