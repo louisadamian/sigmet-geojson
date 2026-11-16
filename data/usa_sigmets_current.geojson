@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -94.12,
-                            36.25
+                            -124.827,
+                            48.606
                         ],
                         [
-                            -88.52,
-                            32.981
+                            -121.252,
+                            48.141
                         ],
                         [
-                            -89.296,
-                            29.588
+                            -121.858,
+                            47.309
                         ],
                         [
-                            -97.175,
-                            30.25
+                            -125.486,
+                            46.552
                         ],
                         [
-                            -94.12,
-                            36.25
+                            -125.796,
+                            48.606
+                        ],
+                        [
+                            -124.827,
+                            48.606
                         ]
                     ]
                 ]
@@ -34,17 +38,17 @@
                 "airSigmetId": null,
                 "airportIcao": "KKCI",
                 "airSigmetType": "SIGMET",
-                "hazard": "TURB",
+                "hazard": "CONVECTIVE",
                 "severity": 5,
-                "altitudeLow1": 24000,
+                "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": null,
-                "altitudeHi2": 33000,
-                "movementDir": 180,
-                "movementSpd": 0,
-                "rawAirSigmet": "WSUS04 KKCI 151917\nDFWR WS 151917\nSIGMET ROMEO 3 VALID UNTIL 152317\nOK TX AR LA MS AND CSTL WTRS\nFROM RZC TO 30S IGB TO 40ESE HRV TO 20ESE CWK TO RZC\nOCNL SEV TURB BTN FL240 AND FL330. DUE TO WNDSHR ASSOCD WITH\nJTST. RPTD BY ACFT. CONDS CONTG BYD 2317Z.\n....",
+                "altitudeHi1": 28000,
+                "altitudeHi2": 28000,
+                "movementDir": 250,
+                "movementSpd": 30,
+                "rawAirSigmet": "WSUS33 KKCI 160055\nMKCW WST 160055\nCONVECTIVE SIGMET 1W\nVALID UNTIL 0255Z\nWA AND CSTL WTRS\nFROM 20NNW TOU-60NE SEA-20ESE SEA-60WSW HQM-50WNW TOU-20NNW TOU\nAREA EMBD TS MOV FROM 25030KT. TOPS TO FL280.",
                 "validTimeTo": [
-                    "2026-11-15T23:17"
+                    "2026-11-16T02:55"
                 ]
             }
         },
@@ -55,24 +59,79 @@
                 "coordinates": [
                     [
                         [
-                            -96.31,
-                            28.095
+                            -95.439,
+                            28.432
                         ],
                         [
                             -95.323,
                             26.686
                         ],
                         [
-                            -96.085,
-                            25.914
+                            -97.01,
+                            25.92
                         ],
                         [
-                            -96.931,
-                            27.704
+                            -97.895,
+                            26.106
                         ],
                         [
-                            -96.31,
-                            28.095
+                            -97.45,
+                            27.401
+                        ],
+                        [
+                            -95.439,
+                            28.432
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 43000,
+                "altitudeHi2": 43000,
+                "movementDir": 280,
+                "movementSpd": 25,
+                "rawAirSigmet": "WSUS32 KKCI 160055\nMKCC WST 160055\nCONVECTIVE SIGMET 1C\nVALID UNTIL 0255Z\nTX AND CSTL WTRS\nFROM 50ESE PSX-120ENE BRO-20E BRO-30WNW BRO-30S CRP-50ESE PSX\nAREA TS MOV FROM 28025KT. TOPS TO FL430.",
+                "validTimeTo": [
+                    "2026-11-16T02:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -91.752,
+                            32.284
+                        ],
+                        [
+                            -93.11,
+                            27.977
+                        ],
+                        [
+                            -94.229,
+                            27.964
+                        ],
+                        [
+                            -95.435,
+                            26.919
+                        ],
+                        [
+                            -95.256,
+                            30.964
+                        ],
+                        [
+                            -91.752,
+                            32.284
                         ]
                     ]
                 ]
@@ -87,67 +146,16 @@
                 "altitudeLow2": null,
                 "altitudeHi1": 45000,
                 "altitudeHi2": 45000,
-                "movementDir": 280,
-                "movementSpd": 15,
-                "rawAirSigmet": "WSUS32 KKCI 152055\nMKCC WST 152055\nCONVECTIVE SIGMET 44C\nVALID UNTIL 2255Z\nTX CSTL WTRS\nFROM 40S PSX-120ENE BRO-70E BRO-30ESE CRP-40S PSX\nAREA TS MOV FROM 28015KT. TOPS ABV FL450.\nREF INTL SIGMET JULIETT SERIES.",
+                "movementDir": 270,
+                "movementSpd": 40,
+                "rawAirSigmet": "WSUS32 KKCI 160055\nMKCC WST 160055\nCONVECTIVE SIGMET 2C\nVALID UNTIL 0255Z\nLA TX AND CSTL WTRS\nFROM 20SE MLU-130S LCH-120ESE PSX-120SSE PSX-30WSW LFK-20SE MLU\nAREA EMBD TS MOV FROM 27040KT. TOPS ABV FL450.\nREF INTL SIGMET JULIETT SERIES.",
                 "validTimeTo": [
-                    "2026-11-15T22:55"
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -95.622,
-                            30.195
-                        ],
-                        [
-                            -93.75,
-                            28.75
-                        ],
-                        [
-                            -93.959,
-                            28.286
-                        ],
-                        [
-                            -94.983,
-                            27.577
-                        ],
-                        [
-                            -96.31,
-                            28.76
-                        ],
-                        [
-                            -95.622,
-                            30.195
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "airSigmetId": null,
-                "airportIcao": "KKCI",
-                "airSigmetType": "SIGMET",
-                "hazard": "CONVECTIVE",
-                "severity": 5,
-                "altitudeLow1": null,
-                "altitudeLow2": null,
-                "altitudeHi1": 38000,
-                "altitudeHi2": 38000,
-                "movementDir": 260,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS32 KKCI 152055\nMKCC WST 152055\nCONVECTIVE SIGMET 45C\nVALID UNTIL 2255Z\nTX AND CSTL WTRS\nFROM 20NW IAH-90SSW LCH-120SSW LCH-100SE PSX-PSX-20NW IAH\nAREA TS MOV FROM 26025KT. TOPS TO FL380.\nREF INTL SIGMET JULIETT SERIES.",
-                "validTimeTo": [
-                    "2026-11-15T22:55"
+                    "2026-11-16T02:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-15T21:38"
+        "creationTime": "2026-11-16T01:48"
     }
 }
