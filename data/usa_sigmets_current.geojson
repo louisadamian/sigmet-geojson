@@ -8,24 +8,28 @@
                 "coordinates": [
                     [
                         [
-                            -75.483,
-                            33.482
+                            -96.839,
+                            28.946
                         ],
                         [
-                            -75.12,
-                            33.344
+                            -94.747,
+                            28.166
                         ],
                         [
-                            -76.795,
-                            32.201
+                            -95.9,
+                            25.912
                         ],
                         [
-                            -77.021,
-                            32.662
+                            -97.01,
+                            25.92
                         ],
                         [
-                            -75.483,
-                            33.482
+                            -98.112,
+                            27.31
+                        ],
+                        [
+                            -96.839,
+                            28.946
                         ]
                     ]
                 ]
@@ -38,18 +42,65 @@
                 "severity": 5,
                 "altitudeLow1": null,
                 "altitudeLow2": null,
-                "altitudeHi1": 37000,
-                "altitudeHi2": 37000,
-                "movementDir": 200,
-                "movementSpd": 25,
-                "rawAirSigmet": "WSUS31 KKCI 221755\nMKCE WST 221755\nCONVECTIVE SIGMET 44E\nVALID UNTIL 1955Z\nNC SC CSTL WTRS\nFROM 130ESE ILM-150ESE ILM-140SSE ILM-110SSE ILM-130ESE ILM\nAREA TS MOV FROM 20025KT. TOPS TO FL370.\nREF INTL SIGMET INDIA SERIES.",
+                "altitudeHi1": 44000,
+                "altitudeHi2": 44000,
+                "movementDir": 250,
+                "movementSpd": 15,
+                "rawAirSigmet": "WSUS32 KKCI 222355\nMKCC WST 222355\nCONVECTIVE SIGMET 37C\nVALID UNTIL 0155Z\nTX AND CSTL WTRS\nFROM 30WNW PSX-90ESE PSX-80E BRO-20E BRO-50SW CRP-30WNW PSX\nAREA TS MOV FROM 25015KT. TOPS TO FL440.",
                 "validTimeTo": [
-                    "2026-11-22T19:55"
+                    "2026-11-23T01:55"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.726,
+                            34.798
+                        ],
+                        [
+                            -92.324,
+                            31.903
+                        ],
+                        [
+                            -92.883,
+                            32.025
+                        ],
+                        [
+                            -93.518,
+                            33.704
+                        ],
+                        [
+                            -90.726,
+                            34.798
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "airSigmetId": null,
+                "airportIcao": "KKCI",
+                "airSigmetType": "SIGMET",
+                "hazard": "CONVECTIVE",
+                "severity": 5,
+                "altitudeLow1": null,
+                "altitudeLow2": null,
+                "altitudeHi1": 35000,
+                "altitudeHi2": 35000,
+                "movementDir": 270,
+                "movementSpd": 20,
+                "rawAirSigmet": "WSUS32 KKCI 222355\nMKCC WST 222355\nCONVECTIVE SIGMET 38C\nVALID UNTIL 0155Z\nLA AR\nFROM 40WSW MEM-40SSW MLU-50NNW AEX-30ENE TXK-40WSW MEM\nAREA EMBD TS MOV FROM 27020KT. TOPS TO FL350.",
+                "validTimeTo": [
+                    "2026-11-23T01:55"
                 ]
             }
         }
     ],
     "metadata": {
-        "creationTime": "2026-11-22T18:24"
+        "creationTime": "2026-11-23T00:08"
     }
 }
